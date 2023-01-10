@@ -716,7 +716,8 @@
     "1.178.0": "1.71.0",
     "1.179.0": "1.71.0",
     "1.180.0": "1.71.0",
-    "1.181.0": "1.71.0"
+    "1.181.0": "1.71.0",
+    "1.185.0": "1.71.0"
   },
   "azure-mgmtcommerce": {
     "0.1.0": {
@@ -2020,7 +2021,8 @@
     "0.0.1": {
       "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
     },
-    "0.0.2": "0.0.1"
+    "0.0.2": "0.0.1",
+    "0.0.4": "0.0.1"
   },
   "dynamic-learning-technique": {
     "0.1": {
@@ -2480,7 +2482,8 @@
     },
     "20.9": "20.8",
     "21.1": "20.8",
-    "22.10": "20.8"
+    "22.10": "20.8",
+    "22.12": "20.8"
   },
   "flask-authorize": {
     "0.1.0": {
@@ -6006,7 +6009,15 @@
       "27": "ImportError: No module named pathlib"
     },
     "0.1.1605447168.dev0": "0.1.1605446835.dev0",
-    "0.1.1605447210.dev0": "0.1.1605446835.dev0"
+    "0.1.1605447210.dev0": "0.1.1605446835.dev0",
+    "0.13": {
+      "27": "IOError: [Errno 2] No such file or directory: 'README.rst'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'README.rst'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
   },
   "pysafeguard": {
     "1.0.1": {

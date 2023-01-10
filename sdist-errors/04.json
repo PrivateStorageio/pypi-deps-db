@@ -517,7 +517,9 @@
     "1.178.0": "1.71.0",
     "1.179.0": "1.71.0",
     "1.180.0": "1.71.0",
-    "1.181.0": "1.71.0"
+    "1.181.0": "1.71.0",
+    "1.186.0": "1.71.0",
+    "1.187.0": "1.71.0"
   },
   "aws-cdk.aws-lambda-event-sources": {
     "1.100.0": "1.71.0",
@@ -647,7 +649,8 @@
     "1.178.0": "1.71.0",
     "1.179.0": "1.71.0",
     "1.180.0": "1.71.0",
-    "1.181.0": "1.71.0"
+    "1.181.0": "1.71.0",
+    "1.187.0": "1.71.0"
   },
   "aws-cdk.aws-personalize": {
     "1.149.0": {
@@ -1996,7 +1999,8 @@
   "coolname": {
     "2.0.0": {
       "27": "SyntaxError: invalid syntax"
-    }
+    },
+    "2.1.0": "2.0.0"
   },
   "courier-py": {
     "0.1": {
@@ -2444,6 +2448,16 @@
     "1.1.1": "1.0.0",
     "1.2.0": "1.0.0"
   },
+  "easyport": {
+    "0.0.1": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
   "elastic-tools": {
     "1.0": {
       "27": "IOError: [Errno 2] No such file or directory: 'requirements.txt'",
@@ -2628,6 +2642,11 @@
     "0.1.1a9": "0.1.0a4",
     "0.1.2a1": "0.1.0a4"
   },
+  "example-lib-name": {
+    "0.0.13": {
+      "27": "ImportError: No module named configparser"
+    }
+  },
   "extra-model": {
     "0.2.0": {
       "27": "SyntaxError: invalid syntax",
@@ -2749,7 +2768,8 @@
       "38": "36",
       "39": "36",
       "310": "36"
-    }
+    },
+    "0.2.3": "0.2.2"
   },
   "fints-url": {
     "0.3": {
@@ -3459,6 +3479,12 @@
     "1.0.1": "1.0.0",
     "1.0.2": "1.0.0"
   },
+  "hnzhu010507": {
+    "0.0.2": {
+      "27": "SyntaxError: invalid syntax",
+      "36": "ImportError: type object 'Distribution' has no attribute '_finalize_feature_opts'"
+    }
+  },
   "homage-to-the-square": {
     "0.0.1": {
       "27": "ImportError: No module named pathlib"
@@ -3770,7 +3796,8 @@
     "0.0.31": "0.0.0",
     "0.0.32": "0.0.0",
     "0.0.33": "0.0.0",
-    "0.0.34": "0.0.0"
+    "0.0.34": "0.0.0",
+    "0.0.37": "0.0.0"
   },
   "isbnlib-bnf": {
     "0.0.1": {
@@ -4301,7 +4328,9 @@
     "1.17.4.dev21": "1.14.0",
     "1.17.4.dev23": "1.14.0",
     "1.17.4.dev25": "1.14.0",
-    "1.17.4.dev27": "1.14.0"
+    "1.17.4.dev27": "1.14.0",
+    "1.17.4.dev38": "1.14.0",
+    "1.18.1.dev7": "1.14.0"
   },
   "latentcor": {
     "0.1.3": {
@@ -5216,6 +5245,13 @@
       "310": "36"
     }
   },
+  "nonebot-plugin-face2cartoonpic": {
+    "0.0.4": {
+      "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
+    },
+    "0.2.9.post2": "0.0.4",
+    "0.3.2": "0.0.4"
+  },
   "npdf": {
     "1.0": {
       "27": "ImportError: No module named pathlib"
@@ -5898,7 +5934,8 @@
       "310": "36"
     },
     "1.0.1": "1.0.0",
-    "1.0.2": "1.0.0"
+    "1.0.2": "1.0.0",
+    "1.0.3": "1.0.0"
   },
   "postdb": {
     "0.0.1": {
@@ -6804,6 +6841,11 @@
   "pypaytabs": {
     "1.0.1": {
       "27": "ImportError: No module named pathlib"
+    }
+  },
+  "pype-tensorflow": {
+    "0.1.1": {
+      "27": "SyntaxError: invalid syntax"
     }
   },
   "pypulseq": {
@@ -8380,7 +8422,8 @@
     "2.0.82": "2.0.6",
     "2.0.83": "2.0.6",
     "2.0.84": "2.0.6",
-    "2.0.85": "2.0.6"
+    "2.0.85": "2.0.6",
+    "2.0.86": "2.0.6"
   },
   "tedutil": {
     "0.10.1": "0.6.1",

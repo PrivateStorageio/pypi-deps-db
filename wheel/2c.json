@@ -70127,13 +70127,6 @@
       }
     }
   },
-  "openrazer": {
-    "py2": {
-      "0.0.1": {
-        "openrazer-0.0.1-py2-none-any.whl": {}
-      }
-    }
-  },
   "opensesame-plugin-rsvp-copy": {
     "py3": {
       "0.0.1": {

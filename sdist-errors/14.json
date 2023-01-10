@@ -681,7 +681,12 @@
     "1.178.0": "1.101.0",
     "1.179.0": "1.101.0",
     "1.180.0": "1.101.0",
-    "1.181.0": "1.101.0"
+    "1.181.0": "1.101.0",
+    "1.183.0": "1.101.0",
+    "1.184.0": "1.101.0",
+    "1.185.0": "1.101.0",
+    "1.186.1": "1.101.0",
+    "1.187.0": "1.101.0"
   },
   "aws-cdk.cloud-assembly-schema": {
     "1.100.0": "1.71.0",
@@ -925,7 +930,9 @@
     "2.50.0": "2.0.0",
     "2.51.0": "2.0.0",
     "1.181.0": "2.0.0",
-    "2.51.1": "2.0.0"
+    "2.51.1": "2.0.0",
+    "2.55.0": "2.0.0",
+    "2.58.1": "2.0.0"
   },
   "aws-cdk.lambda-layer-node-proxy-agent": {
     "1.126.0": {
@@ -2151,6 +2158,16 @@
       "310": "OSError: [Errno 28] No space left on device: '/nix/store/#hash#-convert-to-redirects-#PKG_VER#-requirements/python#VER#json'"
     }
   },
+  "coopmongo": {
+    "0.1": {
+      "27": "IOError: [Errno 2] No such file or directory: 'requirements.txt'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'requirements.txt'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
   "coredotfinance": {
     "0.0.1": {
       "27": "ImportError: ",
@@ -3170,6 +3187,19 @@
     "0.1.4": "0.0.2",
     "0.1.5": "0.0.2"
   },
+  "energy-callback": {
+    "0.1.0": {
+      "27": "ImportError: No module named tensorflow",
+      "36": "ModuleNotFoundError: No module named 'tensorflow'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    },
+    "0.1.12": "0.1.0",
+    "0.1.5": "0.1.0",
+    "0.1.8": "0.1.0"
+  },
   "enhancedcontainers": {
     "1.0.0": {
       "27": "ImportError: No module named containers",
@@ -3307,6 +3337,16 @@
     "0.2.0": "0.1.1",
     "0.2.1": "0.1.1",
     "0.2.2": "0.1.1"
+  },
+  "fastaws": {
+    "0.0.1": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
   },
   "fbpygif": {
     "1.0.2": {
@@ -4185,7 +4225,8 @@
     "1.17.4.dev21": "1.14.0",
     "1.17.4.dev23": "1.14.0",
     "1.17.4.dev25": "1.14.0",
-    "1.17.4.dev27": "1.14.0"
+    "1.17.4.dev27": "1.14.0",
+    "1.17.4.dev29": "1.14.0"
   },
   "git-deploy": {
     "0.3.0dev-20140209": {
@@ -4389,6 +4430,12 @@
     "0.5.0": {
       "310": "OSError: [Errno 28] No space left on device: '/nix/store/#hash#-hnmp-#PKG_VER#-requirements/python#VER#json'"
     }
+  },
+  "homewizard-climate-websocket": {
+    "0.0.4": {
+      "27": "SyntaxError: invalid syntax"
+    },
+    "0.0.8": "0.0.4"
   },
   "how-to-get-gems-on-brawl-stars-for-free-v-7522": {
     "3.456": {
@@ -4927,6 +4974,14 @@
     },
     "0.0.3": "0.0.2",
     "0.0.4": "0.0.2"
+  },
+  "klongpy": {
+    "0.3.4": {
+      "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
+    },
+    "0.3.56": "0.3.4",
+    "0.3.57": "0.3.4",
+    "0.3.59": "0.3.4"
   },
   "krrpm": {
     "0.9.9": "1.0",
@@ -9136,6 +9191,17 @@
       "27": "ImportError: No module named pathlib"
     }
   },
+  "terminal-copilot": {
+    "1.0.6": {
+      "27": "IOError: [Errno 2] No such file or directory: 'requirements.txt'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'requirements.txt'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    },
+    "1.1.0": "1.0.6"
+  },
   "testresources": {
     "0.2.4": {
       "36": "NameError: name 'file' is not defined",
@@ -9604,7 +9670,10 @@
       "310": "36"
     },
     "0.0.3": "0.0.2",
-    "0.1.1": "0.0.2"
+    "0.1.1": "0.0.2",
+    "0.1.2": {
+      "27": "ImportError: No module named pathlib"
+    }
   },
   "urlfix": {
     "0.1.0": {
@@ -10091,7 +10160,8 @@
     "0.1.0": "0.0.0",
     "0.1.1": "0.0.0",
     "0.1.3": "0.0.0",
-    "0.1.5": "0.0.0"
+    "0.1.5": "0.0.0",
+    "0.18.0": "0.0.0"
   },
   "xpring": {
     "0.4.0": {
@@ -10165,6 +10235,17 @@
       "39": "27",
       "310": "27"
     }
+  },
+  "yoshaas-gateway": {
+    "1.0.2": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    },
+    "1.0.4": "1.0.2"
   },
   "youtube-video-play-pause-bot": {
     "1.0.0": {

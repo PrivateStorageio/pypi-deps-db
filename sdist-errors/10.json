@@ -488,7 +488,8 @@
     "0.5.0": "0.3.0",
     "0.5.1": "0.3.0",
     "0.5.2": "0.3.0",
-    "0.5.4": "0.3.0"
+    "0.5.4": "0.3.0",
+    "0.5.5": "0.3.0"
   },
   "annotell-query": {
     "2.0.0": {
@@ -4456,7 +4457,8 @@
     "0.0.13": "0.0.1",
     "0.0.14": "0.0.1",
     "0.0.15": "0.0.1",
-    "0.0.16": "0.0.1"
+    "0.0.16": "0.0.1",
+    "0.0.18": "0.0.1"
   },
   "gym-jsbsim": {
     "0.6.2": {
@@ -4516,6 +4518,17 @@
       "39": "36",
       "310": "36"
     }
+  },
+  "hedra": {
+    "0.6.15": {
+      "27": "IOError: [Errno 2] No such file or directory: '/build/hedra-#PKG_VER#/.version'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: '/build/hedra-#PKG_VER#/.version'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    },
+    "0.6.18": "0.6.15"
   },
   "height2obj": {
     "0.9.0": {
@@ -4844,7 +4857,9 @@
     "6.16.2": "6.13.1",
     "6.17.0": "6.13.1",
     "6.17.1": "6.13.1",
-    "6.18.0": "6.13.1"
+    "6.18.0": "6.13.1",
+    "6.19.2": "6.13.1",
+    "6.20.1": "6.13.1"
   },
   "isbnlib-dnb": {
     "0.0.1": {
@@ -5822,6 +5837,16 @@
     },
     "0.1.4": "0.1.0"
   },
+  "mousebender": {
+    "2022.0.0": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
   "mozilla-repo-urls": {
     "0.0.1": {
       "27": "IOError: [Errno 2] No such file or directory: '/build/mozilla-repo-urls-#PKG_VER#/version.txt'",
@@ -6384,7 +6409,15 @@
     "1.7.4": "1.7.0",
     "1.7.5": "1.7.0",
     "1.7.6": "1.7.0",
-    "1.7.7": "1.7.0"
+    "1.7.7": "1.7.0",
+    "1.8.1": {
+      "27": "SyntaxError: invalid syntax",
+      "36": "distutils.errors.DistutilsError: Could not find suitable distribution for Requirement.parse('numpy==1.24.0')",
+      "37": "distutils.errors.DistutilsError: Command '['/nix/store/#hash#-python#VER#env-patched/bin/python#VER#', '-m', 'pip', '--disable-pip-version-check', 'wheel', '--no-deps', '-w', '/build/#TMP#', '--quiet', 'numpy==1.24.0']' returned non-zero exit status 1.",
+      "38": "37",
+      "39": "37",
+      "310": "37"
+    }
   },
   "ofiber": {
     "0.4.2": {
@@ -6854,7 +6887,18 @@
     "0.0.148": "0.0.0",
     "0.0.149": "0.0.0",
     "0.0.150": "0.0.0",
-    "0.0.151": "0.0.0"
+    "0.0.151": "0.0.0",
+    "0.0.152": "0.0.0",
+    "0.0.155": "0.0.0",
+    "0.0.158": "0.0.0",
+    "0.0.168": "0.0.0",
+    "0.0.202": "0.0.0",
+    "0.0.207": "0.0.0",
+    "0.0.232": "0.0.0",
+    "0.0.245": "0.0.0",
+    "0.0.256": "0.0.0",
+    "0.0.261": "0.0.0",
+    "0.0.267": "0.0.0"
   },
   "perf-logger": {
     "0.9.0": {
@@ -8469,7 +8513,8 @@
       "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
     },
     "4.1.0": "4.0.1",
-    "4.2.0": "4.0.1"
+    "4.2.0": "4.0.1",
+    "4.3.1": "4.0.1"
   },
   "shortcuts": {
     "0.11.0": {
@@ -8545,6 +8590,16 @@
     "0.1.7": "0.1.0",
     "0.1.8": "0.1.0",
     "0.1.9": "0.1.0"
+  },
+  "sim-modem": {
+    "1.0.3": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
   },
   "simple-calc": {
     "1.0.6": {

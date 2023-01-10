@@ -435,7 +435,8 @@
     },
     "0.0.2": "0.0.1",
     "0.1.0": "0.0.1",
-    "0.1.1": "0.0.1"
+    "0.1.1": "0.0.1",
+    "0.2.3": "0.0.1"
   },
   "asgi-s3": {
     "0.0.1": {
@@ -1928,6 +1929,16 @@
       "310": "36"
     }
   },
+  "destipy": {
+    "0.0.6": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
   "detransliterator": {
     "0.0.1": {
       "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
@@ -2257,7 +2268,8 @@
     "1.10.0": "1.7.1",
     "1.10.2": "1.7.1",
     "1.10.3": "1.7.1",
-    "1.11.0": "1.7.1"
+    "1.11.0": "1.7.1",
+    "1.12.2": "1.7.1"
   },
   "dssim": {
     "0.1": {
@@ -3719,7 +3731,8 @@
   "iso3166-updates": {
     "0.0.1": {
       "27": "ImportError: No module named pathlib"
-    }
+    },
+    "0.0.2": "0.0.1"
   },
   "jencrypt": {
     "2.0.12": {
@@ -4306,7 +4319,8 @@
     "1.0.0rc4": "0.5.0",
     "1.1.0rc0": "0.5.0",
     "1.0.0rc5": "0.5.0",
-    "1.1.0rc1": "0.5.0"
+    "1.1.0rc1": "0.5.0",
+    "1.1.0rc3": "0.5.0"
   },
   "mmtrack": {
     "0.5.0": {
@@ -4437,6 +4451,12 @@
     "1.0.6": "0.1.0",
     "1.0.7": "0.1.0",
     "1.0.8": "0.1.0"
+  },
+  "movingclock": {
+    "3.0.0": {
+      "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
+    },
+    "3.1.0": "3.0.0"
   },
   "mowgli-in-the-jungle": {
     "1.0.0": {
@@ -6662,6 +6682,16 @@
       "27": "ImportError: No module named pathlib"
     }
   },
+  "scisdk": {
+    "0.0.3": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
   "scoinapi": {
     "1.2.3": {
       "39": "these 2 derivations will be built:\n /nix/store/#hash#-SCoinAPI-#PKG_VER#.tar.gz.drv\n /nix/store/#hash#-scoinapi-#PKG_VER#-requirements.drv\nwaiting for UID to build '/nix/store/#hash#-SCoinAPI-#PKG_VER#.tar.gz.drv'...\nbuilding '/nix/store/#hash#-SCoinAPI-#PKG_VER#.tar.gz.drv'...\n\ntrying https://files.pythonhosted.org/packages/source/s/scoinapi/SCoinAPI-#PKG_VER#.tar.gz\n % Total % Received % Xferd Average Speed Time Time Time Current\n Dload Upload Total Spent Left Speed\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0\n100 8295 100 8295 0 0 15027 0 --:--:-- --:--:-- --:--:-- 15027\nwaiting for UID to build '/nix/store/#hash#-scoinapi-#PKG_VER#-requirements.drv'...\nbuilding '/nix/store/#hash#-scoinapi-#PKG_VER#-requirements.drv'...\nunpacking sources\nunpacking source archive /nix/store/#hash#-SCoinAPI-#PKG_VER#.tar.gz\nsource root is SCoinAPI-#PKG_VER#\nsetting SOURCE_DATE_EPOCH to timestamp 1607844979 of file SCoinAPI-#PKG_VER#/setup.cfg\ninstalling\nextracting metadata for python#VER#\n",
@@ -7304,7 +7334,8 @@
     "0.2.12": "0.2.8",
     "0.2.13": "0.2.8",
     "0.2.14": "0.2.8",
-    "0.2.15": "0.2.8"
+    "0.2.15": "0.2.8",
+    "0.2.21": "0.2.8"
   },
   "sqlalchemy-capture-sql": {
     "0.1.0": {
@@ -8917,6 +8948,12 @@
       "27": "ImportError: No module named configparser"
     },
     "1.0.1": "1.0"
+  },
+  "ztffields": {
+    "0.2.0": {
+      "27": "SyntaxError: invalid syntax",
+      "36": "ModuleNotFoundError: No module named 'pandas'"
+    }
   },
   "zuijiandan-jujia-suishi-zuode-jiegou-tiaozheng": {
     "2022.10.26.0": {

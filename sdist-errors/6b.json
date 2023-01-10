@@ -946,7 +946,8 @@
     "1.172.0": "2.3.0",
     "1.173.0": "2.3.0",
     "2.26.0": "2.3.0",
-    "2.27.0": "2.3.0"
+    "2.27.0": "2.3.0",
+    "2.29.0": "2.3.0"
   },
   "azcam": {
     "22.0": {
@@ -1723,7 +1724,11 @@
     "1.0.157": "1.0.0",
     "1.0.158": "1.0.0",
     "1.0.159": "1.0.0",
-    "1.0.160": "1.0.0"
+    "1.0.160": "1.0.0",
+    "1.0.181": "1.0.0",
+    "1.0.182": "1.0.0",
+    "1.0.192": "1.0.0",
+    "1.1.4": "1.0.0"
   },
   "cerlet": {
     "0.0.1": {
@@ -4451,17 +4456,18 @@
     "0.8.0rc2": "0.1.0",
     "0.8.0rc3": "0.1.0",
     "0.8.0": "0.1.0",
-    "0.9.0rc1": {
+    "0.9.0rc1": "0.9.0",
+    "0.9.0rc2": "0.9.0",
+    "0.9.0rc3": "0.9.0",
+    "0.9.0rc4": "0.9.0",
+    "0.9.0": {
       "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
       "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
       "37": "36",
       "38": "36",
       "39": "36",
       "310": "36"
-    },
-    "0.9.0rc2": "0.9.0rc1",
-    "0.9.0rc3": "0.9.0rc1",
-    "0.9.0rc4": "0.9.0rc1"
+    }
   },
   "hypo": {
     "0.1.0": {
@@ -5303,6 +5309,16 @@
     "5.2.3": "5.2.0",
     "6.0.0": "5.2.0"
   },
+  "mapfile-parser": {
+    "0.1.0": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
   "mappr": {
     "0.1.18": {
       "39": "these 2 derivations will be built:\n /nix/store/#hash#-mappr-#PKG_VER#.tar.gz.drv\n /nix/store/#hash#-mappr-#PKG_VER#-requirements.drv\nbuilding '/nix/store/#hash#-mappr-#PKG_VER#.tar.gz.drv'...\n\ntrying https://files.pythonhosted.org/packages/source/m/mappr/mappr-#PKG_VER#.tar.gz\n % Total % Received % Xferd Average Speed Time Time Time Current\n Dload Upload Total Spent Left Speed\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0\n100 10411 100 10411 0 0 18459 0 --:--:-- --:--:-- --:--:-- 0\nwaiting for UID to build '/nix/store/#hash#-mappr-#PKG_VER#-requirements.drv'...\nbuilding '/nix/store/#hash#-mappr-#PKG_VER#-requirements.drv'...\nunpacking sources\nunpacking source archive /nix/store/#hash#-mappr-#PKG_VER#.tar.gz\nsource root is mappr-#PKG_VER#\nsetting SOURCE_DATE_EPOCH to timestamp 1611111189 of file mappr-#PKG_VER#/PKG-INFO\ninstalling\nextracting metadata for python#VER#\n",
@@ -5487,6 +5503,11 @@
       "38": "36",
       "39": "36",
       "310": "36"
+    }
+  },
+  "mkapi-fix-coz": {
+    "0.1.0": {
+      "27": "SyntaxError: invalid syntax"
     }
   },
   "mkdocs-autozip": {
@@ -7373,7 +7394,8 @@
     "8.4.1": "8.0",
     "8.5": "8.0",
     "8.5.1": "8.0",
-    "9.0": "8.0"
+    "9.0": "8.0",
+    "9.0.1": "8.0"
   },
   "pypp-inter": {
     "1.0.0": {
@@ -8932,7 +8954,8 @@
     "0.1.post1807589455": {
       "27": "SyntaxError: invalid syntax"
     },
-    "0.1.post1807665660": "0.1.post1807589455"
+    "0.1.post1807665660": "0.1.post1807589455",
+    "0.1.post3817469255": "0.1.post1807589455"
   },
   "ssh-mitm-plugins": {
     "0.1": {
@@ -9545,7 +9568,9 @@
     "1.0.0b207": "1.0.0b57",
     "1.0.0b208": "1.0.0b57",
     "1.0.0b209": "1.0.0b57",
-    "1.0.0b210": "1.0.0b57"
+    "1.0.0b210": "1.0.0b57",
+    "1.0.0b218": "1.0.0b57",
+    "1.0.0b219": "1.0.0b57"
   },
   "tkcefview": {
     "2021.9.1": {

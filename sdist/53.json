@@ -2652,7 +2652,8 @@
       "38": "27",
       "39": "27",
       "310": "27"
-    }
+    },
+    "2.0.4": "2.0.2"
   },
   "am-art021": {
     "0.0.1": {
@@ -2821,6 +2822,47 @@
     "0.1.1": "0.1.0",
     "0.1.2": "0.1.0",
     "0.1.3": "0.1.0"
+  },
+  "ansible-deployment": {
+    "1.0.3": {
+      "27": {
+        "install_requires": [
+          "GitPython>=3.1.26",
+          "Jinja2>=3.0.3",
+          "PyYAML>=6.0",
+          "click>=8.0.3",
+          "cryptography>=36.0.1",
+          "hvac>=0.11.2",
+          "pygments<3.0.0,>=2.13.0"
+        ],
+        "python_requires": [
+          ">=3.9,<4.0.0"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
+  },
+  "antchain-ak-7a4b642ed2a344fe8c42ae4412f4bc45": {
+    "1.0.0": {
+      "36": {
+        "install_requires": [
+          "antchain_alipay_util<2.0.0,>=1.0.1",
+          "alibabacloud_tea_util<1.0.0,>=0.3.8",
+          "alibabacloud_rpc_util<1.0.0,>=0.0.4"
+        ],
+        "python_requires": [
+          ">=3.6"
+        ]
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
   },
   "apache-superset-11680-1000": {
     "1.3.1": {
@@ -7270,6 +7312,110 @@
       "38": "27",
       "39": "27",
       "310": "27"
+    },
+    "1.8.0": {
+      "27": {
+        "install_requires": [
+          "cartopy",
+          "cmocean",
+          "dill",
+          "folium!=0.12.0,>=0.6.0",
+          "gdal",
+          "geojson",
+          "geoarray>=0.15.0",
+          "geopandas",
+          "matplotlib",
+          "numpy",
+          "packaging",
+          "pandas",
+          "plotly",
+          "pyfftw",
+          "pykrige",
+          "pyproj>2.2.0",
+          "py_tools_ds>=0.18.0",
+          "scikit-image>=0.16.0",
+          "shapely"
+        ],
+        "setup_requires": [
+          "setuptools",
+          "setuptools-git"
+        ],
+        "extras_require": {
+          "test": [
+            "pytest",
+            "pytest-cov",
+            "pytest-reporter-html1",
+            "urlchecker",
+            "holoviews",
+            "ipython"
+          ],
+          "doc": [
+            "sphinx-argparse",
+            "sphinx_rtd_theme",
+            "sphinx-autodoc-typehints"
+          ],
+          "interactive_plotting": [
+            "holoviews",
+            "ipython"
+          ],
+          "lint": [
+            "flake8",
+            "pycodestyle",
+            "pydocstyle"
+          ],
+          "dev": [
+            "setuptools",
+            "setuptools-git",
+            "pytest",
+            "pytest-cov",
+            "pytest-reporter-html1",
+            "urlchecker",
+            "holoviews",
+            "ipython",
+            "sphinx-argparse",
+            "sphinx_rtd_theme",
+            "sphinx-autodoc-typehints",
+            "flake8",
+            "pycodestyle",
+            "pydocstyle"
+          ]
+        },
+        "tests_require": [
+          "cartopy",
+          "cmocean",
+          "dill",
+          "folium>=0.6.0,!=0.12.0",
+          "gdal",
+          "geojson",
+          "geoarray>=0.15.0",
+          "geopandas",
+          "matplotlib",
+          "numpy",
+          "packaging",
+          "pandas",
+          "plotly",
+          "pyfftw",
+          "pykrige",
+          "pyproj>2.2.0",
+          "py_tools_ds>=0.18.0",
+          "scikit-image>=0.16.0",
+          "shapely",
+          "pytest",
+          "pytest-cov",
+          "pytest-reporter-html1",
+          "urlchecker",
+          "holoviews",
+          "ipython"
+        ],
+        "python_requires": [
+          ">3.8"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
     }
   },
   "aroughcun": {
@@ -7438,6 +7584,22 @@
     "1.1.4": "1.1.2",
     "1.1.5": "1.1.2"
   },
+  "askai": {
+    "1.0.1": {
+      "27": {
+        "install_requires": [
+          "click==8.1.3",
+          "openai==0.25.0",
+          "PyYAML==6.0"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
+  },
   "aspectlib": {
     "0.3.0": {
       "27": {
@@ -7513,6 +7675,43 @@
       "27": {
         "install_requires": [
           "fields"
+        ],
+        "python_requires": [
+          ">=3.7"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
+  },
+  "assistant-fulfillment-helper": {
+    "1.0.3": {
+      "27": {
+        "install_requires": [
+          "click==8.1.3",
+          "Flask==2.2.2",
+          "Flask-Cors==3.0.10",
+          "Flask-Login==0.6.2",
+          "Flask-WTF==1.0.1",
+          "gevent==22.10.2",
+          "greenlet==2.0.1",
+          "gunicorn==20.1.0",
+          "importlib-metadata==5.2.0",
+          "itsdangerous==2.1.2",
+          "Jinja2==3.1.2",
+          "MarkupSafe==2.1.1",
+          "marshmallow==3.19.0",
+          "packaging==22.0",
+          "six==1.16.0",
+          "webargs==8.2.0",
+          "Werkzeug==2.2.2",
+          "WTForms==3.0.1",
+          "zipp==3.11.0",
+          "zope.event==4.6",
+          "zope.interface==5.5.2"
         ],
         "python_requires": [
           ">=3.7"
@@ -19322,6 +19521,43 @@
       "38": "27",
       "39": "27",
       "310": "27"
+    },
+    "1.1.1": {
+      "27": {
+        "install_requires": [
+          "beautifulsoup4>=4.9.3",
+          "diff_match_patch>=20200713",
+          "easyplotly>=0.1.3",
+          "enforce>=0.3.4",
+          "fuzzingbook>=0.8.1",
+          "graphviz>=0.14.2",
+          "ipython>=7.16.1",
+          "lxml>=4.5.1",
+          "Markdown>=3.3.4",
+          "matplotlib>=3.3.2",
+          "mypy>=0.800",
+          "nbconvert>=6.0.7",
+          "nbformat>=5.0.8",
+          "networkx>=2.5",
+          "numpy>=1.16.5",
+          "pydriller>=2.0",
+          "pyparsing==2.4.7",
+          "Pygments>=2.7.1",
+          "python-magic>=0.4.18",
+          "scikit_learn>=0.23.2",
+          "selenium>=3.141.0",
+          "showast>=0.2.4",
+          "types-Markdown>=3"
+        ],
+        "python_requires": [
+          ">=3.9"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
     }
   },
   "decimate": {
@@ -19695,8 +19931,7 @@
       "310": "27"
     },
     "0.2.1": "0.2.0",
-    "0.2.2": "0.2.0",
-    "0.3.0": "0.2.0"
+    "0.2.2": "0.2.0"
   },
   "dh2vrml": {
     "0.1.0": {
@@ -23602,6 +23837,16 @@
       "310": "27"
     }
   },
+  "drpsy": {
+    "0.0.4.3": {
+      "27": {},
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
+  },
   "dtoolbioimage": {
     "0.1.0": {
       "27": {},
@@ -24500,7 +24745,8 @@
       "39": "36",
       "310": "36"
     },
-    "1.2.0": "1.1.0"
+    "1.2.0": "1.1.0",
+    "1.2.1": "1.1.0"
   },
   "emeraldspray": {
     "1.0.0": {
@@ -27351,7 +27597,8 @@
     "0.6.5": "0.4",
     "0.6.6": "0.4",
     "0.6.7": "0.4",
-    "0.6.8": "0.4"
+    "0.6.8": "0.4",
+    "0.7.0": "0.4"
   },
   "fedoidcservice": {
     "0.1.1": {
@@ -49428,7 +49675,8 @@
     "0.6.2": "0.1.0",
     "0.6.3": "0.1.0",
     "0.6.4": "0.1.0",
-    "0.6.5": "0.1.0"
+    "0.6.5": "0.1.0",
+    "0.6.7": "0.1.0"
   },
   "naive-tokenizers": {
     "0.0.1": {
@@ -57459,7 +57707,45 @@
     "0.0.160": "0.0.146",
     "0.0.161": "0.0.146",
     "0.0.162": "0.0.146",
-    "0.0.163": "0.0.146"
+    "0.0.163": "0.0.146",
+    "0.0.170": {
+      "36": {
+        "install_requires": [
+          "aws-cdk-lib<3.0.0,>=2.29.1",
+          "constructs<11.0.0,>=10.0.5",
+          "jsii<2.0.0,>=1.72.0",
+          "publication>=0.0.3",
+          "typeguard~=2.13.3"
+        ],
+        "python_requires": [
+          "~=3.7"
+        ]
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    },
+    "0.0.174": "0.0.170",
+    "0.0.192": "0.0.170",
+    "0.0.215": {
+      "36": {
+        "install_requires": [
+          "aws-cdk-lib<3.0.0,>=2.29.1",
+          "constructs<11.0.0,>=10.0.5",
+          "jsii<2.0.0,>=1.73.0",
+          "publication>=0.0.3",
+          "typeguard~=2.13.3"
+        ],
+        "python_requires": [
+          "~=3.7"
+        ]
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
   },
   "permuta": {
     "0.1.0": {
@@ -60062,7 +60348,27 @@
       "310": "27"
     },
     "0.2.2": "0.2.1",
-    "0.2.3": "0.2.1"
+    "0.2.3": "0.2.1",
+    "0.2.6": {
+      "27": {
+        "install_requires": [
+          "matplotlib<4.0.0,>=3.2.1",
+          "numpy<2.0.0,>=1.18.2",
+          "pyvista<0.38.0,>=0.37.0",
+          "scipy<2.0.0,>=1.4.1",
+          "tqdm<5.0.0,>=4.62.3",
+          "vtk<10.0.0,>=9.0.3"
+        ],
+        "python_requires": [
+          ">=3.7.7,<4.0.0"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
   },
   "pybliometrics": {
     "2.1.0": {
@@ -62291,7 +62597,8 @@
     "1.2.10": "1.0.4",
     "1.2.11": "1.0.4",
     "1.2.12": "1.0.4",
-    "1.2.13": "1.0.4"
+    "1.2.13": "1.0.4",
+    "1.2.17": "1.0.4"
   },
   "python-dm": {
     "1.0.0": {
@@ -65211,6 +65518,43 @@
         "extras_require": {
           "SIPPY": [
             "sippy-rcognita==0.2.1"
+          ]
+        },
+        "python_requires": [
+          ">=3.6"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    },
+    "0.2.1": {
+      "27": {
+        "install_requires": [
+          "matplotlib>=3.1.3",
+          "mpldatacursor-rcognita==0.7.2",
+          "numpy>=1.20.1",
+          "scipy>=1.5.0",
+          "svgpath2mpl==0.2.1",
+          "tabulate>=0.8.7",
+          "systems==0.1.0",
+          "shapely==1.7.1",
+          "tabulate==0.8.7",
+          "recursive_monkey_patch==0.4.0",
+          "omegaconf>=2.3.0",
+          "hydra-core>=1.3.1"
+        ],
+        "extras_require": {
+          "CASADI": [
+            "casadi>=3.5.5"
+          ],
+          "SIPPY": [
+            "sippy-rcognita==0.2.1"
+          ],
+          "TORCH": [
+            "torch>=1.12.1"
           ]
         },
         "python_requires": [
@@ -72443,7 +72787,8 @@
     "1.11.dev1669080977": "1.9.0",
     "1.11.dev1669083193": "1.9.0",
     "1.11.dev1669162221": "1.9.0",
-    "1.11.dev1669167224": "1.9.0"
+    "1.11.dev1669167224": "1.9.0",
+    "1.11.dev1672105612": "1.9.0"
   },
   "stitchpy": {
     "0.0.4": {
@@ -76186,7 +76531,9 @@
     "0.1.0": "0.0.8",
     "0.1.1": "0.0.8",
     "0.1.2": "0.0.8",
-    "0.1.3": "0.0.8"
+    "0.1.3": "0.0.8",
+    "0.1.4": "0.0.8",
+    "0.1.6": "0.0.8"
   },
   "technicolor": {
     "2015.12.2.1250": {
@@ -76646,6 +76993,16 @@
     "2.0.1": "2.0.0",
     "2.0.2": "2.0.0",
     "2.0.3": "2.0.0"
+  },
+  "text2numb": {
+    "1.1.2": {
+      "27": {},
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
   },
   "textcomplexity": {
     "0.9.0": {
@@ -84498,7 +84855,9 @@
     "0.33.8": "0.32.3",
     "0.33.10": "0.32.3",
     "0.33.9": "0.32.3",
-    "0.33.11": "0.32.3"
+    "0.33.11": "0.32.3",
+    "0.33.12": "0.32.3",
+    "0.33.16": "0.32.3"
   },
   "xolib": {
     "0.1.0": {

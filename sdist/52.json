@@ -3962,6 +3962,26 @@
       "310": "36"
     }
   },
+  "bareunpy": {
+    "1.4.1": {
+      "27": {
+        "install_requires": [
+          "bareun-apis<0.12.0,>=0.11.0",
+          "googleapis-common-protos<2.0.0,>=1.56.0",
+          "grpcio<2.0.0,>=1.46.0",
+          "protobuf<4.0.0,>=3.19.4"
+        ],
+        "python_requires": [
+          ">=3.6,<4.0"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
+  },
   "batcave": {
     "37.0.0": {
       "36": {
@@ -4300,6 +4320,23 @@
       "27": {
         "install_requires": [
           "torch>=1.6.0"
+        ],
+        "python_requires": [
+          ">=3.6"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
+  },
+  "bayes-nets-sample": {
+    "0.7": {
+      "27": {
+        "install_requires": [
+          "random"
         ],
         "python_requires": [
           ">=3.6"
@@ -5486,7 +5523,8 @@
       "39": "27",
       "310": "27"
     },
-    "0.5.2": "0.5.1"
+    "0.5.2": "0.5.1",
+    "0.5.3": "0.5.1"
   },
   "bn2vec": {
     "1.0.0": {
@@ -11010,6 +11048,80 @@
             "aiohttp_cors",
             "ipython",
             "pyinstaller==5.3",
+            "types-aiofiles",
+            "types-cryptography",
+            "types-pkg_resources",
+            "types-pyyaml",
+            "types-setuptools"
+          ],
+          "dev:sys_platform == \"linux\"": [
+            "pytest-monitor"
+          ],
+          "upnp": [
+            "miniupnpc==2.2.2"
+          ]
+        },
+        "python_requires": [
+          ">=3.7, <4"
+        ]
+      },
+      "38": "37",
+      "39": "37",
+      "310": "37"
+    },
+    "1.7.0b3": {
+      "37": {
+        "install_requires": [
+          "aiofiles==22.1.0",
+          "blspy==1.0.16",
+          "chiavdf==1.0.8",
+          "chiabip158==1.1",
+          "chiapos==1.0.11",
+          "clvm==0.9.7",
+          "clvm_tools==0.4.6",
+          "chia_rs==0.1.14",
+          "clvm-tools-rs==0.1.25",
+          "aiohttp==3.8.3",
+          "aiosqlite==0.17.0",
+          "bitstring==3.1.9",
+          "colorama==0.4.5",
+          "colorlog==6.7.0",
+          "concurrent-log-handler==0.9.20",
+          "cryptography==38.0.3",
+          "filelock==3.8.0",
+          "keyring==23.9.3",
+          "PyYAML==6.0",
+          "setproctitle==1.2.3",
+          "sortedcontainers==2.4.0",
+          "click==8.1.3",
+          "dnspython==2.2.1",
+          "watchdog==2.1.9",
+          "dnslib==0.9.23",
+          "typing-extensions==4.4.0",
+          "zstd==1.5.2.6",
+          "packaging==21.3",
+          "psutil==5.9.1"
+        ],
+        "extras_require": {
+          "dev": [
+            "build",
+            "coverage",
+            "diff-cover",
+            "pre-commit",
+            "py3createtorrent",
+            "pylint",
+            "pytest",
+            "pytest-asyncio>=0.18.1",
+            "pytest-cov",
+            "pytest-xdist",
+            "twine",
+            "isort",
+            "flake8",
+            "mypy",
+            "black==22.10.0",
+            "aiohttp_cors",
+            "ipython",
+            "pyinstaller==5.6.2",
             "types-aiofiles",
             "types-cryptography",
             "types-pkg_resources",
@@ -17155,7 +17267,8 @@
     "1.423.0": "1.27.1",
     "1.424.0": "1.27.1",
     "1.425.0": "1.27.1",
-    "1.426.0": "1.27.1"
+    "1.426.0": "1.27.1",
+    "1.431.0": "1.27.1"
   },
   "data-warehouse": {
     "1.0.0": {
@@ -28298,6 +28411,23 @@
     "0.83": "0.81",
     "0.84": "0.81"
   },
+  "epic-trials": {
+    "0.0.1": {
+      "27": {
+        "tests_require": [
+          "pytest>=3"
+        ],
+        "python_requires": [
+          ">=3.6"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
+  },
   "equadratures": {
     "7.6": {
       "27": {
@@ -29787,7 +29917,8 @@
     "0.0.11": "0.0.8",
     "0.0.12": "0.0.8",
     "0.0.13": "0.0.8",
-    "0.0.14": "0.0.8"
+    "0.0.14": "0.0.8",
+    "0.0.15": "0.0.8"
   },
   "external-task-api-client": {
     "1.0.1": {
@@ -33322,7 +33453,8 @@
       "39": "27",
       "310": "27"
     },
-    "0.6.3": "0.6.2"
+    "0.6.3": "0.6.2",
+    "0.6.4": "0.6.2"
   },
   "flylog2": {
     "0.1.71": {
@@ -35982,7 +36114,8 @@
     "0.5.2": "0.5.1",
     "0.6.0": "0.5.1",
     "0.6.1": "0.5.1",
-    "0.6.2": "0.5.1"
+    "0.6.2": "0.5.1",
+    "0.7.0": "0.5.1"
   },
   "gitalysis": {
     "0.1.1": {
@@ -52393,7 +52526,538 @@
       "39": "36",
       "310": "36"
     },
-    "4.0.1": "4.0.0"
+    "4.0.1": "4.0.0",
+    "4.0.2": {
+      "36": {
+        "install_requires": [
+          "dictdiffer~=0.8",
+          "dataclasses-json~=0.3",
+          "gunicorn~=20.0",
+          "h5py~=3.1",
+          "jinja2~=2.11",
+          "python-dateutil~=2.8",
+          "tensorflow~=2.7.1",
+          "Flask<2.0.0,>=1.1.3",
+          "simplejson~=3.17",
+          "catboost~=0.26",
+          "prometheus_client~=0.7",
+          "packaging<22.0,>=20.7",
+          "gordo-client!=6.0.1,~=6.0",
+          "MarkupSafe<2.1.0"
+        ],
+        "setup_requires": [
+          "pytest-runner",
+          "setuptools_scm"
+        ],
+        "extras_require": {
+          "docs": [
+            "sphinx-rtd-theme~=0.4",
+            "sphinxcontrib-websupport~=1.1",
+            "sphinx~=2.1",
+            "sphinx-click~=2.0",
+            "pandas==1.1.4"
+          ],
+          "mlflow": [
+            "mlflow~=1.25",
+            "azureml-core~=1.44"
+          ],
+          "postgres": [
+            "peewee~=3.14",
+            "psycopg2-binary~=2.9"
+          ],
+          "tests": [
+            "anyio==3.6.2",
+            "appnope==0.1.3",
+            "argon2-cffi==21.3.0",
+            "argon2-cffi-bindings==21.2.0",
+            "asttokens==2.1.0",
+            "attrs==22.1.0",
+            "backcall==0.2.0",
+            "beautifulsoup4==4.11.1",
+            "black==21.12b0",
+            "bleach==5.0.1",
+            "certifi==2022.9.24",
+            "cffi==1.15.1",
+            "charset-normalizer==2.1.1",
+            "click==7.1.2",
+            "coverage==6.5.0",
+            "debugpy==1.6.3",
+            "decorator==5.1.1",
+            "defusedxml==0.7.1",
+            "docker==6.0.1",
+            "entrypoints==0.4",
+            "execnet==1.9.0",
+            "executing==1.2.0",
+            "fastjsonschema==2.16.2",
+            "filelock==3.8.0",
+            "idna==3.4",
+            "iniconfig==1.1.1",
+            "ipykernel==6.17.0",
+            "ipython==8.6.0",
+            "ipython-genutils==0.2.0",
+            "jedi==0.18.1",
+            "jinja2==2.11.3",
+            "jsonschema==4.17.0",
+            "jupyter-client==7.4.4",
+            "jupyter-core==4.11.2",
+            "jupyter-server==1.21.0",
+            "jupyterlab-pygments==0.2.2",
+            "markupsafe==2.0.1",
+            "matplotlib-inline==0.1.6",
+            "mistune==0.8.4",
+            "mock==4.0.3",
+            "mypy==0.982",
+            "mypy-extensions==0.4.3",
+            "nbclassic==0.4.8",
+            "nbclient==0.5.13",
+            "nbconvert==6.4.5",
+            "nbformat==5.7.0",
+            "nest-asyncio==1.5.6",
+            "notebook==6.5.2",
+            "notebook-shim==0.2.2",
+            "packaging==21.3",
+            "pandocfilters==1.5.0",
+            "parso==0.8.3",
+            "pathspec==0.10.1",
+            "pexpect==4.8.0",
+            "pickleshare==0.7.5",
+            "platformdirs==2.5.2",
+            "pluggy==1.0.0",
+            "prometheus-client==0.15.0",
+            "prompt-toolkit==3.0.31",
+            "psutil==5.9.3",
+            "ptyprocess==0.7.0",
+            "pure-eval==0.2.2",
+            "py==1.11.0",
+            "py-cpuinfo==9.0.0",
+            "pycparser==2.21",
+            "pyflakes==2.5.0",
+            "pygments==2.13.0",
+            "pyparsing==3.0.9",
+            "pyrsistent==0.19.2",
+            "pysocks==1.7.1",
+            "pytest==6.2.5",
+            "pytest-benchmark==3.4.1",
+            "pytest-cov==2.12.1",
+            "pytest-flakes==4.0.5",
+            "pytest-forked==1.4.0",
+            "pytest-mock==3.10.0",
+            "pytest-mypy==0.10.0",
+            "pytest-timeout==1.4.2",
+            "pytest-xdist==2.5.0",
+            "python-dateutil==2.8.2",
+            "pyzmq==24.0.1",
+            "requests[socks]==2.28.1",
+            "responses==0.22.0",
+            "send2trash==1.8.0",
+            "six==1.16.0",
+            "sniffio==1.3.0",
+            "soupsieve==2.3.2.post1",
+            "stack-data==0.6.0",
+            "terminado==0.17.0",
+            "testpath==0.6.0",
+            "toml==0.10.2",
+            "tomli==1.2.3",
+            "tornado==6.2",
+            "traitlets==5.5.0",
+            "types-mock==4.0.15.2",
+            "types-python-dateutil==2.8.19.2",
+            "types-pytz==2022.6.0.1",
+            "types-pyyaml==6.0.12.1",
+            "types-requests==2.28.11.2",
+            "types-setuptools==65.5.0.2",
+            "types-simplejson==3.17.7.1",
+            "types-toml==0.10.8",
+            "types-urllib3==1.26.25.1",
+            "typing-extensions==4.4.0",
+            "urllib3==1.26.12",
+            "wcwidth==0.2.5",
+            "webencodings==0.5.1",
+            "websocket-client==1.4.1"
+          ],
+          "full": [
+            "mlflow~=1.25",
+            "azureml-core~=1.44",
+            "peewee~=3.14",
+            "psycopg2-binary~=2.9"
+          ]
+        },
+        "tests_require": [
+          "anyio==3.6.2",
+          "# via jupyter-server",
+          "appnope==0.1.3",
+          "# via",
+          "#   ipykernel",
+          "#   ipython",
+          "argon2-cffi==21.3.0",
+          "# via",
+          "#   jupyter-server",
+          "#   nbclassic",
+          "#   notebook",
+          "argon2-cffi-bindings==21.2.0",
+          "# via argon2-cffi",
+          "asttokens==2.1.0",
+          "# via stack-data",
+          "attrs==22.1.0",
+          "# via",
+          "#   jsonschema",
+          "#   pytest",
+          "#   pytest-mypy",
+          "backcall==0.2.0",
+          "# via ipython",
+          "beautifulsoup4==4.11.1",
+          "# via nbconvert",
+          "black==21.12b0",
+          "# via -r test_requirements.in",
+          "bleach==5.0.1",
+          "# via nbconvert",
+          "certifi==2022.9.24",
+          "# via",
+          "#   -c full_requirements.txt",
+          "#   requests",
+          "cffi==1.15.1",
+          "# via",
+          "#   -c full_requirements.txt",
+          "#   argon2-cffi-bindings",
+          "charset-normalizer==2.1.1",
+          "# via",
+          "#   -c full_requirements.txt",
+          "#   requests",
+          "click==7.1.2",
+          "# via",
+          "#   -c full_requirements.txt",
+          "#   black",
+          "coverage==6.5.0",
+          "# via pytest-cov",
+          "debugpy==1.6.3",
+          "# via ipykernel",
+          "decorator==5.1.1",
+          "# via ipython",
+          "defusedxml==0.7.1",
+          "# via nbconvert",
+          "docker==6.0.1",
+          "# via",
+          "#   -c full_requirements.txt",
+          "#   -r test_requirements.in",
+          "entrypoints==0.4",
+          "# via",
+          "#   -c full_requirements.txt",
+          "#   jupyter-client",
+          "#   nbconvert",
+          "execnet==1.9.0",
+          "# via pytest-xdist",
+          "executing==1.2.0",
+          "# via stack-data",
+          "fastjsonschema==2.16.2",
+          "# via nbformat",
+          "filelock==3.8.0",
+          "# via pytest-mypy",
+          "idna==3.4",
+          "# via",
+          "#   -c full_requirements.txt",
+          "#   anyio",
+          "#   requests",
+          "iniconfig==1.1.1",
+          "# via pytest",
+          "ipykernel==6.17.0",
+          "# via",
+          "#   nbclassic",
+          "#   notebook",
+          "ipython==8.6.0",
+          "# via ipykernel",
+          "ipython-genutils==0.2.0",
+          "# via",
+          "#   nbclassic",
+          "#   notebook",
+          "jedi==0.18.1",
+          "# via ipython",
+          "jinja2==2.11.3",
+          "# via",
+          "#   -c full_requirements.txt",
+          "#   jupyter-server",
+          "#   nbclassic",
+          "#   nbconvert",
+          "#   notebook",
+          "jsonschema==4.17.0",
+          "# via nbformat",
+          "jupyter-client==7.4.4",
+          "# via",
+          "#   ipykernel",
+          "#   jupyter-server",
+          "#   nbclassic",
+          "#   nbclient",
+          "#   notebook",
+          "jupyter-core==4.11.2",
+          "# via",
+          "#   jupyter-client",
+          "#   jupyter-server",
+          "#   nbclassic",
+          "#   nbconvert",
+          "#   nbformat",
+          "#   notebook",
+          "jupyter-server==1.21.0",
+          "# via",
+          "#   nbclassic",
+          "#   notebook-shim",
+          "jupyterlab-pygments==0.2.2",
+          "# via nbconvert",
+          "markupsafe==2.0.1",
+          "# via",
+          "#   -c full_requirements.txt",
+          "#   jinja2",
+          "#   nbconvert",
+          "matplotlib-inline==0.1.6",
+          "# via",
+          "#   ipykernel",
+          "#   ipython",
+          "mistune==0.8.4",
+          "# via nbconvert",
+          "mock==4.0.3",
+          "# via -r test_requirements.in",
+          "mypy==0.982",
+          "# via pytest-mypy",
+          "mypy-extensions==0.4.3",
+          "# via",
+          "#   -c full_requirements.txt",
+          "#   black",
+          "#   mypy",
+          "nbclassic==0.4.8",
+          "# via notebook",
+          "nbclient==0.5.13",
+          "# via nbconvert",
+          "nbconvert==6.4.5",
+          "# via",
+          "#   -r test_requirements.in",
+          "#   jupyter-server",
+          "#   nbclassic",
+          "#   notebook",
+          "nbformat==5.7.0",
+          "# via",
+          "#   jupyter-server",
+          "#   nbclassic",
+          "#   nbclient",
+          "#   nbconvert",
+          "#   notebook",
+          "nest-asyncio==1.5.6",
+          "# via",
+          "#   ipykernel",
+          "#   jupyter-client",
+          "#   nbclassic",
+          "#   nbclient",
+          "#   notebook",
+          "notebook==6.5.2",
+          "# via -r test_requirements.in",
+          "notebook-shim==0.2.2",
+          "# via nbclassic",
+          "packaging==21.3",
+          "# via",
+          "#   -c full_requirements.txt",
+          "#   docker",
+          "#   ipykernel",
+          "#   jupyter-server",
+          "#   pytest",
+          "pandocfilters==1.5.0",
+          "# via nbconvert",
+          "parso==0.8.3",
+          "# via jedi",
+          "pathspec==0.10.1",
+          "# via",
+          "#   -c full_requirements.txt",
+          "#   black",
+          "pexpect==4.8.0",
+          "# via ipython",
+          "pickleshare==0.7.5",
+          "# via ipython",
+          "platformdirs==2.5.2",
+          "# via black",
+          "pluggy==1.0.0",
+          "# via pytest",
+          "prometheus-client==0.15.0",
+          "# via",
+          "#   -c full_requirements.txt",
+          "#   jupyter-server",
+          "#   nbclassic",
+          "#   notebook",
+          "prompt-toolkit==3.0.31",
+          "# via ipython",
+          "psutil==5.9.3",
+          "# via ipykernel",
+          "ptyprocess==0.7.0",
+          "# via",
+          "#   pexpect",
+          "#   terminado",
+          "pure-eval==0.2.2",
+          "# via stack-data",
+          "py==1.11.0",
+          "# via",
+          "#   pytest",
+          "#   pytest-forked",
+          "py-cpuinfo==9.0.0",
+          "# via pytest-benchmark",
+          "pycparser==2.21",
+          "# via",
+          "#   -c full_requirements.txt",
+          "#   cffi",
+          "pyflakes==2.5.0",
+          "# via pytest-flakes",
+          "pygments==2.13.0",
+          "# via",
+          "#   -c full_requirements.txt",
+          "#   ipython",
+          "#   nbconvert",
+          "pyparsing==3.0.9",
+          "# via",
+          "#   -c full_requirements.txt",
+          "#   packaging",
+          "pyrsistent==0.19.2",
+          "# via jsonschema",
+          "pysocks==1.7.1",
+          "# via",
+          "#   -c full_requirements.txt",
+          "#   requests",
+          "pytest==6.2.5",
+          "# via",
+          "#   -r test_requirements.in",
+          "#   pytest-benchmark",
+          "#   pytest-cov",
+          "#   pytest-flakes",
+          "#   pytest-forked",
+          "#   pytest-mock",
+          "#   pytest-mypy",
+          "#   pytest-timeout",
+          "#   pytest-xdist",
+          "pytest-benchmark==3.4.1",
+          "# via -r test_requirements.in",
+          "pytest-cov==2.12.1",
+          "# via -r test_requirements.in",
+          "pytest-flakes==4.0.5",
+          "# via -r test_requirements.in",
+          "pytest-forked==1.4.0",
+          "# via pytest-xdist",
+          "pytest-mock==3.10.0",
+          "# via -r test_requirements.in",
+          "pytest-mypy==0.10.0",
+          "# via -r test_requirements.in",
+          "pytest-timeout==1.4.2",
+          "# via -r test_requirements.in",
+          "pytest-xdist==2.5.0",
+          "# via -r test_requirements.in",
+          "python-dateutil==2.8.2",
+          "# via",
+          "#   -c full_requirements.txt",
+          "#   jupyter-client",
+          "pyzmq==24.0.1",
+          "# via",
+          "#   ipykernel",
+          "#   jupyter-client",
+          "#   jupyter-server",
+          "#   nbclassic",
+          "#   notebook",
+          "requests[socks]==2.28.1",
+          "# via",
+          "#   -c full_requirements.txt",
+          "#   docker",
+          "#   responses",
+          "responses==0.22.0",
+          "# via -r test_requirements.in",
+          "send2trash==1.8.0",
+          "# via",
+          "#   jupyter-server",
+          "#   nbclassic",
+          "#   notebook",
+          "six==1.16.0",
+          "# via",
+          "#   -c full_requirements.txt",
+          "#   bleach",
+          "#   python-dateutil",
+          "sniffio==1.3.0",
+          "# via anyio",
+          "soupsieve==2.3.2.post1",
+          "# via beautifulsoup4",
+          "stack-data==0.6.0",
+          "# via ipython",
+          "terminado==0.17.0",
+          "# via",
+          "#   jupyter-server",
+          "#   nbclassic",
+          "#   notebook",
+          "testpath==0.6.0",
+          "# via nbconvert",
+          "toml==0.10.2",
+          "# via",
+          "#   pytest",
+          "#   pytest-cov",
+          "#   responses",
+          "tomli==1.2.3",
+          "# via",
+          "#   black",
+          "#   mypy",
+          "tornado==6.2",
+          "# via",
+          "#   ipykernel",
+          "#   jupyter-client",
+          "#   jupyter-server",
+          "#   nbclassic",
+          "#   notebook",
+          "#   terminado",
+          "traitlets==5.5.0",
+          "# via",
+          "#   ipykernel",
+          "#   ipython",
+          "#   jupyter-client",
+          "#   jupyter-core",
+          "#   jupyter-server",
+          "#   matplotlib-inline",
+          "#   nbclassic",
+          "#   nbclient",
+          "#   nbconvert",
+          "#   nbformat",
+          "#   notebook",
+          "types-mock==4.0.15.2",
+          "# via -r test_requirements.in",
+          "types-python-dateutil==2.8.19.2",
+          "# via -r test_requirements.in",
+          "types-pytz==2022.6.0.1",
+          "# via -r test_requirements.in",
+          "types-pyyaml==6.0.12.1",
+          "# via -r test_requirements.in",
+          "types-requests==2.28.11.2",
+          "# via -r test_requirements.in",
+          "types-setuptools==65.5.0.2",
+          "# via -r test_requirements.in",
+          "types-simplejson==3.17.7.1",
+          "# via -r test_requirements.in",
+          "types-toml==0.10.8",
+          "# via responses",
+          "types-urllib3==1.26.25.1",
+          "# via types-requests",
+          "typing-extensions==4.4.0",
+          "# via",
+          "#   -c full_requirements.txt",
+          "#   black",
+          "#   mypy",
+          "urllib3==1.26.12",
+          "# via",
+          "#   -c full_requirements.txt",
+          "#   docker",
+          "#   requests",
+          "#   responses",
+          "wcwidth==0.2.5",
+          "# via prompt-toolkit",
+          "webencodings==0.5.1",
+          "# via bleach",
+          "websocket-client==1.4.1",
+          "# via",
+          "#   -c full_requirements.txt",
+          "#   docker",
+          "#   jupyter-server"
+        ]
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
   },
   "grabber-ift": {
     "0.2.1": {
@@ -52623,6 +53287,238 @@
       "38": "27",
       "39": "27",
       "310": "27"
+    }
+  },
+  "great-expectations-cta": {
+    "0.15.43": {
+      "36": {
+        "install_requires": [
+          "altair<5,>=4.0.0",
+          "Click>=7.1.2",
+          "colorama>=0.4.3",
+          "cryptography>=3.2",
+          "importlib-metadata>=1.7.0",
+          "Ipython>=7.16.3",
+          "ipywidgets>=7.5.1",
+          "jinja2>=2.10",
+          "jsonpatch>=1.22",
+          "jsonschema>=2.5.1",
+          "makefun<2,>=1.7.0",
+          "marshmallow<4.0.0,>=3.7.1",
+          "mistune>=0.8.4",
+          "nbformat>=5.0",
+          "numpy>=1.18.5",
+          "packaging",
+          "pandas>=1.1.0",
+          "pydantic<2.0,>=1.0",
+          "pyparsing>=2.4",
+          "python-dateutil>=2.8.1",
+          "pytz>=2021.3",
+          "requests>=2.20",
+          "ruamel.yaml<0.17.18,>=0.16",
+          "scipy>=0.19.0",
+          "tqdm>=4.59.0",
+          "typing-extensions>=3.10.0.0",
+          "tzlocal>=1.2",
+          "urllib3<1.27,>=1.25.4"
+        ],
+        "extras_require": {
+          "postgresql": [
+            "psycopg2-binary>=2.7.6",
+            "sqlalchemy<2.0.0,>=1.3.18"
+          ],
+          "redshift": [
+            "psycopg2-binary>=2.7.6",
+            "sqlalchemy-redshift>=0.8.8",
+            "sqlalchemy<2.0.0,>=1.3.18"
+          ],
+          "hive": [
+            "PyHive>=0.6.5",
+            "thrift>=0.16.0",
+            "thrift-sasl>=0.4.3"
+          ],
+          "vertica": [
+            "sqlalchemy-vertica-python>=0.5.10",
+            "sqlalchemy<2.0.0,>=1.3.18"
+          ],
+          "bigquery": [
+            "gcsfs>=0.5.1",
+            "google-cloud-bigquery>=3.3.6",
+            "google-cloud-secret-manager>=1.0.0",
+            "google-cloud-storage>=1.28.0",
+            "sqlalchemy-bigquery>=1.3.0",
+            "sqlalchemy<2.0.0,>=1.3.18"
+          ],
+          "pagerduty": [
+            "pypd==1.1.0"
+          ],
+          "snowflake": [
+            "snowflake-connector-python>=2.5.0",
+            "snowflake-sqlalchemy>=1.2.3",
+            "sqlalchemy<2.0.0,>=1.3.18"
+          ],
+          "excel": [
+            "openpyxl>=3.0.7",
+            "xlrd<2.0.0,>=1.1.0"
+          ],
+          "teradata": [
+            "teradatasqlalchemy==17.0.0.1",
+            "sqlalchemy<2.0.0,>=1.3.18"
+          ],
+          "mssql": [
+            "pyodbc>=4.0.30",
+            "sqlalchemy<2.0.0,>=1.3.18"
+          ],
+          "arrow": [
+            "feather-format>=0.4.1",
+            "pyarrow"
+          ],
+          "spark": [
+            "pyspark>=2.3.2"
+          ],
+          "mysql": [
+            "PyMySQL<0.10,>=0.9.3",
+            "sqlalchemy<2.0.0,>=1.3.18"
+          ],
+          "azure": [
+            "azure-identity>=1.10.0",
+            "azure-keyvault-secrets>=4.0.0",
+            "azure-storage-blob>=12.5.0"
+          ],
+          "trino": [
+            "trino!=0.316.0,>=0.310.0",
+            "sqlalchemy<2.0.0,>=1.3.18"
+          ],
+          "dremio": [
+            "pyarrow",
+            "pyodbc>=4.0.30",
+            "sqlalchemy-dremio==1.2.1",
+            "sqlalchemy<2.0.0,>=1.3.18"
+          ],
+          "athena": [
+            "pyathena>=1.11",
+            "sqlalchemy<2.0.0,>=1.3.18"
+          ],
+          "sqlalchemy": [
+            "sqlalchemy<2.0.0,>=1.3.18"
+          ],
+          "test": [
+            "boto3==1.17.106",
+            "darglint>=1.8.1",
+            "flask>=1.0.0",
+            "freezegun>=0.3.15",
+            "ipykernel<=6.17.1",
+            "mock-alchemy>=0.2.5",
+            "moto<3.0.0,>=2.0.0",
+            "nbconvert>=5",
+            "pydocstyle>=6.1.1",
+            "pyfakefs>=4.5.1",
+            "pytest>=5.3.5",
+            "pytest-benchmark>=3.4.1",
+            "pytest-cov>=2.8.1",
+            "pytest-icdiff>=0.6",
+            "pytest-mock>=3.8.2",
+            "pytest-order>=0.9.5",
+            "pytest-random-order>=1.0.4",
+            "pytest-timeout>=2.1.0",
+            "requirements-parser>=0.2.0",
+            "s3fs>=0.5.1",
+            "snapshottest==0.6.0",
+            "sqlalchemy<2.0.0,>=1.3.18",
+            "black==22.3.0",
+            "flake8==5.0.4",
+            "invoke>=1.7.1",
+            "isort==5.10.1",
+            "mypy==0.991",
+            "pre-commit>=2.6.0",
+            "pyupgrade==2.7.2",
+            "docstring-parser==0.15"
+          ],
+          "aws_secrets": [
+            "boto3==1.17.106"
+          ],
+          "azure_secrets": [
+            "azure-identity>=1.10.0",
+            "azure-keyvault-secrets>=4.0.0",
+            "azure-storage-blob>=12.5.0"
+          ],
+          "gcp": [
+            "gcsfs>=0.5.1",
+            "google-cloud-bigquery>=3.3.6",
+            "google-cloud-secret-manager>=1.0.0",
+            "google-cloud-storage>=1.28.0",
+            "sqlalchemy-bigquery>=1.3.0",
+            "sqlalchemy<2.0.0,>=1.3.18"
+          ],
+          "s3": [
+            "boto3==1.17.106"
+          ],
+          "dev": [
+            "PyHive>=0.6.5",
+            "PyMySQL<0.10,>=0.9.3",
+            "azure-identity>=1.10.0",
+            "azure-keyvault-secrets>=4.0.0",
+            "azure-storage-blob>=12.5.0",
+            "black==22.3.0",
+            "boto3==1.17.106",
+            "darglint>=1.8.1",
+            "docstring-parser==0.15",
+            "feather-format>=0.4.1",
+            "flake8==5.0.4",
+            "flask>=1.0.0",
+            "freezegun>=0.3.15",
+            "gcsfs>=0.5.1",
+            "google-cloud-bigquery>=3.3.6",
+            "google-cloud-secret-manager>=1.0.0",
+            "google-cloud-storage>=1.28.0",
+            "invoke>=1.7.1",
+            "ipykernel<=6.17.1",
+            "isort==5.10.1",
+            "mock-alchemy>=0.2.5",
+            "moto<3.0.0,>=2.0.0",
+            "mypy==0.991",
+            "nbconvert>=5",
+            "openpyxl>=3.0.7",
+            "pre-commit>=2.6.0",
+            "psycopg2-binary>=2.7.6",
+            "pyarrow",
+            "pyathena>=1.11",
+            "pydocstyle>=6.1.1",
+            "pyfakefs>=4.5.1",
+            "pyodbc>=4.0.30",
+            "pypd==1.1.0",
+            "pyspark>=2.3.2",
+            "pytest-benchmark>=3.4.1",
+            "pytest-cov>=2.8.1",
+            "pytest-icdiff>=0.6",
+            "pytest-mock>=3.8.2",
+            "pytest-order>=0.9.5",
+            "pytest-random-order>=1.0.4",
+            "pytest-timeout>=2.1.0",
+            "pytest>=5.3.5",
+            "pyupgrade==2.7.2",
+            "requirements-parser>=0.2.0",
+            "s3fs>=0.5.1",
+            "snapshottest==0.6.0",
+            "snowflake-connector-python>=2.5.0",
+            "snowflake-sqlalchemy>=1.2.3",
+            "sqlalchemy-bigquery>=1.3.0",
+            "sqlalchemy-dremio==1.2.1",
+            "sqlalchemy-redshift>=0.8.8",
+            "sqlalchemy-vertica-python>=0.5.10",
+            "sqlalchemy<2.0.0,>=1.3.18",
+            "teradatasqlalchemy==17.0.0.1",
+            "thrift-sasl>=0.4.3",
+            "thrift>=0.16.0",
+            "trino!=0.316.0,>=0.310.0",
+            "xlrd<2.0.0,>=1.1.0"
+          ]
+        }
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
     }
   },
   "greatx": {
@@ -58745,6 +59641,30 @@
       "310": "36"
     },
     "0.0.6": "0.0.5"
+  },
+  "macrometa-source-postgres": {
+    "0.0.13": {
+      "27": {
+        "install_requires": [
+          "pipelinewise-singer-python==1.2.0",
+          "psycopg2-binary==2.9.3",
+          "strict-rfc3339==0.7",
+          "c8connector==0.0.10"
+        ],
+        "extras_require": {
+          "test": [
+            "pytest==7.0.1",
+            "pylint==2.12.*",
+            "pytest-cov==4.0.0"
+          ]
+        }
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
   },
   "macrox-tool": {
     "1.0.2": {
@@ -70283,6 +71203,23 @@
       "310": "27"
     }
   },
+  "pyftdiwin": {
+    "0.54.0": {
+      "36": {
+        "install_requires": [
+          "pyusb!=1.2.0,>=1.0.0",
+          "pyserial>=3.0"
+        ],
+        "python_requires": [
+          ">=3.7"
+        ]
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
   "pyftn": {
     "0.1": {
       "27": {},
@@ -72428,7 +73365,8 @@
     "0.2.1": "0.1.0",
     "0.2.2": "0.1.0",
     "0.2.3": "0.1.0",
-    "0.2.4": "0.1.0"
+    "0.2.4": "0.1.0",
+    "0.2.5": "0.1.0"
   },
   "qiuzilong-jiyin-kexue-20jiang": {
     "2022.10.29.0": {
@@ -73882,6 +74820,26 @@
       "38": "27",
       "39": "27",
       "310": "27"
+    }
+  },
+  "resoto-plugin-vsphere": {
+    "3.0.3": {
+      "36": {
+        "install_requires": [
+          "resotolib==3.0.3",
+          "pyvmomi==7.0.3"
+        ],
+        "setup_requires": [
+          "pytest-runner"
+        ],
+        "tests_require": [
+          "pytest"
+        ]
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
     }
   },
   "restapirediscaching": {
@@ -84086,7 +85044,11 @@
     "3.0.776": "3.0.265",
     "3.0.777": "3.0.265",
     "3.0.778": "3.0.265",
-    "3.0.780": "3.0.265"
+    "3.0.780": "3.0.265",
+    "3.0.787": "3.0.265",
+    "3.0.803": "3.0.265",
+    "3.0.805": "3.0.265",
+    "3.0.808": "3.0.265"
   },
   "tendril-structures": {
     "0.2.0": {
@@ -86626,6 +87588,18 @@
       "310": "27"
     },
     "2.14": "2.13"
+  },
+  "transsa2": {
+    "1.2.3": {
+      "27": {},
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    },
+    "1.5.1": "1.2.3",
+    "1.5.4": "1.2.3"
   },
   "travail": {
     "0.0.1.dev0": {
@@ -90863,7 +91837,8 @@
     "2.2.3": "1.4.0",
     "2.3.0": "1.4.0",
     "2.4.0": "1.4.0",
-    "2.5.0": "1.4.0"
+    "2.5.0": "1.4.0",
+    "2.7.0": "1.4.0"
   },
   "word-spell": {
     "0.5.0": {
@@ -91443,6 +92418,48 @@
       "38": "27",
       "39": "27",
       "310": "27"
+    },
+    "0.1.2": {
+      "27": {
+        "install_requires": [
+          "cloudpickle<3.0.0,>=2.1.0",
+          "deepspeed<0.8.0,>=0.7.4",
+          "evaluate<0.4.0,>=0.3.0",
+          "fastnlp<2.0.0,>=1.0.1",
+          "fitlog<0.10.0,>=0.9.13",
+          "hydra-core<2.0.0,>=1.2.0",
+          "ipython<9.0.0,>=8.6.0",
+          "jieba<0.43.0,>=0.42.1",
+          "jsonlines<4.0.0,>=3.1.0",
+          "networkx<3.0.0,>=2.8.8",
+          "pyhocon<0.4.0,>=0.3.59",
+          "pytest<8.0.0,>=7.2.0",
+          "python-dotenv<0.20.0,>=0.19.2",
+          "pytorch-lightning<2.0.0,>=1.7.7",
+          "scikit-learn<2.0.0,>=1.1.3",
+          "scipy<2.0.0,>=1.9.3",
+          "sentencepiece<0.2.0,>=0.1.97",
+          "textdistance<5.0.0,>=4.5.0",
+          "torchmetrics<0.11.0,>=0.10.2",
+          "transformers<5.0.0,>=4.25.1"
+        ],
+        "python_requires": [
+          ">=3.8,<4.0"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    },
+    "0.1.3": {
+      "27": {},
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
     }
   },
   "y0-bio": {
@@ -91666,6 +92683,20 @@
     },
     "0.2.0": "0.1.3",
     "0.2.1": "0.1.3"
+  },
+  "yasiu.time": {
+    "0.0.1": {
+      "27": {
+        "python_requires": [
+          ">=3.7"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
   },
   "yb": {
     "0.0.2": {

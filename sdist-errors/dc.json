@@ -51,6 +51,16 @@
       "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
     }
   },
+  "advpyneng-cli-course": {
+    "1.0": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
   "agentclpr": {
     "1.0.0": {
       "27": "TypeError: 'encoding' is an invalid keyword argument for this function",
@@ -571,7 +581,8 @@
     "1.178.0": "1.83.0",
     "1.179.0": "1.83.0",
     "1.180.0": "1.83.0",
-    "1.181.0": "1.83.0"
+    "1.181.0": "1.83.0",
+    "1.186.1": "1.83.0"
   },
   "aws-cdkassets": {
     "0.1.0": {
@@ -1718,7 +1729,8 @@
     "0.0.3": "0.0.2",
     "0.0.4": "0.0.2",
     "0.0.7": "0.0.2",
-    "0.1.0": "0.0.2"
+    "0.1.0": "0.0.2",
+    "0.1.2": "0.0.2"
   },
   "draxoft.auth.pam": {
     "0.1": {
@@ -3519,7 +3531,8 @@
     },
     "0.0.2": "0.0.1",
     "0.0.3": "0.0.1",
-    "0.0.4": "0.0.1"
+    "0.0.4": "0.0.1",
+    "0.0.7": "0.0.1"
   },
   "liuren-shenke-koujue-xiandai-shili-jingjie": {
     "2022.10.22.0": {
@@ -3881,7 +3894,8 @@
     "2.0.1": "1.1.4",
     "2.1.0": "1.1.4",
     "2.1.1": "1.1.4",
-    "2.2.0": "1.1.4"
+    "2.2.0": "1.1.4",
+    "2.3.1": "1.1.4"
   },
   "morpyengine": {
     "0.0.1": {
@@ -7585,6 +7599,11 @@
     },
     "1.3.2": "1.0"
   },
+  "trajectorize": {
+    "0.0.5": {
+      "27": "ImportError: No module named pathlib"
+    }
+  },
   "transport-tools": {
     "0.9.3": {
       "27": "IOError: [Errno 2] No such file or directory: '/home/briza/PycharmProjects/transport_tools_github/transport_tools/README.md'",
@@ -7970,7 +7989,8 @@
     "0.3.3": "0.0.3",
     "0.3.4": "0.0.3",
     "0.3.5": "0.0.3",
-    "0.3.6": "0.0.3"
+    "0.3.6": "0.0.3",
+    "0.3.7": "0.0.3"
   },
   "wenti-zhishu": {
     "2022.10.9.0": {
@@ -8131,6 +8151,16 @@
     "1.2.3": "1.1.2",
     "1.2.4": "1.1.2",
     "1.2.5": "1.1.2"
+  },
+  "xy-words": {
+    "0.1": {
+      "27": "ImportError: No module named wheel",
+      "36": "ModuleNotFoundError: No module named 'wheel'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
   },
   "yanytapi": {
     "1.0.3": {

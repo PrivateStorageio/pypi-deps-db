@@ -311,7 +311,8 @@
       "27": "ImportError: cannot import name find_namespace_packages"
     },
     "1.1.0rc1": "1.0.0",
-    "1.1.0": "1.0.0"
+    "1.1.0": "1.0.0",
+    "2.0.0": "1.0.0"
   },
   "apiflash": {
     "0.1.1": {
@@ -752,7 +753,8 @@
     "1.0.8": "1.0.0",
     "1.0.9": "1.0.0",
     "1.1.1": "1.0.0",
-    "1.1.4": "1.0.0"
+    "1.1.4": "1.0.0",
+    "2.0.0": "1.0.0"
   },
   "bidcap": {
     "0.0.1": {
@@ -2219,6 +2221,16 @@
     "2.4.9": "2.4.2",
     "2.4.91": "2.4.2"
   },
+  "dummy-bdist-package": {
+    "0.1.1": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
   "dune-femnv": {
     "2.8.0.dev20210521": {
       "27": "ImportError: No module named packagemetadata",
@@ -3664,6 +3676,16 @@
     },
     "0.0.2": "0.0.1"
   },
+  "gtnhvelo": {
+    "0.1.2": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
   "gulp-metadata-modifier": {
     "0.0.4": {
       "27": "IOError: [Errno 2] No such file or directory: 'VERSION'",
@@ -3862,6 +3884,16 @@
     },
     "0.2.2": "0.2.1",
     "0.2.3": "0.2.1"
+  },
+  "hypertab": {
+    "0.1.1": {
+      "27": "IOError: [Errno 2] No such file or directory: 'requirements.txt'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'requirements.txt'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
   },
   "iamfast": {
     "0.1.0": {
@@ -4761,6 +4793,16 @@
       "310": "36"
     }
   },
+  "memproc": {
+    "0.0.8": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
   "mergeit": {
     "0.1.0": {
       "27": "ImportError: No module named pip.req",
@@ -5272,6 +5314,17 @@
       "27": "RuntimeError: This package requires Python 3.7+",
       "36": "27"
     }
+  },
+  "nigerian-airline-scrapper": {
+    "0.1.0": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    },
+    "0.2.2": "0.1.0"
   },
   "niutils": {
     "0.3.0": {
@@ -6374,7 +6427,12 @@
     "0.7.83": "0.0.0",
     "0.7.84": "0.0.0",
     "0.7.85": "0.0.0",
-    "0.7.86": "0.0.0"
+    "0.7.86": "0.0.0",
+    "0.7.107": "0.0.0",
+    "0.7.123": "0.0.0",
+    "0.7.161": "0.0.0",
+    "0.7.91": "0.0.0",
+    "0.7.95": "0.0.0"
   },
   "perfting.setuptools": {
     "1.0": {
@@ -8235,7 +8293,11 @@
     "4.6.3.1.dev1668609526": "3.2",
     "4.6.3.2": "3.2",
     "4.6.3.2.dev1669127954": "3.2",
-    "4.6.3.2.dev1669127973": "3.2"
+    "4.6.3.2.dev1669127973": "3.2",
+    "4.6.3.3.dev1669809689": "3.2",
+    "4.6.4.3.dev1669997494": "3.2",
+    "4.6.5": "3.2",
+    "4.6.6.2.dev1671453897": "3.2"
   },
   "readlif": {
     "0.1.0": {
@@ -9662,6 +9724,11 @@
     "0.0.8": "0.0.6",
     "0.0.9": "0.0.6"
   },
+  "streamlit-login-page": {
+    "0.0.6": {
+      "27": "ImportError: No module named pathlib"
+    }
+  },
   "stsci.skypac": {
     "0.9.11": {
       "27": "OSError: [Errno 2] No such file or directory",
@@ -9709,7 +9776,8 @@
     },
     "0.1.1": "0.0.2",
     "0.2.0": "0.0.2",
-    "0.2.1": "0.0.2"
+    "0.2.1": "0.0.2",
+    "0.3.0": "0.0.2"
   },
   "tagee": {
     "0.1.0": {
@@ -10806,6 +10874,16 @@
     "2.4.3a4": "2.4.0",
     "2.4.3a5": "2.4.0",
     "2.4.3": "2.4.0"
+  },
+  "yamdog": {
+    "0.2.8": {
+      "27": "SyntaxError: invalid syntax",
+      "36": "27",
+      "37": "27",
+      "38": "FileNotFoundError: [Errno 2] No such file or directory: 'dependencies.txt'",
+      "39": "38",
+      "310": "38"
+    }
   },
   "yehongsheng-woyong-dunjia": {
     "2022.10.18.0": {

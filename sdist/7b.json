@@ -16647,7 +16647,68 @@
     "1.9.9": "1.9.0",
     "1.9.10": "1.9.0",
     "1.10.0": "1.9.0",
-    "1.10.1": "1.9.0"
+    "1.10.1": "1.9.0",
+    "1.10.20": {
+      "36": {
+        "install_requires": [
+          "cattrs==22.2.0",
+          "executing==1.2.0",
+          "mypy<1.0,>=0.900",
+          "pendulum",
+          "pydantic>=1.0.0",
+          "pyyaml",
+          "requests",
+          "sqlalchemy>=1.4.26",
+          "polars[timezone]<0.16,>=0.14.21",
+          "pandas<1.6,>=1.5.1",
+          "pyarrow<9.0.0,>=6.0.0"
+        ],
+        "setup_requires": [
+          "setuptools_scm"
+        ],
+        "extras_require": {
+          "bigquery": [
+            "sqlalchemy-bigquery==1.4.4"
+          ],
+          "dev": [
+            "aiosqlite>=0.17.0",
+            "pytest",
+            "pre-commit",
+            "types-PyYAML",
+            "types-requests",
+            "types-PyMySQL<1.1,>=1.0.19.1",
+            "types-setuptools<65.7,>=65.5.0.2"
+          ],
+          "postgresql": [
+            "psycopg2>=2.9.4"
+          ],
+          "snowflake": [
+            "snowflake-connector-python>=2.8.0",
+            "snowflake-sqlalchemy>=1.4.2"
+          ],
+          "sqlite": [
+            "aiosqlite>=0.17.0"
+          ],
+          "redshift": [
+            "sqlalchemy-redshift>=0.8.11",
+            "redshift_connector>=2.0.909"
+          ],
+          "mysql": [
+            "PyMySQL>=1.0.2"
+          ],
+          ":python_version < \"3.9\"": [
+            "backports.zoneinfo[tzdata]"
+          ]
+        },
+        "python_requires": [
+          ">=3.8.0"
+        ]
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
   },
   "chameleon46": {
     "0.30": {
@@ -17406,6 +17467,16 @@
           "passlib"
         ]
       },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
+  },
+  "clustermimsy": {
+    "0.0.32": {
+      "27": {},
       "36": "27",
       "37": "27",
       "38": "27",
@@ -126270,6 +126341,1885 @@
       "38": "37",
       "39": "37",
       "310": "37"
+    },
+    "2.1.1.post0.dev15": "2.1.1.post0.dev7",
+    "2.1.1.post0.dev29": "2.1.1.post0.dev7",
+    "2.1.1.post0.dev34": {
+      "27": {
+        "extras_require": {
+          "kernel": [
+            "jedi<0.18,>=0.17"
+          ],
+          "all": [
+            "mypy[python2]>=0.991",
+            "watchdog>=0.10",
+            "papermill>=1.2",
+            "types-backports>=0.1",
+            "xonsh>=0.9",
+            "psutil>=5",
+            "jedi<0.18,>=0.17",
+            "jupyter>=1.0"
+          ],
+          "tests:python_version >= \"3.6\"": [
+            "jupyter-client>=7.1.2",
+            "typing_extensions>=4.1",
+            "jupyter-console>=6.4"
+          ],
+          "ipython:python_version < \"3\"": [
+            "jupyter-client>=5.3",
+            "ipython>=5.4",
+            "ipykernel>=4.10",
+            "jupyter-console>=5.2"
+          ],
+          "dev:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "jupyter-console>=6.1",
+            "jupyter-client<6.1.13,>=6.1.12"
+          ],
+          ":python_version>='3'": [
+            "prompt_toolkit>=1"
+          ],
+          "dev:python_version >= \"3.6\" and python_version < \"3.7\"": [
+            "dataclasses>=0.8"
+          ],
+          "dev:python_version < \"3\"": [
+            "jupyter-console>=5.2",
+            "ipykernel>=4.10",
+            "ipython>=5.4",
+            "jupyter-client>=5.3"
+          ],
+          "backports": [],
+          "tests:python_version >= \"3.6\" and python_version < \"3.7\"": [
+            "dataclasses>=0.8"
+          ],
+          "dev:python_version < \"3.4\"": [
+            "aenum>=3"
+          ],
+          "kernel:python_version < \"3\" and os_name == \"nt\"": [
+            "pywinpty<0.6,>=0.5"
+          ],
+          "all:python_version >= \"3.6\" and python_version < \"3.7\"": [
+            "dataclasses>=0.8"
+          ],
+          "backports:python_version >= \"3.6\"": [
+            "typing_extensions>=4.1"
+          ],
+          "dev:python_version < \"3\" and os_name == \"nt\"": [
+            "pywinpty<0.6,>=0.5"
+          ],
+          "tests:python_version >= \"3\"": [
+            "ipython>=7.9",
+            "jupytext>=1.8",
+            "ipykernel>=5.5"
+          ],
+          "tests:python_version < \"3.4\"": [
+            "aenum>=3"
+          ],
+          ":python_version<'2.7'": [
+            "argparse>=1.4"
+          ],
+          "dev:python_version >= \"3.5\"": [
+            "jupyterlab>=2.2"
+          ],
+          "all:python_version >= \"3\"": [
+            "ipython>=7.9",
+            "jupytext>=1.8",
+            "ipykernel>=5.5"
+          ],
+          "ipython:python_version < \"3\" and os_name == \"nt\"": [
+            "pywinpty<0.6,>=0.5"
+          ],
+          "dev:python_version < \"3\" and platform_python_implementation == \"CPython\"": [
+            "numpy>=1",
+            "trollius>=2.2"
+          ],
+          "kernel:python_version < \"3\"": [
+            "ipython>=5.4",
+            "ipykernel>=4.10",
+            "jupyter-client>=5.3"
+          ],
+          "jupyter:python_version < \"3\"": [
+            "jupyter-client>=5.3",
+            "ipython>=5.4",
+            "ipykernel>=4.10",
+            "jupyter-console>=5.2"
+          ],
+          "tests:python_version < \"3\" and platform_python_implementation == \"CPython\"": [
+            "numpy>=1",
+            "trollius>=2.2"
+          ],
+          "backports:python_version >= \"3.6\" and python_version < \"3.7\"": [
+            "dataclasses>=0.8"
+          ],
+          ":platform_python_implementation!='CPython'": [
+            "pyparsing<2.4.8,>=2.4.7"
+          ],
+          "backports:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "typing_extensions>=3.10"
+          ],
+          "backports:python_version < \"3.5\"": [
+            "typing>=3.10"
+          ],
+          "tests:python_version >= \"3.5\"": [
+            "jupyterlab>=2.2"
+          ],
+          "ipython:python_version >= \"3\"": [
+            "ipykernel>=5.5",
+            "ipython>=7.9",
+            "jupytext>=1.8"
+          ],
+          "jupyter:python_version >= \"3.6\"": [
+            "jupyter-client>=7.1.2",
+            "jupyter-console>=6.4"
+          ],
+          "all:python_version >= \"3.6\"": [
+            "jupyter-client>=7.1.2",
+            "typing_extensions>=4.1",
+            "jupyter-console>=6.4"
+          ],
+          "kernel:python_version >= \"3.6\"": [
+            "jupyter-client>=7.1.2"
+          ],
+          "ipython:python_version >= \"3.5\"": [
+            "jupyterlab>=2.2"
+          ],
+          "tests": [
+            "jedi<0.18,>=0.17",
+            "pexpect>=4",
+            "papermill>=1.2",
+            "pytest>=3",
+            "psutil>=5",
+            "jupyter>=1.0"
+          ],
+          "jobs": [
+            "psutil>=5"
+          ],
+          "all:python_version < \"3\" and platform_python_implementation == \"CPython\"": [
+            "trollius>=2.2"
+          ],
+          "docs": [
+            "sphinx>=5.3",
+            "myst-parser>=0.18",
+            "pydata-sphinx-theme>=0.12",
+            "pygments>=2.3"
+          ],
+          "dev:python_version < \"3.5\"": [
+            "typing>=3.10"
+          ],
+          "jupyter:python_version >= \"3\"": [
+            "ipykernel>=5.5",
+            "ipython>=7.9",
+            "jupytext>=1.8"
+          ],
+          "watch": [
+            "watchdog>=0.10"
+          ],
+          "all:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "jupyter-console>=6.1",
+            "typing_extensions>=3.10",
+            "jupyter-client<6.1.13,>=6.1.12"
+          ],
+          "jupyter:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "jupyter-console>=6.1",
+            "jupyter-client<6.1.13,>=6.1.12"
+          ],
+          "mypy:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "typing_extensions>=3.10"
+          ],
+          ":python_version<'3'": [
+            "futures>=3.4",
+            "backports.functools-lru-cache>=1.6",
+            "prompt_toolkit<2,>=1"
+          ],
+          "ipython": [
+            "jedi<0.18,>=0.17",
+            "jupyter>=1.0",
+            "papermill>=1.2"
+          ],
+          "jupyter": [
+            "jedi<0.18,>=0.17",
+            "jupyter>=1.0",
+            "papermill>=1.2"
+          ],
+          "dev:python_version >= \"3.6\"": [
+            "jupyter-client>=7.1.2",
+            "jupyter-console>=6.4"
+          ],
+          "tests:python_version < \"3\" and os_name == \"nt\"": [
+            "pywinpty<0.6,>=0.5"
+          ],
+          "jupyter:python_version >= \"3.5\"": [
+            "jupyterlab>=2.2"
+          ],
+          "ipython:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "jupyter-console>=6.1",
+            "jupyter-client<6.1.13,>=6.1.12"
+          ],
+          "tests:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "jupyter-console>=6.1",
+            "typing_extensions>=3.10",
+            "jupyter-client<6.1.13,>=6.1.12"
+          ],
+          "mypy:python_version >= \"3.6\"": [
+            "typing_extensions>=4.1"
+          ],
+          "mypy": [
+            "mypy[python2]>=0.991",
+            "types-backports>=0.1"
+          ],
+          "tests:python_version < \"3.5\"": [
+            "typing>=3.10"
+          ],
+          "dev:python_version >= \"3.4\"": [
+            "numpy>=1"
+          ],
+          "kernel:python_version >= \"3\"": [
+            "ipython>=7.9",
+            "ipykernel>=5.5"
+          ],
+          ":platform_python_implementation=='CPython'": [
+            "cPyparsing<2.4.8,>=2.4.7.1.2.0"
+          ],
+          "kernel:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "jupyter-client<6.1.13,>=6.1.12"
+          ],
+          "xonsh": [
+            "xonsh>=0.9"
+          ],
+          "all:python_version < \"3.4\"": [
+            "aenum>=3"
+          ],
+          "dev": [
+            "pydata-sphinx-theme>=0.12",
+            "jedi<0.18,>=0.17",
+            "pexpect>=4",
+            "watchdog>=0.10",
+            "pytest>=3",
+            "myst-parser>=0.18",
+            "pygments>=2.3",
+            "papermill>=1.2",
+            "xonsh>=0.9",
+            "psutil>=5",
+            "sphinx>=5.3",
+            "vprof>=0.36",
+            "jupyter>=1.0",
+            "requests>=2.28"
+          ],
+          "tests:python_version < \"3\"": [
+            "jupyter-console>=5.2",
+            "ipykernel>=4.10",
+            "ipython>=5.4",
+            "jupyter-client>=5.3"
+          ],
+          "jupyter:python_version < \"3\" and os_name == \"nt\"": [
+            "pywinpty<0.6,>=0.5"
+          ],
+          "all:python_version < \"3\"": [
+            "jupyter-console>=5.2",
+            "ipykernel>=4.10",
+            "ipython>=5.4",
+            "jupyter-client>=5.3"
+          ],
+          "all:python_version < \"3\" and os_name == \"nt\"": [
+            "pywinpty<0.6,>=0.5"
+          ],
+          ":python_version>='2.7'": [
+            "pygments>=2.3"
+          ],
+          "ipython:python_version >= \"3.6\"": [
+            "jupyter-client>=7.1.2",
+            "jupyter-console>=6.4"
+          ],
+          "all:python_version < \"3.5\"": [
+            "typing>=3.10"
+          ],
+          "backports:python_version < \"3\" and platform_python_implementation == \"CPython\"": [
+            "trollius>=2.2"
+          ],
+          "all:python_version >= \"3.5\"": [
+            "jupyterlab>=2.2"
+          ],
+          "backports:python_version < \"3.4\"": [
+            "aenum>=3"
+          ],
+          "tests:python_version >= \"3.4\"": [
+            "numpy>=1"
+          ],
+          "dev:python_version >= \"3\"": [
+            "ipython>=7.9",
+            "jupytext>=1.8",
+            "ipykernel>=5.5",
+            "pre-commit>=2.20"
+          ]
+        }
+      },
+      "36": {
+        "extras_require": {
+          "kernel": [
+            "jedi<0.18,>=0.17"
+          ],
+          "kernel:python_version < \"3\"": [
+            "ipython>=5.4",
+            "ipykernel>=4.10",
+            "jupyter-client>=5.3"
+          ],
+          "kernel:python_version >= \"3\"": [
+            "ipython>=7.9",
+            "ipykernel>=5.5"
+          ],
+          "kernel:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "jupyter-client<6.1.13,>=6.1.12"
+          ],
+          "kernel:python_version >= \"3.6\"": [
+            "jupyter-client>=7.1.2"
+          ],
+          "kernel:python_version < \"3\" and os_name == \"nt\"": [
+            "pywinpty<0.6,>=0.5"
+          ],
+          "watch": [
+            "watchdog>=0.10"
+          ],
+          "jobs": [
+            "psutil>=5"
+          ],
+          "mypy": [
+            "mypy[python2]>=0.991",
+            "types-backports>=0.1"
+          ],
+          "mypy:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "typing_extensions>=3.10"
+          ],
+          "mypy:python_version >= \"3.6\"": [
+            "typing_extensions>=4.1"
+          ],
+          "backports": [],
+          "backports:python_version < \"3\" and platform_python_implementation == \"CPython\"": [
+            "trollius>=2.2"
+          ],
+          "backports:python_version < \"3.4\"": [
+            "aenum>=3"
+          ],
+          "backports:python_version >= \"3.6\" and python_version < \"3.7\"": [
+            "dataclasses>=0.8"
+          ],
+          "backports:python_version < \"3.5\"": [
+            "typing>=3.10"
+          ],
+          "backports:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "typing_extensions>=3.10"
+          ],
+          "backports:python_version >= \"3.6\"": [
+            "typing_extensions>=4.1"
+          ],
+          "xonsh": [
+            "xonsh>=0.9"
+          ],
+          "jupyter": [
+            "jupyter>=1.0",
+            "papermill>=1.2",
+            "jedi<0.18,>=0.17"
+          ],
+          "jupyter:python_version >= \"3.5\"": [
+            "jupyterlab>=2.2"
+          ],
+          "jupyter:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "jupyter-client<6.1.13,>=6.1.12",
+            "jupyter-console>=6.1"
+          ],
+          "jupyter:python_version < \"3\"": [
+            "ipykernel>=4.10",
+            "jupyter-client>=5.3",
+            "ipython>=5.4",
+            "jupyter-console>=5.2"
+          ],
+          "jupyter:python_version >= \"3\"": [
+            "ipython>=7.9",
+            "jupytext>=1.8",
+            "ipykernel>=5.5"
+          ],
+          "jupyter:python_version >= \"3.6\"": [
+            "jupyter-console>=6.4",
+            "jupyter-client>=7.1.2"
+          ],
+          "jupyter:python_version < \"3\" and os_name == \"nt\"": [
+            "pywinpty<0.6,>=0.5"
+          ],
+          "all": [
+            "types-backports>=0.1",
+            "papermill>=1.2",
+            "jupyter>=1.0",
+            "mypy[python2]>=0.991",
+            "watchdog>=0.10",
+            "xonsh>=0.9",
+            "psutil>=5",
+            "jedi<0.18,>=0.17"
+          ],
+          "all:python_version < \"3.5\"": [
+            "typing>=3.10"
+          ],
+          "all:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "jupyter-client<6.1.13,>=6.1.12",
+            "typing_extensions>=3.10",
+            "jupyter-console>=6.1"
+          ],
+          "all:python_version < \"3\"": [
+            "jupyter-client>=5.3",
+            "ipython>=5.4",
+            "ipykernel>=4.10",
+            "jupyter-console>=5.2"
+          ],
+          "all:python_version >= \"3.6\"": [
+            "jupyter-client>=7.1.2",
+            "typing_extensions>=4.1",
+            "jupyter-console>=6.4"
+          ],
+          "all:python_version < \"3\" and platform_python_implementation == \"CPython\"": [
+            "trollius>=2.2"
+          ],
+          "all:python_version >= \"3\"": [
+            "jupytext>=1.8",
+            "ipython>=7.9",
+            "ipykernel>=5.5"
+          ],
+          "all:python_version < \"3.4\"": [
+            "aenum>=3"
+          ],
+          "all:python_version >= \"3.5\"": [
+            "jupyterlab>=2.2"
+          ],
+          "all:python_version >= \"3.6\" and python_version < \"3.7\"": [
+            "dataclasses>=0.8"
+          ],
+          "all:python_version < \"3\" and os_name == \"nt\"": [
+            "pywinpty<0.6,>=0.5"
+          ],
+          "ipython": [
+            "jupyter>=1.0",
+            "papermill>=1.2",
+            "jedi<0.18,>=0.17"
+          ],
+          "ipython:python_version >= \"3.5\"": [
+            "jupyterlab>=2.2"
+          ],
+          "ipython:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "jupyter-client<6.1.13,>=6.1.12",
+            "jupyter-console>=6.1"
+          ],
+          "ipython:python_version < \"3\"": [
+            "ipykernel>=4.10",
+            "jupyter-client>=5.3",
+            "ipython>=5.4",
+            "jupyter-console>=5.2"
+          ],
+          "ipython:python_version >= \"3\"": [
+            "ipython>=7.9",
+            "jupytext>=1.8",
+            "ipykernel>=5.5"
+          ],
+          "ipython:python_version >= \"3.6\"": [
+            "jupyter-console>=6.4",
+            "jupyter-client>=7.1.2"
+          ],
+          "ipython:python_version < \"3\" and os_name == \"nt\"": [
+            "pywinpty<0.6,>=0.5"
+          ],
+          "docs": [
+            "pygments>=2.3",
+            "pydata-sphinx-theme>=0.12",
+            "sphinx>=5.3",
+            "myst-parser>=0.18"
+          ],
+          "tests": [
+            "pytest>=3",
+            "pexpect>=4",
+            "papermill>=1.2",
+            "jupyter>=1.0",
+            "xonsh>=0.9",
+            "psutil>=5",
+            "jedi<0.18,>=0.17"
+          ],
+          "tests:python_version < \"3.5\"": [
+            "typing>=3.10"
+          ],
+          "tests:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "jupyter-client<6.1.13,>=6.1.12",
+            "typing_extensions>=3.10",
+            "jupyter-console>=6.1"
+          ],
+          "tests:python_version < \"3\"": [
+            "jupyter-client>=5.3",
+            "ipython>=5.4",
+            "ipykernel>=4.10",
+            "jupyter-console>=5.2"
+          ],
+          "tests:python_version >= \"3.6\"": [
+            "jupyter-client>=7.1.2",
+            "typing_extensions>=4.1",
+            "jupyter-console>=6.4"
+          ],
+          "tests:python_version < \"3\" and platform_python_implementation == \"CPython\"": [
+            "trollius>=2.2",
+            "numpy>=1"
+          ],
+          "tests:python_version >= \"3.4\"": [
+            "numpy>=1"
+          ],
+          "tests:python_version >= \"3\"": [
+            "jupytext>=1.8",
+            "ipython>=7.9",
+            "ipykernel>=5.5"
+          ],
+          "tests:python_version < \"3.4\"": [
+            "aenum>=3"
+          ],
+          "tests:python_version >= \"3.5\"": [
+            "jupyterlab>=2.2"
+          ],
+          "tests:python_version >= \"3.6\" and python_version < \"3.7\"": [
+            "dataclasses>=0.8"
+          ],
+          "tests:python_version < \"3\" and os_name == \"nt\"": [
+            "pywinpty<0.6,>=0.5"
+          ],
+          "dev": [
+            "types-backports>=0.1",
+            "pytest>=3",
+            "pexpect>=4",
+            "myst-parser>=0.18",
+            "pydata-sphinx-theme>=0.12",
+            "papermill>=1.2",
+            "vprof>=0.36",
+            "jupyter>=1.0",
+            "pygments>=2.3",
+            "sphinx>=5.3",
+            "mypy[python2]>=0.991",
+            "watchdog>=0.10",
+            "requests>=2.28",
+            "xonsh>=0.9",
+            "psutil>=5",
+            "jedi<0.18,>=0.17"
+          ],
+          "dev:python_version < \"3.5\"": [
+            "typing>=3.10"
+          ],
+          "dev:python_version >= \"3.6\" and python_version < \"3.7\"": [
+            "dataclasses>=0.8"
+          ],
+          "dev:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "jupyter-client<6.1.13,>=6.1.12",
+            "typing_extensions>=3.10",
+            "jupyter-console>=6.1"
+          ],
+          "dev:python_version < \"3\"": [
+            "jupyter-client>=5.3",
+            "ipython>=5.4",
+            "ipykernel>=4.10",
+            "jupyter-console>=5.2"
+          ],
+          "dev:python_version < \"3\" and platform_python_implementation == \"CPython\"": [
+            "trollius>=2.2",
+            "numpy>=1"
+          ],
+          "dev:python_version >= \"3.4\"": [
+            "numpy>=1"
+          ],
+          "dev:python_version >= \"3.6\"": [
+            "typing_extensions>=4.1",
+            "jupyter-console>=6.4",
+            "jupyter-client>=7.1.2"
+          ],
+          "dev:python_version >= \"3\"": [
+            "jupytext>=1.8",
+            "pre-commit>=2.20",
+            "ipython>=7.9",
+            "ipykernel>=5.5"
+          ],
+          "dev:python_version < \"3.4\"": [
+            "aenum>=3"
+          ],
+          "dev:python_version >= \"3.5\"": [
+            "jupyterlab>=2.2"
+          ],
+          "dev:python_version < \"3\" and os_name == \"nt\"": [
+            "pywinpty<0.6,>=0.5"
+          ],
+          ":platform_python_implementation=='CPython'": [
+            "cPyparsing<2.4.8,>=2.4.7.1.2.0"
+          ],
+          ":platform_python_implementation!='CPython'": [
+            "pyparsing<2.4.8,>=2.4.7"
+          ],
+          ":python_version<'2.7'": [
+            "argparse>=1.4"
+          ],
+          ":python_version>='2.7'": [
+            "pygments>=2.3"
+          ],
+          ":python_version<'3'": [
+            "futures>=3.4",
+            "backports.functools-lru-cache>=1.6",
+            "prompt_toolkit<2,>=1"
+          ],
+          ":python_version>='3'": [
+            "prompt_toolkit>=1"
+          ]
+        }
+      },
+      "37": {
+        "extras_require": {
+          "kernel": [
+            "jedi<0.18,>=0.17"
+          ],
+          "kernel:python_version < \"3\"": [
+            "ipython>=5.4",
+            "ipykernel>=4.10",
+            "jupyter-client>=5.3"
+          ],
+          "kernel:python_version >= \"3\"": [
+            "ipython>=7.9",
+            "ipykernel>=5.5"
+          ],
+          "kernel:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "jupyter-client<6.1.13,>=6.1.12"
+          ],
+          "kernel:python_version >= \"3.6\"": [
+            "jupyter-client>=7.1.2"
+          ],
+          "kernel:python_version < \"3\" and os_name == \"nt\"": [
+            "pywinpty<0.6,>=0.5"
+          ],
+          "watch": [
+            "watchdog>=0.10"
+          ],
+          "jobs": [
+            "psutil>=5"
+          ],
+          "mypy": [
+            "mypy[python2]>=0.991",
+            "types-backports>=0.1"
+          ],
+          "mypy:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "typing_extensions>=3.10"
+          ],
+          "mypy:python_version >= \"3.6\"": [
+            "typing_extensions>=4.1"
+          ],
+          "backports": [],
+          "backports:python_version < \"3\" and platform_python_implementation == \"CPython\"": [
+            "trollius>=2.2"
+          ],
+          "backports:python_version < \"3.4\"": [
+            "aenum>=3"
+          ],
+          "backports:python_version >= \"3.6\" and python_version < \"3.7\"": [
+            "dataclasses>=0.8"
+          ],
+          "backports:python_version < \"3.5\"": [
+            "typing>=3.10"
+          ],
+          "backports:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "typing_extensions>=3.10"
+          ],
+          "backports:python_version >= \"3.6\"": [
+            "typing_extensions>=4.1"
+          ],
+          "xonsh": [
+            "xonsh>=0.9"
+          ],
+          "jupyter": [
+            "jupyter>=1.0",
+            "papermill>=1.2",
+            "jedi<0.18,>=0.17"
+          ],
+          "jupyter:python_version >= \"3.5\"": [
+            "jupyterlab>=2.2"
+          ],
+          "jupyter:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "jupyter-client<6.1.13,>=6.1.12",
+            "jupyter-console>=6.1"
+          ],
+          "jupyter:python_version < \"3\"": [
+            "ipykernel>=4.10",
+            "jupyter-client>=5.3",
+            "ipython>=5.4",
+            "jupyter-console>=5.2"
+          ],
+          "jupyter:python_version >= \"3\"": [
+            "ipython>=7.9",
+            "jupytext>=1.8",
+            "ipykernel>=5.5"
+          ],
+          "jupyter:python_version >= \"3.6\"": [
+            "jupyter-console>=6.4",
+            "jupyter-client>=7.1.2"
+          ],
+          "jupyter:python_version < \"3\" and os_name == \"nt\"": [
+            "pywinpty<0.6,>=0.5"
+          ],
+          "all": [
+            "types-backports>=0.1",
+            "papermill>=1.2",
+            "jupyter>=1.0",
+            "mypy[python2]>=0.991",
+            "watchdog>=0.10",
+            "xonsh>=0.9",
+            "psutil>=5",
+            "jedi<0.18,>=0.17"
+          ],
+          "all:python_version < \"3.5\"": [
+            "typing>=3.10"
+          ],
+          "all:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "jupyter-client<6.1.13,>=6.1.12",
+            "typing_extensions>=3.10",
+            "jupyter-console>=6.1"
+          ],
+          "all:python_version < \"3\"": [
+            "jupyter-client>=5.3",
+            "ipython>=5.4",
+            "ipykernel>=4.10",
+            "jupyter-console>=5.2"
+          ],
+          "all:python_version >= \"3.6\"": [
+            "jupyter-client>=7.1.2",
+            "typing_extensions>=4.1",
+            "jupyter-console>=6.4"
+          ],
+          "all:python_version < \"3\" and platform_python_implementation == \"CPython\"": [
+            "trollius>=2.2"
+          ],
+          "all:python_version >= \"3\"": [
+            "jupytext>=1.8",
+            "ipython>=7.9",
+            "ipykernel>=5.5"
+          ],
+          "all:python_version < \"3.4\"": [
+            "aenum>=3"
+          ],
+          "all:python_version >= \"3.5\"": [
+            "jupyterlab>=2.2"
+          ],
+          "all:python_version >= \"3.6\" and python_version < \"3.7\"": [
+            "dataclasses>=0.8"
+          ],
+          "all:python_version < \"3\" and os_name == \"nt\"": [
+            "pywinpty<0.6,>=0.5"
+          ],
+          "ipython": [
+            "jupyter>=1.0",
+            "papermill>=1.2",
+            "jedi<0.18,>=0.17"
+          ],
+          "ipython:python_version >= \"3.5\"": [
+            "jupyterlab>=2.2"
+          ],
+          "ipython:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "jupyter-client<6.1.13,>=6.1.12",
+            "jupyter-console>=6.1"
+          ],
+          "ipython:python_version < \"3\"": [
+            "ipykernel>=4.10",
+            "jupyter-client>=5.3",
+            "ipython>=5.4",
+            "jupyter-console>=5.2"
+          ],
+          "ipython:python_version >= \"3\"": [
+            "ipython>=7.9",
+            "jupytext>=1.8",
+            "ipykernel>=5.5"
+          ],
+          "ipython:python_version >= \"3.6\"": [
+            "jupyter-console>=6.4",
+            "jupyter-client>=7.1.2"
+          ],
+          "ipython:python_version < \"3\" and os_name == \"nt\"": [
+            "pywinpty<0.6,>=0.5"
+          ],
+          "docs": [
+            "pygments>=2.3",
+            "pydata-sphinx-theme>=0.12",
+            "sphinx>=5.3",
+            "myst-parser>=0.18"
+          ],
+          "tests": [
+            "types-backports>=0.1",
+            "pytest>=3",
+            "pexpect>=4",
+            "papermill>=1.2",
+            "jupyter>=1.0",
+            "mypy[python2]>=0.991",
+            "xonsh>=0.9",
+            "psutil>=5",
+            "jedi<0.18,>=0.17"
+          ],
+          "tests:python_version < \"3.5\"": [
+            "typing>=3.10"
+          ],
+          "tests:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "jupyter-client<6.1.13,>=6.1.12",
+            "typing_extensions>=3.10",
+            "jupyter-console>=6.1"
+          ],
+          "tests:python_version < \"3\"": [
+            "jupyter-client>=5.3",
+            "ipython>=5.4",
+            "ipykernel>=4.10",
+            "jupyter-console>=5.2"
+          ],
+          "tests:python_version >= \"3.6\"": [
+            "jupyter-client>=7.1.2",
+            "typing_extensions>=4.1",
+            "jupyter-console>=6.4"
+          ],
+          "tests:python_version < \"3\" and platform_python_implementation == \"CPython\"": [
+            "trollius>=2.2",
+            "numpy>=1"
+          ],
+          "tests:python_version >= \"3.4\"": [
+            "numpy>=1"
+          ],
+          "tests:python_version >= \"3\"": [
+            "jupytext>=1.8",
+            "ipython>=7.9",
+            "ipykernel>=5.5"
+          ],
+          "tests:python_version < \"3.4\"": [
+            "aenum>=3"
+          ],
+          "tests:python_version >= \"3.5\"": [
+            "jupyterlab>=2.2"
+          ],
+          "tests:python_version >= \"3.6\" and python_version < \"3.7\"": [
+            "dataclasses>=0.8"
+          ],
+          "tests:python_version < \"3\" and os_name == \"nt\"": [
+            "pywinpty<0.6,>=0.5"
+          ],
+          "dev": [
+            "types-backports>=0.1",
+            "pytest>=3",
+            "pexpect>=4",
+            "myst-parser>=0.18",
+            "pydata-sphinx-theme>=0.12",
+            "papermill>=1.2",
+            "vprof>=0.36",
+            "jupyter>=1.0",
+            "pygments>=2.3",
+            "sphinx>=5.3",
+            "mypy[python2]>=0.991",
+            "watchdog>=0.10",
+            "requests>=2.28",
+            "xonsh>=0.9",
+            "psutil>=5",
+            "jedi<0.18,>=0.17"
+          ],
+          "dev:python_version < \"3.5\"": [
+            "typing>=3.10"
+          ],
+          "dev:python_version >= \"3.6\" and python_version < \"3.7\"": [
+            "dataclasses>=0.8"
+          ],
+          "dev:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "jupyter-client<6.1.13,>=6.1.12",
+            "typing_extensions>=3.10",
+            "jupyter-console>=6.1"
+          ],
+          "dev:python_version < \"3\"": [
+            "jupyter-client>=5.3",
+            "ipython>=5.4",
+            "ipykernel>=4.10",
+            "jupyter-console>=5.2"
+          ],
+          "dev:python_version < \"3\" and platform_python_implementation == \"CPython\"": [
+            "trollius>=2.2",
+            "numpy>=1"
+          ],
+          "dev:python_version >= \"3.4\"": [
+            "numpy>=1"
+          ],
+          "dev:python_version >= \"3.6\"": [
+            "typing_extensions>=4.1",
+            "jupyter-console>=6.4",
+            "jupyter-client>=7.1.2"
+          ],
+          "dev:python_version >= \"3\"": [
+            "jupytext>=1.8",
+            "pre-commit>=2.20",
+            "ipython>=7.9",
+            "ipykernel>=5.5"
+          ],
+          "dev:python_version < \"3.4\"": [
+            "aenum>=3"
+          ],
+          "dev:python_version >= \"3.5\"": [
+            "jupyterlab>=2.2"
+          ],
+          "dev:python_version < \"3\" and os_name == \"nt\"": [
+            "pywinpty<0.6,>=0.5"
+          ],
+          ":platform_python_implementation=='CPython'": [
+            "cPyparsing<2.4.8,>=2.4.7.1.2.0"
+          ],
+          ":platform_python_implementation!='CPython'": [
+            "pyparsing<2.4.8,>=2.4.7"
+          ],
+          ":python_version<'2.7'": [
+            "argparse>=1.4"
+          ],
+          ":python_version>='2.7'": [
+            "pygments>=2.3"
+          ],
+          ":python_version<'3'": [
+            "futures>=3.4",
+            "backports.functools-lru-cache>=1.6",
+            "prompt_toolkit<2,>=1"
+          ],
+          ":python_version>='3'": [
+            "prompt_toolkit>=1"
+          ]
+        }
+      },
+      "38": "37",
+      "39": "37",
+      "310": "37"
+    },
+    "2.1.1.post0.dev46": "3.0.0a0.dev2",
+    "3.0.0a0.dev2": {
+      "27": {
+        "extras_require": {
+          "kernel": [
+            "jedi<0.18,>=0.17"
+          ],
+          "all": [
+            "mypy[python2]>=0.991",
+            "watchdog>=0.10",
+            "papermill>=1.2",
+            "types-backports>=0.1",
+            "xonsh>=0.9",
+            "psutil>=5",
+            "jedi<0.18,>=0.17",
+            "jupyter>=1.0"
+          ],
+          "tests:python_version >= \"3.6\"": [
+            "jupyter-client>=7.1.2",
+            "typing_extensions>=4.1",
+            "jupyter-console>=6.4"
+          ],
+          "ipython:python_version < \"3\"": [
+            "jupyter-client>=5.3",
+            "ipython>=5.4",
+            "ipykernel>=4.10",
+            "jupyter-console>=5.2"
+          ],
+          "dev:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "jupyter-console>=6.1",
+            "jupyter-client<6.1.13,>=6.1.12"
+          ],
+          ":python_version>='3'": [
+            "prompt_toolkit>=1"
+          ],
+          "dev:python_version >= \"3.6\" and python_version < \"3.7\"": [
+            "dataclasses>=0.8"
+          ],
+          "dev:python_version < \"3\"": [
+            "jupyter-console>=5.2",
+            "ipykernel>=4.10",
+            "ipython>=5.4",
+            "jupyter-client>=5.3"
+          ],
+          "backports": [],
+          "tests:python_version >= \"3.6\" and python_version < \"3.7\"": [
+            "dataclasses>=0.8"
+          ],
+          "dev:python_version < \"3.4\"": [
+            "aenum>=3"
+          ],
+          "kernel:python_version < \"3\" and os_name == \"nt\"": [
+            "pywinpty<0.6,>=0.5"
+          ],
+          "all:python_version >= \"3.6\" and python_version < \"3.7\"": [
+            "dataclasses>=0.8"
+          ],
+          "backports:python_version >= \"3.6\"": [
+            "typing_extensions>=4.1"
+          ],
+          "dev:python_version < \"3\" and os_name == \"nt\"": [
+            "pywinpty<0.6,>=0.5"
+          ],
+          "tests:python_version >= \"3\"": [
+            "ipython>=7.9",
+            "jupytext>=1.8",
+            "ipykernel>=5.5"
+          ],
+          "tests:python_version < \"3.4\"": [
+            "aenum>=3"
+          ],
+          ":python_version<'2.7'": [
+            "argparse>=1.4"
+          ],
+          "dev:python_version >= \"3.5\"": [
+            "jupyterlab>=2.2"
+          ],
+          "all:python_version >= \"3\"": [
+            "ipython>=7.9",
+            "jupytext>=1.8",
+            "ipykernel>=5.5"
+          ],
+          "ipython:python_version < \"3\" and os_name == \"nt\"": [
+            "pywinpty<0.6,>=0.5"
+          ],
+          "dev:python_version < \"3\" and platform_python_implementation == \"CPython\"": [
+            "numpy>=1",
+            "trollius>=2.2"
+          ],
+          "kernel:python_version < \"3\"": [
+            "ipython>=5.4",
+            "ipykernel>=4.10",
+            "jupyter-client>=5.3"
+          ],
+          "jupyter:python_version < \"3\"": [
+            "jupyter-client>=5.3",
+            "ipython>=5.4",
+            "ipykernel>=4.10",
+            "jupyter-console>=5.2"
+          ],
+          "tests:python_version < \"3\" and platform_python_implementation == \"CPython\"": [
+            "numpy>=1",
+            "trollius>=2.2"
+          ],
+          "backports:python_version >= \"3.6\" and python_version < \"3.7\"": [
+            "dataclasses>=0.8"
+          ],
+          ":platform_python_implementation!='CPython'": [
+            "pyparsing<2.4.8,>=2.4.7"
+          ],
+          "backports:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "typing_extensions>=3.10"
+          ],
+          "backports:python_version < \"3.5\"": [
+            "typing>=3.10"
+          ],
+          "tests:python_version >= \"3.5\"": [
+            "jupyterlab>=2.2"
+          ],
+          "ipython:python_version >= \"3\"": [
+            "ipykernel>=5.5",
+            "ipython>=7.9",
+            "jupytext>=1.8"
+          ],
+          "jupyter:python_version >= \"3.6\"": [
+            "jupyter-client>=7.1.2",
+            "jupyter-console>=6.4"
+          ],
+          "all:python_version >= \"3.6\"": [
+            "jupyter-client>=7.1.2",
+            "typing_extensions>=4.1",
+            "jupyter-console>=6.4"
+          ],
+          "kernel:python_version >= \"3.6\"": [
+            "jupyter-client>=7.1.2"
+          ],
+          "ipython:python_version >= \"3.5\"": [
+            "jupyterlab>=2.2"
+          ],
+          "tests": [
+            "jedi<0.18,>=0.17",
+            "pexpect>=4",
+            "papermill>=1.2",
+            "pytest>=3",
+            "psutil>=5",
+            "jupyter>=1.0"
+          ],
+          "jobs": [
+            "psutil>=5"
+          ],
+          "all:python_version < \"3\" and platform_python_implementation == \"CPython\"": [
+            "trollius>=2.2"
+          ],
+          "docs": [
+            "sphinx>=5.3",
+            "myst-parser>=0.18",
+            "pydata-sphinx-theme>=0.12",
+            "pygments>=2.3"
+          ],
+          "dev:python_version < \"3.5\"": [
+            "typing>=3.10"
+          ],
+          "jupyter:python_version >= \"3\"": [
+            "ipykernel>=5.5",
+            "ipython>=7.9",
+            "jupytext>=1.8"
+          ],
+          "watch": [
+            "watchdog>=0.10"
+          ],
+          "all:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "jupyter-console>=6.1",
+            "typing_extensions>=3.10",
+            "jupyter-client<6.1.13,>=6.1.12"
+          ],
+          "jupyter:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "jupyter-console>=6.1",
+            "jupyter-client<6.1.13,>=6.1.12"
+          ],
+          "mypy:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "typing_extensions>=3.10"
+          ],
+          ":python_version<'3'": [
+            "futures>=3.4",
+            "backports.functools-lru-cache>=1.6",
+            "prompt_toolkit<2,>=1"
+          ],
+          "ipython": [
+            "jedi<0.18,>=0.17",
+            "jupyter>=1.0",
+            "papermill>=1.2"
+          ],
+          "jupyter": [
+            "jedi<0.18,>=0.17",
+            "jupyter>=1.0",
+            "papermill>=1.2"
+          ],
+          "dev:python_version >= \"3.6\"": [
+            "jupyter-client>=7.1.2",
+            "jupyter-console>=6.4"
+          ],
+          "tests:python_version < \"3\" and os_name == \"nt\"": [
+            "pywinpty<0.6,>=0.5"
+          ],
+          "jupyter:python_version >= \"3.5\"": [
+            "jupyterlab>=2.2"
+          ],
+          "ipython:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "jupyter-console>=6.1",
+            "jupyter-client<6.1.13,>=6.1.12"
+          ],
+          "tests:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "jupyter-console>=6.1",
+            "typing_extensions>=3.10",
+            "jupyter-client<6.1.13,>=6.1.12"
+          ],
+          "mypy:python_version >= \"3.6\"": [
+            "typing_extensions>=4.1"
+          ],
+          "mypy": [
+            "mypy[python2]>=0.991",
+            "types-backports>=0.1"
+          ],
+          "tests:python_version < \"3.5\"": [
+            "typing>=3.10"
+          ],
+          "dev:python_version >= \"3.4\"": [
+            "numpy>=1"
+          ],
+          "kernel:python_version >= \"3\"": [
+            "ipython>=7.9",
+            "ipykernel>=5.5"
+          ],
+          ":platform_python_implementation=='CPython'": [
+            "cPyparsing<2.4.8,>=2.4.7.1.2.0"
+          ],
+          "kernel:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "jupyter-client<6.1.13,>=6.1.12"
+          ],
+          "xonsh": [
+            "xonsh>=0.9"
+          ],
+          "all:python_version < \"3.4\"": [
+            "aenum>=3"
+          ],
+          "dev": [
+            "pydata-sphinx-theme>=0.12",
+            "jedi<0.18,>=0.17",
+            "pexpect>=4",
+            "watchdog>=0.10",
+            "pytest>=3",
+            "myst-parser>=0.18",
+            "pygments>=2.3",
+            "papermill>=1.2",
+            "xonsh>=0.9",
+            "psutil>=5",
+            "sphinx>=5.3",
+            "vprof>=0.36",
+            "jupyter>=1.0",
+            "requests>=2.28"
+          ],
+          "tests:python_version < \"3\"": [
+            "jupyter-console>=5.2",
+            "ipykernel>=4.10",
+            "ipython>=5.4",
+            "jupyter-client>=5.3"
+          ],
+          "jupyter:python_version < \"3\" and os_name == \"nt\"": [
+            "pywinpty<0.6,>=0.5"
+          ],
+          "all:python_version < \"3\"": [
+            "jupyter-console>=5.2",
+            "ipykernel>=4.10",
+            "ipython>=5.4",
+            "jupyter-client>=5.3"
+          ],
+          "all:python_version < \"3\" and os_name == \"nt\"": [
+            "pywinpty<0.6,>=0.5"
+          ],
+          ":python_version>='2.7'": [
+            "pygments>=2.3"
+          ],
+          "ipython:python_version >= \"3.6\"": [
+            "jupyter-client>=7.1.2",
+            "jupyter-console>=6.4"
+          ],
+          "all:python_version < \"3.5\"": [
+            "typing>=3.10"
+          ],
+          "backports:python_version < \"3\" and platform_python_implementation == \"CPython\"": [
+            "trollius>=2.2"
+          ],
+          "all:python_version >= \"3.5\"": [
+            "jupyterlab>=2.2"
+          ],
+          "backports:python_version < \"3.4\"": [
+            "aenum>=3"
+          ],
+          "tests:python_version >= \"3.4\"": [
+            "numpy>=1"
+          ],
+          "dev:python_version >= \"3\"": [
+            "pre-commit>=2.21",
+            "ipython>=7.9",
+            "jupytext>=1.8",
+            "ipykernel>=5.5"
+          ]
+        }
+      },
+      "36": {
+        "extras_require": {
+          "kernel": [
+            "jedi<0.18,>=0.17"
+          ],
+          "kernel:python_version < \"3\"": [
+            "ipython>=5.4",
+            "ipykernel>=4.10",
+            "jupyter-client>=5.3"
+          ],
+          "kernel:python_version >= \"3\"": [
+            "ipython>=7.9",
+            "ipykernel>=5.5"
+          ],
+          "kernel:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "jupyter-client<6.1.13,>=6.1.12"
+          ],
+          "kernel:python_version >= \"3.6\"": [
+            "jupyter-client>=7.1.2"
+          ],
+          "kernel:python_version < \"3\" and os_name == \"nt\"": [
+            "pywinpty<0.6,>=0.5"
+          ],
+          "watch": [
+            "watchdog>=0.10"
+          ],
+          "jobs": [
+            "psutil>=5"
+          ],
+          "mypy": [
+            "mypy[python2]>=0.991",
+            "types-backports>=0.1"
+          ],
+          "mypy:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "typing_extensions>=3.10"
+          ],
+          "mypy:python_version >= \"3.6\"": [
+            "typing_extensions>=4.1"
+          ],
+          "backports": [],
+          "backports:python_version < \"3\" and platform_python_implementation == \"CPython\"": [
+            "trollius>=2.2"
+          ],
+          "backports:python_version < \"3.4\"": [
+            "aenum>=3"
+          ],
+          "backports:python_version >= \"3.6\" and python_version < \"3.7\"": [
+            "dataclasses>=0.8"
+          ],
+          "backports:python_version < \"3.5\"": [
+            "typing>=3.10"
+          ],
+          "backports:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "typing_extensions>=3.10"
+          ],
+          "backports:python_version >= \"3.6\"": [
+            "typing_extensions>=4.1"
+          ],
+          "xonsh": [
+            "xonsh>=0.9"
+          ],
+          "jupyter": [
+            "jupyter>=1.0",
+            "papermill>=1.2",
+            "jedi<0.18,>=0.17"
+          ],
+          "jupyter:python_version >= \"3.5\"": [
+            "jupyterlab>=2.2"
+          ],
+          "jupyter:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "jupyter-client<6.1.13,>=6.1.12",
+            "jupyter-console>=6.1"
+          ],
+          "jupyter:python_version < \"3\"": [
+            "ipykernel>=4.10",
+            "jupyter-client>=5.3",
+            "ipython>=5.4",
+            "jupyter-console>=5.2"
+          ],
+          "jupyter:python_version >= \"3\"": [
+            "ipython>=7.9",
+            "jupytext>=1.8",
+            "ipykernel>=5.5"
+          ],
+          "jupyter:python_version >= \"3.6\"": [
+            "jupyter-console>=6.4",
+            "jupyter-client>=7.1.2"
+          ],
+          "jupyter:python_version < \"3\" and os_name == \"nt\"": [
+            "pywinpty<0.6,>=0.5"
+          ],
+          "all": [
+            "types-backports>=0.1",
+            "papermill>=1.2",
+            "jupyter>=1.0",
+            "mypy[python2]>=0.991",
+            "watchdog>=0.10",
+            "xonsh>=0.9",
+            "psutil>=5",
+            "jedi<0.18,>=0.17"
+          ],
+          "all:python_version < \"3.5\"": [
+            "typing>=3.10"
+          ],
+          "all:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "jupyter-client<6.1.13,>=6.1.12",
+            "typing_extensions>=3.10",
+            "jupyter-console>=6.1"
+          ],
+          "all:python_version < \"3\"": [
+            "jupyter-client>=5.3",
+            "ipython>=5.4",
+            "ipykernel>=4.10",
+            "jupyter-console>=5.2"
+          ],
+          "all:python_version >= \"3.6\"": [
+            "jupyter-client>=7.1.2",
+            "typing_extensions>=4.1",
+            "jupyter-console>=6.4"
+          ],
+          "all:python_version < \"3\" and platform_python_implementation == \"CPython\"": [
+            "trollius>=2.2"
+          ],
+          "all:python_version >= \"3\"": [
+            "jupytext>=1.8",
+            "ipython>=7.9",
+            "ipykernel>=5.5"
+          ],
+          "all:python_version < \"3.4\"": [
+            "aenum>=3"
+          ],
+          "all:python_version >= \"3.5\"": [
+            "jupyterlab>=2.2"
+          ],
+          "all:python_version >= \"3.6\" and python_version < \"3.7\"": [
+            "dataclasses>=0.8"
+          ],
+          "all:python_version < \"3\" and os_name == \"nt\"": [
+            "pywinpty<0.6,>=0.5"
+          ],
+          "ipython": [
+            "jupyter>=1.0",
+            "papermill>=1.2",
+            "jedi<0.18,>=0.17"
+          ],
+          "ipython:python_version >= \"3.5\"": [
+            "jupyterlab>=2.2"
+          ],
+          "ipython:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "jupyter-client<6.1.13,>=6.1.12",
+            "jupyter-console>=6.1"
+          ],
+          "ipython:python_version < \"3\"": [
+            "ipykernel>=4.10",
+            "jupyter-client>=5.3",
+            "ipython>=5.4",
+            "jupyter-console>=5.2"
+          ],
+          "ipython:python_version >= \"3\"": [
+            "ipython>=7.9",
+            "jupytext>=1.8",
+            "ipykernel>=5.5"
+          ],
+          "ipython:python_version >= \"3.6\"": [
+            "jupyter-console>=6.4",
+            "jupyter-client>=7.1.2"
+          ],
+          "ipython:python_version < \"3\" and os_name == \"nt\"": [
+            "pywinpty<0.6,>=0.5"
+          ],
+          "docs": [
+            "pygments>=2.3",
+            "pydata-sphinx-theme>=0.12",
+            "sphinx>=5.3",
+            "myst-parser>=0.18"
+          ],
+          "tests": [
+            "pytest>=3",
+            "pexpect>=4",
+            "papermill>=1.2",
+            "jupyter>=1.0",
+            "xonsh>=0.9",
+            "psutil>=5",
+            "jedi<0.18,>=0.17"
+          ],
+          "tests:python_version < \"3.5\"": [
+            "typing>=3.10"
+          ],
+          "tests:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "jupyter-client<6.1.13,>=6.1.12",
+            "typing_extensions>=3.10",
+            "jupyter-console>=6.1"
+          ],
+          "tests:python_version < \"3\"": [
+            "jupyter-client>=5.3",
+            "ipython>=5.4",
+            "ipykernel>=4.10",
+            "jupyter-console>=5.2"
+          ],
+          "tests:python_version >= \"3.6\"": [
+            "jupyter-client>=7.1.2",
+            "typing_extensions>=4.1",
+            "jupyter-console>=6.4"
+          ],
+          "tests:python_version < \"3\" and platform_python_implementation == \"CPython\"": [
+            "trollius>=2.2",
+            "numpy>=1"
+          ],
+          "tests:python_version >= \"3.4\"": [
+            "numpy>=1"
+          ],
+          "tests:python_version >= \"3\"": [
+            "jupytext>=1.8",
+            "ipython>=7.9",
+            "ipykernel>=5.5"
+          ],
+          "tests:python_version < \"3.4\"": [
+            "aenum>=3"
+          ],
+          "tests:python_version >= \"3.5\"": [
+            "jupyterlab>=2.2"
+          ],
+          "tests:python_version >= \"3.6\" and python_version < \"3.7\"": [
+            "dataclasses>=0.8"
+          ],
+          "tests:python_version < \"3\" and os_name == \"nt\"": [
+            "pywinpty<0.6,>=0.5"
+          ],
+          "dev": [
+            "types-backports>=0.1",
+            "pytest>=3",
+            "pexpect>=4",
+            "myst-parser>=0.18",
+            "pydata-sphinx-theme>=0.12",
+            "papermill>=1.2",
+            "vprof>=0.36",
+            "jupyter>=1.0",
+            "pygments>=2.3",
+            "sphinx>=5.3",
+            "mypy[python2]>=0.991",
+            "watchdog>=0.10",
+            "requests>=2.28",
+            "xonsh>=0.9",
+            "psutil>=5",
+            "jedi<0.18,>=0.17"
+          ],
+          "dev:python_version < \"3.5\"": [
+            "typing>=3.10"
+          ],
+          "dev:python_version >= \"3.6\" and python_version < \"3.7\"": [
+            "dataclasses>=0.8"
+          ],
+          "dev:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "jupyter-client<6.1.13,>=6.1.12",
+            "typing_extensions>=3.10",
+            "jupyter-console>=6.1"
+          ],
+          "dev:python_version < \"3\"": [
+            "jupyter-client>=5.3",
+            "ipython>=5.4",
+            "ipykernel>=4.10",
+            "jupyter-console>=5.2"
+          ],
+          "dev:python_version < \"3\" and platform_python_implementation == \"CPython\"": [
+            "trollius>=2.2",
+            "numpy>=1"
+          ],
+          "dev:python_version >= \"3.4\"": [
+            "numpy>=1"
+          ],
+          "dev:python_version >= \"3.6\"": [
+            "typing_extensions>=4.1",
+            "jupyter-console>=6.4",
+            "jupyter-client>=7.1.2"
+          ],
+          "dev:python_version >= \"3\"": [
+            "jupytext>=1.8",
+            "pre-commit>=2.21",
+            "ipython>=7.9",
+            "ipykernel>=5.5"
+          ],
+          "dev:python_version < \"3.4\"": [
+            "aenum>=3"
+          ],
+          "dev:python_version >= \"3.5\"": [
+            "jupyterlab>=2.2"
+          ],
+          "dev:python_version < \"3\" and os_name == \"nt\"": [
+            "pywinpty<0.6,>=0.5"
+          ],
+          ":platform_python_implementation=='CPython'": [
+            "cPyparsing<2.4.8,>=2.4.7.1.2.0"
+          ],
+          ":platform_python_implementation!='CPython'": [
+            "pyparsing<2.4.8,>=2.4.7"
+          ],
+          ":python_version<'2.7'": [
+            "argparse>=1.4"
+          ],
+          ":python_version>='2.7'": [
+            "pygments>=2.3"
+          ],
+          ":python_version<'3'": [
+            "futures>=3.4",
+            "backports.functools-lru-cache>=1.6",
+            "prompt_toolkit<2,>=1"
+          ],
+          ":python_version>='3'": [
+            "prompt_toolkit>=1"
+          ]
+        }
+      },
+      "37": {
+        "extras_require": {
+          "kernel": [
+            "jedi<0.18,>=0.17"
+          ],
+          "kernel:python_version < \"3\"": [
+            "ipython>=5.4",
+            "ipykernel>=4.10",
+            "jupyter-client>=5.3"
+          ],
+          "kernel:python_version >= \"3\"": [
+            "ipython>=7.9",
+            "ipykernel>=5.5"
+          ],
+          "kernel:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "jupyter-client<6.1.13,>=6.1.12"
+          ],
+          "kernel:python_version >= \"3.6\"": [
+            "jupyter-client>=7.1.2"
+          ],
+          "kernel:python_version < \"3\" and os_name == \"nt\"": [
+            "pywinpty<0.6,>=0.5"
+          ],
+          "watch": [
+            "watchdog>=0.10"
+          ],
+          "jobs": [
+            "psutil>=5"
+          ],
+          "mypy": [
+            "mypy[python2]>=0.991",
+            "types-backports>=0.1"
+          ],
+          "mypy:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "typing_extensions>=3.10"
+          ],
+          "mypy:python_version >= \"3.6\"": [
+            "typing_extensions>=4.1"
+          ],
+          "backports": [],
+          "backports:python_version < \"3\" and platform_python_implementation == \"CPython\"": [
+            "trollius>=2.2"
+          ],
+          "backports:python_version < \"3.4\"": [
+            "aenum>=3"
+          ],
+          "backports:python_version >= \"3.6\" and python_version < \"3.7\"": [
+            "dataclasses>=0.8"
+          ],
+          "backports:python_version < \"3.5\"": [
+            "typing>=3.10"
+          ],
+          "backports:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "typing_extensions>=3.10"
+          ],
+          "backports:python_version >= \"3.6\"": [
+            "typing_extensions>=4.1"
+          ],
+          "xonsh": [
+            "xonsh>=0.9"
+          ],
+          "jupyter": [
+            "jupyter>=1.0",
+            "papermill>=1.2",
+            "jedi<0.18,>=0.17"
+          ],
+          "jupyter:python_version >= \"3.5\"": [
+            "jupyterlab>=2.2"
+          ],
+          "jupyter:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "jupyter-client<6.1.13,>=6.1.12",
+            "jupyter-console>=6.1"
+          ],
+          "jupyter:python_version < \"3\"": [
+            "ipykernel>=4.10",
+            "jupyter-client>=5.3",
+            "ipython>=5.4",
+            "jupyter-console>=5.2"
+          ],
+          "jupyter:python_version >= \"3\"": [
+            "ipython>=7.9",
+            "jupytext>=1.8",
+            "ipykernel>=5.5"
+          ],
+          "jupyter:python_version >= \"3.6\"": [
+            "jupyter-console>=6.4",
+            "jupyter-client>=7.1.2"
+          ],
+          "jupyter:python_version < \"3\" and os_name == \"nt\"": [
+            "pywinpty<0.6,>=0.5"
+          ],
+          "all": [
+            "types-backports>=0.1",
+            "papermill>=1.2",
+            "jupyter>=1.0",
+            "mypy[python2]>=0.991",
+            "watchdog>=0.10",
+            "xonsh>=0.9",
+            "psutil>=5",
+            "jedi<0.18,>=0.17"
+          ],
+          "all:python_version < \"3.5\"": [
+            "typing>=3.10"
+          ],
+          "all:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "jupyter-client<6.1.13,>=6.1.12",
+            "typing_extensions>=3.10",
+            "jupyter-console>=6.1"
+          ],
+          "all:python_version < \"3\"": [
+            "jupyter-client>=5.3",
+            "ipython>=5.4",
+            "ipykernel>=4.10",
+            "jupyter-console>=5.2"
+          ],
+          "all:python_version >= \"3.6\"": [
+            "jupyter-client>=7.1.2",
+            "typing_extensions>=4.1",
+            "jupyter-console>=6.4"
+          ],
+          "all:python_version < \"3\" and platform_python_implementation == \"CPython\"": [
+            "trollius>=2.2"
+          ],
+          "all:python_version >= \"3\"": [
+            "jupytext>=1.8",
+            "ipython>=7.9",
+            "ipykernel>=5.5"
+          ],
+          "all:python_version < \"3.4\"": [
+            "aenum>=3"
+          ],
+          "all:python_version >= \"3.5\"": [
+            "jupyterlab>=2.2"
+          ],
+          "all:python_version >= \"3.6\" and python_version < \"3.7\"": [
+            "dataclasses>=0.8"
+          ],
+          "all:python_version < \"3\" and os_name == \"nt\"": [
+            "pywinpty<0.6,>=0.5"
+          ],
+          "ipython": [
+            "jupyter>=1.0",
+            "papermill>=1.2",
+            "jedi<0.18,>=0.17"
+          ],
+          "ipython:python_version >= \"3.5\"": [
+            "jupyterlab>=2.2"
+          ],
+          "ipython:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "jupyter-client<6.1.13,>=6.1.12",
+            "jupyter-console>=6.1"
+          ],
+          "ipython:python_version < \"3\"": [
+            "ipykernel>=4.10",
+            "jupyter-client>=5.3",
+            "ipython>=5.4",
+            "jupyter-console>=5.2"
+          ],
+          "ipython:python_version >= \"3\"": [
+            "ipython>=7.9",
+            "jupytext>=1.8",
+            "ipykernel>=5.5"
+          ],
+          "ipython:python_version >= \"3.6\"": [
+            "jupyter-console>=6.4",
+            "jupyter-client>=7.1.2"
+          ],
+          "ipython:python_version < \"3\" and os_name == \"nt\"": [
+            "pywinpty<0.6,>=0.5"
+          ],
+          "docs": [
+            "pygments>=2.3",
+            "pydata-sphinx-theme>=0.12",
+            "sphinx>=5.3",
+            "myst-parser>=0.18"
+          ],
+          "tests": [
+            "types-backports>=0.1",
+            "pytest>=3",
+            "pexpect>=4",
+            "papermill>=1.2",
+            "jupyter>=1.0",
+            "mypy[python2]>=0.991",
+            "xonsh>=0.9",
+            "psutil>=5",
+            "jedi<0.18,>=0.17"
+          ],
+          "tests:python_version < \"3.5\"": [
+            "typing>=3.10"
+          ],
+          "tests:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "jupyter-client<6.1.13,>=6.1.12",
+            "typing_extensions>=3.10",
+            "jupyter-console>=6.1"
+          ],
+          "tests:python_version < \"3\"": [
+            "jupyter-client>=5.3",
+            "ipython>=5.4",
+            "ipykernel>=4.10",
+            "jupyter-console>=5.2"
+          ],
+          "tests:python_version >= \"3.6\"": [
+            "jupyter-client>=7.1.2",
+            "typing_extensions>=4.1",
+            "jupyter-console>=6.4"
+          ],
+          "tests:python_version < \"3\" and platform_python_implementation == \"CPython\"": [
+            "trollius>=2.2",
+            "numpy>=1"
+          ],
+          "tests:python_version >= \"3.4\"": [
+            "numpy>=1"
+          ],
+          "tests:python_version >= \"3\"": [
+            "jupytext>=1.8",
+            "ipython>=7.9",
+            "ipykernel>=5.5"
+          ],
+          "tests:python_version < \"3.4\"": [
+            "aenum>=3"
+          ],
+          "tests:python_version >= \"3.5\"": [
+            "jupyterlab>=2.2"
+          ],
+          "tests:python_version >= \"3.6\" and python_version < \"3.7\"": [
+            "dataclasses>=0.8"
+          ],
+          "tests:python_version < \"3\" and os_name == \"nt\"": [
+            "pywinpty<0.6,>=0.5"
+          ],
+          "dev": [
+            "types-backports>=0.1",
+            "pytest>=3",
+            "pexpect>=4",
+            "myst-parser>=0.18",
+            "pydata-sphinx-theme>=0.12",
+            "papermill>=1.2",
+            "vprof>=0.36",
+            "jupyter>=1.0",
+            "pygments>=2.3",
+            "sphinx>=5.3",
+            "mypy[python2]>=0.991",
+            "watchdog>=0.10",
+            "requests>=2.28",
+            "xonsh>=0.9",
+            "psutil>=5",
+            "jedi<0.18,>=0.17"
+          ],
+          "dev:python_version < \"3.5\"": [
+            "typing>=3.10"
+          ],
+          "dev:python_version >= \"3.6\" and python_version < \"3.7\"": [
+            "dataclasses>=0.8"
+          ],
+          "dev:python_version >= \"3.5\" and python_version < \"3.6\"": [
+            "jupyter-client<6.1.13,>=6.1.12",
+            "typing_extensions>=3.10",
+            "jupyter-console>=6.1"
+          ],
+          "dev:python_version < \"3\"": [
+            "jupyter-client>=5.3",
+            "ipython>=5.4",
+            "ipykernel>=4.10",
+            "jupyter-console>=5.2"
+          ],
+          "dev:python_version < \"3\" and platform_python_implementation == \"CPython\"": [
+            "trollius>=2.2",
+            "numpy>=1"
+          ],
+          "dev:python_version >= \"3.4\"": [
+            "numpy>=1"
+          ],
+          "dev:python_version >= \"3.6\"": [
+            "typing_extensions>=4.1",
+            "jupyter-console>=6.4",
+            "jupyter-client>=7.1.2"
+          ],
+          "dev:python_version >= \"3\"": [
+            "jupytext>=1.8",
+            "pre-commit>=2.21",
+            "ipython>=7.9",
+            "ipykernel>=5.5"
+          ],
+          "dev:python_version < \"3.4\"": [
+            "aenum>=3"
+          ],
+          "dev:python_version >= \"3.5\"": [
+            "jupyterlab>=2.2"
+          ],
+          "dev:python_version < \"3\" and os_name == \"nt\"": [
+            "pywinpty<0.6,>=0.5"
+          ],
+          ":platform_python_implementation=='CPython'": [
+            "cPyparsing<2.4.8,>=2.4.7.1.2.0"
+          ],
+          ":platform_python_implementation!='CPython'": [
+            "pyparsing<2.4.8,>=2.4.7"
+          ],
+          ":python_version<'2.7'": [
+            "argparse>=1.4"
+          ],
+          ":python_version>='2.7'": [
+            "pygments>=2.3"
+          ],
+          ":python_version<'3'": [
+            "futures>=3.4",
+            "backports.functools-lru-cache>=1.6",
+            "prompt_toolkit<2,>=1"
+          ],
+          ":python_version>='3'": [
+            "prompt_toolkit>=1"
+          ]
+        }
+      },
+      "38": "37",
+      "39": "37",
+      "310": "37"
     }
   },
   "codereport": {
@@ -141698,7 +143648,9 @@
       "39": "36",
       "310": "36"
     },
-    "0.4.1": "0.4.0"
+    "0.4.1": "0.4.0",
+    "0.4.5": "0.4.0",
+    "0.5.0": "0.4.0"
   },
   "flaskfilemanager": {
     "0.0.1": {
@@ -166730,7 +168682,8 @@
     "0.0.477": "0.0.337",
     "0.0.478": "0.0.337",
     "0.0.479": "0.0.337",
-    "0.0.480": "0.0.337"
+    "0.0.480": "0.0.337",
+    "0.0.518": "0.0.337"
   },
   "persistedrmq": {
     "0.0.1": {
@@ -184754,7 +186707,8 @@
       "310": "37"
     },
     "1.15.4": "1.15.0",
-    "1.15.5": "1.15.0"
+    "1.15.5": "1.15.0",
+    "1.16.0": "1.15.0"
   },
   "slacken": {
     "0.1.1": {
@@ -188310,7 +190264,10 @@
     "3.0.777": "3.0.378",
     "3.0.778": "3.0.378",
     "3.0.779": "3.0.378",
-    "3.0.780": "3.0.378"
+    "3.0.780": "3.0.378",
+    "3.0.803": "3.0.378",
+    "3.0.805": "3.0.378",
+    "3.0.806": "3.0.378"
   },
   "tencentcloud-sdk-python-cat": {
     "3.0.252": {
@@ -188831,7 +190788,9 @@
     "3.0.777": "3.0.252",
     "3.0.778": "3.0.252",
     "3.0.779": "3.0.252",
-    "3.0.780": "3.0.252"
+    "3.0.780": "3.0.252",
+    "3.0.798": "3.0.252",
+    "3.0.802": "3.0.252"
   },
   "terminable-thread": {
     "0.7": {
@@ -191075,6 +193034,21 @@
       "27": {
         "install_requires": [
           "tutor<15.0.0,>=14.0.0"
+        ],
+        "python_requires": [
+          ">=3.6"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    },
+    "15.0.0": {
+      "27": {
+        "install_requires": [
+          "tutor<16.0.0,>=15.0.0"
         ],
         "python_requires": [
           ">=3.6"
@@ -194907,6 +196881,28 @@
       "310": "36"
     },
     "1.1.1": "1.1.0"
+  },
+  "window2video": {
+    "0.10": {
+      "27": {
+        "install_requires": [
+          "a_cv_imwrite_imread_plus",
+          "ctypes_screenshots",
+          "FastCopyFast",
+          "get_video_len",
+          "keyboard",
+          "list_files_with_timestats",
+          "make_even_odd",
+          "pandas",
+          "plyer"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
   },
   "winning": {
     "0.0.2": {

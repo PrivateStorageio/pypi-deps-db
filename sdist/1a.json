@@ -7733,6 +7733,16 @@
       "310": "36"
     }
   },
+  "assignmenttest": {
+    "0.0.2": {
+      "27": {},
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
+  },
   "astm": {
     "0.4.1": {
       "27": {},
@@ -9856,6 +9866,24 @@
           "aws-cdk-lib==2.33.0",
           "constructs<11.0.0,>=10.0.0",
           "jsii<2.0.0,>=1.63.2",
+          "publication>=0.0.3",
+          "typeguard~=2.13.3"
+        ],
+        "python_requires": [
+          "~=3.7"
+        ]
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    },
+    "1.1.0": {
+      "36": {
+        "install_requires": [
+          "aws-cdk-lib==2.54.0",
+          "constructs<11.0.0,>=10.0.0",
+          "jsii<2.0.0,>=1.71.0",
           "publication>=0.0.3",
           "typeguard~=2.13.3"
         ],
@@ -16030,6 +16058,43 @@
       "38": "36",
       "39": "36",
       "310": "36"
+    },
+    "2.0.45": {
+      "36": {
+        "install_requires": [
+          "aws-cdk-lib<3.0.0,>=2.53.0",
+          "constructs<11.0.0,>=10.1.179",
+          "jsii<2.0.0,>=1.72.0",
+          "publication>=0.0.3",
+          "typeguard~=2.13.3"
+        ],
+        "python_requires": [
+          "~=3.7"
+        ]
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    },
+    "2.0.49": "2.0.45",
+    "2.0.52": {
+      "36": {
+        "install_requires": [
+          "aws-cdk-lib<3.0.0,>=2.58.1",
+          "constructs<11.0.0,>=10.1.205",
+          "jsii<2.0.0,>=1.72.0",
+          "publication>=0.0.3",
+          "typeguard~=2.13.3"
+        ],
+        "python_requires": [
+          "~=3.7"
+        ]
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
     }
   },
   "celerybeat-redis": {
@@ -19335,7 +19400,8 @@
     "0.0.3": "0.0.2",
     "0.1.0": "0.0.2",
     "0.1.1": "0.0.2",
-    "1.0.0": "0.0.2"
+    "1.0.0": "0.0.2",
+    "1.1.0": "0.0.2"
   },
   "custom-jet": {
     "0.1": {
@@ -25472,7 +25538,8 @@
     },
     "1.4.0": "1.3.0",
     "1.4.1": "1.3.0",
-    "1.6.0": "1.3.0"
+    "1.6.0": "1.3.0",
+    "1.7.0": "1.3.0"
   },
   "envoy-reader": {
     "0.1": {
@@ -29972,7 +30039,8 @@
     "2.4.60": "0.0.60",
     "2.4.90": "0.0.60",
     "3.4.90": "0.0.60",
-    "4.4.60": "0.0.60"
+    "4.4.60": "0.0.60",
+    "4.4.80": "0.0.60"
   },
   "formark": {
     "1.0.0": {
@@ -30825,6 +30893,21 @@
     "3.9.4": "3.9.0",
     "3.9.5": "3.9.0",
     "3.10.0": "3.9.0"
+  },
+  "ftc-api": {
+    "0.0.2": {
+      "36": {
+        "install_requires": [
+          "httpx",
+          "attrs",
+          "python-dateutil"
+        ]
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
   },
   "ftw.keywordoverlay": {
     "0.1": {
@@ -62264,7 +62347,366 @@
     "6.2.2": "6.0.6",
     "6.2.3": "6.0.6",
     "6.2.4": "6.0.6",
-    "6.2.5": "6.0.6"
+    "6.2.5": "6.0.6",
+    "6.6.1": {
+      "27": {
+        "install_requires": [
+          "click",
+          "flatdict",
+          "gdstk",
+          "jsondiff",
+          "loguru",
+          "matplotlib",
+          "numpy",
+          "omegaconf",
+          "orjson",
+          "pandas",
+          "pydantic",
+          "pyyaml",
+          "qrcode",
+          "rectpack",
+          "scipy",
+          "shapely",
+          "toolz",
+          "tqdm",
+          "types-PyYAML",
+          "typing_extensions",
+          "watchdog",
+          "xmltodict"
+        ],
+        "extras_require": {
+          "full": [
+            "scikit-fem",
+            "nlopt",
+            "shapely",
+            "freetype-py",
+            "simphony==0.6.1",
+            "toolz",
+            "networkx",
+            "qrcode",
+            "watchdog",
+            "phidl",
+            "click",
+            "holoviews",
+            "typing_extensions",
+            "flatdict",
+            "ipywidgets",
+            "gdstk",
+            "rectpack",
+            "ipympl",
+            "bokeh",
+            "numpy",
+            "pandas",
+            "pydantic",
+            "tqdm",
+            "mapbox_earcut",
+            "flayout",
+            "triangle",
+            "loguru",
+            "autograd",
+            "klayout",
+            "matplotlib",
+            "orjson",
+            "scipy",
+            "sax==0.8.4",
+            "pyvista",
+            "pyyaml",
+            "gmsh",
+            "pygmsh",
+            "jsondiff",
+            "scikit-learn",
+            "meshio",
+            "omegaconf",
+            "xmltodict",
+            "trimesh",
+            "h5py",
+            "scikit-image",
+            "types-PyYAML",
+            "pyglet"
+          ],
+          "dev": [
+            "doc8",
+            "shapely",
+            "ipykernel",
+            "sphinx-markdown-tables==0.0.16",
+            "toolz",
+            "qrcode",
+            "watchdog",
+            "click",
+            "typing_extensions",
+            "flatdict",
+            "gdstk",
+            "pytest",
+            "types-waitress",
+            "rectpack",
+            "numpy",
+            "pandas",
+            "pydantic",
+            "flake8",
+            "tqdm",
+            "xdoctest",
+            "loguru",
+            "autodoc_pydantic",
+            "autotyping",
+            "matplotlib",
+            "orjson",
+            "scipy",
+            "sphinx-copybutton",
+            "pur",
+            "nbsphinx",
+            "pyyaml",
+            "mypy",
+            "pytest-regressions",
+            "myst-parser",
+            "flake8-bugbear",
+            "pydocstyle",
+            "jsondiff",
+            "pytest-cov",
+            "omegaconf",
+            "xmltodict",
+            "docutils==0.17.1",
+            "sphinx-book-theme==0.3.3",
+            "sphinx-autodoc-typehints",
+            "pre-commit",
+            "types-PyYAML",
+            "sphinx-click"
+          ],
+          "sipann": [
+            "SIPANN==2.0.0"
+          ],
+          "tidy3d": [
+            "tidy3d-beta==1.7.1"
+          ],
+          "devsim": [
+            "devsim",
+            "mkl",
+            "pyvista",
+            "tidy3d-beta==1.7.1"
+          ],
+          "exp": [
+            "shapely",
+            "dash",
+            "toolz",
+            "qrcode",
+            "watchdog",
+            "click",
+            "typing_extensions",
+            "flatdict",
+            "gdstk",
+            "rectpack",
+            "numpy",
+            "pandas",
+            "pydantic",
+            "tqdm",
+            "Werkzeug==2.2.2",
+            "loguru",
+            "matplotlib",
+            "orjson",
+            "scipy",
+            "dash-bootstrap-components>=0.8.2",
+            "pyyaml",
+            "jsondiff",
+            "omegaconf",
+            "xmltodict",
+            "types-PyYAML",
+            "jsonschema"
+          ],
+          "gmsh": [
+            "gmsh",
+            "h5py",
+            "mapbox_earcut",
+            "meshio",
+            "pygmsh",
+            "pyvista",
+            "trimesh"
+          ]
+        },
+        "python_requires": [
+          ">=3.7"
+        ]
+      },
+      "36": {
+        "install_requires": [
+          "click",
+          "flatdict",
+          "gdstk",
+          "jsondiff",
+          "loguru",
+          "matplotlib",
+          "numpy",
+          "omegaconf",
+          "orjson",
+          "pandas",
+          "pydantic",
+          "pyyaml",
+          "qrcode",
+          "rectpack",
+          "scipy",
+          "shapely",
+          "toolz",
+          "tqdm",
+          "types-PyYAML",
+          "typing_extensions",
+          "watchdog",
+          "xmltodict"
+        ],
+        "extras_require": {
+          "full": [
+            "pandas",
+            "simphony==0.6.1",
+            "klayout",
+            "pygmsh",
+            "tqdm",
+            "shapely",
+            "watchdog",
+            "omegaconf",
+            "triangle",
+            "scikit-fem",
+            "click",
+            "mapbox_earcut",
+            "phidl",
+            "h5py",
+            "autograd",
+            "flayout",
+            "gmsh",
+            "flatdict",
+            "matplotlib",
+            "qrcode",
+            "scipy",
+            "ipympl",
+            "gdstk",
+            "holoviews",
+            "types-PyYAML",
+            "orjson",
+            "xmltodict",
+            "pyglet",
+            "scikit-learn",
+            "numpy",
+            "bokeh",
+            "ipywidgets",
+            "toolz",
+            "loguru",
+            "typing_extensions",
+            "freetype-py",
+            "meshio",
+            "networkx",
+            "pyvista",
+            "pydantic",
+            "pyyaml",
+            "trimesh",
+            "scikit-image",
+            "rectpack",
+            "nlopt",
+            "jsondiff",
+            "sax==0.8.4"
+          ],
+          "sipann": [
+            "SIPANN==2.0.0"
+          ],
+          "tidy3d": [
+            "tidy3d-beta==1.7.1"
+          ],
+          "devsim": [
+            "devsim",
+            "mkl",
+            "pyvista",
+            "tidy3d-beta==1.7.1"
+          ],
+          "gmsh": [
+            "gmsh",
+            "h5py",
+            "mapbox_earcut",
+            "meshio",
+            "pygmsh",
+            "pyvista",
+            "trimesh"
+          ],
+          "dev": [
+            "flake8",
+            "myst-parser",
+            "sphinx-book-theme==0.3.3",
+            "pur",
+            "pandas",
+            "types-waitress",
+            "mypy",
+            "tqdm",
+            "shapely",
+            "watchdog",
+            "docutils==0.17.1",
+            "nbsphinx",
+            "omegaconf",
+            "pre-commit",
+            "pytest-regressions",
+            "click",
+            "sphinx-markdown-tables==0.0.16",
+            "autotyping",
+            "pytest",
+            "xdoctest",
+            "flatdict",
+            "matplotlib",
+            "qrcode",
+            "ipykernel",
+            "doc8",
+            "scipy",
+            "autodoc_pydantic",
+            "gdstk",
+            "types-PyYAML",
+            "orjson",
+            "sphinx-click",
+            "xmltodict",
+            "numpy",
+            "sphinx-autodoc-typehints",
+            "toolz",
+            "pydocstyle",
+            "sphinx-copybutton",
+            "loguru",
+            "typing_extensions",
+            "flake8-bugbear",
+            "pydantic",
+            "pyyaml",
+            "pytest-cov",
+            "rectpack",
+            "jsondiff"
+          ],
+          "exp": [
+            "pandas",
+            "tqdm",
+            "shapely",
+            "watchdog",
+            "Werkzeug==2.2.2",
+            "omegaconf",
+            "click",
+            "jsonschema",
+            "flatdict",
+            "matplotlib",
+            "qrcode",
+            "scipy",
+            "gdstk",
+            "types-PyYAML",
+            "orjson",
+            "xmltodict",
+            "numpy",
+            "dash-bootstrap-components>=0.8.2",
+            "toolz",
+            "loguru",
+            "typing_extensions",
+            "pydantic",
+            "pyyaml",
+            "rectpack",
+            "dash",
+            "jsondiff"
+          ]
+        },
+        "python_requires": [
+          ">=3.7"
+        ]
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    },
+    "6.7.1": "6.6.1"
   },
   "gemseo-mlearning": {
     "1.0.0": {
@@ -66750,7 +67192,9 @@
     "2.4.0": "2.3.0",
     "2.4.1": "2.3.0",
     "2.4.2": "2.3.0",
-    "2.4.3": "2.3.0"
+    "2.4.3": "2.3.0",
+    "3.0.0": "2.3.0",
+    "3.4.0": "2.3.0"
   },
   "kaboom-python": {
     "0.0.1": {
@@ -67650,25 +68094,6 @@
     "0.0.15": "1.0",
     "1.1.14": "1.0"
   },
-  "keysight-systemvue": {
-    "2023.0": {
-      "36": {
-        "install_requires": [
-          "numpy",
-          "pandas",
-          "psutil",
-          "matplotlib"
-        ],
-        "python_requires": [
-          "==3.10.*"
-        ]
-      },
-      "37": "36",
-      "38": "36",
-      "39": "36",
-      "310": "36"
-    }
-  },
   "kgc": {
     "0.0.1": {
       "36": {
@@ -67866,7 +68291,8 @@
     "0.4.9": "0.1.1",
     "0.5.0": "0.1.1",
     "0.5.1": "0.1.1",
-    "0.5.2": "0.1.1"
+    "0.5.2": "0.1.1",
+    "0.5.3": "0.1.1"
   },
   "kisscartoon-api": {
     "0.1": {
@@ -68969,6 +69395,29 @@
     },
     "0.4": "0.3",
     "0.4.1": "0.3"
+  },
+  "lazyshorts-py": {
+    "0.0.6": {
+      "36": {
+        "install_requires": [
+          "uuid",
+          "python-editor",
+          "torch==1.13.1+cpu",
+          "whisper-openai",
+          "moviepy==2.0.0.dev2",
+          "argparse",
+          "srt",
+          "auto-editor"
+        ],
+        "python_requires": [
+          ">=3.7"
+        ]
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
   },
   "ldh-middleware": {
     "0.0.1": {
@@ -72962,7 +73411,8 @@
       "38": "36",
       "39": "36",
       "310": "36"
-    }
+    },
+    "0.20.0": "0.19.0"
   },
   "mwscan": {
     "20170111.125701": {
@@ -73744,6 +74194,27 @@
           "sympy",
           "numba",
           "tensorflow"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    },
+    "0.7.1": {
+      "27": {
+        "install_requires": [
+          "numpy",
+          "scipy",
+          "spatialmath-python",
+          "sympy",
+          "numba",
+          "tensorflow",
+          "torch",
+          "torchvision",
+          "torchaudio",
+          "needle-shape-sensing"
         ]
       },
       "36": "27",
@@ -79329,7 +79800,9 @@
       "310": "27"
     },
     "1.0": "0.1",
-    "1.1": "0.1"
+    "1.1": "0.1",
+    "2.0": "0.1",
+    "2.1": "0.1"
   },
   "psqlparse": {
     "0.1.1": {
@@ -80480,7 +80953,8 @@
       "39": "36",
       "310": "36"
     },
-    "0.22.1": "0.22.0"
+    "0.22.1": "0.22.0",
+    "0.23.0": "0.22.0"
   },
   "pydamp": {
     "0.0.1": {
@@ -81989,6 +82463,36 @@
       "38": "27",
       "39": "27",
       "310": "27"
+    }
+  },
+  "pype-spark": {
+    "0.1.0": {
+      "36": {
+        "install_requires": [
+          "pype-base==0.1.0",
+          "pyspark>=3.2.1"
+        ],
+        "extras_require": {
+          "dev": [
+            "pype-base==0.1.0",
+            "pyspark==3.2.1",
+            "pandas"
+          ],
+          "test": [
+            "pype-base==0.1.0",
+            "pyspark==3.2.1",
+            "pandas"
+          ],
+          "strict": [
+            "pype-base==0.1.0",
+            "pyspark==3.2.1"
+          ]
+        }
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
     }
   },
   "pypi-mirrors": {
@@ -87659,7 +88163,64 @@
     "0.11.6": "0.11.2",
     "0.11.7": "0.11.2",
     "0.11.8": "0.11.2",
-    "0.11.9": "0.11.2"
+    "0.11.9": "0.11.2",
+    "0.11.10": {
+      "36": {
+        "install_requires": [
+          "blis",
+          "boto",
+          "boto3",
+          "botocore",
+          "certifi",
+          "chardet",
+          "Click",
+          "cymem",
+          "Cython",
+          "DAWG-Python",
+          "decorator",
+          "docopt",
+          "docutils",
+          "Flask",
+          "gensim",
+          "idna",
+          "itsdangerous",
+          "Jinja2",
+          "jmespath",
+          "joblib",
+          "MarkupSafe",
+          "murmurhash",
+          "networkx",
+          "nltk",
+          "numpy",
+          "pymorphy2",
+          "Pyphen",
+          "requests",
+          "s3transfer",
+          "scipy",
+          "sentence-splitter",
+          "six",
+          "sklearn",
+          "smart-open",
+          "spacy>=3",
+          "srsly",
+          "tqdm",
+          "urllib3",
+          "wasabi",
+          "Werkzeug",
+          "pyLDAvis",
+          "unidecode",
+          "xlrd",
+          "xmltodict"
+        ],
+        "python_requires": [
+          ">=3.6"
+        ]
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
   },
   "realpython-reader-tsctest": {
     "1.0.0": {
@@ -89541,6 +90102,11 @@
       "38": "27",
       "39": "27",
       "310": "27"
+    }
+  },
+  "rustkit": {
+    "0.0.2": {
+      "310": {}
     }
   },
   "s3-client-lib": {
@@ -91506,6 +92072,30 @@
     "2022.4.4": "2022.4.2",
     "2022.4.5": "2022.4.2",
     "2022.4.6": "2022.4.2"
+  },
+  "shapefile-to-sqlite": {
+    "0.4.2": {
+      "36": {
+        "install_requires": [
+          "sqlite-utils>=2.2",
+          "Shapely",
+          "Fiona",
+          "pyproj"
+        ],
+        "extras_require": {
+          "test": [
+            "pytest"
+          ]
+        },
+        "tests_require": [
+          "shapefile-to-sqlite[test]"
+        ]
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
   },
   "shenghuo-heike": {
     "2022.10.15.0": {
@@ -93475,6 +94065,31 @@
       "310": "27"
     }
   },
+  "tabcompleter": {
+    "0.2.1": {
+      "27": {
+        "install_requires": [
+          "pyrepl>=0.9.0"
+        ],
+        "extras_require": {
+          ":platform_system == \"Windows\" and python_version < \"3.6\"": [
+            "pyreadline"
+          ],
+          ":platform_system == \"Windows\" and python_version >= \"3.6\"": [
+            "pyreadline3"
+          ]
+        },
+        "python_requires": [
+          ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
+  },
   "tables-3": {
     "0.0.0": {
       "27": {},
@@ -93959,6 +94574,20 @@
     "1.0.2": "1.0.0",
     "1.0.3": "1.0.0",
     "1.0.4": "1.0.0"
+  },
+  "tensorflow3d": {
+    "0.1": {
+      "27": {
+        "install_requires": [
+          "tensorflow"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
   },
   "tensorimage": {
     "1.2.0": {
@@ -95462,6 +96091,38 @@
         ],
         "python_requires": [
           ">=3.0"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
+  },
+  "txsweeper": {
+    "0.1.0": {
+      "27": {
+        "install_requires": [
+          "textual<0.7.0,>=0.6.0"
+        ],
+        "python_requires": [
+          ">=3.10,<4.0"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    },
+    "0.4.1": {
+      "27": {
+        "install_requires": [
+          "textual==0.5.0"
+        ],
+        "python_requires": [
+          ">=3.10,<4.0"
         ]
       },
       "36": "27",

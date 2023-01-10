@@ -173,7 +173,8 @@
     "2.2.8": "1.0.0",
     "2.2.9": "1.0.0",
     "2.2.10": "1.0.0",
-    "2.2.11": "1.0.0"
+    "2.2.11": "1.0.0",
+    "2.2.12": "1.0.0"
   },
   "alibabacloud-ehpc20180412": {
     "1.0.0": {
@@ -1257,7 +1258,8 @@
     "1.1.15": "1.1.8",
     "1.1.16": "1.1.8",
     "1.1.17": "1.1.8",
-    "1.1.18": "1.1.8"
+    "1.1.18": "1.1.8",
+    "1.1.22": "1.1.8"
   },
   "cnewtonprop": {
     "0.0.1.dev1": {
@@ -1431,6 +1433,16 @@
     },
     "2.2.0.1.0.2": "2.2.0.1.0.1",
     "2.2.0.post1": "2.2.0.1"
+  },
+  "crackle-codec": {
+    "0.1.0": {
+      "27": "ImportError: No module named pybind11.setup_helpers",
+      "36": "ModuleNotFoundError: No module named 'pybind11'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
   },
   "cryptogaphy": {
     "1.0.0": {
@@ -2307,7 +2319,8 @@
     "1.2.3": "0.2.5",
     "1.2.4.dev1": "0.2.5",
     "1.2.5": "0.2.5",
-    "1.2.6": "0.2.5"
+    "1.2.6": "0.2.5",
+    "1.2.11": "0.2.5"
   },
   "dragg-gym": {
     "0.0.1": {
@@ -3738,6 +3751,16 @@
   "jiandan-yidong-quanneng-kaiyun-xingmingxue": {
     "2022.11.27.0": {
       "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
+    }
+  },
+  "jkinpylib": {
+    "0.0.4": {
+      "27": "SyntaxError: invalid syntax",
+      "36": "AssertionError: No URDF files found",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
     }
   },
   "jltomorrownight": {
@@ -5203,6 +5226,11 @@
     "0.1.8": "0.1.0",
     "0.1.9": "0.1.0"
   },
+  "opentypespec": {
+    "1.9.1": {
+      "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
+    }
+  },
   "opslib": {
     "0.0.1": {
       "27": "ImportError: No module named boto",
@@ -5735,7 +5763,8 @@
       "310": "36"
     },
     "0.1.1": "0.1.0",
-    "0.1.2": "0.1.0"
+    "0.1.2": "0.1.0",
+    "0.2.1": "0.1.0"
   },
   "pssl": {
     "0.0.1": {
@@ -5762,6 +5791,16 @@
   "publicsuffixlist": {
     "0.6.2": {
       "310": "OSError: [Errno 28] No space left on device"
+    }
+  },
+  "py-basic-commands": {
+    "0.1.32": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
     }
   },
   "py-poloniex": {
@@ -6397,7 +6436,8 @@
       "39": "36"
     },
     "2022.11.2": "2022.11.1",
-    "2022.11.3": "2022.11.1"
+    "2022.11.3": "2022.11.1",
+    "2022.11.5": "2022.11.1"
   },
   "pyverilog-toolbox": {
     "0.0.1": {
@@ -6755,7 +6795,8 @@
     "2022.4.1.0": "2021.2.2.0",
     "2022.4.1.1": "2021.2.2.0",
     "2023.0.0b3": "2021.2.2.0",
-    "2023.0.0b4": "2021.2.2.0"
+    "2023.0.0b4": "2021.2.2.0",
+    "2023.0.0b7": "2021.2.2.0"
   },
   "robux-generator-android-v-8863": {
     "3.825": {
@@ -7030,6 +7071,16 @@
   "shuijing-qingsongliao": {
     "2022.8.16.0": {
       "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
+    }
+  },
+  "simple-dataclass-settings": {
+    "0.0.2": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
     }
   },
   "simple-vector-operations": {
@@ -7947,6 +7998,11 @@
     "6.6.0": "5.0.0",
     "6.4.1": "5.0.0"
   },
+  "ttstokenizer": {
+    "1.0.0": {
+      "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
+    }
+  },
   "tuppy": {
     "0.1.4": {
       "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
@@ -8081,6 +8137,11 @@
     "1.0.0": "0.1.1",
     "0.1.1": {
       "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
+    }
+  },
+  "vs-rename": {
+    "0.1": {
+      "27": "SyntaxError: invalid syntax"
     }
   },
   "vtool-ibeis": {

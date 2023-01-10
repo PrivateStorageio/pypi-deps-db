@@ -48056,6 +48056,248 @@
       "38": "36",
       "39": "36",
       "310": "36"
+    },
+    "2.2.102": {
+      "36": {
+        "install_requires": [
+          "checkov>=2.2.102",
+          "bc-python-hcl2>=0.3.10",
+          "jschema-to-python>=1.2.3",
+          "sarif-om>=1.0.4"
+        ],
+        "extras_require": {
+          "dev": [
+            "checkov>=2.2.102",
+            "bc-python-hcl2>=0.3.10",
+            "sarif-om>=1.0.4",
+            "jschema-to-python>=1.2.3"
+          ]
+        }
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    },
+    "2.2.105": {
+      "36": {
+        "install_requires": [
+          "checkov>=2.2.105",
+          "bc-python-hcl2>=0.3.10",
+          "jschema-to-python>=1.2.3",
+          "sarif-om>=1.0.4"
+        ],
+        "extras_require": {
+          "dev": [
+            "checkov>=2.2.105",
+            "bc-python-hcl2>=0.3.10",
+            "sarif-om>=1.0.4",
+            "jschema-to-python>=1.2.3"
+          ]
+        }
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    },
+    "2.2.124": {
+      "36": {
+        "install_requires": [
+          "checkov>=2.2.124",
+          "bc-python-hcl2>=0.3.10",
+          "jschema-to-python>=1.2.3",
+          "sarif-om>=1.0.4"
+        ],
+        "extras_require": {
+          "dev": [
+            "checkov>=2.2.124",
+            "bc-python-hcl2>=0.3.10",
+            "sarif-om>=1.0.4",
+            "jschema-to-python>=1.2.3"
+          ]
+        }
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    },
+    "2.2.133": {
+      "36": {
+        "install_requires": [
+          "checkov>=2.2.133",
+          "bc-python-hcl2>=0.3.10",
+          "jschema-to-python>=1.2.3",
+          "sarif-om>=1.0.4"
+        ],
+        "extras_require": {
+          "dev": [
+            "checkov>=2.2.133",
+            "bc-python-hcl2>=0.3.10",
+            "sarif-om>=1.0.4",
+            "jschema-to-python>=1.2.3"
+          ]
+        }
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    },
+    "2.2.170": {
+      "36": {
+        "install_requires": [
+          "checkov>=2.2.170",
+          "bc-python-hcl2>=0.3.10",
+          "jschema-to-python>=1.2.3",
+          "sarif-om>=1.0.4"
+        ],
+        "extras_require": {
+          "dev": [
+            "checkov>=2.2.170",
+            "bc-python-hcl2>=0.3.10",
+            "sarif-om>=1.0.4",
+            "jschema-to-python>=1.2.3"
+          ]
+        }
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    },
+    "2.2.176": {
+      "36": {
+        "install_requires": [
+          "checkov>=2.2.176",
+          "bc-python-hcl2>=0.3.10",
+          "jschema-to-python>=1.2.3",
+          "sarif-om>=1.0.4"
+        ],
+        "extras_require": {
+          "dev": [
+            "checkov>=2.2.176",
+            "bc-python-hcl2>=0.3.10",
+            "sarif-om>=1.0.4",
+            "jschema-to-python>=1.2.3"
+          ]
+        }
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    },
+    "2.2.178": {
+      "36": {
+        "install_requires": [
+          "checkov>=2.2.178",
+          "bc-python-hcl2>=0.3.10",
+          "jschema-to-python>=1.2.3",
+          "sarif-om>=1.0.4"
+        ],
+        "extras_require": {
+          "dev": [
+            "checkov>=2.2.178",
+            "bc-python-hcl2>=0.3.10",
+            "sarif-om>=1.0.4",
+            "jschema-to-python>=1.2.3"
+          ]
+        }
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    },
+    "2.2.195": {
+      "36": {
+        "install_requires": [
+          "checkov>=2.2.195",
+          "bc-python-hcl2>=0.3.10",
+          "jschema-to-python>=1.2.3",
+          "sarif-om>=1.0.4"
+        ],
+        "extras_require": {
+          "dev": [
+            "checkov>=2.2.195",
+            "bc-python-hcl2>=0.3.10",
+            "sarif-om>=1.0.4",
+            "jschema-to-python>=1.2.3"
+          ]
+        }
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    },
+    "2.2.237": {
+      "36": {
+        "install_requires": [
+          "checkov>=2.2.237",
+          "bc-python-hcl2>=0.3.10",
+          "jschema-to-python>=1.2.3",
+          "sarif-om>=1.0.4"
+        ],
+        "extras_require": {
+          "dev": [
+            "checkov>=2.2.237",
+            "bc-python-hcl2>=0.3.10",
+            "sarif-om>=1.0.4",
+            "jschema-to-python>=1.2.3"
+          ]
+        }
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    },
+    "2.2.243": {
+      "36": {
+        "install_requires": [
+          "checkov>=2.2.243",
+          "bc-python-hcl2>=0.3.10",
+          "jschema-to-python>=1.2.3",
+          "sarif-om>=1.0.4"
+        ],
+        "extras_require": {
+          "dev": [
+            "checkov>=2.2.243",
+            "bc-python-hcl2>=0.3.10",
+            "sarif-om>=1.0.4",
+            "jschema-to-python>=1.2.3"
+          ]
+        }
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    },
+    "2.2.250": {
+      "36": {
+        "install_requires": [
+          "checkov>=2.2.250",
+          "bc-python-hcl2>=0.3.10",
+          "jschema-to-python>=1.2.3",
+          "sarif-om>=1.0.4"
+        ],
+        "extras_require": {
+          "dev": [
+            "checkov>=2.2.250",
+            "bc-python-hcl2>=0.3.10",
+            "sarif-om>=1.0.4",
+            "jschema-to-python>=1.2.3"
+          ]
+        }
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
     }
   },
   "bropy": {
@@ -49427,7 +49669,8 @@
       "38": "27",
       "39": "27",
       "310": "27"
-    }
+    },
+    "3.1.0b1": "3.1.0"
   },
   "chainermn": {
     "1.2.0": {
@@ -84111,6 +84354,23 @@
     "0.1.7": "0.1.0",
     "0.1.8": "0.1.0"
   },
+  "mkdocs-encriptmail-plugin": {
+    "0.9.6": {
+      "27": {
+        "install_requires": [
+          "mkdocs"
+        ],
+        "python_requires": [
+          ">=3.5"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
+  },
   "mkpkg": {
     "0.1.0": {
       "27": {
@@ -93172,7 +93432,55 @@
       "39": "27",
       "310": "27"
     },
-    "3.0.0b2": "3.0.0b1"
+    "3.0.0b2": "3.0.0b1",
+    "3.0.0": {
+      "27": {
+        "install_requires": [
+          "DateTime>=4.0.1",
+          "plone.alterego",
+          "plone.autoform>=1.0",
+          "plone.behavior>=1.0",
+          "plone.folder",
+          "plone.memoize",
+          "plone.rfc822",
+          "plone.supermodel>=1.0",
+          "plone.uuid",
+          "plone.z3cform>=0.6.0",
+          "Products.CMFCore",
+          "Products.CMFDynamicViewFTI",
+          "Products.statusmessages",
+          "setuptools",
+          "zope.annotation",
+          "zope.browser",
+          "zope.component",
+          "zope.container",
+          "zope.dottedname",
+          "zope.globalrequest",
+          "zope.filerepresentation>=3.6.0",
+          "zope.interface",
+          "zope.lifecycleevent",
+          "zope.publisher",
+          "zope.schema",
+          "zope.security",
+          "zope.size",
+          "Zope"
+        ],
+        "extras_require": {
+          "test": [
+            "plone.testing",
+            "Products.CMFPlone"
+          ]
+        },
+        "python_requires": [
+          ">=3.8"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
   },
   "ploomcake.installer": {
     "0.10": "0.9",
@@ -96982,7 +97290,8 @@
       "38": "27",
       "39": "27",
       "310": "27"
-    }
+    },
+    "3.4.0": "3.3.0"
   },
   "pylink-utils": {
     "1.1.0": {
@@ -97080,6 +97389,30 @@
       "39": "27",
       "310": "27"
     }
+  },
+  "pymape": {
+    "0.1.0a4": {
+      "27": {
+        "install_requires": [
+          "PyYAML<7.0,>=6.0",
+          "Rx<4.0.0,>=3.2.0",
+          "aiohttp<4.0.0,>=3.8.1",
+          "fastapi<0.74,>=0.73",
+          "influxdb-client<2.0.0,>=1.26.0",
+          "redis-purse<0.26.0,>=0.25.0",
+          "uvicorn<0.18.0,>=0.17.4"
+        ],
+        "python_requires": [
+          ">=3.8,<4.0"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    },
+    "0.1.0a5": "0.1.0a4"
   },
   "pymatviz": {
     "0.4.0": {
@@ -107666,6 +107999,30 @@
       "38": "27",
       "39": "27",
       "310": "27"
+    },
+    "0.14": {
+      "27": {
+        "install_requires": [
+          "google-api-python-client",
+          "google-auth-httplib2",
+          "google-auth-oauthlib",
+          "affine",
+          "numpy",
+          "pandas",
+          "geopandas",
+          "requests",
+          "shapely",
+          "rasterio"
+        ],
+        "python_requires": [
+          ">=3.11"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
     }
   },
   "rdata": {
@@ -114932,7 +115289,8 @@
     },
     "0.6.2": "0.6.1",
     "0.6.3": "0.6.1",
-    "0.6.4": "0.6.1"
+    "0.6.4": "0.6.1",
+    "0.7.1": "0.6.1"
   },
   "streamingxmlwriter": {
     "1.0.0": {
@@ -115966,7 +116324,8 @@
       "39": "27",
       "310": "27"
     },
-    "0.1.0": "0.0.0"
+    "0.1.0": "0.0.0",
+    "0.1.1": "0.0.0"
   },
   "telegram-usernames-checker": {
     "0.1": {
@@ -116617,7 +116976,8 @@
     "3.0.777": "3.0.252",
     "3.0.778": "3.0.252",
     "3.0.779": "3.0.252",
-    "3.0.780": "3.0.252"
+    "3.0.780": "3.0.252",
+    "3.0.811": "3.0.252"
   },
   "tencentcloud-sdk-python-partners": {
     "3.0.252": {
@@ -117133,7 +117493,11 @@
     "3.0.777": "3.0.252",
     "3.0.778": "3.0.252",
     "3.0.779": "3.0.252",
-    "3.0.780": "3.0.252"
+    "3.0.780": "3.0.252",
+    "3.0.790": "3.0.252",
+    "3.0.793": "3.0.252",
+    "3.0.801": "3.0.252",
+    "3.0.807": "3.0.252"
   },
   "tensorcam": {
     "0.0.1": {
@@ -119901,7 +120265,8 @@
     "10.3.5": "10.3.2",
     "10.3.6": "10.3.2",
     "10.3.7": "10.3.2",
-    "10.4.0": "10.3.2"
+    "10.4.0": "10.3.2",
+    "10.6.0": "10.3.2"
   },
   "tree-to-table": {
     "0.1.0": {

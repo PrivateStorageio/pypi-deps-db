@@ -280,6 +280,16 @@
     "3.2": "3.0",
     "3.3": "3.0"
   },
+  "am4894airflowutils": {
+    "0.0.1": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
   "amsterdam-airflow-postgres-check-operator": {
     "1.1": {
       "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
@@ -677,7 +687,8 @@
     "1.178.0": "1.150.0",
     "1.179.0": "1.150.0",
     "1.180.0": "1.150.0",
-    "1.181.0": "1.150.0"
+    "1.181.0": "1.150.0",
+    "1.186.1": "1.150.0"
   },
   "aws-cdk.aws-codeartifact": {
     "1.100.0": "1.71.0",
@@ -1079,7 +1090,8 @@
     "1.178.0": "1.71.0",
     "1.179.0": "1.71.0",
     "1.180.0": "1.71.0",
-    "1.181.0": "1.71.0"
+    "1.181.0": "1.71.0",
+    "1.181.1": "1.71.0"
   },
   "aws-iam-utils": {
     "1.3.0": {
@@ -1393,7 +1405,8 @@
     },
     "0.0.7": "0.0.6",
     "0.0.8": "0.0.6",
-    "0.0.9": "0.0.6"
+    "0.0.9": "0.0.6",
+    "0.0.11": "0.0.6"
   },
   "chemner": {
     "0.0.1": {
@@ -1706,6 +1719,16 @@
     "0.0.0": {
       "27": "IOError: [Errno 2] No such file or directory: 'VERSION'",
       "36": "FileNotFoundError: [Errno 2] No such file or directory: 'VERSION'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
+  "cp-utils-hmv": {
+    "0.2.0": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
       "37": "36",
       "38": "36",
       "39": "36",
@@ -3083,7 +3106,8 @@
     "0.1.2": "0.1.0",
     "0.1.3": "0.1.0",
     "0.1.4": "0.1.0",
-    "0.1.5": "0.1.0"
+    "0.1.5": "0.1.0",
+    "0.1.6": "0.1.0"
   },
   "flask-resteasy": {
     "0.0.1": {
@@ -3786,7 +3810,15 @@
       "310": "36"
     },
     "1.2": "1.1",
-    "1.3": "1.1"
+    "1.3": "1.1",
+    "1.4.1": {
+      "27": "IOError: [Errno 2] No such file or directory: 'requirements.txt'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'requirements.txt'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
   },
   "gquantlab": {
     "0.1.2": {
@@ -3910,6 +3942,20 @@
       "36": "\n==========================\nUnsupported Python version\n==========================\nThis version of Harp Agent requires Python 3.7, but you're trying to\ninstall it on Python 3.6.\nPlease install Python version >=3.7\n"
     },
     "1.0.9": "1.0.8"
+  },
+  "hatch-msgfmt": {
+    "0.0.24": "0.0.8",
+    "0.0.26": "0.0.8",
+    "0.0.27": "0.0.8",
+    "0.0.8": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    },
+    "1.0.0": "0.0.8"
   },
   "hbdl": {
     "0.0.1": {
@@ -5920,6 +5966,16 @@
       "310": "36"
     }
   },
+  "pastell-admin": {
+    "0.1.1": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
   "pastepwn": {
     "1.0.10": "1.0.9",
     "1.0.11": "1.0.9",
@@ -7179,7 +7235,8 @@
     "0.0.5": "0.0.1",
     "0.0.6": "0.0.1",
     "0.0.7": "0.0.1",
-    "0.0.8": "0.0.1"
+    "0.0.8": "0.0.1",
+    "2.0.3": "0.0.1"
   },
   "python-athena": {
     "0.1": {
@@ -8131,7 +8188,8 @@
   "snowlock": {
     "0.0.1": {
       "27": "SyntaxError: invalid syntax"
-    }
+    },
+    "0.0.2": "0.0.1"
   },
   "sololearnlib": {
     "4.0.0": {
@@ -8810,7 +8868,12 @@
     "2022.11.24": "2022.8.2",
     "2022.11.25": "2022.8.2",
     "2022.11.26": "2022.8.2",
-    "2022.11.27": "2022.8.2"
+    "2022.11.27": "2022.8.2",
+    "2022.12.12": "2022.8.2",
+    "2022.12.16": "2022.8.2",
+    "2022.12.21": "2022.8.2",
+    "2022.12.5": "2022.8.2",
+    "2022.12.7": "2022.8.2"
   },
   "trading212": {
     "0.1.2": {

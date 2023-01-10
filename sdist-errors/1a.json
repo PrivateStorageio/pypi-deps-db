@@ -409,7 +409,9 @@
     "6.8.5": "4.2.0",
     "6.8.6": "4.2.0",
     "6.8.7": "4.2.0",
-    "6.9.0": "4.2.0"
+    "6.9.0": "4.2.0",
+    "6.10.0a0": "4.2.0",
+    "6.10.1": "4.2.0"
   },
   "antchain-twoe": {
     "1.0.3": {
@@ -513,7 +515,8 @@
       "38": "36",
       "39": "36",
       "310": "36"
-    }
+    },
+    "1.3.0": "1.2.0"
   },
   "appomatic-cmsplugin-phlog": {
     "0.0.10": "0.0.9",
@@ -698,7 +701,8 @@
     "0.42.0": "1.0.0",
     "1.0.0": {
       "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
-    }
+    },
+    "1.1.0": "1.0.0"
   },
   "babelrts": {
     "1.1.7": {
@@ -858,7 +862,8 @@
     },
     "2022.11.4.1": "2022.7.2.0",
     "2022.11.6.1": "2022.7.2.0",
-    "2022.11.24.0": "2022.7.2.0"
+    "2022.11.24.0": "2022.7.2.0",
+    "2022.12.11.0": "2022.7.2.0"
   },
   "botafar": {
     "0.0.2": {
@@ -1212,7 +1217,9 @@
     "1.14.0": "1.13.5",
     "1.15.0": "1.13.5",
     "1.15.1": "1.13.5",
-    "1.16.0": "1.13.5"
+    "1.16.0": "1.13.5",
+    "1.16.2": "1.13.5",
+    "1.16.6": "1.13.5"
   },
   "cdcam": {
     "1.0.0": {
@@ -1361,7 +1368,10 @@
     "2.0.37": "0.1.2",
     "2.0.38": "0.1.2",
     "2.0.39": "0.1.2",
-    "2.0.40": "0.1.2"
+    "2.0.40": "0.1.2",
+    "2.0.45": "0.1.2",
+    "2.0.49": "0.1.2",
+    "2.0.52": "0.1.2"
   },
   "certbot-dns-porkbun": {
     "0.1": {
@@ -3188,7 +3198,8 @@
     "2.4.60": "0.0.60",
     "2.4.90": "0.0.60",
     "3.4.90": "0.0.60",
-    "4.4.60": "0.0.60"
+    "4.4.60": "0.0.60",
+    "4.4.80": "0.0.60"
   },
   "formark": {
     "1.0.9": {
@@ -3423,6 +3434,11 @@
     "3.9.4": "3.6.0",
     "3.9.5": "3.6.0",
     "3.10.0": "3.6.0"
+  },
+  "ftc-api": {
+    "0.0.2": {
+      "27": "ImportError: No module named pathlib"
+    }
   },
   "fteikpy": {
     "1.0.0": {
@@ -3710,7 +3726,19 @@
       "38": "36",
       "39": "36",
       "310": "36"
-    }
+    },
+    "6.12.0": "6.7.3",
+    "6.14.0": "6.7.3",
+    "6.19.1": "6.7.3",
+    "6.7.3": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    },
+    "6.8.1": "6.7.3"
   },
   "gemseo-mlearning": {
     "1.0.0": {
@@ -4588,6 +4616,16 @@
     "3.0.6": "3.0.4",
     "3.0.7": "3.0.4"
   },
+  "kcmtong-533-trypypi": {
+    "1.0": {
+      "27": "these 2 derivations will be built:\n /nix/store/#hash#-kcmtong-533_trypypi-#PKG_VER#.tar.gz.drv\n /nix/store/#hash#-kcmtong-533-trypypi-#PKG_VER#-requirements.drv\nbuilding '/nix/store/#hash#-kcmtong-533_trypypi-#PKG_VER#.tar.gz.drv'...\n\ntrying https://files.pythonhosted.org/packages/source/k/kcmtong-533-trypypi/kcmtong-533_trypypi-#PKG_VER#.tar.gz\n % Total % Received % Xferd Average Speed Time Time Time Current\n Dload Upload Total Spent Left Speed\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0\ncurl: (22) The requested URL returned error: 404 \nerror: cannot download kcmtong-533_trypypi-#PKG_VER#.tar.gz from any mirror\nerror: builder for '/nix/store/#hash#-kcmtong-533_trypypi-#PKG_VER#.tar.gz.drv' failed with exit code 1;\n last 7 log lines:\n >\n > trying https://files.pythonhosted.org/packages/source/k/kcmtong-533-trypypi/kcmtong-533_trypypi-#PKG_VER#.tar.gz\n > % Total % Received % Xferd Average Speed Time Time Time Current\n > Dload Upload Total Spent Left Speed\n > 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0\n > curl: (22) The requested URL returned error: 404\n > error: cannot download kcmtong-533_trypypi-#PKG_VER#.tar.gz from any mirror\n For full logs, run 'nix log /nix/store/#hash#-kcmtong-533_trypypi-#PKG_VER#.tar.gz.drv'.\nerror: 1 dependencies of derivation '/nix/store/#hash#-kcmtong-533-trypypi-#PKG_VER#-requirements.drv' failed to build\n",
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
+  },
   "keithferns98-oneneuron": {
     "0.0.1": {
       "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
@@ -4717,7 +4755,8 @@
     "0.4.9": "0.1",
     "0.5.0": "0.1",
     "0.5.1": "0.1",
-    "0.5.2": "0.1"
+    "0.5.2": "0.1",
+    "0.5.3": "0.1"
   },
   "kiwi": {
     "9.18.27": "9.19.0",
@@ -4988,6 +5027,19 @@
       "310": "36"
     }
   },
+  "lazyshorts-py": {
+    "0.0.1": {
+      "27": "TypeError: 'encoding' is an invalid keyword argument for this function",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'requirements.txt'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    },
+    "0.0.6": {
+      "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
+    }
+  },
   "leeger": {
     "0.8.0": {
       "27": "ImportError: No module named _version",
@@ -5205,7 +5257,8 @@
     "0.5.2.dev1": "0.5.0",
     "0.5.3": "0.5.0",
     "0.5.3.dev0": "0.5.0",
-    "0.6.0.dev13": "0.5.0"
+    "0.6.0.dev13": "0.5.0",
+    "0.6.0.dev15": "0.5.0"
   },
   "mavis": {
     "2.1.2": {
@@ -5404,7 +5457,8 @@
     "0.17.1": "0.17.0",
     "0.17.2": "0.17.0",
     "0.18.0": "0.17.0",
-    "0.19.0": "0.17.0"
+    "0.19.0": "0.17.0",
+    "0.20.0": "0.17.0"
   },
   "mypackage-pkg-velurubhanuprakash": {
     "0.0.2": {
@@ -5927,7 +5981,8 @@
     },
     "1.0.1": "1.0.0",
     "1.0.2": "1.0.0",
-    "1.0.3": "1.0.0"
+    "1.0.3": "1.0.0",
+    "1.0.6": "1.0.0"
   },
   "pulumi-splunk": {
     "0.1.0": {
@@ -6236,7 +6291,8 @@
     "0.19.2": "0.5.0",
     "0.20.0": "0.5.0",
     "0.22.0": "0.5.0",
-    "0.22.1": "0.5.0"
+    "0.22.1": "0.5.0",
+    "0.23.0": "0.5.0"
   },
   "pydipapi": {
     "0.0.1": {
@@ -6442,6 +6498,11 @@
     "0.7.0-beta.6": "0.7.0-beta.3",
     "0.7.0-beta.7": "0.7.0-beta.3",
     "0.7.0-beta.8": "0.7.0-beta.3"
+  },
+  "pype-spark": {
+    "0.1.0": {
+      "27": "SyntaxError: invalid syntax"
+    }
   },
   "pypi-mirrors": {
     "0.0.1": {
@@ -7177,7 +7238,8 @@
     "0.11.6": "0.9.4",
     "0.11.7": "0.9.4",
     "0.11.8": "0.9.4",
-    "0.11.9": "0.9.4"
+    "0.11.9": "0.9.4",
+    "0.11.10": "0.9.4"
   },
   "reachy-2019": {
     "1.4.0": {
@@ -7593,6 +7655,15 @@
       "310": "39"
     }
   },
+  "rustkit": {
+    "0.0.2": {
+      "27": "SyntaxError: Non-ASCII character '\\xcc' in file rustkit/option.py on line #NUM#, but no encoding declared; see http://python#VER#org/dev/peps/pep-0263/ for details",
+      "36": "SyntaxError: future feature annotations is not defined",
+      "37": "ImportError: cannot import name 'NoneType' from 'types' (/nix/store/#hash#-python#VER#env-patched/lib/python#VER#/types.py)",
+      "38": "37",
+      "39": "37"
+    }
+  },
   "rustpy-tools": {
     "0.2.0": {
       "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
@@ -7769,6 +7840,11 @@
     "1.0.1": "1.0.0",
     "1.0.2": "1.0.0",
     "1.0.3": "1.0.0"
+  },
+  "shapefile-to-sqlite": {
+    "0.4.2": {
+      "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
+    }
   },
   "shaphinx": {
     "0.1.3": {
@@ -8354,6 +8430,16 @@
     "0.0.2": "0.0.1",
     "0.0.3": "0.0.1",
     "1.0.4": "0.0.1"
+  },
+  "thunderstruck-bms": {
+    "1.0.2": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
   },
   "tiptap-parser": {
     "0.0.3": {

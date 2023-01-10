@@ -547,7 +547,9 @@
     "1.178.0": "1.104.0",
     "1.179.0": "1.104.0",
     "1.180.0": "1.104.0",
-    "1.181.0": "1.104.0"
+    "1.181.0": "1.104.0",
+    "1.183.0": "1.104.0",
+    "1.187.0": "1.104.0"
   },
   "aws-cdk.aws-wafregional": {
     "1.100.0": "1.71.0",
@@ -706,7 +708,9 @@
     "1.178.0": "1.101.0",
     "1.179.0": "1.101.0",
     "1.180.0": "1.101.0",
-    "1.181.0": "1.101.0"
+    "1.181.0": "1.101.0",
+    "1.182.0": "1.101.0",
+    "1.183.0": "1.101.0"
   },
   "ayarami": {
     "0.0.1": {
@@ -1930,7 +1934,9 @@
     },
     "0.0.2": "0.0.1",
     "0.0.3": "0.0.1",
-    "0.0.3a0": "0.0.1"
+    "0.0.3a0": "0.0.1",
+    "0.0.4": "0.0.1",
+    "0.0.5": "0.0.1"
   },
   "datasets-bleu": {
     "0.2": {
@@ -2139,7 +2145,8 @@
     "0.0.4b1": "0.0.1b3",
     "0.0.4b2": "0.0.1b3",
     "0.0.5b1": "0.0.1b3",
-    "0.0.5b2": "0.0.1b3"
+    "0.0.5b2": "0.0.1b3",
+    "0.0.11b1": "0.0.1b3"
   },
   "deriva-catalog-manage": {
     "0.6.0": {
@@ -2584,7 +2591,8 @@
     "0.0.10": "0.0.1",
     "0.0.11": "0.0.1",
     "0.0.12": "0.0.1",
-    "0.0.14": "0.0.1"
+    "0.0.14": "0.0.1",
+    "0.0.20": "0.0.1"
   },
   "dvadmin-apscheduler": {
     "1.0.0": {
@@ -3959,7 +3967,8 @@
     "2.8.1": "2.7.1",
     "3.2.1": "2.7.1",
     "3.3.0": "2.7.1",
-    "3.3.1": "2.7.1"
+    "3.3.1": "2.7.1",
+    "3.3.2": "2.7.1"
   },
   "helix.fhir.client.sdk": {
     "0.1.24": "1.0.0",
@@ -5223,6 +5232,11 @@
     },
     "1.1": "1.0"
   },
+  "lookpin-pyspark-pkg": {
+    "0.0.4": {
+      "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
+    }
+  },
   "lora-modem-abz": {
     "1.1.2": {
       "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
@@ -6200,7 +6214,8 @@
     },
     "0.3.0": "0.2.0",
     "0.4.0": "0.2.0",
-    "0.5.0": "0.2.0"
+    "0.5.0": "0.2.0",
+    "0.6.0": "0.2.0"
   },
   "orsvm": {
     "0.1.1": {
@@ -6607,6 +6622,16 @@
     "0.4.0": {
       "39": "these 2 derivations will be built:\n /nix/store/#hash#-pinyin-#PKG_VER#.tar.gz.drv\n /nix/store/#hash#-pinyin-#PKG_VER#-requirements.drv\nwaiting for UID to build '/nix/store/#hash#-pinyin-#PKG_VER#.tar.gz.drv'...\nbuilding '/nix/store/#hash#-pinyin-#PKG_VER#.tar.gz.drv'...\n\ntrying https://files.pythonhosted.org/packages/source/p/pinyin/pinyin-#PKG_VER#.tar.gz\n % Total % Received % Xferd Average Speed Time Time Time Current\n Dload Upload Total Spent Left Speed\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0\n100 3547k 100 3547k 0 0 1524k 0 0:00:02 0:00:02 --:--:-- 3086k\nwaiting for UID to build '/nix/store/#hash#-pinyin-#PKG_VER#-requirements.drv'...\n",
       "310": "39"
+    }
+  },
+  "pipbert": {
+    "4.0.0": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
     }
   },
   "pix2text": {
@@ -7036,7 +7061,8 @@
       "38": "36",
       "39": "36",
       "310": "36"
-    }
+    },
+    "0.0.2": "0.0.1"
   },
   "pydataverse": {
     "0.1.0": {
@@ -7129,7 +7155,8 @@
     "1.6.0": "1.0.0",
     "1.6.1": "1.0.0",
     "1.7.0": "1.0.0",
-    "1.8.0": "1.0.0"
+    "1.8.0": "1.0.0",
+    "1.10.0": "1.0.0"
   },
   "pygly": {
     "20120816": {

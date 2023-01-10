@@ -36401,57 +36401,6 @@
       }
     }
   },
-  "jsaxonpy": {
-    "py3": {
-      "0.4.1": {
-        "jsaxonpy-0.4.1-py3-none-any.whl": {
-          "provides_extras": [
-            "dev",
-            "test"
-          ],
-          "requires_dist": [
-            "pyjnius",
-            "tox>=3.3.0 ; extra == \"dev\"",
-            "bump2version ; extra == \"dev\"",
-            "pytest >=7.2.0 ; extra == \"test\"",
-            "pytest-xdist ; extra == \"test\"",
-            "pytest-cov ; extra == \"test\"",
-            "pytest-html ; extra == \"test\"",
-            "hypothesis ; extra == \"test\"",
-            "black ; extra == \"test\"",
-            "isort ; extra == \"test\"",
-            "flake8 ; extra == \"test\""
-          ],
-          "requires_python": ">=3.7"
-        }
-      },
-      "0.4.2": {
-        "jsaxonpy-0.4.2-py3-none-any.whl": {
-          "provides_extras": [
-            "dev",
-            "test"
-          ],
-          "requires_dist": [
-            "pyjnius >= 1.0.0, < 2.0.0",
-            "tox>=3.3.0 ; extra == \"dev\"",
-            "bump2version ; extra == \"dev\"",
-            "pytest >=7.2.0 ; extra == \"test\"",
-            "pytest-xdist ; extra == \"test\"",
-            "pytest-cov ; extra == \"test\"",
-            "pytest-html ; extra == \"test\"",
-            "hypothesis ; extra == \"test\"",
-            "black ; extra == \"test\"",
-            "isort ; extra == \"test\"",
-            "flake8 ; extra == \"test\""
-          ],
-          "requires_python": ">=3.7"
-        }
-      },
-      "0.4.3": {
-        "jsaxonpy-0.4.3-py3-none-any.whl": "0.4.2@jsaxonpy-0.4.2-py3-none-any.whl"
-      }
-    }
-  },
   "jshbtf0302": {
     "py3": {
       "4.4.0.dev0": {

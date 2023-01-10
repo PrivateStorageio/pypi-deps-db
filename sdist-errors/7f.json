@@ -780,7 +780,8 @@
       "38": "36",
       "39": "36",
       "310": "36"
-    }
+    },
+    "22.4.0": "22.3.2"
   },
   "azure-basic-sample": {
     "9.9.9": {
@@ -838,7 +839,8 @@
     },
     "1.23": "1.22",
     "1.23.1": "1.22",
-    "1.24": "1.22"
+    "1.24": "1.22",
+    "1.25": "1.22"
   },
   "beerbolaget": {
     "0.0.36b4": {
@@ -4010,6 +4012,11 @@
       "310": "OSError: [Errno 28] No space left on device\n\nDuring handling of the above exception, another exception occurred:\n\n\n"
     }
   },
+  "irt-data-utils": {
+    "0.0.1a0": {
+      "27": "ImportError: No module named pathlib"
+    }
+  },
   "is-free-robux-illegal-v-2322": {
     "5.616": {
       "27": "these 2 derivations will be built:\n /nix/store/#hash#-is-free-robux-illegal-v-2322.zip.drv\n /nix/store/#hash#-is-free-robux-illegal-v-2322-#PKG_VER#-requirements.drv\nbuilding '/nix/store/#hash#-is-free-robux-illegal-v-2322.zip.drv'...\n\ntrying https://files.pythonhosted.org/packages/source/i/is-free-robux-illegal-v-2322/is-free-robux-illegal-v-2322.zip\n % Total % Received % Xferd Average Speed Time Time Time Current\n Dload Upload Total Spent Left Speed\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0\n100 944 100 944 0 0 9254 0 --:--:-- --:--:-- --:--:-- 9254\nbuilding '/nix/store/#hash#-is-free-robux-illegal-v-2322-#PKG_VER#-requirements.drv'...\nunpacking sources\nunpacking source archive /nix/store/#hash#-is-free-robux-illegal-v-2322.zip\nunpacker appears to have produced no directories\nerror: builder for '/nix/store/#hash#-is-free-robux-illegal-v-2322-#PKG_VER#-requirements.drv' failed with exit code 1;\n last 3 log lines:\n > unpacking sources\n > unpacking source archive /nix/store/#hash#-is-free-robux-illegal-v-2322.zip\n > unpacker appears to have produced no directories\n For full logs, run 'nix log /nix/store/#hash#-is-free-robux-illegal-v-2322-#PKG_VER#-requirements.drv'.\n",
@@ -5520,7 +5527,8 @@
     "5.17.0": "1.0.0",
     "5.18.0": "1.0.0",
     "5.19.0": "1.0.0",
-    "5.20.0": "1.0.0"
+    "5.20.0": "1.0.0",
+    "6.1.0": "1.0.0"
   },
   "onlineprodebnet": {
     "0.0.1": {
@@ -7365,7 +7373,13 @@
     "0.0.7": "0.0.4",
     "0.0.8": "0.0.4",
     "0.0.10": "0.0.4",
-    "0.0.9": "0.0.4"
+    "0.0.9": "0.0.4",
+    "0.0.14": "0.0.4",
+    "0.0.23": "0.0.4",
+    "0.0.24": "0.0.4",
+    "0.0.26": "0.0.4",
+    "0.0.37": "0.0.4",
+    "0.0.44": "0.0.4"
   },
   "python-timbl": {
     "2013.03.29": {
@@ -8221,7 +8235,11 @@
     "6.0.0": "0.0.0",
     "6.1.0": "0.0.0",
     "6.2.0": "0.0.0",
-    "6.3.0": "0.0.0"
+    "6.3.0": "0.0.0",
+    "6.5.0": {
+      "27": "SyntaxError: invalid syntax",
+      "36": "SyntaxError: future feature annotations is not defined"
+    }
   },
   "sightengine": {
     "1.0": {
@@ -8407,7 +8425,8 @@
     "0.0.2": "0.0.1",
     "1.0.0": "0.0.1",
     "1.0.1": "0.0.1",
-    "1.0.2": "0.0.1"
+    "1.0.2": "0.0.1",
+    "1.0.4": "0.0.1"
   },
   "sqlite-easy": {
     "1.0": {
@@ -9008,7 +9027,8 @@
     "0.5.1": {
       "310": "OSError: [Errno 28] No space left on device\n\nDuring handling of the above exception, another exception occurred:\n\n\n"
     },
-    "0.19.0b1": {
+    "0.19.0b1": "0.19.0",
+    "0.19.0": {
       "27": "SyntaxError: invalid syntax"
     }
   },

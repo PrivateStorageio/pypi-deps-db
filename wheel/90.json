@@ -19421,21 +19421,6 @@
       }
     }
   },
-  "echowall": {
-    "py3": {
-      "2.6.1": {
-        "echowall-2.6.1-py3-none-any.whl": {
-          "requires_dist": [
-            "rocketmq-client-python (==2.0.0)",
-            "snowflake-id (==0.0.2)"
-          ]
-        }
-      },
-      "2.6.5": {
-        "echowall-2.6.5-py3-none-any.whl": "2.6.1@echowall-2.6.1-py3-none-any.whl"
-      }
-    }
-  },
   "ecis-processing": {
     "py3": {
       "0.3.1": {

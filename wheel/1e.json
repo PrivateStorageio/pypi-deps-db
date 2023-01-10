@@ -1206,42 +1206,6 @@
       }
     }
   },
-  "alexsecdemo": {
-    "py3": {
-      "1.2.11": {
-        "Alexsecdemo-1.2.11-py3-none-any.whl": {}
-      },
-      "1.2.12": {
-        "Alexsecdemo-1.2.12-py3-none-any.whl": "1.2.11@Alexsecdemo-1.2.11-py3-none-any.whl"
-      },
-      "1.3.0": {
-        "Alexsecdemo-1.3.0-py3-none-any.whl": {
-          "requires_dist": [
-            "Bfixsecdemo"
-          ]
-        }
-      },
-      "1.3.1": {
-        "Alexsecdemo-1.3.1-py3-none-any.whl": {
-          "requires_dist": [
-            "Bfixsecdemo (==1.1.1)"
-          ]
-        }
-      },
-      "1.3.2": {
-        "Alexsecdemo-1.3.2-py3-none-any.whl": "1.2.11@Alexsecdemo-1.2.11-py3-none-any.whl"
-      },
-      "1.3.3": {
-        "Alexsecdemo-1.3.3-py3-none-any.whl": "1.2.11@Alexsecdemo-1.2.11-py3-none-any.whl"
-      },
-      "1.3.4": {
-        "Alexsecdemo-1.3.4-py3-none-any.whl": "1.2.11@Alexsecdemo-1.2.11-py3-none-any.whl"
-      },
-      "5.2.9": {
-        "Alexsecdemo-5.2.9-py3-none-any.whl": "1.2.11@Alexsecdemo-1.2.11-py3-none-any.whl"
-      }
-    }
-  },
   "alfred-installer": {
     "py3": {
       "0.1.2": {

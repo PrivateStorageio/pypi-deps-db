@@ -266,6 +266,16 @@
     "0.2.0": "0.0.2",
     "0.2.1": "0.0.2"
   },
+  "amap-holydragon": {
+    "1.0.0": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
   "amazon-web-services-helpers": {
     "1.0.1": {
       "39": "these 2 derivations will be built:\n /nix/store/#hash#-amazon_web_services_helpers-#PKG_VER#.tar.gz.drv\n /nix/store/#hash#-amazon-web-services-helpers-#PKG_VER#-requirements.drv\nbuilding '/nix/store/#hash#-amazon_web_services_helpers-#PKG_VER#.tar.gz.drv'...\nerror checking the existence of http://tarballs.nixos.org/sha256/Hvk1C57G7HkOE2obC1hUqj2BmeFj3uEUedWzmaEXARY=:\n\ntrying https://files.pythonhosted.org/packages/source/a/amazon-web-services-helpers/amazon_web_services_helpers-#PKG_VER#.tar.gz\n % Total % Received % Xferd Average Speed Time Time Time Current\n Dload Upload Total Spent Left Speed\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0\n100 3010 100 3010 0 0 5262 0 --:--:-- --:--:-- --:--:-- 5262\n(23) Failed writing body\nerror: hash mismatch in fixed-output derivation '/nix/store/#hash#-amazon_web_services_helpers-#PKG_VER#.tar.gz.drv':\n specified: sha256-Hvk1C57G7HkOE2obC1hUqj2BmeFj3uEUedWzmaEXARY=\n got: sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\nerror: 1 dependencies of derivation '/nix/store/#hash#-amazon-web-services-helpers-#PKG_VER#-requirements.drv' failed to build\n",
@@ -1589,7 +1599,8 @@
     "20221102": {
       "27": "SyntaxError: invalid syntax",
       "36": "Unsupported Python version: 3.6.10 (default, Dec 18 2019, 19:48:10) \n[GCC 9.2.0], version 3.7 or higher required.\n"
-    }
+    },
+    "20221224": "20221102"
   },
   "dict-zip": {
     "0.2.1": {
@@ -3018,7 +3029,8 @@
       "38": "36",
       "39": "36",
       "310": "36"
-    }
+    },
+    "2.3.1": "2.3.0"
   },
   "hl7apy": {
     "1.1.0": {
@@ -3422,6 +3434,16 @@
     "0.2.1": "0.1.0",
     "0.2.2": "0.1.0"
   },
+  "jupyterlab-language-pack-et-ee": {
+    "3.5.post4": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
   "justhello": {
     "0.0.10": {
       "27": "Building SAMPLE_PROJECT requires at least Python 3.4 to run.\n",
@@ -3545,6 +3567,16 @@
     "0.1.1": {
       "39": "these 2 derivations will be built:\n /nix/store/#hash#-langacore.kit.common-#PKG_VER#.tar.gz.drv\n /nix/store/#hash#-langacore.kit.common-#PKG_VER#-requirements.drv\nbuilding '/nix/store/#hash#-langacore.kit.common-#PKG_VER#.tar.gz.drv'...\n\ntrying https://files.pythonhosted.org/packages/source/l/langacore.kit.common/langacore.kit.common-#PKG_VER#.tar.gz\n % Total % Received % Xferd Average Speed Time Time Time Current\n Dload Upload Total Spent Left Speed\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0\n100 2628 100 2628 0 0 4562 0 --:--:-- --:--:-- --:--:-- 4562\n(23) Failed writing body\nerror: hash mismatch in fixed-output derivation '/nix/store/#hash#-langacore.kit.common-#PKG_VER#.tar.gz.drv':\n specified: sha256-/eka4owdg7pQhMZPEmhFp8JYzN4Nb+ryNYvADdPV3Jc=\n got: sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\nerror: 1 dependencies of derivation '/nix/store/#hash#-langacore.kit.common-#PKG_VER#-requirements.drv' failed to build\n",
       "310": "39"
+    }
+  },
+  "large-file-splitter": {
+    "0.1.0": {
+      "27": "ImportError: No module named ezpip",
+      "36": "ModuleNotFoundError: No module named 'ezpip'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
     }
   },
   "lbsntransform": {
@@ -5715,7 +5747,8 @@
     "2.0.23": "1.0.1",
     "2.0.24": "1.0.1",
     "2.0.25": "1.0.1",
-    "2.0.26": "1.0.1"
+    "2.0.26": "1.0.1",
+    "2.0.27": "1.0.1"
   },
   "pyicu": {
     "0.8": {

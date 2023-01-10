@@ -105742,21 +105742,6 @@
       }
     }
   },
-  "keysight-systemvue": {
-    "py3": {
-      "2023.0": {
-        "keysight_systemvue-2023.0-py3-none-any.whl": {
-          "requires_dist": [
-            "numpy",
-            "pandas",
-            "psutil",
-            "matplotlib"
-          ],
-          "requires_python": "==3.10.*"
-        }
-      }
-    }
-  },
   "kgc": {
     "py3": {
       "0.0.1": {

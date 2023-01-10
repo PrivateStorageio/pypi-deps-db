@@ -844,7 +844,8 @@
     "0.1.0": "0.0.1",
     "0.1.1": "0.0.1",
     "0.1.2": "0.0.1",
-    "0.2.0a0": "0.0.1"
+    "0.2.0a0": "0.0.1",
+    "0.2.2": "0.0.1"
   },
   "bob.fusion.base": {
     "0.0.2": {
@@ -2074,6 +2075,11 @@
     "2.0.0": "1.0.0",
     "2.0.1": "1.0.0"
   },
+  "convert-to-requests": {
+    "0.1.0": {
+      "27": "ImportError: No module named pathlib"
+    }
+  },
   "coolisf": {
     "0.2.3b2": "0.2.3",
     "0.2.3": {
@@ -2995,6 +3001,16 @@
       "27": "SyntaxError: invalid syntax"
     }
   },
+  "emergenx": {
+    "1.0.3": {
+      "27": "SyntaxError: invalid syntax",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'HISTORY.md'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
   "empywiz": {
     "0.5": {
       "36": "SyntaxError: Missing parentheses in call to 'print'. Did you mean print(pkg)?",
@@ -3399,7 +3415,16 @@
     "0.0.69": "0.0.1",
     "0.0.80": "0.0.1",
     "0.0.82": "0.0.1",
-    "0.0.84": "0.0.1"
+    "0.0.84": "0.0.1",
+    "0.0.114": {
+      "27": "ImportError: No module named request",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'requirements.txt'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    },
+    "0.0.97": "0.0.1"
   },
   "flufl.flake8": {
     "0.10": "0.8",
@@ -5096,7 +5121,9 @@
     "2.1.0": "1.0.0",
     "2.2.0": "1.0.0",
     "2.3.0": "1.0.0",
-    "2.4.0": "1.0.0"
+    "2.4.0": "1.0.0",
+    "2.5.0": "1.0.0",
+    "2.5.1": "1.0.0"
   },
   "mb-netmgmt": {
     "0.0.1": {
@@ -6859,7 +6886,8 @@
   "py-ciu": {
     "0.0.4": {
       "27": "ImportError: No module named pathlib"
-    }
+    },
+    "0.1.0.3": "0.0.4"
   },
   "pyarray": {
     "0.1": {
@@ -7554,7 +7582,9 @@
     "0.12.18": "0.0.1",
     "0.12.19": "0.0.1",
     "0.12.20": "0.0.1",
-    "0.12.21": "0.0.1"
+    "0.12.21": "0.0.1",
+    "0.12.22": "0.0.1",
+    "0.12.25": "0.0.1"
   },
   "pytest-redislite": {
     "0.0.0": {
@@ -8054,7 +8084,15 @@
     "2021.9.6": "2020.5.2",
     "2021.9.7": "2020.5.2",
     "2021.9.8": "2020.5.2",
-    "2021.9.9": "2020.5.2"
+    "2021.9.9": "2020.5.2",
+    "2022.12.4": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
   },
   "requests-raw": {
     "0.1.0": {
@@ -9782,7 +9820,8 @@
     "3.4.2a0": "0.0.0",
     "3.4.3": "0.0.0",
     "3.5.0rc1": "0.0.0",
-    "3.5.0rc2": "0.0.0"
+    "3.5.0rc2": "0.0.0",
+    "3.5.0": "0.0.0"
   },
   "variantgrid-api": {
     "0.0.2": "0.1",
@@ -9818,6 +9857,16 @@
       "27": "SyntaxError: invalid syntax"
     },
     "1.5.1": "1.5"
+  },
+  "vidimg-utils": {
+    "0.0.2": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
   },
   "vimpdb": {
     "0.1": {
@@ -10317,6 +10366,16 @@
     "0.1.1": {
       "27": "SyntaxError: invalid syntax",
       "36": "ModuleNotFoundError: No module named 'tornado'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
+  "zarabaza": {
+    "0.0.9": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
       "37": "36",
       "38": "36",
       "39": "36",

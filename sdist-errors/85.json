@@ -1182,7 +1182,8 @@
     "1.178.0": "1.71.0",
     "1.179.0": "1.71.0",
     "1.180.0": "1.71.0",
-    "1.181.0": "1.71.0"
+    "1.181.0": "1.71.0",
+    "1.184.1": "1.71.0"
   },
   "awscdk-aws-route53-targets": {
     "0.1.0": {
@@ -2478,6 +2479,11 @@
     "0.0.2": "0.0.1",
     "0.0.3": "0.0.1"
   },
+  "django-doc": {
+    "1.1": {
+      "27": "SyntaxError: invalid syntax"
+    }
+  },
   "django-easy-contact-setup": {
     "0.3.7": {
       "36": "ModuleNotFoundError: No module named 'version'",
@@ -2628,7 +2634,8 @@
       "27": "ImportError: No module named pathlib"
     },
     "0.1.2": "0.1.1",
-    "0.1.3": "0.1.1"
+    "0.1.3": "0.1.1",
+    "0.2.2": "0.1.1"
   },
   "djangorestframework-versioning": {
     "0.0.2": {
@@ -2651,7 +2658,8 @@
     "0.1.1": "0.0.2",
     "0.2.0": "0.0.2",
     "1.0.0": "0.0.2",
-    "2.0.0": "0.0.2"
+    "2.0.0": "0.0.2",
+    "2.0.3": "0.0.2"
   },
   "djay": {
     "0.0.1": {
@@ -2706,7 +2714,8 @@
       "310": "36"
     },
     "0.0.2": "0.0.1",
-    "0.0.3": "0.0.1"
+    "0.0.3": "0.0.1",
+    "0.0.4": "0.0.1"
   },
   "dotref": {
     "1.0.0": {
@@ -2775,7 +2784,8 @@
       "37": "Traceback (most recent call last):\n File \"<string>\", line #NUM#, in <module>\n File \"setup.py\", line #NUM#, in <module>\n raise Exception(\"Python 3.8 or higher is required. Your version is %s.\" % sys.version)\nException: Python 3.8 or higher is required. Your version is 3.7.10 (default, Feb 16 2021, 02:11:57) \n[GCC 10.2.0].\n"
     },
     "2.0.7": "2.0.4",
-    "2.0.9": "2.0.4"
+    "2.0.9": "2.0.4",
+    "2.0.11.dev0": "2.0.4"
   },
   "emusica": {
     "0.0.1": {
@@ -3075,7 +3085,8 @@
     },
     "20.9": "20.8",
     "21.1": "20.8",
-    "22.10": "20.8"
+    "22.10": "20.8",
+    "22.12": "20.8"
   },
   "finitelycomputable-morepath-mount": {
     "20.10": "20.8",
@@ -3086,7 +3097,8 @@
     },
     "20.9": "20.8",
     "21.1": "20.8",
-    "22.10": "20.8"
+    "22.10": "20.8",
+    "22.11": "20.8"
   },
   "fio-nereid-webshop-elastic-search": {
     "3.4.1.0": {
@@ -4485,7 +4497,10 @@
     "0.4": "0.3",
     "0.5": "0.3",
     "0.6": "0.3",
-    "0.7": "0.3"
+    "0.7": "0.3",
+    "2.0.60": {
+      "27": "SyntaxError: invalid syntax"
+    }
   },
   "leo": {
     "6.0": {
@@ -6742,7 +6757,8 @@
       "38": "FileNotFoundError: [Errno 2] No such file or directory: '/usr/bin/sw_vers'",
       "39": "38",
       "310": "38"
-    }
+    },
+    "9.0.1": "9.0"
   },
   "pyobjcframework-authenticationservices": {
     "0.1.0": {
@@ -8345,6 +8361,16 @@
     "1.20.2": "1.1.0",
     "1.20.3": "1.1.0"
   },
+  "smartez-mq": {
+    "0.0.2": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
   "socketio-server": {
     "0.0.1": {
       "27": "IOError: [Errno 2] No such file or directory: 'README.md'",
@@ -8929,11 +8955,12 @@
     }
   },
   "tripcode3": {
-    "0.1.2.dev0": {
+    "0.1.2.dev0": "0.1.3",
+    "0.1.2.dev1": "0.1.3",
+    "0.1.2.dev2": "0.1.3",
+    "0.1.3": {
       "27": "SyntaxError: invalid syntax"
-    },
-    "0.1.2.dev1": "0.1.2.dev0",
-    "0.1.2.dev2": "0.1.2.dev0"
+    }
   },
   "ts-demo-lib": {
     "0.0.1": {
@@ -9344,7 +9371,8 @@
       "310": "27"
     },
     "0.0.5": "0.0.4",
-    "0.0.6": "0.0.4"
+    "0.0.6": "0.0.4",
+    "0.0.8": "0.0.4"
   },
   "whatsapp-api-client-python-sadiv": {
     "0.0.4a0": {
@@ -9410,6 +9438,11 @@
       "27": "SyntaxError: invalid syntax"
     },
     "1.3.0": "1.0.0"
+  },
+  "xheadtail": {
+    "0.0.0": {
+      "27": "ImportError: No module named pathlib"
+    }
   },
   "xianggaojingzhi-renqun-yiyang-guanqian": {
     "2022.11.21.0": {

@@ -655,7 +655,8 @@
     "1.178.0": "1.101.0",
     "1.179.0": "1.101.0",
     "1.180.0": "1.101.0",
-    "1.181.0": "1.101.0"
+    "1.181.0": "1.101.0",
+    "1.185.0": "1.101.0"
   },
   "aws-cdk.aws-lakeformation": {
     "1.100.0": "1.71.0",
@@ -794,7 +795,8 @@
     "1.178.0": "1.101.0",
     "1.179.0": "1.101.0",
     "1.180.0": "1.101.0",
-    "1.181.0": "1.101.0"
+    "1.181.0": "1.101.0",
+    "1.184.1": "1.101.0"
   },
   "aws-cdk.aws-ssmincidents": {
     "1.106.0": {
@@ -884,7 +886,8 @@
     "1.178.0": "1.106.0",
     "1.179.0": "1.106.0",
     "1.180.0": "1.106.0",
-    "1.181.0": "1.106.0"
+    "1.181.0": "1.106.0",
+    "1.183.0": "1.106.0"
   },
   "aws-cdkaws-cloudfront": {
     "0.1.0": {
@@ -1056,6 +1059,16 @@
     "1.0.0": "0.1.2",
     "1.0.1": "0.1.2"
   },
+  "banditsdk": {
+    "0.0.2": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
   "bangla-character": {
     "0.0.1": {
       "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
@@ -1139,6 +1152,15 @@
   "betterplotlib": {
     "1.5.0": {
       "39": "OSError: [Errno 28] No space left on device\n\nDuring handling of the above exception, another exception occurred:\n\n\n"
+    },
+    "1.12.2": "1.8.2",
+    "1.8.2": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
     }
   },
   "bifrost-common-py": {
@@ -2525,7 +2547,8 @@
     "0.16.17": "1.0.5",
     "0.17.1": "1.0.5",
     "0.17.2": "1.0.5",
-    "0.17.3": "1.0.5"
+    "0.17.3": "1.0.5",
+    "0.17.5": "1.0.5"
   },
   "dane-server": {
     "0.1": {
@@ -3069,6 +3092,17 @@
       "39": "these 2 derivations will be built:\n /nix/store/#hash#-django-sequere-#PKG_VER#.tar.gz.drv\n /nix/store/#hash#-django-sequere-#PKG_VER#-requirements.drv\nbuilding '/nix/store/#hash#-django-sequere-#PKG_VER#.tar.gz.drv'...\n\ntrying https://files.pythonhosted.org/packages/source/d/django-sequere/django-sequere-#PKG_VER#.tar.gz\n % Total % Received % Xferd Average Speed Time Time Time Current\n Dload Upload Total Spent Left Speed\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0\n100 23564 100 23564 0 0 46385 0 --:--:-- --:--:-- --:--:-- 46385\nwaiting for UID to build '/nix/store/#hash#-django-sequere-#PKG_VER#-requirements.drv'...\nbuilding '/nix/store/#hash#-django-sequere-#PKG_VER#-requirements.drv'...\n",
       "310": "39"
     }
+  },
+  "djangorestframework-api-response": {
+    "0.0.6": {
+      "27": "ImportError: No module named pathlib",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'LONG_DESCRIPTION.rst'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    },
+    "0.0.8": "0.0.6"
   },
   "djinn": {
     "1.0.0": {
@@ -3620,7 +3654,8 @@
       "38": "36",
       "39": "36",
       "310": "36"
-    }
+    },
+    "0.8.0": "0.7.0"
   },
   "empiric-network": {
     "0.7.0": {
@@ -3650,7 +3685,8 @@
     "1.1.1": "0.7.0",
     "1.1.2": "0.7.0",
     "1.2.0": "0.7.0",
-    "1.3.0": "0.7.0"
+    "1.3.0": "0.7.0",
+    "1.4.3": "0.7.0"
   },
   "encoder-decoder": {
     "0.1.4": {
@@ -4139,7 +4175,15 @@
       "310": "36"
     },
     "0.1.1": "0.1.0",
-    "0.2.0": "0.1.0"
+    "0.2.0": "0.1.0",
+    "0.3.1": {
+      "27": "these 2 derivations will be built:\n /nix/store/#hash#-flask-digest-auth-#PKG_VER#.tar.gz.drv\n /nix/store/#hash#-flask-digest-auth-#PKG_VER#-requirements.drv\nbuilding '/nix/store/#hash#-flask-digest-auth-#PKG_VER#.tar.gz.drv'...\n\ntrying https://files.pythonhosted.org/packages/source/f/flask-digest-auth/flask-digest-auth-#PKG_VER#.tar.gz\n % Total % Received % Xferd Average Speed Time Time Time Current\n Dload Upload Total Spent Left Speed\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0\ncurl: (22) The requested URL returned error: 404 \nerror: cannot download flask-digest-auth-#PKG_VER#.tar.gz from any mirror\nerror: builder for '/nix/store/#hash#-flask-digest-auth-#PKG_VER#.tar.gz.drv' failed with exit code 1;\n last 7 log lines:\n >\n > trying https://files.pythonhosted.org/packages/source/f/flask-digest-auth/flask-digest-auth-#PKG_VER#.tar.gz\n > % Total % Received % Xferd Average Speed Time Time Time Current\n > Dload Upload Total Spent Left Speed\n > 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0\n > curl: (22) The requested URL returned error: 404\n > error: cannot download flask-digest-auth-#PKG_VER#.tar.gz from any mirror\n For full logs, run 'nix log /nix/store/#hash#-flask-digest-auth-#PKG_VER#.tar.gz.drv'.\nerror: 1 dependencies of derivation '/nix/store/#hash#-flask-digest-auth-#PKG_VER#-requirements.drv' failed to build\n",
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
   },
   "flask-dynamo": {
     "0.0.1": {
@@ -4752,7 +4796,9 @@
     },
     "0.0.2": "0.0.1",
     "0.0.3": "0.0.1",
-    "0.0.4": "0.0.1"
+    "0.0.4": "0.0.1",
+    "0.0.5": "0.0.1",
+    "0.0.6": "0.0.1"
   },
   "harmonyqt": {
     "0.5.0": {
@@ -5121,7 +5167,8 @@
     "1.2.1": "1.0.0",
     "1.2.2": "1.0.0",
     "1.2.3": "1.0.0",
-    "1.2.4": "1.0.0"
+    "1.2.4": "1.0.0",
+    "1.3.0": "1.0.0"
   },
   "iosacal": {
     "0.6.0": {
@@ -5833,7 +5880,8 @@
     "0.18.0": "0.3.2",
     "0.19.0": "0.3.2",
     "0.20.0": "0.3.2",
-    "0.21.0": "0.3.2"
+    "0.21.0": "0.3.2",
+    "0.23.0": "0.3.2"
   },
   "locushandler": {
     "0.1.10": "0.1.7",
@@ -7530,6 +7578,16 @@
     },
     "2.0.0": "1.1"
   },
+  "pyeasyencrypt": {
+    "0.0.1": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
   "pyerail": {
     "0.1.0": {
       "27": "IOError: [Errno 2] No such file or directory: 'LICENSE'",
@@ -8668,6 +8726,16 @@
       "310": "36"
     },
     "0.1.1": "0.1"
+  },
+  "python-rriot": {
+    "0.0.2": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
   },
   "python-scripttease": {
     "6.7.0": {

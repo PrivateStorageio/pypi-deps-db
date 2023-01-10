@@ -491,6 +491,11 @@
       "310": "39"
     }
   },
+  "astronomer-cosmos": {
+    "0.0.6": {
+      "27": "distutils.errors.DistutilsOptionError: find_namespace: directive is unsupported on Python < 3.3"
+    }
+  },
   "atgcn-count": {
     "0.0.1": {
       "39": "error: path '/nix/store/#hash#-atgcn-count-#PKG_VER#-requirements.drv' does not exist and cannot be created\n",
@@ -674,7 +679,10 @@
     "2.4.8": "1.1.2",
     "2.4.9": "1.1.2",
     "2.4.10": "1.1.2",
-    "2.4.11": "1.1.2"
+    "2.4.11": "1.1.2",
+    "2.4.12": "1.1.2",
+    "2.4.14": "1.1.2",
+    "2.6.0": "1.1.2"
   },
   "axsemantics-cli": {
     "0.1.2.post3": "0.1.4",
@@ -2897,7 +2905,8 @@
     "0.0.10": "0.0.2",
     "0.0.11": "0.0.2",
     "0.0.12": "0.0.2",
-    "0.0.13": "0.0.2"
+    "0.0.13": "0.0.2",
+    "0.0.15": "0.0.2"
   },
   "doryrips": {
     "0.0.1": {
@@ -3083,6 +3092,11 @@
   "edx-bulk-grades": {
     "1.0.0": {
       "27": "SyntaxError: invalid syntax"
+    }
+  },
+  "eeharvest": {
+    "0.3.0": {
+      "27": "distutils.errors.DistutilsOptionError: find_namespace: directive is unsupported on Python < 3.3"
     }
   },
   "electromagneticpython": {
@@ -3892,6 +3906,16 @@
       "310": "36"
     }
   },
+  "get-py-deps": {
+    "0.0.1": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
   "giftmaster": {
     "0.0.10": "0.0.2",
     "0.0.2": {
@@ -3945,6 +3969,16 @@
     "0.0.51": "0.0.2",
     "0.0.52": "0.0.2",
     "0.0.53": "0.0.2"
+  },
+  "git-multi-repo-updater": {
+    "0.1.0": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
   },
   "git-toggle": {
     "0.1.0": {
@@ -4632,7 +4666,8 @@
     "0.2.5": "0.0.1",
     "0.2.6": "0.0.1",
     "0.2.7": "0.0.1",
-    "0.2.8": "0.0.1"
+    "0.2.8": "0.0.1",
+    "0.2.9": "0.0.1"
   },
   "jbatscha-10": {
     "0.0.1.20211126": {
@@ -4786,7 +4821,8 @@
     "7.4.6": "7.3.2",
     "8.0.0a3": "7.3.2",
     "7.4.7": "7.3.2",
-    "8.0.0a4": "7.3.2"
+    "8.0.0a4": "7.3.2",
+    "8.0.0rc0": "7.3.2"
   },
   "jupyter-notebook-parser": {
     "0.1.0": {
@@ -5101,7 +5137,8 @@
     "0.0.15": "0.0.1",
     "0.0.16": "0.0.1",
     "0.0.17": "0.0.1",
-    "0.0.18": "0.0.1"
+    "0.0.18": "0.0.1",
+    "0.0.20": "0.0.1"
   },
   "lazytransform": {
     "0.24": "1.0",
@@ -10513,6 +10550,11 @@
   "trytonlq-authentication-totp-optional": {
     "6.0.0": {
       "27": "ImportError: No module named configparser"
+    }
+  },
+  "tsma": {
+    "1.1.14": {
+      "27": "ImportError: cannot import name find_namespace_packages"
     }
   },
   "tubex": {

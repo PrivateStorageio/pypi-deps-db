@@ -2783,7 +2783,8 @@
     "0.0.66": "0.0.61",
     "0.0.67": "0.0.61",
     "0.0.68": "0.0.61",
-    "0.0.69": "0.0.61"
+    "0.0.69": "0.0.61",
+    "0.0.70": "0.0.61"
   },
   "angles": {
     "1.0": {
@@ -10864,7 +10865,22 @@
     },
     "0.0.2": "0.0.1",
     "0.0.3": "0.0.1",
-    "0.0.4": "0.0.1"
+    "0.0.4": "0.0.1",
+    "0.1.1": {
+      "27": {
+        "install_requires": [
+          "pydantic<2.0.0,>=1.8.0"
+        ],
+        "python_requires": [
+          ">=3.6, <4"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
   },
   "calc-project": {
     "1.0.0": {
@@ -13377,7 +13393,8 @@
     "0.1.9": "0.1.0",
     "0.2.0": "0.1.0",
     "0.2.1": "0.1.0",
-    "0.3.0": "0.1.0"
+    "0.3.0": "0.1.0",
+    "0.4.1": "0.1.0"
   },
   "clipboard-modifier": {
     "0.2.0": {
@@ -17519,6 +17536,24 @@
       "36": {
         "install_requires": [
           "dagster_cloud==1.1.3"
+        ],
+        "extras_require": {
+          "tests": [
+            "mypy",
+            "pylint",
+            "pytest"
+          ]
+        }
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    },
+    "1.1.8": {
+      "36": {
+        "install_requires": [
+          "dagster_cloud==1.1.8"
         ],
         "extras_require": {
           "tests": [
@@ -27783,7 +27818,22 @@
     "0.2.0": "0.1.0",
     "0.2.1": "0.1.0",
     "0.3.0": "0.1.0",
-    "0.3.1": "0.1.0"
+    "0.3.1": "0.1.0",
+    "0.5.0": {
+      "27": {
+        "install_requires": [
+          "pygithub",
+          "matplotlib",
+          "requests",
+          "bs4"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
   },
   "gino-factory": {
     "0.1.0a7": "0.1.0",
@@ -33111,6 +33161,27 @@
       "310": "27"
     }
   },
+  "jbioseqtools": {
+    "1.1.3": {
+      "27": {
+        "install_requires": [
+          "pandas",
+          "tqdm",
+          "matplotlib",
+          "numpy",
+          "requests"
+        ],
+        "python_requires": [
+          ">=3.6"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
+  },
   "jedopo-py": {
     "0.0.1": {
       "27": {
@@ -33531,6 +33602,22 @@
     "2022.2.25": "2022.1.15",
     "2022.3.28": "2022.1.15",
     "2022.9.10": "2022.1.15"
+  },
+  "jupyter-trame-proxy": {
+    "0.1.0": {
+      "36": {
+        "install_requires": [
+          "jupyter-server-proxy>=3.1.0"
+        ],
+        "python_requires": [
+          ">=3.9"
+        ]
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
   },
   "jupytext-ebp": {
     "1.7.2a0": {
@@ -34741,7 +34828,8 @@
     "0.6.4": "0.6.0",
     "0.6.5": "0.6.0",
     "0.6.6": "0.6.0",
-    "0.6.7": "0.6.0"
+    "0.6.7": "0.6.0",
+    "0.7.1": "0.6.0"
   },
   "lambda-packages": {
     "0.0.1": {
@@ -38726,6 +38814,23 @@
     },
     "0.1.4": "0.1.3",
     "0.1.5": "0.1.3"
+  },
+  "mt-system": {
+    "0.0.0": {
+      "27": {
+        "install_requires": [
+          "scikit-learn"
+        ],
+        "python_requires": [
+          ">=3.8,<4.0"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
   },
   "mugan86-openwm-api": {
     "0.0.2": {
@@ -45334,7 +45439,32 @@
     "0.1.322": "0.1.293",
     "0.1.323": "0.1.293",
     "0.1.324": "0.1.293",
-    "0.1.325": "0.1.293"
+    "0.1.325": "0.1.293",
+    "0.1.332": "0.1.293",
+    "0.1.345": {
+      "36": {
+        "install_requires": [
+          "aws-cdk-lib<3.0.0,>=2.8.0",
+          "constructs<11.0.0,>=10.0.5",
+          "jsii<2.0.0,>=1.72.0",
+          "pepperize.cdk-private-bucket<0.0.129,>=0.0.128",
+          "publication>=0.0.3",
+          "typeguard~=2.13.3"
+        ],
+        "python_requires": [
+          "~=3.7"
+        ]
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    },
+    "0.1.359": "0.1.345",
+    "0.1.364": "0.1.345",
+    "0.1.366": "0.1.345",
+    "0.1.380": "0.1.345",
+    "0.1.394": "0.1.345"
   },
   "perconet": {
     "0.1.1": {
@@ -62938,6 +63068,19 @@
       }
     }
   },
+  "renji-yuanfen-quanzhanxing": {
+    "2022.12.8.0": {
+      "36": {
+        "python_requires": [
+          ">=3.6"
+        ]
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
   "reqmanage": {
     "0.8": {
       "27": {
@@ -63741,7 +63884,28 @@
     "v0.1.32": "v0.1.27",
     "v0.1.33": "v0.1.27",
     "v0.1.34": "v0.1.27",
-    "v0.1.35": "v0.1.27"
+    "v0.1.35": "v0.1.27",
+    "0.2.0": {
+      "27": {
+        "install_requires": [
+          "numpy",
+          "scipy",
+          "matplotlib",
+          "lognflow"
+        ],
+        "tests_require": [
+          "pytest>=3"
+        ],
+        "python_requires": [
+          ">=3.6"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
   },
   "rockstarfoxdot": {
     "0.104": {
@@ -71062,7 +71226,10 @@
     "3.0.777": "3.0.293",
     "3.0.778": "3.0.293",
     "3.0.779": "3.0.293",
-    "3.0.780": "3.0.293"
+    "3.0.780": "3.0.293",
+    "3.0.785": "3.0.293",
+    "3.0.799": "3.0.293",
+    "3.0.803": "3.0.293"
   },
   "tensorflow-probability": {
     "0.0.1": {
@@ -90871,7 +91038,225 @@
     "4.7.0.dev202211240045": "4.7.0.dev202211030046",
     "4.7.0.dev202211250044": "4.7.0.dev202211030046",
     "4.7.0.dev202211260044": "4.7.0.dev202211030046",
-    "4.7.0.dev202211270045": "4.7.0.dev202211030046"
+    "4.7.0.dev202211270045": "4.7.0.dev202211030046",
+    "4.7.0.dev202211280045": "4.7.0.dev202211030046",
+    "4.8.0.dev202212280045": {
+      "36": {
+        "install_requires": [
+          "absl-py",
+          "click",
+          "dill",
+          "dm-tree",
+          "etils[enp,epath]>=0.9.0",
+          "numpy",
+          "promise",
+          "protobuf>=3.12.2",
+          "psutil",
+          "requests>=2.19.0",
+          "six",
+          "tensorflow-metadata",
+          "termcolor",
+          "toml",
+          "tqdm"
+        ],
+        "extras_require": {
+          "matplotlib": [
+            "matplotlib"
+          ],
+          "tensorflow": [
+            "tensorflow>=2.1"
+          ],
+          "tensorflow-data-validation": [
+            "tensorflow-data-validation"
+          ],
+          "tests-all": [
+            "jax[cpu]",
+            "jupyter",
+            "pytest",
+            "pytest-shard",
+            "pytest-xdist",
+            "pandas",
+            "pydub",
+            "apache_beam",
+            "conllu",
+            "pyyaml",
+            "tensorflow-io",
+            "datasets",
+            "scipy",
+            "apache_beam",
+            "gcsfs",
+            "zarr",
+            "apache_beam",
+            "gcld3",
+            "langdetect",
+            "nltk",
+            "tldextract",
+            "apache_beam",
+            "matplotlib",
+            "Pillow",
+            "pydub",
+            "scipy",
+            "scikit-image",
+            "tifffile",
+            "imagecodecs",
+            "pretty_midi",
+            "pydub",
+            "pydub",
+            "opencv-python",
+            "scikit-image",
+            "scipy",
+            "pydub",
+            "pandas",
+            "networkx",
+            "pandas",
+            "h5py",
+            "envlogger",
+            "pandas",
+            "scipy",
+            "scipy",
+            "Pillow",
+            "apache_beam",
+            "mwparserfromhell",
+            "apache_beam",
+            "bs4",
+            "lxml",
+            "pycocotools"
+          ],
+          "dev": [
+            "jax[cpu]",
+            "jupyter",
+            "pytest",
+            "pytest-shard",
+            "pytest-xdist",
+            "pandas",
+            "pydub",
+            "apache_beam",
+            "conllu",
+            "pyyaml",
+            "tensorflow-io",
+            "datasets",
+            "pylint>=2.6.0",
+            "yapf"
+          ],
+          "aflw2k3d": [
+            "scipy"
+          ],
+          "beir": [
+            "apache_beam"
+          ],
+          "ble_wind_field": [
+            "gcsfs",
+            "zarr"
+          ],
+          "c4": [
+            "apache_beam",
+            "gcld3",
+            "langdetect",
+            "nltk",
+            "tldextract"
+          ],
+          "c4_wsrs": [
+            "apache_beam"
+          ],
+          "cats_vs_dogs": [
+            "matplotlib"
+          ],
+          "colorectal_histology": [
+            "Pillow"
+          ],
+          "common_voice": [
+            "pydub"
+          ],
+          "duke_ultrasound": [
+            "scipy"
+          ],
+          "eurosat": [
+            "scikit-image",
+            "tifffile",
+            "imagecodecs"
+          ],
+          "groove": [
+            "pretty_midi",
+            "pydub"
+          ],
+          "gtzan": [
+            "pydub"
+          ],
+          "imagenet2012_corrupted": [
+            "opencv-python",
+            "scikit-image",
+            "scipy"
+          ],
+          "librispeech": [
+            "pydub"
+          ],
+          "lsun": [
+            "tensorflow-io"
+          ],
+          "nsynth": [
+            "crepe>=0.0.11",
+            "librosa",
+            "scikit-learn==0.20.3"
+          ],
+          "ogbg_molpcba": [
+            "pandas",
+            "networkx"
+          ],
+          "pet_finder": [
+            "pandas"
+          ],
+          "robonet": [
+            "h5py"
+          ],
+          "robosuite_panda_pick_place_can": [
+            "envlogger"
+          ],
+          "smartwatch_gestures": [
+            "pandas"
+          ],
+          "svhn": [
+            "scipy"
+          ],
+          "the300w_lp": [
+            "scipy"
+          ],
+          "wider_face": [
+            "Pillow"
+          ],
+          "wiki_dialog": [
+            "apache_beam"
+          ],
+          "wikipedia": [
+            "mwparserfromhell",
+            "apache_beam"
+          ],
+          "wsc273": [
+            "bs4",
+            "lxml"
+          ],
+          "youtube_vis": [
+            "pycocotools"
+          ],
+          ":python_version < \"3.7\"": [
+            "dataclasses"
+          ],
+          ":python_version < \"3.8\"": [
+            "typing_extensions"
+          ],
+          ":python_version < \"3.9\"": [
+            "importlib_resources"
+          ]
+        },
+        "python_requires": [
+          ">=3.7"
+        ]
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    },
+    "4.8.1.dev202301030044": "4.8.0.dev202212280045"
   },
   "tfhubartifact": {
     "0.0.1": {
@@ -92256,7 +92641,8 @@
       "39": "27",
       "310": "27"
     },
-    "2.4.0.post1": "2.4.0"
+    "2.4.0.post1": "2.4.0",
+    "2.4.2": "2.4.0"
   },
   "types-flake8-builtins": {
     "1.5.0": {

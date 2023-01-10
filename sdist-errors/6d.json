@@ -200,6 +200,11 @@
       "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
     }
   },
+  "aoxiu-yibeicha": {
+    "2022.12.8.0": {
+      "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
+    }
+  },
   "apache-airflow-backport-providers-apache-hdfs": {
     "2020.10.29": {
       "27": "SyntaxError: invalid syntax"
@@ -452,7 +457,8 @@
     "0.7.6": "0.1.0",
     "0.7.7": "0.1.0",
     "0.7.8": "0.1.0",
-    "0.7.9": "0.1.0"
+    "0.7.9": "0.1.0",
+    "0.8.0": "0.1.0"
   },
   "automatminer": {
     "1.0.0.20191110": {
@@ -2553,6 +2559,16 @@
     },
     "0.0.3": "0.0.2"
   },
+  "fastenv": {
+    "0.3.0a0": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
   "fifa21-fut-coins-points-generator-2021": {
     "2.0.8": {
       "27": "ImportError: No module named pathlib"
@@ -2643,7 +2659,8 @@
     "0.0.99.dev0": "0.0.93.dev0",
     "0.0.105.dev0": "0.0.93.dev0",
     "0.0.115.dev0": "0.0.93.dev0",
-    "0.0.125.dev0": "0.0.93.dev0"
+    "0.0.125.dev0": "0.0.93.dev0",
+    "0.0.189.dev0": "0.0.93.dev0"
   },
   "flask-adfs": {
     "0.1.17": {
@@ -2779,7 +2796,8 @@
       "39": "these 2 derivations will be built:\n /nix/store/#hash#-fpodms-#PKG_VER#.tar.gz.drv\n /nix/store/#hash#-fpodms-#PKG_VER#-requirements.drv\nwaiting for UID to build '/nix/store/#hash#-fpodms-#PKG_VER#.tar.gz.drv'...\nbuilding '/nix/store/#hash#-fpodms-#PKG_VER#.tar.gz.drv'...\n\ntrying https://files.pythonhosted.org/packages/source/f/fpodms/fpodms-#PKG_VER#.tar.gz\n % Total % Received % Xferd Average Speed Time Time Time Current\n Dload Upload Total Spent Left Speed\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0\n100 3149 100 3149 0 0 6801 0 --:--:-- --:--:-- --:--:-- 0\nbuilding '/nix/store/#hash#-fpodms-#PKG_VER#-requirements.drv'...\nunpacking sources\nunpacking source archive /nix/store/#hash#-fpodms-#PKG_VER#.tar.gz\nsource root is fpodms-#PKG_VER#\nsetting SOURCE_DATE_EPOCH to timestamp 1598998959 of file fpodms-#PKG_VER#/PKG-INFO\ninstalling\nextracting metadata for python#VER#\nextracting metadata for python#VER#\n",
       "310": "39"
     },
-    "2.0.0": {
+    "2.0.0": "0.4.0",
+    "0.4.0": {
       "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
       "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
       "37": "36",
@@ -5145,6 +5163,16 @@
     },
     "0.2.0": "0.1.0"
   },
+  "otter-service-stdalone": {
+    "0.0.1": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
   "ou-jupyter-book-tools": {
     "0.0.3": {
       "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
@@ -5373,6 +5401,16 @@
       "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
     },
     "0.6.1": "0.6"
+  },
+  "philbot-voice": {
+    "0.5.0": {
+      "27": "error in philbot-voice setup command: (\"EntryPoint must be in 'name=module:attrs [extras]' format\", 'philbot-voice = philbot-voice:main')\n",
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
   },
   "pianyuan": {
     "0.0.1": {
@@ -5960,7 +5998,8 @@
     "1.0.0": "0.1.0",
     "1.1.0": "0.1.0",
     "1.1.2": "0.1.0",
-    "1.1.3": "0.1.0"
+    "1.1.3": "0.1.0",
+    "1.1.4": "0.1.0"
   },
   "pykeen": {
     "0.0.1": {
@@ -6660,6 +6699,9 @@
   "redpipe": {
     "2.3.5": {
       "310": "OSError: [Errno 28] No space left on device"
+    },
+    "3.0.0": {
+      "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
     }
   },
   "reneevann": {

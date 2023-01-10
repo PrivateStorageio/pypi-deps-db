@@ -793,7 +793,8 @@
     "2.49.1a0": "2.0.0a1",
     "2.50.0a0": "2.0.0a1",
     "2.51.0a0": "2.0.0a1",
-    "2.51.1a0": "2.0.0a1"
+    "2.51.1a0": "2.0.0a1",
+    "2.53.0a0": "2.0.0a1"
   },
   "aws-okta-keyman": {
     "0.8.0": {
@@ -1322,6 +1323,14 @@
     "0.2.9": "0.0.0",
     "0.2.11": "0.0.0",
     "0.2.12": "0.0.0"
+  },
+  "cdklabs.ecs-codedeploy": {
+    "0.0.12": "0.0.8",
+    "0.0.23": "0.0.8",
+    "0.0.8": {
+      "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
+    },
+    "0.0.9": "0.0.8"
   },
   "certtool": {
     "0.1.1": {
@@ -2343,7 +2352,9 @@
     "0.16.17": "1.0.5",
     "0.17.1": "1.0.5",
     "0.17.2": "1.0.5",
-    "0.17.3": "1.0.5"
+    "0.17.3": "1.0.5",
+    "0.17.6": "1.0.5",
+    "0.17.7": "1.0.5"
   },
   "daily-notes": {
     "0.1.0": {
@@ -3140,6 +3151,16 @@
       "38": "36",
       "39": "36",
       "310": "36"
+    }
+  },
+  "features-api-openapi-client": {
+    "0.0.0": {
+      "27": "Error: you are pip installing the wrong package, check config",
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
     }
   },
   "fepydas": {
@@ -5379,6 +5400,11 @@
     "0.0.7": "0.0.5",
     "0.0.8": "0.0.5"
   },
+  "mkdocs-twincat-doc-plugin": {
+    "0.0.10": {
+      "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
+    }
+  },
   "mkpi": {
     "0.1": {
       "27": "TypeError: 'encoding' is an invalid keyword argument for this function",
@@ -6103,7 +6129,8 @@
       "39": "36",
       "310": "36"
     },
-    "0.35b0": "0.34b0"
+    "0.35b0": "0.34b0",
+    "0.36b0": "0.34b0"
   },
   "opentelemetryinstrumentation-asyncpg": {
     "0.1.0": {
@@ -8246,7 +8273,8 @@
     "3.0.10": "3.0.3",
     "3.0.11": "3.0.3",
     "3.0.12": "3.0.3",
-    "3.0.13": "3.0.3"
+    "3.0.13": "3.0.3",
+    "3.0.16": "3.0.3"
   },
   "sortseq-tools": {
     "0.0.1": {
@@ -9234,6 +9262,16 @@
     "0.0.7": "0.0.1",
     "0.0.8": "0.0.1"
   },
+  "video-bot-handle-credits": {
+    "0.0.3": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
   "viessmann-data-audit": {
     "0.1.1": {
       "27": "IOError: [Errno 2] No such file or directory: 'readme_pypi.rst'",
@@ -9250,6 +9288,16 @@
     "0.1.6": "0.1.1",
     "0.1.7": "0.1.1",
     "0.1.8": "0.1.1"
+  },
+  "views-py": {
+    "1.0.1": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
   },
   "vitex": {
     "0.2.1": {

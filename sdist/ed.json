@@ -14156,6 +14156,60 @@
       "38": "36",
       "39": "36",
       "310": "36"
+    },
+    "1.182.0": {
+      "36": {
+        "install_requires": [
+          "aws-cdk.core==1.182.0",
+          "constructs<4.0.0,>=3.3.69",
+          "jsii<2.0.0,>=1.71.0",
+          "publication>=0.0.3",
+          "typeguard~=2.13.3"
+        ],
+        "python_requires": [
+          "~=3.7"
+        ]
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    },
+    "1.186.1": {
+      "36": {
+        "install_requires": [
+          "aws-cdk.core==1.186.1",
+          "constructs<4.0.0,>=3.3.69",
+          "jsii<2.0.0,>=1.72.0",
+          "publication>=0.0.3",
+          "typeguard~=2.13.3"
+        ],
+        "python_requires": [
+          "~=3.7"
+        ]
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    },
+    "1.187.0": {
+      "36": {
+        "install_requires": [
+          "aws-cdk.core==1.187.0",
+          "constructs<4.0.0,>=3.3.69",
+          "jsii<2.0.0,>=1.72.0",
+          "publication>=0.0.3",
+          "typeguard~=2.13.3"
+        ],
+        "python_requires": [
+          "~=3.7"
+        ]
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
     }
   },
   "aws-sm-import": {
@@ -15281,6 +15335,20 @@
         ],
         "python_requires": [
           ">=3.6"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
+  },
+  "botocore-a-la-carte-datapipeline": {
+    "1.29.43": {
+      "27": {
+        "python_requires": [
+          ">= 3.7"
         ]
       },
       "36": "27",
@@ -45150,6 +45218,23 @@
       "310": "27"
     }
   },
+  "labelpandas": {
+    "0.0.77": {
+      "27": {
+        "install_requires": [
+          "labelbox",
+          "labelbase",
+          "packaging"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    },
+    "0.0.78": "0.0.77"
+  },
   "labml-helpers": {
     "0.4.0": {
       "27": {
@@ -50286,31 +50371,6 @@
       "38": "36",
       "39": "36",
       "310": "36"
-    },
-    "4.0.0rc1.dev20220901102857": {
-      "36": {
-        "install_requires": [
-          "asgiref",
-          "backoff",
-          "django<4.2.0,>=3.2.0",
-          "protobuf",
-          "momotor-engine-proto~=4.0",
-          "momotor-engine-shared~=1.1"
-        ],
-        "extras_require": {
-          "docs": [
-            "Sphinx",
-            "sphinx-autodoc-typehints"
-          ]
-        },
-        "python_requires": [
-          ">=3.7"
-        ]
-      },
-      "37": "36",
-      "38": "36",
-      "39": "36",
-      "310": "36"
     }
   },
   "mongo-connector-transaction": {
@@ -50828,6 +50888,89 @@
             "sphinx_panels==0.6.0",
             "sphinxcontrib-images==0.9.4",
             "sphinx-copybutton==0.5.0",
+            "sphinxemoji==0.2.0"
+          ]
+        },
+        "python_requires": [
+          ">=3.7"
+        ]
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    },
+    "0.2.1": {
+      "36": {
+        "install_requires": [
+          "boto3<2,>=1.21.45",
+          "Brotli>=1.0.9",
+          "datasets<3,>=2.4.0",
+          "matplotlib<4,>=3.5.2",
+          "paramiko<3,>=2.11.0",
+          "python-snappy<1,>=0.6.1",
+          "torch<2,>=1.10",
+          "torchtext>=0.10",
+          "torchvision>=0.10",
+          "tqdm<5,>=4.64.0",
+          "transformers<5,>=4.21.3",
+          "xxhash<4,>=3.0.0",
+          "zstd<2,>=1.5.2.5",
+          "oci<3,>=2.88"
+        ],
+        "extras_require": {
+          "dev": [
+            "docformatter>=1.4",
+            "jupyter==1.0.0",
+            "pre-commit<3,>=2.18.1",
+            "pytest==7.2.0",
+            "pytest_codeblocks==0.16.1",
+            "pytest-cov<5,>=4",
+            "toml==0.10.2",
+            "yamllint==1.28.0",
+            "moto<5,>=4.0"
+          ],
+          "docs": [
+            "GitPython==3.1.29",
+            "docutils==0.17.1",
+            "furo==2022.9.29",
+            "myst-parser==0.18.1",
+            "nbsphinx==0.8.10",
+            "pandoc==2.3",
+            "pypandoc==1.10",
+            "sphinx-argparse==0.4.0",
+            "sphinx-copybutton==0.5.1",
+            "sphinx==4.4.0",
+            "sphinx_panels==0.6.0",
+            "sphinxcontrib-images==0.9.4",
+            "sphinxcontrib.katex==0.9.3",
+            "sphinxemoji==0.2.0",
+            "sphinxext.opengraph==0.7.3"
+          ],
+          "all": [
+            "toml==0.10.2",
+            "moto<5,>=4.0",
+            "sphinx-copybutton==0.5.1",
+            "pytest_codeblocks==0.16.1",
+            "docutils==0.17.1",
+            "yamllint==1.28.0",
+            "pre-commit<3,>=2.18.1",
+            "pypandoc==1.10",
+            "pandoc==2.3",
+            "sphinxext.opengraph==0.7.3",
+            "pytest-cov<5,>=4",
+            "docformatter>=1.4",
+            "sphinxcontrib.katex==0.9.3",
+            "GitPython==3.1.29",
+            "jupyter==1.0.0",
+            "sphinx==4.4.0",
+            "pytest==7.2.0",
+            "sphinx-argparse==0.4.0",
+            "myst-parser==0.18.1",
+            "furo==2022.9.29",
+            "sphinx_panels==0.6.0",
+            "nbsphinx==0.8.10",
+            "sphinxcontrib-images==0.9.4",
             "sphinxemoji==0.2.0"
           ]
         },
@@ -54761,60 +54904,6 @@
     }
   },
   "nmdc-schema": {
-    "2021.4.15rc1": "1.0.0",
-    "2021.4.15rc2": "1.0.0",
-    "2021.4.15rc3": "1.0.0",
-    "2021.4.16rc1": "1.0.0",
-    "2021.4.22rc1": "1.0.0",
-    "2021.4.28rc1": "1.0.0",
-    "2021.6.1rc1": "1.0.0",
-    "2021.6.1rc2": "1.0.0",
-    "2021.6.10rc1": "1.0.0",
-    "2021.6.11rc1": "1.0.0",
-    "2021.6.16rc1": "1.0.0",
-    "2021.6.17rc1": "1.0.0",
-    "2021.6.23rc1": "1.0.0",
-    "2021.6.24rc1": "1.0.0",
-    "2021.7.1rc1": "1.0.0",
-    "2021.9.21rc1": "1.0.0",
-    "2021.9.28rc1": "1.0.0",
-    "2021.9.28rc2": "1.0.0",
-    "2021.9.30rc1": "1.0.0",
-    "2021.9.30rc2": "1.0.0",
-    "2021.9.30rc3": "1.0.0",
-    "2021.10.12rc1": "1.0.0",
-    "2021.10.12rc2": "1.0.0",
-    "2021.10.13rc1": "1.0.0",
-    "2021.10.13rc2": "1.0.0",
-    "2021.10.20rc1": "1.0.0",
-    "2021.11.15rc1": "1.0.0",
-    "2021.11.19rc1": "1.0.0",
-    "2021.11.19rc2": {
-      "27": {
-        "install_requires": [
-          "linkml"
-        ],
-        "setup_requires": [
-          "setuptools_scm"
-        ],
-        "python_requires": [
-          ">=3.9"
-        ]
-      },
-      "36": "27",
-      "37": "27",
-      "38": "27",
-      "39": "27",
-      "310": "27"
-    },
-    "2021.11.19rc3": "1.0.0",
-    "2021.11.22rc1": "1.0.0",
-    "2021.12.21rc1": "1.0.0",
-    "2021.12.22rc1": "1.0.0",
-    "2022.1.14rc1": "1.0.0",
-    "2022.1.18rc1": "1.0.0",
-    "2022.1.26rc1": "1.0.0",
-    "2022.1.26rc2": "1.0.0",
     "1.0.0": {
       "27": {
         "install_requires": [
@@ -55154,6 +55243,37 @@
         "install_requires": [
           "fastparquet",
           "google-cloud-bigquery>=3.3.0",
+          "openpyxl",
+          "pandas",
+          "pyarrow",
+          "requests",
+          "psycopg2-binary",
+          "pyodbc",
+          "db-dtypes"
+        ],
+        "extras_require": {
+          "dev": [
+            "check-manifest"
+          ],
+          "test": [
+            "coverage"
+          ]
+        },
+        "python_requires": [
+          ">=3.6, <4"
+        ]
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    },
+    "2.0.9": {
+      "36": {
+        "install_requires": [
+          "fastparquet",
+          "google-cloud-bigquery",
+          "google-cloud-logging",
           "openpyxl",
           "pandas",
           "pyarrow",
@@ -76487,7 +76607,8 @@
     "3.0.777": "3.0.252",
     "3.0.778": "3.0.252",
     "3.0.779": "3.0.252",
-    "3.0.780": "3.0.252"
+    "3.0.780": "3.0.252",
+    "3.0.792": "3.0.252"
   },
   "tenform": {
     "0.1.0": {
@@ -79204,7 +79325,6 @@
       "39": "27",
       "310": "27"
     },
-    "0.8.0": "0.7.0",
     "0.7.3": {
       "27": {
         "install_requires": [
@@ -79246,7 +79366,51 @@
       "39": "27",
       "310": "27"
     },
-    "0.7.4": "0.7.3"
+    "0.7.4": "0.7.3",
+    "0.8.6": {
+      "27": {
+        "install_requires": [
+          "aiorun<2023.0.0,>=2022.11.1",
+          "aiosqlite<0.18.0,>=0.17.0",
+          "click==8.0.1",
+          "pylint[dev]<3.0.0,>=2.15.6",
+          "python-dateutil<3.0.0,>=2.8.2",
+          "pyunifiprotect<5.0.0,>=4.0.11"
+        ],
+        "extras_require": {
+          "test": [
+            "black<23.0.0,>=22.10.0",
+            "isort<6.0.0,>=5.8.0",
+            "flake8<4.0.0,>=3.9.2",
+            "flake8-docstrings<2.0.0,>=1.6.0",
+            "mypy<0.901,>=0.900",
+            "pytest<7.0.0,>=6.2.4",
+            "pytest-cov<3.0.0,>=2.12.0",
+            "types-pytz<2022.0.0,>=2021.3.5",
+            "types-cryptography<4.0.0,>=3.3.18"
+          ],
+          "dev": [
+            "tox<4.0.0,>=3.20.1",
+            "virtualenv<21.0.0,>=20.2.2",
+            "pip<21.0.0,>=20.3.1",
+            "twine<4.0.0,>=3.3.0",
+            "pre-commit<3.0.0,>=2.12.0",
+            "toml<0.11.0,>=0.10.2",
+            "bump2version<2.0.0,>=1.0.1",
+            "tox-asdf<0.2.0,>=0.1.0",
+            "ipdb<0.14.0,>=0.13.9"
+          ]
+        },
+        "python_requires": [
+          ">=3.9.0,<4.0"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
   },
   "unitils": {
     "0.1.0": {

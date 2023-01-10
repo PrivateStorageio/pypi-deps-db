@@ -2226,7 +2226,8 @@
     "3.0.0rc2": "2.2.3",
     "3.0.0": "2.2.3",
     "3.1.0rc1": "2.2.3",
-    "3.1.0": "2.2.3"
+    "3.1.0": "2.2.3",
+    "3.1.1": "2.2.3"
   },
   "api-descstats-csv": {
     "0.1.1": {
@@ -10832,7 +10833,71 @@
     "1.1.113": "1.1.96",
     "2.2.2": "2.2.0",
     "2.2.3": "2.2.0",
-    "2.2.4": "2.2.0"
+    "2.2.4": "2.2.0",
+    "1.1.127": {
+      "36": {
+        "install_requires": [
+          "aws-cdk.aws-ec2<2.0.0,>=1.177.0",
+          "aws-cdk.aws-events-targets<2.0.0,>=1.177.0",
+          "aws-cdk.aws-events<2.0.0,>=1.177.0",
+          "aws-cdk.aws-iam<2.0.0,>=1.177.0",
+          "aws-cdk.aws-lambda<2.0.0,>=1.177.0",
+          "aws-cdk.aws-logs<2.0.0,>=1.177.0",
+          "aws-cdk.aws-rds<2.0.0,>=1.177.0",
+          "aws-cdk.core<2.0.0,>=1.177.0",
+          "aws-cdk.custom-resources<2.0.0,>=1.177.0",
+          "constructs<4.0.0,>=3.2.27",
+          "jsii<2.0.0,>=1.72.0",
+          "publication>=0.0.3",
+          "typeguard~=2.13.3"
+        ],
+        "python_requires": [
+          "~=3.7"
+        ]
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    },
+    "1.1.132": "1.1.127",
+    "1.1.144": "1.1.127",
+    "2.3.24": {
+      "36": {
+        "install_requires": [
+          "aws-cdk-lib<3.0.0,>=2.45.0",
+          "constructs<11.0.0,>=10.0.5",
+          "jsii<2.0.0,>=1.73.0",
+          "publication>=0.0.3",
+          "typeguard~=2.13.3"
+        ],
+        "python_requires": [
+          "~=3.7"
+        ]
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    },
+    "2.3.3": {
+      "36": {
+        "install_requires": [
+          "aws-cdk-lib<3.0.0,>=2.45.0",
+          "constructs<11.0.0,>=10.0.5",
+          "jsii<2.0.0,>=1.72.0",
+          "publication>=0.0.3",
+          "typeguard~=2.13.3"
+        ],
+        "python_requires": [
+          "~=3.7"
+        ]
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
   },
   "cdk-cloudwatch-alarm-chatbot": {
     "1.0.0": {
@@ -18039,6 +18104,17 @@
       "36": {
         "install_requires": [
           "dagster==1.1.3"
+        ]
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    },
+    "0.17.4": {
+      "36": {
+        "install_requires": [
+          "dagster==1.1.4"
         ]
       },
       "37": "36",
@@ -34030,7 +34106,8 @@
     "1.8.0": "1.3.1",
     "1.8.1": "1.3.1",
     "1.8.2": "1.3.1",
-    "1.8.3": "1.3.1"
+    "1.8.3": "1.3.1",
+    "2.0.2": "1.3.1"
   },
   "jabbar": {
     "0.0.1": {
@@ -48022,7 +48099,8 @@
     "1.5.30": "1.5.0",
     "1.5.31": "1.5.0",
     "1.5.32": "1.5.0",
-    "1.5.33": "1.5.0"
+    "1.5.33": "1.5.0",
+    "1.5.34": "1.5.0"
   },
   "pandokia": {
     "1.2": {
@@ -62917,7 +62995,66 @@
       "39": "27",
       "310": "27"
     },
-    "3.0.0b2": "3.0.0b1"
+    "3.0.0b2": "3.0.0b1",
+    "3.0.3": {
+      "27": {
+        "install_requires": [
+          "plone.app.textfield",
+          "plone.behavior>=1.0",
+          "plone.dexterity>=2.2.2",
+          "plone.formwidget.namedfile",
+          "plone.namedfile>=1.0.0",
+          "plone.rfc822",
+          "plone.schemaeditor>1.3.3",
+          "lxml",
+          "plone.app.content",
+          "plone.app.layout",
+          "plone.app.uuid",
+          "plone.app.z3cform>=1.1.0",
+          "plone.autoform>=1.1",
+          "plone.contentrules",
+          "plone.portlets",
+          "plone.schema>=1.1.0",
+          "plone.supermodel>=1.1",
+          "plone.z3cform>=0.6.0",
+          "Products.CMFCore",
+          "Products.GenericSetup",
+          "setuptools",
+          "Zope",
+          "zope.browserpage",
+          "zope.interface",
+          "zope.component",
+          "zope.deprecation",
+          "zope.schema",
+          "zope.publisher",
+          "z3c.form>=3.0.0"
+        ],
+        "extras_require": {
+          "test": [
+            "plone.app.robotframework",
+            "plone.app.testing"
+          ],
+          "grok": [
+            "five.grok",
+            "plone.directives.dexterity",
+            "plone.directives.form>=1.1"
+          ],
+          "relations": [
+            "plone.app.relationfield",
+            "plone.app.intid",
+            "z3c.relationfield"
+          ]
+        },
+        "python_requires": [
+          ">=3.8"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
   },
   "plonetheme.reorg": {
     "1.0": {
@@ -69243,39 +69380,6 @@
     },
     "1.0.1": "1.0.0"
   },
-  "repoup": {
-    "1.0.0b18": {
-      "27": {
-        "extras_require": {
-          "aws": [
-            "aioboto3"
-          ],
-          "deb": [
-            "python-debian"
-          ],
-          "rpm": [
-            "createrepo_c"
-          ],
-          "speedups": [
-            "uvloop"
-          ]
-        },
-        "python_requires": [
-          ">=3.9,<4"
-        ]
-      },
-      "36": "27",
-      "37": "27",
-      "38": "27",
-      "39": "27",
-      "310": "27"
-    },
-    "1.0.0b19": "1.0.0b18",
-    "1.0.0b20": "1.0.0b18",
-    "1.0.0b21": "1.0.0b18",
-    "1.0.0b22": "1.0.0b18",
-    "1.0.0b23": "1.0.0b18"
-  },
   "reqchecker": {
     "0.2.1": {
       "27": {
@@ -74997,7 +75101,92 @@
       "39": "36",
       "310": "36"
     },
-    "0.17.1.dev0": "0.17.1"
+    "0.17.1.dev0": "0.17.1",
+    "0.17.2": {
+      "36": {
+        "install_requires": [
+          "Faker<15,>=10",
+          "graphviz<1,>=0.13.2",
+          "pandas<2,>=1.1.3",
+          "tqdm<5,>=4.15",
+          "copulas<0.8,>=0.7.0",
+          "ctgan<0.6,>=0.5.2",
+          "deepecho<0.4,>=0.3.0.post1",
+          "rdt<1.3.0,>=1.2.0",
+          "sdmetrics<0.9,>=0.8.0",
+          "cloudpickle<3.0,>=2.1.0"
+        ],
+        "setup_requires": [
+          "pytest-runner>=2.11.1"
+        ],
+        "extras_require": {
+          "test": [
+            "pytest>=3.4.2",
+            "pytest-cov>=2.6.0",
+            "pytest-rerunfailures>10",
+            "jupyter<2,>=1.0.0",
+            "rundoc<0.5,>=0.4.3"
+          ],
+          "dev": [
+            "bumpversion<0.6,>=0.5.3",
+            "pip>=9.0.1",
+            "watchdog<0.9,>=0.8.3",
+            "docutils<0.18,>=0.12",
+            "m2r2<0.3,>=0.2.5",
+            "nbsphinx<0.7,>=0.5.0",
+            "sphinx_toolbox<3,>=2.5",
+            "Sphinx<3.3,>=3",
+            "pydata-sphinx-theme<0.5",
+            "markupsafe<2.1.0",
+            "Jinja2<3,>=2",
+            "flake8<4,>=3.7.7",
+            "flake8-absolute-import<2,>=1.0",
+            "flake8-docstrings<2,>=1.5.0",
+            "flake8-sfs<0.1,>=0.0.3",
+            "isort<5,>=4.3.4",
+            "autoflake<2,>=1.1",
+            "autopep8<1.6,>=1.4.3",
+            "twine<4,>=1.10.0",
+            "wheel>=0.30.0",
+            "coverage<6,>=4.5.1",
+            "tox<4,>=2.9.1",
+            "invoke",
+            "pytest>=3.4.2",
+            "pytest-cov>=2.6.0",
+            "pytest-rerunfailures>10",
+            "jupyter<2,>=1.0.0",
+            "rundoc<0.5,>=0.4.3"
+          ],
+          "pomegranate": [],
+          "pomegranate:python_version < \"3.7\"": [
+            "pomegranate<0.14.2,>=0.13.4"
+          ],
+          "pomegranate:python_version >= \"3.7\"": [
+            "pomegranate<0.15,>=0.14.1"
+          ],
+          ":python_version < \"3.7\"": [
+            "numpy<1.20.0,>=1.18.0"
+          ],
+          ":python_version >= \"3.7\"": [
+            "numpy<2,>=1.20.0"
+          ]
+        },
+        "tests_require": [
+          "pytest>=3.4.2",
+          "pytest-cov>=2.6.0",
+          "pytest-rerunfailures>10",
+          "jupyter>=1.0.0,<2",
+          "rundoc>=0.4.3,<0.5"
+        ],
+        "python_requires": [
+          ">=3.6,<3.10"
+        ]
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
   },
   "seanblend": {
     "0.0.1": {
@@ -80444,6 +80633,18 @@
     "0.1.2": "0.1.0",
     "0.1.3": "0.1.0"
   },
+  "tencentcloud-sdk-python-cdwch": {
+    "3.0.784": {
+      "27": {},
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    },
+    "3.0.785": "3.0.784",
+    "3.0.804": "3.0.784"
+  },
   "tencentcloud-sdk-python-iotvideoindustry": {
     "3.0.359": {
       "27": {},
@@ -80850,7 +81051,8 @@
     "3.0.777": "3.0.359",
     "3.0.778": "3.0.359",
     "3.0.779": "3.0.359",
-    "3.0.780": "3.0.359"
+    "3.0.780": "3.0.359",
+    "3.0.808": "3.0.359"
   },
   "tencentcloud-sdk-python-tcb": {
     "3.0.252": {
@@ -81367,7 +81569,9 @@
     "3.0.777": "3.0.252",
     "3.0.778": "3.0.252",
     "3.0.779": "3.0.252",
-    "3.0.780": "3.0.252"
+    "3.0.780": "3.0.252",
+    "3.0.789": "3.0.252",
+    "3.0.792": "3.0.252"
   },
   "tensorboard-wrapper": {
     "0.1": {

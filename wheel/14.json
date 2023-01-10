@@ -64113,18 +64113,6 @@
       }
     }
   },
-  "supersimplegamehacker": {
-    "py3": {
-      "2024": {
-        "SuperSimpleGameHacker-2024-py3-none-any.whl": {
-          "requires_dist": [
-            "pymem"
-          ],
-          "requires_python": ">=3.6"
-        }
-      }
-    }
-  },
   "surrortgsdk": {
     "py2.py3": {
       "0.0.1a1": {

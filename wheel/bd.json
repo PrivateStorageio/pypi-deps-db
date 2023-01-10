@@ -37431,47 +37431,6 @@
       }
     }
   },
-  "easymaker": {
-    "py3": {
-      "0.0.10": {
-        "easymaker-0.0.10-py3-none-any.whl": {
-          "requires_dist": [
-            "pytest (~=7.1.1)",
-            "setuptools (~=57.0.0)",
-            "requests (~=2.27.1)",
-            "importlib-metadata (~=4.11.3)",
-            "argparse (~=1.4.0)",
-            "docker (~=5.0.3)",
-            "pytz (~=2022.2.1)"
-          ]
-        }
-      },
-      "0.0.11": {
-        "easymaker-0.0.11-py3-none-any.whl": "0.0.10@easymaker-0.0.10-py3-none-any.whl"
-      },
-      "0.0.12": {
-        "easymaker-0.0.12-py3-none-any.whl": "0.0.10@easymaker-0.0.10-py3-none-any.whl"
-      },
-      "0.0.13": {
-        "easymaker-0.0.13-py3-none-any.whl": "0.0.10@easymaker-0.0.10-py3-none-any.whl"
-      },
-      "0.0.7": {
-        "easymaker-0.0.7-py3-none-any.whl": "0.0.10@easymaker-0.0.10-py3-none-any.whl"
-      },
-      "0.0.7a2": {
-        "easymaker-0.0.7a2-py3-none-any.whl": "0.0.10@easymaker-0.0.10-py3-none-any.whl"
-      },
-      "0.0.8": {
-        "easymaker-0.0.8-py3-none-any.whl": "0.0.10@easymaker-0.0.10-py3-none-any.whl"
-      },
-      "0.0.9": {
-        "easymaker-0.0.9-py3-none-any.whl": "0.0.10@easymaker-0.0.10-py3-none-any.whl"
-      },
-      "1.0.0": {
-        "easymaker-1.0.0-py3-none-any.whl": "0.0.10@easymaker-0.0.10-py3-none-any.whl"
-      }
-    }
-  },
   "easyschedule": {
     "py3": {
       "0.100": {
@@ -87472,35 +87431,6 @@
       }
     }
   },
-  "skyant-tools": {
-    "py3": {
-      "1.0.24": {
-        "skyant_tools-1.0.24-py3-none-any.whl": {
-          "requires_dist": [
-            "google.auth",
-            "pyyaml"
-          ],
-          "requires_python": ">=3.10"
-        }
-      },
-      "1.0.25": {
-        "skyant_tools-1.0.25-py3-none-any.whl": "1.0.24@skyant_tools-1.0.24-py3-none-any.whl"
-      },
-      "1.1.26": {
-        "skyant_tools-1.1.26-py3-none-any.whl": {
-          "requires_dist": [
-            "google-auth",
-            "pyyaml",
-            "flask",
-            "python-jose",
-            "requests",
-            "duty"
-          ],
-          "requires_python": ">=3.10"
-        }
-      }
-    }
-  },
   "slackblockstool": {
     "py3": {
       "0.0.1": {
@@ -95538,13 +95468,6 @@
           ],
           "requires_python": ">=3.0"
         }
-      }
-    }
-  },
-  "vhpc-toolkit": {
-    "py3": {
-      "10.7.8": {
-        "vhpc_toolkit-10.7.8-py3-none-any.whl": {}
       }
     }
   },

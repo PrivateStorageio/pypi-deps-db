@@ -99,7 +99,8 @@
     },
     "1.11.4": "1.11.3",
     "1.11.5": "1.11.3",
-    "1.11.6": "1.11.3"
+    "1.11.6": "1.11.3",
+    "1.11.7": "1.11.3"
   },
   "adaptdl": {
     "0.2.0": {
@@ -308,6 +309,16 @@
     "0.0.4": "0.0.3",
     "0.0.5": "0.0.3",
     "0.0.6": "0.0.3"
+  },
+  "api-snitch": {
+    "0.1.32": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
   },
   "apk-launcher": {
     "0.0.0": {
@@ -1570,7 +1581,8 @@
     "0.4.6.1": "0.1.0",
     "0.4.5": "0.1.0",
     "0.4.6.2": "0.1.0",
-    "0.4.6.3": "0.1.0"
+    "0.4.6.3": "0.1.0",
+    "0.4.6.5": "0.1.0"
   },
   "deepface": {
     "0.0.1": {
@@ -2238,7 +2250,8 @@
     "0.0.7": "0.0.5",
     "0.0.8": "0.0.5",
     "0.1.0": "0.0.5",
-    "0.1.1": "0.0.5"
+    "0.1.1": "0.0.5",
+    "0.1.3": "0.0.5"
   },
   "example-aless80": {
     "1.5.4": {
@@ -2621,7 +2634,8 @@
     "0.0.41": "0.0.40",
     "0.0.42": "0.0.40",
     "0.0.43": "0.0.40",
-    "0.0.44": "0.0.40"
+    "0.0.44": "0.0.40",
+    "0.0.47": "0.0.40"
   },
   "free-fire-diamond-earrings-v-2929": {
     "8.995": {
@@ -3758,7 +3772,8 @@
     "0.5.0rc3": "0.1.0",
     "0.5.0rc4": "0.1.0",
     "0.5.0rc5": "0.1.0",
-    "0.5.0": "0.1.0"
+    "0.5.0": "0.1.0",
+    "0.5.2": "0.1.0"
   },
   "keel-telegram-bot": {
     "1.0.0": {
@@ -3777,6 +3792,16 @@
       "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
     },
     "0.1.1": "0.1.0"
+  },
+  "kitronikpicosimplyservos": {
+    "1.0.0": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
   },
   "kuramoto-model": {
     "0.0.1": {
@@ -4319,6 +4344,16 @@
     "0.3.13": "0.1.0",
     "0.3.14": "0.1.0"
   },
+  "merkl": {
+    "0.3": {
+      "27": "ImportError: No module named pip.req",
+      "36": "ModuleNotFoundError: No module named 'pip'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
   "mfreport": {
     "0.1.0": {
       "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
@@ -4689,7 +4724,9 @@
     "0.3.1": "0.0.1",
     "0.3.3": "0.0.1",
     "0.3.4": "0.0.1",
-    "0.3.5": "0.0.1"
+    "0.3.5": "0.0.1",
+    "0.0.5": "0.0.1",
+    "0.1.9": "0.0.1"
   },
   "netcat-ntt": {
     "1.0.1": {
@@ -4753,6 +4790,16 @@
   "nonebot-plugin-listener": {
     "1.0.2": {
       "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
+    }
+  },
+  "nonos": {
+    "0.7.2": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
     }
   },
   "npd-whale-wisdom": {
@@ -6211,7 +6258,8 @@
     "1.1.0b10": "1.0.0",
     "1.1.0b12": "1.0.0",
     "1.1.0": "1.0.0",
-    "1.2.0a1": "1.0.0"
+    "1.2.0a1": "1.0.0",
+    "1.2.0a2": "1.0.0"
   },
   "qrpc": {
     "0.1.0": {
@@ -6528,7 +6576,8 @@
     "0.1.147": "0.0.0",
     "0.1.148": "0.0.0",
     "0.1.149": "0.0.0",
-    "0.1.150": "0.0.0"
+    "0.1.150": "0.0.0",
+    "0.1.157": "0.0.0"
   },
   "repo-activity-score": {
     "0.0.3": {
@@ -7634,6 +7683,16 @@
       "27": "ImportError: No module named pathlib"
     }
   },
+  "torch-graph-force": {
+    "0.1.1": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
   "torvo-aws": {
     "0.0.0": {
       "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
@@ -8102,7 +8161,8 @@
     "1.3.0": "0.0.0",
     "1.3.1": "0.0.0",
     "1.3.2": "0.0.0",
-    "1.3.3": "0.0.0"
+    "1.3.3": "0.0.0",
+    "1.3.4": "0.0.0"
   },
   "vulfocus": {
     "0.0.2": {

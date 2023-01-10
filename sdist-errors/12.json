@@ -187,7 +187,8 @@
       "310": "36"
     },
     "1.1.4": "1.1.3",
-    "1.1.5": "1.1.3"
+    "1.1.5": "1.1.3",
+    "1.1.6": "1.1.3"
   },
   "adafruit-circuitpython-lsm303dlh-mag": {
     "1.1.5": {
@@ -381,7 +382,8 @@
     "3.0.44": "1.0.0",
     "3.0.45": "1.0.0",
     "3.0.46": "1.0.0",
-    "3.0.47": "1.0.0"
+    "3.0.47": "1.0.0",
+    "3.0.52": "1.0.0"
   },
   "aliyun-python-sdk-kms": {
     "2.9.0": {
@@ -1042,7 +1044,8 @@
       "39": "36",
       "310": "36"
     },
-    "1.0.0": "0.1.1"
+    "1.0.0": "0.1.1",
+    "1.0.2": "0.1.1"
   },
   "biloba": {
     "0.1.4": {
@@ -1816,6 +1819,16 @@
     "0.1.5": "0.1.0",
     "0.1.6": "0.1.0"
   },
+  "coloripy": {
+    "1.0.4": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
   "com.dvsnier.process": {
     "0.0.1.dev1": {
       "27": "IOError: [Errno 2] No such file or directory: '/Users/dovsnier/Documents/Work_Space_Python/Python-DeMo/doc/description/process/README.md'",
@@ -2030,6 +2043,16 @@
       "27": "SyntaxError: invalid syntax"
     },
     "0.9.1": "0.8.0"
+  },
+  "ctk-title-bar": {
+    "0.0.2": {
+      "27": "these 2 derivations will be built:\n /nix/store/#hash#-CTk-Title-Bar-#PKG_VER#.tar.gz.drv\n /nix/store/#hash#-ctk-title-bar-#PKG_VER#-requirements.drv\nbuilding '/nix/store/#hash#-CTk-Title-Bar-#PKG_VER#.tar.gz.drv'...\n\ntrying https://files.pythonhosted.org/packages/source/c/ctk-title-bar/CTk\n % Total % Received % Xferd Average Speed Time Time Time Current\n Dload Upload Total Spent Left Speed\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0\ncurl: (22) The requested URL returned error: 404 \n\ntrying Title\n % Total % Received % Xferd Average Speed Time Time Time Current\n Dload Upload Total Spent Left Speed\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: Title\nWarning: Transient problem: timeout Will retry in 1 seconds. 3 retries left.\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: Title\nWarning: Transient problem: timeout Will retry in 2 seconds. 2 retries left.\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: Title\nWarning: Transient problem: timeout Will retry in 4 seconds. 1 retries left.\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: Title\n\ntrying Bar-#PKG_VER#.tar.gz\n % Total % Received % Xferd Average Speed Time Time Time Current\n Dload Upload Total Spent Left Speed\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: Bar-#PKG_VER#.tar.gz\nWarning: Transient problem: timeout Will retry in 1 seconds. 3 retries left.\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: Bar-#PKG_VER#.tar.gz\nWarning: Transient problem: timeout Will retry in 2 seconds. 2 retries left.\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: Bar-#PKG_VER#.tar.gz\nWarning: Transient problem: timeout Will retry in 4 seconds. 1 retries left.\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: Bar-#PKG_VER#.tar.gz\nerror: cannot download CTk-Title-Bar-#PKG_VER#.tar.gz from any mirror\nerror: builder for '/nix/store/#hash#-CTk-Title-Bar-#PKG_VER#.tar.gz.drv' failed with exit code 1;\n last 10 log lines:\n > % Total % Received % Xferd Average Speed Time Time Time Current\n > Dload Upload Total Spent Left Speed\n > 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: Bar-#PKG_VER#.tar.gz\n > Warning: Transient problem: timeout Will retry in 1 seconds. 3 retries left.\n > 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: Bar-#PKG_VER#.tar.gz\n > Warning: Transient problem: timeout Will retry in 2 seconds. 2 retries left.\n > 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: Bar-#PKG_VER#.tar.gz\n > Warning: Transient problem: timeout Will retry in 4 seconds. 1 retries left.\n > 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: Bar-#PKG_VER#.tar.gz\n > error: cannot download CTk-Title-Bar-#PKG_VER#.tar.gz from any mirror\n For full logs, run 'nix log /nix/store/#hash#-CTk-Title-Bar-#PKG_VER#.tar.gz.drv'.\nerror: 1 dependencies of derivation '/nix/store/#hash#-ctk-title-bar-#PKG_VER#-requirements.drv' failed to build\n",
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
   },
   "cubicweb-fckeditorcompat": {
     "0.1.0": {
@@ -2251,7 +2274,8 @@
       "38": "36",
       "39": "36",
       "310": "36"
-    }
+    },
+    "0.0.7": "0.0.6"
   },
   "devpi-plumber": {
     "0.1.0": {
@@ -2799,6 +2823,11 @@
       "38": "36",
       "39": "36",
       "310": "36"
+    }
+  },
+  "echr-extractor": {
+    "1.0.8": {
+      "27": "ImportError: No module named pathlib"
     }
   },
   "edc-metadata": {
@@ -4257,6 +4286,12 @@
       "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
     }
   },
+  "hyperparameter-tuning": {
+    "0.1.4": {
+      "27": "ImportError: No module named pathlib"
+    },
+    "0.1.7": "0.1.4"
+  },
   "hyperwallet-sdk": {
     "1.4.0": {
       "310": "OSError: [Errno 28] No space left on device: '/nix/store/#hash#-hyperwallet-sdk-#PKG_VER#-requirements/python#VER#json'"
@@ -5305,7 +5340,8 @@
       "27": "ImportError: No module named pathlib"
     },
     "0.1.2": "0.1.0",
-    "0.1.4": "0.1.0"
+    "0.1.4": "0.1.0",
+    "0.1.6": "0.1.0"
   },
   "minus": {
     "1.0": {
@@ -5622,6 +5658,16 @@
     "1.6.0": "1.0.0",
     "1.7.0": "1.0.0",
     "1.8.0": "1.0.0"
+  },
+  "neelanjanmannaqr": {
+    "1": {
+      "27": "IOError: [Errno 2] No such file or directory: 'README.md'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'README.md'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
   },
   "neorl": {
     "1.6": {
@@ -7050,7 +7096,8 @@
     },
     "1.17.0rc1": "1.17.0",
     "1.18.0": "1.17.0",
-    "1.18.1": "1.17.0"
+    "1.18.1": "1.17.0",
+    "1.19.1": "1.17.0"
   },
   "pyftpclient": {
     "0.0.6": {
@@ -7437,7 +7484,8 @@
     "8.4.1": "8.0",
     "8.5": "8.0",
     "8.5.1": "8.0",
-    "9.0": "8.0"
+    "9.0": "8.0",
+    "9.0.1": "8.0"
   },
   "pyorbit-package": {
     "9.0": {
@@ -7461,7 +7509,9 @@
     "9.0.16": "9.0",
     "9.0.17": "9.0",
     "9.0.18": "9.0",
-    "9.0.19": "9.0"
+    "9.0.19": "9.0",
+    "9.0.20": "9.0",
+    "9.1.0": "9.0"
   },
   "pypacker": {
     "4.9": {
@@ -7911,6 +7961,16 @@
     "0.0.6": "0.0.1",
     "0.0.7": "0.0.1"
   },
+  "q2gui": {
+    "0.1.51": {
+      "27": "these 2 derivations will be built:\n /nix/store/#hash#-q2gui-#PKG_VER#.tar.gz.drv\n /nix/store/#hash#-q2gui-#PKG_VER#-requirements.drv\nwaiting for UID to build '/nix/store/#hash#-q2gui-#PKG_VER#.tar.gz.drv'...\n",
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
+  },
   "qfieldcloud-sdk": {
     "0.2.0": {
       "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
@@ -7966,7 +8026,8 @@
     "2.7.0": "0.0.0",
     "2.8.0": "0.0.0",
     "2.9.0": "0.0.0",
-    "2.10.0": "0.0.0"
+    "2.10.0": "0.0.0",
+    "2.11.0": "0.0.0"
   },
   "radian": {
     "0.4.7": {
@@ -7988,7 +8049,8 @@
       "310": "36"
     },
     "1.0.0": "0.1.0",
-    "1.0.1": "0.1.0"
+    "1.0.1": "0.1.0",
+    "1.0.2": "0.1.0"
   },
   "randall": {
     "0.0.0": {
@@ -9014,6 +9076,16 @@
     "0.2.0": "0.1.1",
     "0.2.1": "0.1.1",
     "0.2.2": "0.1.1"
+  },
+  "spoonbill-framework": {
+    "0.0.1a1": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
   },
   "spreadsheet-wrangler": {
     "0.1.3": {

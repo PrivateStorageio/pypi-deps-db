@@ -122,7 +122,8 @@
     "0.1.4": "0.1.1",
     "0.1.5": "0.1.1",
     "0.1.6": "0.1.1",
-    "0.1.7": "0.1.1"
+    "0.1.7": "0.1.1",
+    "0.1.8": "0.1.1"
   },
   "akcore": {
     "0.0.1": {
@@ -1399,7 +1400,8 @@
     },
     "0.0.2": "0.0.1",
     "0.0.3": "0.0.1",
-    "0.0.4": "0.0.1"
+    "0.0.4": "0.0.1",
+    "0.1.2": "0.0.1"
   },
   "colab-to-peta": {
     "0.0.2": {
@@ -2994,7 +2996,8 @@
     "4.0.76": "4.0.16",
     "4.0.77": "4.0.16",
     "4.0.78": "4.0.16",
-    "4.0.79": "4.0.16"
+    "4.0.79": "4.0.16",
+    "4.0.94": "4.0.16"
   },
   "flaskonf": {
     "0.0.1": {
@@ -3632,6 +3635,16 @@
     "0.1.0": "0.0.2",
     "0.1.1": "0.0.2"
   },
+  "gpz": {
+    "1.0.0": {
+      "27": "IOError: [Errno 2] No such file or directory: 'requirements.txt'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'requirements.txt'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
   "gra": {
     "0.0.1": {
       "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
@@ -3816,7 +3829,8 @@
     "1.9.0": "0.2",
     "1.10.0": "0.2",
     "1.11.0": "0.2",
-    "1.11.1": "0.2"
+    "1.11.1": "0.2",
+    "1.12.1": "0.2"
   },
   "hbtn-cli": {
     "2.0.0": {
@@ -6334,7 +6348,11 @@
     "3.12.1.dev2": "2.2.0",
     "3.12.1.dev4": "2.2.0",
     "3.12.1.dev6": "2.2.0",
-    "3.12.1.dev8": "2.2.0"
+    "3.12.1.dev8": "2.2.0",
+    "3.12.1.dev13": "2.2.0",
+    "3.12.1.dev18": "2.2.0",
+    "3.12.1.dev28": "2.2.0",
+    "3.13.2": "2.2.0"
   },
   "jitide-shiyi": {
     "2022.10.26.0": {
@@ -6365,6 +6383,16 @@
   "jupyter-splitview": {
     "0.1.2": {
       "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
+    }
+  },
+  "jupyterlab-language-pack-pl-pl": {
+    "3.5.post3": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
     }
   },
   "jupytery-auth": {
@@ -7708,6 +7736,16 @@
     "0.1.0": {
       "27": "IOError: [Errno 2] No such file or directory: 'requirements.txt'",
       "36": "FileNotFoundError: [Errno 2] No such file or directory: 'requirements.txt'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
+  "orgee-roam": {
+    "0.0.1": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
       "37": "36",
       "38": "36",
       "39": "36",
@@ -9226,6 +9264,21 @@
     "0.8.1": "0.8.0",
     "0.9.0rc1": "0.8.0"
   },
+  "ratex": {
+    "0.2": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    },
+    "0.2.3": "0.2",
+    "0.2.9.35": "0.2",
+    "0.2.9.54": "0.2",
+    "0.2.9.604": "0.2",
+    "0.2.9.611": "0.2"
+  },
   "ravpy": {
     "0.4.1": "0.5",
     "0.4.2": "0.5",
@@ -9242,7 +9295,8 @@
     "0.9.2": "0.5",
     "0.9.3": "0.5",
     "0.10": "0.5",
-    "0.11": "0.5"
+    "0.11": "0.5",
+    "0.12": "0.5"
   },
   "rcall": {
     "0.1.0": {

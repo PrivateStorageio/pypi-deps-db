@@ -759,7 +759,8 @@
     "1.178.0": "1.71.0",
     "1.179.0": "1.71.0",
     "1.180.0": "1.71.0",
-    "1.181.0": "1.71.0"
+    "1.181.0": "1.71.0",
+    "1.183.0": "1.71.0"
   },
   "aws-cdk.aws-msk-alpha": {
     "2.0.0rc23": "2.0.0a1",
@@ -843,7 +844,10 @@
     "2.49.1a0": "2.0.0a1",
     "2.50.0a0": "2.0.0a1",
     "2.51.0a0": "2.0.0a1",
-    "2.51.1a0": "2.0.0a1"
+    "2.51.1a0": "2.0.0a1",
+    "2.55.0a0": "2.0.0a1",
+    "2.58.0a0": "2.0.0a1",
+    "2.58.1a0": "2.0.0a1"
   },
   "aws-custom-ews-kafka-resources": {
     "0.0.3": {
@@ -991,7 +995,9 @@
     "1.172.0": "2.0.0",
     "1.173.0": "2.0.0",
     "2.26.0": "2.0.0",
-    "2.27.0": "2.0.0"
+    "2.27.0": "2.0.0",
+    "1.175.0": "2.0.0",
+    "1.181.0": "2.0.0"
   },
   "awsvault": {
     "0.0.7": {
@@ -1867,7 +1873,8 @@
     "0.3.0": "0.1.0",
     "0.3.1": "0.1.0",
     "0.4.0": "0.1.0",
-    "0.4.1": "0.1.0"
+    "0.4.1": "0.1.0",
+    "0.5.0": "0.1.0"
   },
   "cf-remote-x": {
     "0.0.10": "0.0.6",
@@ -2253,7 +2260,8 @@
     "4.0.5rc1": "4.0.0",
     "4.0.5": "4.0.0",
     "4.1.0": "4.0.0",
-    "4.1.0rc1": "4.0.0"
+    "4.1.0rc1": "4.0.0",
+    "4.1.1rc1": "4.0.0"
   },
   "covar": {
     "0.1": {
@@ -2866,7 +2874,8 @@
     "0.2.6": "0.0.1",
     "0.2.7": "0.0.1",
     "0.2.8": "0.0.1",
-    "0.2.9": "0.0.1"
+    "0.2.9": "0.0.1",
+    "0.3.0": "0.0.1"
   },
   "django-db-connection-retrier": {
     "1.0a2": "1.0",
@@ -2874,6 +2883,11 @@
     "1.0b2": "1.0",
     "1.0": {
       "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
+    }
+  },
+  "django-file-explorer": {
+    "0.0.1": {
+      "27": "ImportError: cannot import name find_namespace_packages"
     }
   },
   "django-jwt-extended": {
@@ -3163,6 +3177,18 @@
     "0.0.1": {
       "27": "IOError: [Errno 2] No such file or directory: 'readme.md'",
       "36": "FileNotFoundError: [Errno 2] No such file or directory: 'readme.md'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
+  "echosys": {
+    "0.1.15": "0.1.9",
+    "0.1.20": "0.1.9",
+    "0.1.9": {
+      "27": "IOError: [Errno 2] No such file or directory: 'ECHO/README.org'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'ECHO/README.org'",
       "37": "36",
       "38": "36",
       "39": "36",
@@ -3827,6 +3853,16 @@
     "0.1.4": {
       "27": "IOError: [Errno 2] No such file or directory: '/build/function-tools-#PKG_VER#/requirements.txt'",
       "36": "FileNotFoundError: [Errno 2] No such file or directory: '/build/function-tools-#PKG_VER#/requirements.txt'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
+  "gct-py": {
+    "0.1.1": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
       "37": "36",
       "38": "36",
       "39": "36",
@@ -4738,7 +4774,8 @@
     "0.2.2": "0.1.0",
     "0.2.3": "0.1.0",
     "0.2.4": "0.1.0",
-    "0.2.5": "0.1.0"
+    "0.2.5": "0.1.0",
+    "0.2.6": "0.1.0"
   },
   "kelvin": {
     "2.0.1": {
@@ -5996,6 +6033,16 @@
     },
     "0.1.9": "0.1.8"
   },
+  "nrobo": {
+    "1.0.4": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
   "numpy-demo": {
     "1.23.0": {
       "27": "SyntaxError: invalid syntax",
@@ -6768,7 +6815,8 @@
   "pygocron": {
     "0.1.0": {
       "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
-    }
+    },
+    "0.1.8": "0.1.0"
   },
   "pygrib": {
     "1.9.9": {
@@ -8803,7 +8851,8 @@
       "310": "36"
     },
     "5.0.2": "5.0.1",
-    "5.1.0": "5.0.1"
+    "5.1.0": "5.0.1",
+    "5.2.0": "5.0.1"
   },
   "tfhub-esrgan-wrapper": {
     "1.0.0": {

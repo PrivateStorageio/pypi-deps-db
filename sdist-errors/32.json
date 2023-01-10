@@ -552,7 +552,9 @@
     "1.178.0": "1.71.0",
     "1.179.0": "1.71.0",
     "1.180.0": "1.71.0",
-    "1.181.0": "1.71.0"
+    "1.181.0": "1.71.0",
+    "1.183.0": "1.71.0",
+    "1.187.0": "1.71.0"
   },
   "aws-lambda-publish-shared-event": {
     "0.1.0": {
@@ -705,7 +707,8 @@
     "1.170.1": "1.71.0",
     "1.171.0": "1.71.0",
     "1.172.0": "1.71.0",
-    "1.173.0": "1.71.0"
+    "1.173.0": "1.71.0",
+    "1.178.0": "1.71.0"
   },
   "aws-solutions-constructs.aws-iot-kinesisstreams": {
     "1.123.0": "2.0.0",
@@ -796,7 +799,8 @@
     "1.172.0": "2.0.0",
     "1.173.0": "2.0.0",
     "2.26.0": "2.0.0",
-    "2.27.0": "2.0.0"
+    "2.27.0": "2.0.0",
+    "1.176.0": "2.0.0"
   },
   "aws-ssm-tools": {
     "0.9.2": {
@@ -2323,7 +2327,8 @@
     },
     "2.2": "2.1",
     "2.3": "2.1",
-    "3.0": "2.1"
+    "3.0": "2.1",
+    "4.0.1": "2.1"
   },
   "dumpling": {
     "0.1.3": {
@@ -2956,6 +2961,16 @@
     "1.0.4": "1.0.0",
     "1.0.5": "1.0.0",
     "1.0.6": "1.0.0"
+  },
+  "furiosa-native-postprocess": {
+    "0.1.0": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
   },
   "fuzywuzy": {
     "4.5.2": {
@@ -3961,6 +3976,11 @@
     "0.1.0": "0.0.1",
     "0.1.1": "0.0.1"
   },
+  "lightning-training-studio": {
+    "0.0.3": {
+      "27": "ImportError: No module named util"
+    }
+  },
   "liquidctl": {
     "1.0.0": {
       "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
@@ -4700,7 +4720,8 @@
     "0.1.7": "0.0.1",
     "0.1.8": "0.0.1",
     "0.1.9": "0.0.1",
-    "0.1.10": "0.0.1"
+    "0.1.10": "0.0.1",
+    "0.1.12": "0.0.1"
   },
   "nesterzilch": {
     "1.0.1": {
@@ -4936,7 +4957,8 @@
     "0.7.1": "0.5.0",
     "0.8.0": "0.5.0",
     "0.9.0": "0.5.0",
-    "0.9.1": "0.5.0"
+    "0.9.1": "0.5.0",
+    "0.9.2": "0.5.0"
   },
   "oec": {
     "0.1.1": {
@@ -5739,6 +5761,16 @@
       "310": "36"
     }
   },
+  "psychopy-labhackers": {
+    "0.0.1": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
   "ptop.py": {
     "2.1.1": {
       "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
@@ -6456,6 +6488,12 @@
       "27": "SyntaxError: invalid syntax"
     }
   },
+  "rcoc": {
+    "1.1.14": "1.1.9",
+    "1.1.9": {
+      "27": "ImportError: No module named pathlib"
+    }
+  },
   "rcs-sdk-v1": {
     "1.0.3": {
       "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
@@ -6625,7 +6663,8 @@
     "3.0.0a2": "2.2.0",
     "3.0.0a3": "2.2.0",
     "3.0.0a4": "2.2.0",
-    "3.0.0rc1": "2.2.0"
+    "3.0.0rc1": "2.2.0",
+    "3.0.0": "2.2.0"
   },
   "reticle": {
     "0.0.2": {
@@ -6996,7 +7035,9 @@
     "2.0.3": "1.0.0",
     "2.1.0": "1.0.0",
     "2.1.1": "1.0.0",
-    "2.1.2": "1.0.0"
+    "2.1.2": "1.0.0",
+    "2.1.4": "1.0.0",
+    "3.0.1": "1.0.0"
   },
   "seq-qc": {
     "0.16.1": {
@@ -7111,6 +7152,11 @@
   "shuiku-oushen-wenji-vol11": {
     "2022.10.15.0": {
       "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
+    }
+  },
+  "shynatelegrambotnotification": {
+    "0.0.1": {
+      "27": "SyntaxError: invalid syntax"
     }
   },
   "simms": {

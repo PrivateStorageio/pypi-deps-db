@@ -31784,18 +31784,6 @@
       }
     }
   },
-  "cb-kafka-consumer": {
-    "py3": {
-      "0.0.1": {
-        "cb_kafka_consumer-0.0.1-py3-none-any.whl": {
-          "requires_dist": [
-            "kafka-python (>=2.0.2)"
-          ],
-          "requires_python": ">=3.6"
-        }
-      }
-    }
-  },
   "cdk-cloudformation-awsqs-kubernetes-get": {
     "py3": {
       "1.13.0a1": {

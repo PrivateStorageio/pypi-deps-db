@@ -113,7 +113,8 @@
     "0.0.110": "0.0.0",
     "0.0.111": "0.0.0",
     "0.0.112": "0.0.0",
-    "0.0.113": "0.0.0"
+    "0.0.113": "0.0.0",
+    "0.0.130": "0.0.0"
   },
   "a2dr": {
     "0.2.3": {
@@ -204,6 +205,16 @@
     "0.1.0": {
       "27": "ImportError: No module named run",
       "36": "ModuleNotFoundError: No module named 'run'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
+  "adifpy": {
+    "0.0.3": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
       "37": "36",
       "38": "36",
       "39": "36",
@@ -353,7 +364,8 @@
     },
     "0.1.0": "0.0.1",
     "0.2.0": "0.0.1",
-    "0.3.0": "0.0.1"
+    "0.3.0": "0.0.1",
+    "0.6.0": "0.0.1"
   },
   "ammoo": {
     "0.1.0": {
@@ -1177,7 +1189,9 @@
     "0.1.9": "0.1.0",
     "0.1.10": "0.1.0",
     "0.1.13": "0.1.0",
-    "0.1.14": "0.1.0"
+    "0.1.14": "0.1.0",
+    "0.1.16": "0.1.0",
+    "0.2.0": "0.1.0"
   },
   "chpwd-cmd": {
     "0.0.1": {
@@ -2164,6 +2178,16 @@
     "0.5.3": {
       "27": "ImportError: No module named pandas",
       "36": "ModuleNotFoundError: No module named 'pandas'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
+  "datadog-serverless-utils": {
+    "1.0.3": {
+      "27": "TypeError: 'encoding' is an invalid keyword argument for this function",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: '/build/datadog-serverless-utils-#PKG_VER#/requirements.txt'",
       "37": "36",
       "38": "36",
       "39": "36",
@@ -3633,6 +3657,11 @@
       "310": "36"
     }
   },
+  "geneticalgorithmfeatureselection": {
+    "0.0.2": {
+      "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
+    }
+  },
   "get-3-free-robux-v-6999": {
     "9.822": {
       "27": "these 2 derivations will be built:\n /nix/store/#hash#-get-3-free-robux-v-6999.zip.drv\n /nix/store/#hash#-get-3-free-robux-v-6999-#PKG_VER#-requirements.drv\nbuilding '/nix/store/#hash#-get-3-free-robux-v-6999.zip.drv'...\n\ntrying https://files.pythonhosted.org/packages/source/g/get-3-free-robux-v-6999/get-3-free-robux-v-6999.zip\n % Total % Received % Xferd Average Speed Time Time Time Current\n Dload Upload Total Spent Left Speed\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0\n100 928 100 928 0 0 12712 0 --:--:-- --:--:-- --:--:-- 0\nbuilding '/nix/store/#hash#-get-3-free-robux-v-6999-#PKG_VER#-requirements.drv'...\nunpacking sources\nunpacking source archive /nix/store/#hash#-get-3-free-robux-v-6999.zip\nunpacker appears to have produced no directories\nerror: builder for '/nix/store/#hash#-get-3-free-robux-v-6999-#PKG_VER#-requirements.drv' failed with exit code 1;\n last 3 log lines:\n > unpacking sources\n > unpacking source archive /nix/store/#hash#-get-3-free-robux-v-6999.zip\n > unpacker appears to have produced no directories\n For full logs, run 'nix log /nix/store/#hash#-get-3-free-robux-v-6999-#PKG_VER#-requirements.drv'.\n",
@@ -4729,7 +4758,8 @@
     "2022.11.24": "2022.2.1",
     "2022.11.25": "2022.2.1",
     "2022.11.26": "2022.2.1",
-    "2022.11.27": "2022.2.1"
+    "2022.11.27": "2022.2.1",
+    "2022.12.4": "2022.2.1"
   },
   "kwalitee": {
     "0.2.0rc8": {
@@ -4939,7 +4969,8 @@
     "1.17.4.dev21": "1.14.0",
     "1.17.4.dev23": "1.14.0",
     "1.17.4.dev25": "1.14.0",
-    "1.17.4.dev27": "1.14.0"
+    "1.17.4.dev27": "1.14.0",
+    "1.17.4.dev29": "1.14.0"
   },
   "large-image-source-tiff": {
     "1.0.1.dev6": {
@@ -6124,7 +6155,8 @@
       "38": "36",
       "39": "36",
       "310": "36"
-    }
+    },
+    "0.36b0": "0.35b0"
   },
   "opentmm": {
     "0.0.1": {
@@ -6194,6 +6226,16 @@
     "0.2.5": "0.1.5",
     "0.3.0": "0.1.5"
   },
+  "package-processing": {
+    "0.0.1": {
+      "27": "IOError: [Errno 2] No such file or directory: 'requirements.txt'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'requirements.txt'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
   "paddletransfer": {
     "0.0.2": {
       "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
@@ -6258,7 +6300,8 @@
     "0.1.6": "0.1.5",
     "0.1.7": "0.1.5",
     "0.1.8": "0.1.5",
-    "0.1.9": "0.1.5"
+    "0.1.9": "0.1.5",
+    "0.1.12": "0.1.5"
   },
   "photocrawl": {
     "0.1.0": {
@@ -6852,6 +6895,26 @@
     },
     "2.0.0": {
       "27": "ERROR: PyLTI1p3 requires Python 3.6+ ... exiting.\n"
+    }
+  },
+  "pymodulationplutosdr": {
+    "1.0.3": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
+  "pymycode-packages": {
+    "0.0.1": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
     }
   },
   "pynotificator": {
@@ -7566,7 +7629,8 @@
     "0.7.48": "0.7.8",
     "0.7.49": "0.7.8",
     "0.7.50": "0.7.8",
-    "0.7.51": "0.7.8"
+    "0.7.51": "0.7.8",
+    "0.8.10": "0.7.8"
   },
   "quantumnetworks": {
     "0.1.0": {
@@ -8059,7 +8123,8 @@
     "1.0.4": "1.0.0",
     "1.0.5": "1.0.0",
     "1.0.6": "1.0.0",
-    "1.0.7": "1.0.0"
+    "1.0.7": "1.0.0",
+    "1.1.0": "1.0.0"
   },
   "settings-vial": {
     "0.1.2": {
@@ -8495,6 +8560,11 @@
       "38": "27",
       "39": "27",
       "310": "27"
+    }
+  },
+  "termgame": {
+    "0.0.1": {
+      "27": "ImportError: No module named pathlib"
     }
   },
   "tespy": {
@@ -9590,7 +9660,8 @@
     "0.0.14": "0.0.1",
     "0.0.15": "0.0.1",
     "0.0.16": "0.0.1",
-    "0.0.17": "0.0.1"
+    "0.0.17": "0.0.1",
+    "0.0.19": "0.0.1"
   },
   "xtce-generator": {
     "1.0.0": {

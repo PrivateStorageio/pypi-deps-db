@@ -325,7 +325,8 @@
     "2.1.1": "2.0.0",
     "2.1.2": "2.0.0",
     "2.1.3": "2.0.0",
-    "2.1.4": "2.0.0"
+    "2.1.4": "2.0.0",
+    "2.3.2": "2.0.0"
   },
   "arg-cat": {
     "1.0.0": {
@@ -697,7 +698,12 @@
     "1.69.0": "0.1.0",
     "2.0.0": "0.1.0",
     "2.2.0": "0.1.0",
-    "2.3.0": "0.1.0"
+    "2.3.0": "0.1.0",
+    "2.11.0": "0.1.0",
+    "2.13.0": "0.1.0",
+    "2.15.0": "0.1.0",
+    "2.16.0": "0.1.0",
+    "2.6.0": "0.1.0"
   },
   "baseobjects": {
     "1.5.0": {
@@ -1062,7 +1068,8 @@
     "0.0.11": "0.0.8",
     "0.0.12": "0.0.8",
     "0.1.0": "0.0.8",
-    "0.1.1": "0.0.8"
+    "0.1.1": "0.0.8",
+    "0.1.3": "0.0.8"
   },
   "brickpython": {
     "0.1.0": "0.4",
@@ -2486,6 +2493,16 @@
   "finance-ib": {
     "1.0.0.dev1": {
       "27": "NameError: name 'FileNotFoundError' is not defined"
+    }
+  },
+  "fitterpp": {
+    "0.0.8": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
     }
   },
   "flame-dash-c": {
@@ -4616,7 +4633,17 @@
     "1.178.0": "1.77.0",
     "1.179.0": "1.77.0",
     "1.180.0": "1.77.0",
-    "1.181.0": "1.77.0"
+    "1.181.0": "1.77.0",
+    "1.182.0": {
+      "27": "these 2 derivations will be built:\n /nix/store/#hash#-monocdk-#PKG_VER#.tar.gz.drv\n /nix/store/#hash#-monocdk-#PKG_VER#-requirements.drv\nwaiting for UID to build '/nix/store/#hash#-monocdk-#PKG_VER#.tar.gz.drv'...\nbuilding '/nix/store/#hash#-monocdk-#PKG_VER#.tar.gz.drv'...\n\ntrying https://files.pythonhosted.org/packages/source/m/monocdk/monocdk-#PKG_VER#.tar.gz\n % Total % Received % Xferd Average Speed Time Time Time Current\n Dload Upload Total Spent Left Speed\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0\n100 77.2M 100 77.2M 0 0 17.7M 0 0:00:04 0:00:04 --:--:-- 17.7M\n",
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    },
+    "1.186.0": "1.77.0",
+    "1.187.0": "1.77.0"
   },
   "mtppy": {
     "0.0.5": {
@@ -5745,7 +5772,8 @@
     "0.0.9.dev3": "0.0.1",
     "0.0.9.dev4": "0.0.1",
     "0.0.9.dev5": "0.0.1",
-    "0.1.0.dev1": "0.0.1"
+    "0.1.0.dev1": "0.0.1",
+    "0.1.4": "0.0.1"
   },
   "py-bmi": {
     "1.0.5": {
@@ -6270,7 +6298,8 @@
     "0.5.2": "0.0.3",
     "0.5.4": "0.0.3",
     "0.5.5": "0.0.3",
-    "0.5.6": "0.0.3"
+    "0.5.6": "0.0.3",
+    "0.8.8": "0.0.1"
   },
   "pymirror": {
     "0.1.5": {
@@ -6574,6 +6603,11 @@
     },
     "0.7.2": "0.7.1"
   },
+  "pywakepsxonbt": {
+    "0.1.1": {
+      "27": "SyntaxError: invalid syntax"
+    }
+  },
   "pywapfetion": {
     "0.6": {
       "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
@@ -6758,6 +6792,17 @@
       "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
     },
     "0.0.2": "0.0.1"
+  },
+  "redisopy": {
+    "0.0.3": {
+      "27": "TypeError: 'encoding' is an invalid keyword argument for this function",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'requirements.txt'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    },
+    "0.0.4": "0.0.3"
   },
   "repolib": {
     "1.5.0": {
@@ -7023,6 +7068,16 @@
     "0.1.4": "0.1.0",
     "0.1.5": "0.1.0"
   },
+  "rubi": {
+    "1.0.4": {
+      "27": "error in rubi setup command: 'extras_require' must be a dictionary whose values are strings or lists of strings containing valid project/version requirement specifiers.\n",
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
+  },
   "ruck": {
     "0.0.1.dev1": "0.1.0",
     "0.1.0": {
@@ -7149,6 +7204,11 @@
     "1.0.9": "1.0.8",
     "1.0.13": {
       "27": "ImportError: No module named pathlib"
+    }
+  },
+  "sagemaker-feature-store-pyspark-3.0": {
+    "1.1.0": {
+      "27": "SyntaxError: invalid syntax"
     }
   },
   "samp-data-generation": {
@@ -8452,6 +8512,16 @@
     "1.8.3": "1.0.0",
     "1.8.4": "1.0.0"
   },
+  "tudelft-pycar": {
+    "0.0.1.dev0": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
   "tziot": {
     "1.0": {
       "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
@@ -8589,6 +8659,16 @@
     "1.4.3": "1.1",
     "1.5": "1.1",
     "1.6.1": "1.1"
+  },
+  "vollseg-napari-mtrack": {
+    "1.2.4": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
   },
   "vturra": {
     "v1.0": {

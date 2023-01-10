@@ -1828,7 +1828,8 @@
     "0.16.17": "1.0.5",
     "0.17.1": "1.0.5",
     "0.17.2": "1.0.5",
-    "0.17.3": "1.0.5"
+    "0.17.3": "1.0.5",
+    "0.17.5": "1.0.5"
   },
   "dah-edinburgh-university": {
     "1.0.0": {
@@ -2065,7 +2066,8 @@
     "1.8.0rc1.dev1277": "0.6.0a0.dev142",
     "1.8.0rc1.dev1283": "0.6.0a0.dev142",
     "1.9.0rc1.dev1287": "0.6.0a0.dev142",
-    "1.9.0rc1.dev1292": "0.6.0a0.dev142"
+    "1.9.0rc1.dev1292": "0.6.0a0.dev142",
+    "1.9.0rc1.dev1348": "0.6.0a0.dev142"
   },
   "dash-wordcloud": {
     "0.3.3": {
@@ -2582,7 +2584,8 @@
     "5.2.8": "5.0.1",
     "5.2.19": "5.0.1",
     "5.2.20": "5.0.1",
-    "5.2.21": "5.0.1"
+    "5.2.21": "5.0.1",
+    "5.4.5": "5.0.1"
   },
   "eadtoolbox": {
     "0.1c1": {
@@ -3251,7 +3254,8 @@
       "39": "36",
       "310": "36"
     },
-    "0.0.2": "0.0.1"
+    "0.0.2": "0.0.1",
+    "0.0.2.post1": "0.0.1"
   },
   "gdpy": {
     "0.1.0": {
@@ -3336,7 +3340,8 @@
     },
     "1.0.29": "1.0.28",
     "1.0.30": "1.0.28",
-    "1.0.31": "1.0.28"
+    "1.0.31": "1.0.28",
+    "1.0.32": "1.0.28"
   },
   "gpssi": {
     "0.1.0": {
@@ -3900,6 +3905,11 @@
       "36": "TypeError: write() takes no keyword arguments"
     }
   },
+  "kronbinations": {
+    "0.1": {
+      "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
+    }
+  },
   "lambda-common": {
     "0.0.1": {
       "27": "AttributeError: 'module' object has no attribute 'find_namespace_packages'"
@@ -4056,7 +4066,8 @@
     "0.2.4": "0.1.0",
     "0.3.0": "0.1.0",
     "0.3.1": "0.1.0",
-    "0.3.2": "0.1.0"
+    "0.3.2": "0.1.0",
+    "0.4.1": "0.1.0"
   },
   "lively": {
     "0.1.0": {
@@ -4702,6 +4713,11 @@
       "310": "36"
     }
   },
+  "num7": {
+    "1.0.20": {
+      "27": "ImportError: No module named pathlib"
+    }
+  },
   "nvidia-dali-cuda114": {
     "0.0.1.dev5": {
       "27": "SyntaxError: invalid syntax",
@@ -5099,7 +5115,15 @@
     "0.0.134": "0.0.0",
     "0.0.135": "0.0.0",
     "0.0.136": "0.0.0",
-    "0.0.137": "0.0.0"
+    "0.0.137": "0.0.0",
+    "0.0.153": "0.0.0",
+    "0.0.159": "0.0.0",
+    "0.0.170": "0.0.0",
+    "0.0.172": "0.0.0",
+    "0.0.174": "0.0.0",
+    "0.0.179": "0.0.0",
+    "0.0.181": "0.0.0",
+    "0.0.184": "0.0.0"
   },
   "petit-interfacer": {
     "0.1.0": {
@@ -5244,7 +5268,8 @@
     "0.3.0": "0.1.0",
     "0.3.1": "0.1.0",
     "0.3.2": "0.1.0",
-    "0.4.0": "0.1.0"
+    "0.4.0": "0.1.0",
+    "0.5.2": "0.1.0"
   },
   "playturtle": {
     "1.0.0": {
@@ -5333,6 +5358,11 @@
       "38": "27",
       "39": "27",
       "310": "27"
+    }
+  },
+  "pro-video-tools-pilot": {
+    "1.0": {
+      "27": "ImportError: No module named pathlib"
     }
   },
   "promote": {
@@ -5481,6 +5511,14 @@
   "pybazel": {
     "0.1.0": {
       "27": "SyntaxError: invalid syntax"
+    },
+    "0.3.3.dev0": {
+      "27": "SyntaxError: invalid syntax",
+      "36": "ModuleNotFoundError: No module named 'mypyc'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
     }
   },
   "pycda": {
@@ -5721,7 +5759,8 @@
     "0.2.0": "0.0.3",
     "0.3.0": "0.0.3",
     "0.4.0": "0.0.3",
-    "1.1.1": "0.0.3"
+    "1.1.1": "0.0.3",
+    "1.2.5": "0.0.3"
   },
   "pypega": {
     "0.0.2": {
@@ -5828,7 +5867,8 @@
       "310": "27"
     },
     "1.0.22": "1.0.21",
-    "1.0.23": "1.0.21"
+    "1.0.23": "1.0.21",
+    "1.0.24": "1.0.21"
   },
   "pysmps": {
     "0.1": {
@@ -6226,7 +6266,10 @@
     },
     "0.12.1": "0.12",
     "0.13": "0.12",
-    "0.13.1": "0.12"
+    "0.13.1": "0.12",
+    "0.20.1": {
+      "27": "ImportError: cannot import name find_namespace_packages"
+    }
   },
   "rcdss": {
     "0.7": {
@@ -6824,6 +6867,16 @@
     },
     "0.1.2": "0.1.1"
   },
+  "signal-cli": {
+    "0.0.3": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
   "simcity-buildit-hack-simoleons-free-latest": {
     "0.52": {
       "27": "these 2 derivations will be built:\n /nix/store/#hash#-SIMCITY-BUILDIT-HACK-SIMOLEONS-FREE-LATEST-#PKG_VER#.tar.gz.drv\n /nix/store/#hash#-simcity-buildit-hack-simoleons-free-latest-#PKG_VER#-requirements.drv\nbuilding '/nix/store/#hash#-SIMCITY-BUILDIT-HACK-SIMOLEONS-FREE-LATEST-#PKG_VER#.tar.gz.drv'...\n\ntrying https://files.pythonhosted.org/packages/source/s/simcity-buildit-hack-simoleons-free-latest/SIMCITY\n % Total % Received % Xferd Average Speed Time Time Time Current\n Dload Upload Total Spent Left Speed\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0\ncurl: (22) The requested URL returned error: 404 \n\ntrying BUILDIT\n % Total % Received % Xferd Average Speed Time Time Time Current\n Dload Upload Total Spent Left Speed\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: BUILDIT\nWarning: Transient problem: timeout Will retry in 1 seconds. 3 retries left.\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: BUILDIT\nWarning: Transient problem: timeout Will retry in 2 seconds. 2 retries left.\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: BUILDIT\nWarning: Transient problem: timeout Will retry in 4 seconds. 1 retries left.\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: BUILDIT\n\ntrying HACK\n % Total % Received % Xferd Average Speed Time Time Time Current\n Dload Upload Total Spent Left Speed\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: HACK\nWarning: Transient problem: timeout Will retry in 1 seconds. 3 retries left.\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: HACK\nWarning: Transient problem: timeout Will retry in 2 seconds. 2 retries left.\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: HACK\nWarning: Transient problem: timeout Will retry in 4 seconds. 1 retries left.\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: HACK\n\ntrying SIMOLEONS\n % Total % Received % Xferd Average Speed Time Time Time Current\n Dload Upload Total Spent Left Speed\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: SIMOLEONS\nWarning: Transient problem: timeout Will retry in 1 seconds. 3 retries left.\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: SIMOLEONS\nWarning: Transient problem: timeout Will retry in 2 seconds. 2 retries left.\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: SIMOLEONS\nWarning: Transient problem: timeout Will retry in 4 seconds. 1 retries left.\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: SIMOLEONS\n\ntrying FREE\n % Total % Received % Xferd Average Speed Time Time Time Current\n Dload Upload Total Spent Left Speed\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: FREE\nWarning: Transient problem: timeout Will retry in 1 seconds. 3 retries left.\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: FREE\nWarning: Transient problem: timeout Will retry in 2 seconds. 2 retries left.\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: FREE\nWarning: Transient problem: timeout Will retry in 4 seconds. 1 retries left.\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: FREE\n\ntrying LATEST-#PKG_VER#.tar.gz\n % Total % Received % Xferd Average Speed Time Time Time Current\n Dload Upload Total Spent Left Speed\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: LATEST-#PKG_VER#.tar.gz\nWarning: Transient problem: timeout Will retry in 1 seconds. 3 retries left.\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: LATEST-#PKG_VER#.tar.gz\nWarning: Transient problem: timeout Will retry in 2 seconds. 2 retries left.\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: LATEST-#PKG_VER#.tar.gz\nWarning: Transient problem: timeout Will retry in 4 seconds. 1 retries left.\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: LATEST-#PKG_VER#.tar.gz\nerror: cannot download SIMCITY-BUILDIT-HACK-SIMOLEONS-FREE-LATEST-#PKG_VER#.tar.gz from any mirror\nerror: builder for '/nix/store/#hash#-SIMCITY-BUILDIT-HACK-SIMOLEONS-FREE-LATEST-#PKG_VER#.tar.gz.drv' failed with exit code 1;\n last 10 log lines:\n > % Total % Received % Xferd Average Speed Time Time Time Current\n > Dload Upload Total Spent Left Speed\n > 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: LATEST-#PKG_VER#.tar.gz\n > Warning: Transient problem: timeout Will retry in 1 seconds. 3 retries left.\n > 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: LATEST-#PKG_VER#.tar.gz\n > Warning: Transient problem: timeout Will retry in 2 seconds. 2 retries left.\n > 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: LATEST-#PKG_VER#.tar.gz\n > Warning: Transient problem: timeout Will retry in 4 seconds. 1 retries left.\n > 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: LATEST-#PKG_VER#.tar.gz\n > error: cannot download SIMCITY-BUILDIT-HACK-SIMOLEONS-FREE-LATEST-#PKG_VER#.tar.gz from any mirror\n For full logs, run 'nix log /nix/store/#hash#-SIMCITY-BUILDIT-HACK-SIMOLEONS-FREE-LATEST-#PKG_VER#.tar.gz.drv'.\nerror: 1 dependencies of derivation '/nix/store/#hash#-simcity-buildit-hack-simoleons-free-latest-#PKG_VER#-requirements.drv' failed to build\n",
@@ -7272,7 +7325,8 @@
     "0.0.31": "0.0.0",
     "0.0.32": "0.0.0",
     "0.0.33": "0.0.0",
-    "0.0.34": "0.0.0"
+    "0.0.34": "0.0.0",
+    "0.0.37": "0.0.0"
   },
   "streamlit-camera-input-live": {
     "0.1.0": {

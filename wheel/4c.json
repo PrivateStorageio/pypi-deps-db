@@ -35647,22 +35647,6 @@
       }
     }
   },
-  "lattice": {
-    "py2.py3": {
-      "1.0.0": {
-        "lattice-1.0.0-py2.py3-none-any.whl": {
-          "requires_dist": [
-            "matplotlib",
-            "numpy",
-            "pandas",
-            "python-dateutil",
-            "requests",
-            "scipy"
-          ]
-        }
-      }
-    }
-  },
   "layered-config": {
     "py3": {
       "2.0.0": {
@@ -58476,22 +58460,6 @@
       },
       "0.0.9": {
         "selenium_browser-0.0.9-py3-none-any.whl": "0.0.1@selenium_browser-0.0.1-py3-none-any.whl"
-      }
-    }
-  },
-  "seliky": {
-    "py3": {
-      "2.12": {
-        "seliky-2.12-py3-none-any.whl": {
-          "requires_dist": [
-            "selenium (>=4.5.0)",
-            "webdriver-manager"
-          ],
-          "requires_python": ">=3.6"
-        }
-      },
-      "2.15": {
-        "seliky-2.15-py3-none-any.whl": "2.12@seliky-2.12-py3-none-any.whl"
       }
     }
   },

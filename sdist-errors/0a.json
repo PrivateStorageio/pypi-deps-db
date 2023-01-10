@@ -719,6 +719,16 @@
     "1.6.5": "1.1.5",
     "1.6.8": "1.1.5"
   },
+  "autotest-tools": {
+    "2.0.0": {
+      "27": "these 2 derivations will be built:\n /nix/store/#hash#-autotest-tools-#PKG_VER#.tar.gz.drv\n /nix/store/#hash#-autotest-tools-#PKG_VER#-requirements.drv\nbuilding '/nix/store/#hash#-autotest-tools-#PKG_VER#.tar.gz.drv'...\n\ntrying https://files.pythonhosted.org/packages/source/a/autotest-tools/autotest-tools-#PKG_VER#.tar.gz\n % Total % Received % Xferd Average Speed Time Time Time Current\n Dload Upload Total Spent Left Speed\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0\ncurl: (22) The requested URL returned error: 404 \nerror: cannot download autotest-tools-#PKG_VER#.tar.gz from any mirror\nerror: builder for '/nix/store/#hash#-autotest-tools-#PKG_VER#.tar.gz.drv' failed with exit code 1;\n last 7 log lines:\n >\n > trying https://files.pythonhosted.org/packages/source/a/autotest-tools/autotest-tools-#PKG_VER#.tar.gz\n > % Total % Received % Xferd Average Speed Time Time Time Current\n > Dload Upload Total Spent Left Speed\n > 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0\n > curl: (22) The requested URL returned error: 404\n > error: cannot download autotest-tools-#PKG_VER#.tar.gz from any mirror\n For full logs, run 'nix log /nix/store/#hash#-autotest-tools-#PKG_VER#.tar.gz.drv'.\nerror: 1 dependencies of derivation '/nix/store/#hash#-autotest-tools-#PKG_VER#-requirements.drv' failed to build\n",
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
+  },
   "aws-cdk.aws-kinesisfirehose-alpha": {
     "2.0.0rc23": "2.0.0a1",
     "2.0.0rc24": "2.0.0a1",
@@ -801,7 +811,9 @@
     "2.49.1a0": "2.0.0a1",
     "2.50.0a0": "2.0.0a1",
     "2.51.0a0": "2.0.0a1",
-    "2.51.1a0": "2.0.0a1"
+    "2.51.1a0": "2.0.0a1",
+    "2.56.0a0": "2.0.0a1",
+    "2.58.1a0": "2.0.0a1"
   },
   "aws-prototyping-sdk.aws-arch": {
     "0.12.9": {
@@ -814,7 +826,16 @@
     "0.12.14": "0.12.9",
     "0.12.15": "0.12.9",
     "0.12.16": "0.12.9",
-    "0.12.17": "0.12.9"
+    "0.12.17": "0.12.9",
+    "0.12.23": {
+      "27": "these 2 derivations will be built:\n /nix/store/#hash#-aws_prototyping_sdk.aws_arch-#PKG_VER#.tar.gz.drv\n /nix/store/#hash#-aws-prototyping-sdk.aws-arch-#PKG_VER#-requirements.drv\nbuilding '/nix/store/#hash#-aws_prototyping_sdk.aws_arch-#PKG_VER#.tar.gz.drv'...\n\ntrying https://files.pythonhosted.org/packages/source/a/aws-prototyping-sdk.aws-arch/aws_prototyping_sdk.aws_arch-#PKG_VER#.tar.gz\n % Total % Received % Xferd Average Speed Time Time Time Current\n Dload Upload Total Spent Left Speed\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0\n",
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    },
+    "0.12.34": "0.12.9"
   },
   "aws-s3-url2uri": {
     "0.1": {
@@ -2614,6 +2635,16 @@
       "27": "ImportError: No module named configparser"
     }
   },
+  "earthshadow": {
+    "1.0.0": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
   "easy-websocket": {
     "1.0.0": {
       "27": "ImportError: No module named pathlib"
@@ -2724,6 +2755,16 @@
     "0.1.1": "0.0.5",
     "0.1.2": "0.0.5",
     "1.0.0": "0.0.5"
+  },
+  "everseed": {
+    "0.0.2": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
   },
   "evm-warp": {
     "0.1.0": {
@@ -3376,6 +3417,9 @@
   "genolearn": {
     "0.0.1": {
       "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
+    },
+    "1.0.0": {
+      "27": "SyntaxError: invalid syntax"
     }
   },
   "gitauthors": {
@@ -4060,6 +4104,16 @@
   "kcent-hello-world": {
     "1.0.0": {
       "27": "ImportError: No module named pathlib"
+    }
+  },
+  "keyrock-encryption": {
+    "2022.12.25.2045": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
     }
   },
   "kmpp": {
@@ -6707,7 +6761,8 @@
       "310": "27"
     },
     "1.2.1": "1.0.0",
-    "1.2.2": "1.0.0"
+    "1.2.2": "1.0.0",
+    "1.3.1": "1.0.0"
   },
   "pytest-curio": {
     "1.0.1": {
@@ -7100,7 +7155,8 @@
       "310": "36"
     },
     "0.1.1": "0.1.0",
-    "0.1.2": "0.1.0"
+    "0.1.2": "0.1.0",
+    "0.5.0": "0.1.0"
   },
   "reformer-fastai": {
     "0.0.1": {
@@ -7258,6 +7314,11 @@
       "27": "ImportError: No module named pathlib"
     },
     "5.0.45": "5.0.44"
+  },
+  "ruhe-xuanze-fengshuiwu": {
+    "2022.12.8.0": {
+      "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
+    }
   },
   "run-time-assurance": {
     "1.0.1": {

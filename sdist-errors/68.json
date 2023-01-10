@@ -717,7 +717,8 @@
     "1.178.0": "1.101.0",
     "1.179.0": "1.101.0",
     "1.180.0": "1.101.0",
-    "1.181.0": "1.101.0"
+    "1.181.0": "1.101.0",
+    "1.185.0": "1.101.0"
   },
   "awscli-plugin-eucalyptus": {
     "0.3": {
@@ -839,6 +840,11 @@
     "1.0.0": "0.0.5",
     "1.0.1": "0.0.5",
     "1.1.0": "0.0.5"
+  },
+  "bcdd": {
+    "1.0.1": {
+      "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
+    }
   },
   "bciavm": {
     "1.21.0": {
@@ -1556,7 +1562,8 @@
       "39": "27",
       "310": "27"
     },
-    "1.5": "1.4"
+    "1.5": "1.4",
+    "1.6.1": "1.4"
   },
   "classic-sql-storage": {
     "0.0.1": {
@@ -2825,6 +2832,16 @@
     "0.1.4": "0.0.0",
     "0.1.5": "0.0.0",
     "0.1.6": "0.0.0"
+  },
+  "earth-osm": {
+    "0.0.2": {
+      "27": "IOError: [Errno 2] No such file or directory: 'requirements.txt'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'requirements.txt'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
   },
   "easy-tf-log": {
     "1.1": {
@@ -4213,6 +4230,17 @@
       "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
     }
   },
+  "hydrobotdbc": {
+    "0.0.1": {
+      "27": "IOError: [Errno 2] No such file or directory: 'requirements.txt'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'requirements.txt'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    },
+    "0.0.4": "0.0.1"
+  },
   "i3pyblocks": {
     "2020.9.19": {
       "27": "SyntaxError: invalid syntax"
@@ -4494,7 +4522,9 @@
     "0.0.139": "0.0.111",
     "0.0.140": "0.0.111",
     "0.0.141": "0.0.111",
-    "0.0.142": "0.0.111"
+    "0.0.142": "0.0.111",
+    "0.0.143": "0.0.111",
+    "0.0.154": "0.0.111"
   },
   "ipyparallel-mesos": {
     "0.0.1": {
@@ -4782,7 +4812,9 @@
     "1.9.3.2": "1.6.7",
     "1.9.3.3": "1.6.7",
     "1.9.3.4": "1.6.7",
-    "2.0.0": "1.6.7"
+    "2.0.0": "1.6.7",
+    "2.0.2": "1.6.7",
+    "2.4.1": "1.6.7"
   },
   "keyedarchivelib": {
     "1.0.0": {
@@ -6882,6 +6914,16 @@
     "1.1": "1.0",
     "1.11": "1.0"
   },
+  "pybeyopticaltracker": {
+    "0.0.0": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
   "pyblackscholesanalytics": {
     "0.0.1": {
       "27": "IOError: [Errno 2] No such file or directory: 'README_PyPI.md'",
@@ -7428,6 +7470,11 @@
     "2.1.0": "2.0.0",
     "2.2.0": "2.0.0",
     "2.3.0": "2.0.0"
+  },
+  "python-lianghua-jiaoyi-shizhan": {
+    "2022.12.11.0": {
+      "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
+    }
   },
   "python-poseur": {
     "0.0.0.dev0": {
@@ -9271,7 +9318,8 @@
     "0.2a5": "0.1.0",
     "0.2a6": "0.1.0",
     "0.2a7": "0.1.0",
-    "0.2a8": "0.1.0"
+    "0.2a8": "0.1.0",
+    "0.2a9": "0.1.0"
   },
   "ussd-airflow": {
     "0.0.1.1.1": {

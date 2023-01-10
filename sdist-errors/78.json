@@ -82,6 +82,16 @@
     "1.11.0": "1.9.0",
     "1.12.0": "1.9.0"
   },
+  "abr": {
+    "0.0.7": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
   "abs": {
     "0.0.0": {
       "27": "SyntaxError: Non-ASCII character '\\xef' in file wu/__init__.py on line #NUM#, but no encoding declared; see http://python#VER#org/dev/peps/pep-0263/ for details",
@@ -266,7 +276,8 @@
     "0.2.4": "0.1.0",
     "0.2.5": "0.1.0",
     "0.3.0": "0.1.0",
-    "0.3.1": "0.1.0"
+    "0.3.1": "0.1.0",
+    "0.3.3": "0.1.0"
   },
   "alphahome": {
     "0.0.1a0": {
@@ -672,7 +683,9 @@
     "1.172.0": "2.9.0",
     "1.173.0": "2.9.0",
     "2.26.0": "2.9.0",
-    "2.27.0": "2.9.0"
+    "2.27.0": "2.9.0",
+    "1.179.0": "2.9.0",
+    "2.30.0": "2.9.0"
   },
   "azureml-modelmanagement-sdk": {
     "0.1.0": {
@@ -845,7 +858,9 @@
     "2.1.7": "0.9.1",
     "2.1.10": "0.9.1",
     "2.1.8": "0.9.1",
-    "2.1.9": "0.9.1"
+    "2.1.9": "0.9.1",
+    "2.1.18": "0.9.1",
+    "2.2.0": "0.9.1"
   },
   "bar-chart-race-cn": {
     "0.1": {
@@ -1711,6 +1726,16 @@
   "colemeipdf": {
     "1.0": {
       "27": "ImportError: No module named pathlib"
+    }
+  },
+  "colemen-utils": {
+    "2.9.63": {
+      "27": "ImportError: No module named build_utils",
+      "36": "ModuleNotFoundError: No module named 'build_utils'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
     }
   },
   "collective.editskinswitcher": {
@@ -3389,7 +3414,10 @@
     "1.2.3": "0.1.0",
     "1.3.0b0": "0.1.0",
     "1.3.0b1": "0.1.0",
-    "1.2.4": "0.1.0"
+    "1.2.4": "0.1.0",
+    "1.3.0b3": "0.1.0",
+    "1.3.0b5": "0.1.0",
+    "1.3.0b6": "0.1.0"
   },
   "footil": {
     "0.2.0": {
@@ -4442,6 +4470,16 @@
     "0.0.3": {
       "27": "IOError: [Errno 2] No such file or directory: 'README.md'",
       "36": "FileNotFoundError: [Errno 2] No such file or directory: 'README.md'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
+  "jsaxonpy": {
+    "0.5.0": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
       "37": "36",
       "38": "36",
       "39": "36",
@@ -5819,7 +5857,8 @@
     "0.3.0": "0.2.0",
     "0.4.0": "0.2.0",
     "0.5.0": "0.2.0",
-    "0.6.0": "0.2.0"
+    "0.6.0": "0.2.0",
+    "0.7.0": "0.2.0"
   },
   "oscarstime2": {
     "0.0.2": {
@@ -7565,6 +7604,16 @@
     },
     "0.0.4": "0.0.3"
   },
+  "razel": {
+    "0.1.1rc1": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
   "rdsline": {
     "0.4": {
       "27": "KeyError: 'PYPI_VERSION'",
@@ -7695,7 +7744,8 @@
   "rikafirenet": {
     "0.0.4": {
       "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
-    }
+    },
+    "0.0.5": "0.0.4"
   },
   "roblox-free-robux-generator-without-downloading-anything-2022-v-1253": {
     "2.366": {
@@ -9654,6 +9704,11 @@
       "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
     },
     "0.1.1": "0.1.0"
+  },
+  "zhenghe-xinlixue": {
+    "2022.12.8.0": {
+      "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
+    }
   },
   "zhuoxue-ketang-ruanwen-xiezuo-quantao": {
     "2022.10.15.0": {

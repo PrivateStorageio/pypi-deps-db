@@ -798,7 +798,8 @@
     "1.178.0": "1.71.0",
     "1.179.0": "1.71.0",
     "1.180.0": "1.71.0",
-    "1.181.0": "1.71.0"
+    "1.181.0": "1.71.0",
+    "1.186.0": "1.71.0"
   },
   "aws-cdk.aws-kinesisvideo": {
     "1.140.0": {
@@ -849,7 +850,8 @@
     "1.178.0": "1.140.0",
     "1.179.0": "1.140.0",
     "1.180.0": "1.140.0",
-    "1.181.0": "1.140.0"
+    "1.181.0": "1.140.0",
+    "1.185.0": "1.140.0"
   },
   "aws-solutions-constructs.aws-sns-sqs": {
     "1.71.0": "2.0.0",
@@ -1645,6 +1647,16 @@
       "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
     }
   },
+  "compos": {
+    "0.0.3": {
+      "27": "SyntaxError: invalid syntax",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'VERSION'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
   "conda-pkm-repo": {
     "0.1.0": {
       "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
@@ -2182,7 +2194,8 @@
     "0.16.17": "1.0.5",
     "0.17.1": "1.0.5",
     "0.17.2": "1.0.5",
-    "0.17.3": "1.0.5"
+    "0.17.3": "1.0.5",
+    "0.17.7": "1.0.5"
   },
   "datacoco-ftp-tools": {
     "0.1.0": {
@@ -2894,6 +2907,17 @@
       "310": "38"
     }
   },
+  "essai77-wepymaze": {
+    "0.1.0": {
+      "27": "these 2 derivations will be built:\n /nix/store/#hash#-essai77-wepymaze-#PKG_VER#.tar.gz.drv\n /nix/store/#hash#-essai77-wepymaze-#PKG_VER#-requirements.drv\nbuilding '/nix/store/#hash#-essai77-wepymaze-#PKG_VER#.tar.gz.drv'...\n\ntrying https://files.pythonhosted.org/packages/source/e/essai77-wepymaze/essai77-wepymaze-#PKG_VER#.tar.gz\n % Total % Received % Xferd Average Speed Time Time Time Current\n Dload Upload Total Spent Left Speed\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0\ncurl: (22) The requested URL returned error: 404 \nerror: cannot download essai77-wepymaze-#PKG_VER#.tar.gz from any mirror\nerror: builder for '/nix/store/#hash#-essai77-wepymaze-#PKG_VER#.tar.gz.drv' failed with exit code 1;\n last 7 log lines:\n >\n > trying https://files.pythonhosted.org/packages/source/e/essai77-wepymaze/essai77-wepymaze-#PKG_VER#.tar.gz\n > % Total % Received % Xferd Average Speed Time Time Time Current\n > Dload Upload Total Spent Left Speed\n > 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0\n > curl: (22) The requested URL returned error: 404\n > error: cannot download essai77-wepymaze-#PKG_VER#.tar.gz from any mirror\n For full logs, run 'nix log /nix/store/#hash#-essai77-wepymaze-#PKG_VER#.tar.gz.drv'.\nerror: 1 dependencies of derivation '/nix/store/#hash#-essai77-wepymaze-#PKG_VER#-requirements.drv' failed to build\n",
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    },
+    "0.2.1": "0.1.0"
+  },
   "eurostat-deaths": {
     "0.0.1": {
       "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
@@ -3182,6 +3206,16 @@
     },
     "0.2": "0.1",
     "0.3": "0.1"
+  },
+  "fractuversalis": {
+    "0.1.0a2": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
   },
   "free-cash-app-money-generator-no-verification-2022-v-2635": {
     "9.375": {
@@ -4191,7 +4225,8 @@
     "0.3.1": "0.1.0",
     "0.4.1": "0.1.0",
     "0.4.2": "0.1.0",
-    "0.4.3": "0.1.0"
+    "0.4.3": "0.1.0",
+    "1.0.1": "0.1.0"
   },
   "jsnmf": {
     "0.0.1": {
@@ -4418,6 +4453,13 @@
       "310": "36"
     }
   },
+  "lightning-toolbox": {
+    "0.0.4": {
+      "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
+    },
+    "0.0.7": "0.0.4",
+    "0.0.8": "0.0.4"
+  },
   "linersock": {
     "1.0": {
       "27": "IOError: [Errno 2] No such file or directory: 'README.rst'",
@@ -4588,7 +4630,8 @@
     "0.10.4.0": "0.9.6",
     "0.10.4.1": "0.9.6",
     "0.10.4.2": "0.9.6",
-    "0.11.0.0": "0.9.6"
+    "0.11.0.0": "0.9.6",
+    "0.11.2.0": "0.9.6"
   },
   "merge-csv-xjg": {
     "0.0.2": {
@@ -5278,7 +5321,19 @@
     "0.0.450": "0.0.22",
     "0.0.451": "0.0.22",
     "0.0.452": "0.0.22",
-    "0.0.453": "0.0.22"
+    "0.0.453": "0.0.22",
+    "0.0.454": "0.0.22",
+    "0.0.469": "0.0.22",
+    "0.0.474": "0.0.22",
+    "0.0.482": "0.0.22",
+    "0.0.491": "0.0.22",
+    "0.0.498": "0.0.22",
+    "0.0.500": "0.0.22",
+    "0.0.508": "0.0.22",
+    "0.0.516": "0.0.22",
+    "0.0.518": "0.0.22",
+    "0.0.519": "0.0.22",
+    "0.0.520": "0.0.22"
   },
   "neizai-xiaohai-kuaile-nicai-kuaile": {
     "2022.9.29.0": {
@@ -6738,7 +6793,8 @@
   "pynut-api": {
     "2.1.4": {
       "27": "ImportError: No module named pathlib"
-    }
+    },
+    "2.1.6": "2.1.4"
   },
   "pyobjc-frameworknetwork": {
     "0.1.0": {
@@ -7232,7 +7288,8 @@
       "38": "36",
       "39": "36",
       "310": "36"
-    }
+    },
+    "0.0.1a3": "0.0.1a0"
   },
   "redkyn-grader": {
     "0.1.0": {
@@ -7342,7 +7399,8 @@
     "3.0.0a2": "2.2.0",
     "3.0.0a3": "2.2.0",
     "3.0.0a4": "2.2.0",
-    "3.0.0rc1": "2.2.0"
+    "3.0.0rc1": "2.2.0",
+    "3.0.1": "2.2.0"
   },
   "restae": {
     "1.1": {
@@ -7753,6 +7811,11 @@
       "38": "36",
       "39": "36",
       "310": "36"
+    }
+  },
+  "shensheng-yaolunde-jiaohui": {
+    "2022.12.8.0": {
+      "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
     }
   },
   "shpyx": {
@@ -8952,6 +9015,11 @@
       "38": "27",
       "39": "27",
       "310": "27"
+    }
+  },
+  "vaughntech.cdk-nodejs-powertools-lambda-layer": {
+    "0.0.6": {
+      "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
     }
   },
   "vertebrae": {

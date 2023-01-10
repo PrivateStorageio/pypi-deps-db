@@ -1413,6 +1413,11 @@
     },
     "0.0.3": "0.0.2"
   },
+  "constituency-tree-converter": {
+    "1.0.11": {
+      "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
+    }
+  },
   "coolpuppy": {
     "0.7.6": {
       "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
@@ -5921,6 +5926,16 @@
     },
     "1.2.1": "1.2"
   },
+  "motionstracker": {
+    "2.0.0": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
   "mougeon": {
     "0.1.0dev-r48": {
       "36": "SyntaxError: invalid syntax",
@@ -6004,6 +6019,14 @@
   "nbstripout-fast": {
     "1.0.0": {
       "27": "ImportError: No module named pathlib"
+    },
+    "1.0.1": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
     }
   },
   "ncbi-api": {
@@ -6059,6 +6082,16 @@
     "0.0.5": "0.0.2",
     "0.0.6": "0.0.2",
     "0.0.7": "0.0.2"
+  },
+  "nopecha": {
+    "1.0.3": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
   },
   "normandy": {
     "0.2": {
@@ -9012,6 +9045,14 @@
     "1.1.0": {
       "27": "SyntaxError: invalid syntax",
       "36": "ModuleNotFoundError: No module named 'spacy'"
+    },
+    "2.0.10": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
     }
   },
   "textmessaging": {
@@ -9328,7 +9369,8 @@
       "39": "36",
       "310": "36"
     },
-    "1.0.1": "1.0.0"
+    "1.0.1": "1.0.0",
+    "1.1.0": "1.0.0"
   },
   "typeddict2jsonschema": {
     "0.0.1": {
@@ -9623,7 +9665,11 @@
     "1.1.53a5": "1.1.13",
     "1.1.54a1": "1.1.13",
     "1.1.55": "1.1.13",
-    "1.1.55a1": "1.1.13"
+    "1.1.55a1": "1.1.13",
+    "1.1.66": "1.1.13",
+    "1.1.69a2": "1.1.13",
+    "1.1.70a2": "1.1.13",
+    "1.1.71": "1.1.13"
   },
   "uprofile": {
     "1.0.1": {

@@ -327,7 +327,8 @@
     "1.0.4": "1.0.0",
     "1.0.5": "1.0.0",
     "1.0.6": "1.0.0",
-    "1.0.7": "1.0.0"
+    "1.0.7": "1.0.0",
+    "1.0.9": "1.0.0"
   },
   "alibabacloud-ros-tran": {
     "0.1.0": {
@@ -803,7 +804,8 @@
     "1.178.0": "1.96.0",
     "1.179.0": "1.96.0",
     "1.180.0": "1.96.0",
-    "1.181.0": "1.96.0"
+    "1.181.0": "1.96.0",
+    "1.187.0": "1.96.0"
   },
   "bao": {
     "1.0.3": {
@@ -1356,7 +1358,9 @@
     "0.1.33": "0.0.2",
     "0.1.34": "0.0.2",
     "0.1.35": "0.0.2",
-    "0.1.36": "0.0.2"
+    "0.1.36": "0.0.2",
+    "0.1.40": "0.0.2",
+    "0.1.49": "0.0.2"
   },
   "cfile": {
     "0.2.0": {
@@ -2340,7 +2344,8 @@
     },
     "2.0.1": "0.0.4",
     "2.0.2": "0.0.4",
-    "2.0.2b0": "0.0.4"
+    "2.0.2b0": "0.0.4",
+    "2.0.2rc0": "0.0.4"
   },
   "dungeon-n-python": {
     "0.0.2": {
@@ -2505,7 +2510,8 @@
       "38": "36",
       "39": "36",
       "310": "36"
-    }
+    },
+    "0.1.1": "0.1.0"
   },
   "epyk-flask": {
     "1.0.0": {
@@ -2630,7 +2636,10 @@
       "39": "36",
       "310": "36"
     },
-    "1.4.5": "1.4.4"
+    "1.4.5": "1.4.4",
+    "1.4.6": "1.4.4",
+    "1.4.7": "1.4.4",
+    "1.5.2": "1.4.4"
   },
   "example-pkg-liudongbo": {
     "0.0.1": {
@@ -2803,6 +2812,11 @@
     },
     "0.0.2": "0.0.1",
     "0.0.3": "0.0.1"
+  },
+  "faye": {
+    "0.1.1": {
+      "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
+    }
   },
   "fedbadges": {
     "0.1.0": {
@@ -3501,7 +3515,8 @@
     "0.0.4": {
       "27": "ImportError: No module named pathlib"
     },
-    "0.0.5": "0.0.4"
+    "0.0.5": "0.0.4",
+    "0.1.12": "0.0.4"
   },
   "grandiorite": {
     "0.0.1": {
@@ -3529,7 +3544,16 @@
     "1.0.4": "0.0.3",
     "1.0.5": "0.0.3",
     "1.0.6": "0.0.3",
-    "1.1.0": "0.0.3"
+    "1.1.0": "0.0.3",
+    "1.2.3": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    },
+    "1.2.4": "1.2.3"
   },
   "grpcgoogle-logging-v2": {
     "0.1.0": {
@@ -3684,7 +3708,9 @@
     "2.0.2": "1.4.6",
     "2.0.3": "1.4.6",
     "2.0.4": "1.4.6",
-    "2.0.5": "1.4.6"
+    "2.0.5": "1.4.6",
+    "2.0.6": "1.4.6",
+    "2.0.7": "1.4.6"
   },
   "heconvert": {
     "1.0.0": {
@@ -4442,7 +4468,8 @@
     "0.13.2": "0.1.0",
     "0.13.3": "0.1.0",
     "0.13.4": "0.1.0",
-    "0.13.5": "0.1.0"
+    "0.13.5": "0.1.0",
+    "0.14.5": "0.1.0"
   },
   "mailer": {
     "0.6": {
@@ -4568,7 +4595,8 @@
     "0.0.2": {
       "27": "SyntaxError: invalid syntax"
     },
-    "0.0.3": "0.0.2"
+    "0.0.3": "0.0.2",
+    "0.0.4": "0.0.2"
   },
   "mesh2sdf": {
     "1.0.0": {
@@ -5202,7 +5230,8 @@
     "0.3.0": "0.1.0",
     "0.3.1": "0.1.0",
     "0.3.2": "0.1.0",
-    "0.4.0": "0.1.0"
+    "0.4.0": "0.1.0",
+    "0.4.2": "0.1.0"
   },
   "ncbi-taxonomist": {
     "0.3.0.dev128": {
@@ -5682,7 +5711,8 @@
     "2.39.0": "1.0.0",
     "2.40.0": "1.0.0",
     "2.41.0": "1.0.0",
-    "2.42.0": "1.0.0"
+    "2.42.0": "1.0.0",
+    "2.43.0": "1.0.0"
   },
   "ofunctions.string-handling": {
     "0.1.1": {
@@ -7043,6 +7073,16 @@
       "310": "27"
     }
   },
+  "pyvscode": {
+    "2.1.0": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
   "pyxx": {
     "0.0.0": {
       "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
@@ -7431,6 +7471,16 @@
       "310": "36"
     },
     "0.0.2": "0.0.1"
+  },
+  "rplus-constants-module": {
+    "0.0.2": {
+      "27": "these 2 derivations will be built:\n /nix/store/#hash#-rplus_constants_module-#PKG_VER#.tar.gz.drv\n /nix/store/#hash#-rplus-constants-module-#PKG_VER#-requirements.drv\nbuilding '/nix/store/#hash#-rplus_constants_module-#PKG_VER#.tar.gz.drv'...\n\ntrying https://files.pythonhosted.org/packages/source/r/rplus-constants-module/rplus_constants_module-#PKG_VER#.tar.gz\n % Total % Received % Xferd Average Speed Time Time Time Current\n Dload Upload Total Spent Left Speed\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0\ncurl: (22) The requested URL returned error: 404 \nerror: cannot download rplus_constants_module-#PKG_VER#.tar.gz from any mirror\nerror: builder for '/nix/store/#hash#-rplus_constants_module-#PKG_VER#.tar.gz.drv' failed with exit code 1;\n last 7 log lines:\n >\n > trying https://files.pythonhosted.org/packages/source/r/rplus-constants-module/rplus_constants_module-#PKG_VER#.tar.gz\n > % Total % Received % Xferd Average Speed Time Time Time Current\n > Dload Upload Total Spent Left Speed\n > 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0\n > curl: (22) The requested URL returned error: 404\n > error: cannot download rplus_constants_module-#PKG_VER#.tar.gz from any mirror\n For full logs, run 'nix log /nix/store/#hash#-rplus_constants_module-#PKG_VER#.tar.gz.drv'.\nerror: 1 dependencies of derivation '/nix/store/#hash#-rplus-constants-module-#PKG_VER#-requirements.drv' failed to build\n",
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
   },
   "rrrrgggg1": {
     "1.0.0": {
@@ -7983,6 +8033,14 @@
   "sorting-array-package": {
     "0.1": {
       "27": "SyntaxError: invalid syntax"
+    },
+    "0.3": {
+      "27": "these 2 derivations will be built:\n /nix/store/#hash#-sorting_array_package-#PKG_VER#.tar.gz.drv\n /nix/store/#hash#-sorting-array-package-#PKG_VER#-requirements.drv\nbuilding '/nix/store/#hash#-sorting_array_package-#PKG_VER#.tar.gz.drv'...\n\ntrying https://files.pythonhosted.org/packages/source/s/sorting-array-package/sorting_array_package-#PKG_VER#.tar.gz\n % Total % Received % Xferd Average Speed Time Time Time Current\n Dload Upload Total Spent Left Speed\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0\ncurl: (22) The requested URL returned error: 404 \nerror: cannot download sorting_array_package-#PKG_VER#.tar.gz from any mirror\nerror: builder for '/nix/store/#hash#-sorting_array_package-#PKG_VER#.tar.gz.drv' failed with exit code 1;\n last 7 log lines:\n >\n > trying https://files.pythonhosted.org/packages/source/s/sorting-array-package/sorting_array_package-#PKG_VER#.tar.gz\n > % Total % Received % Xferd Average Speed Time Time Time Current\n > Dload Upload Total Spent Left Speed\n > 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0\n > curl: (22) The requested URL returned error: 404\n > error: cannot download sorting_array_package-#PKG_VER#.tar.gz from any mirror\n For full logs, run 'nix log /nix/store/#hash#-sorting_array_package-#PKG_VER#.tar.gz.drv'.\nerror: 1 dependencies of derivation '/nix/store/#hash#-sorting-array-package-#PKG_VER#-requirements.drv' failed to build\n",
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
     }
   },
   "sp800-90b": {
@@ -8323,7 +8381,8 @@
     "0.7.3": "0.0.3",
     "0.7.4": "0.0.3",
     "0.7.5": "0.0.3",
-    "0.8.2": "0.0.3"
+    "0.8.2": "0.0.3",
+    "0.9.1": "0.0.3"
   },
   "text-sensitivity": {
     "0.1.0": {
@@ -8497,6 +8556,17 @@
     "0.14.1": "0.6.0",
     "0.15.0": "0.6.0",
     "0.16.0": "0.6.0"
+  },
+  "threatmodel": {
+    "0.0.11": {
+      "27": "these 2 derivations will be built:\n /nix/store/#hash#-threatmodel-#PKG_VER#.tar.gz.drv\n /nix/store/#hash#-threatmodel-#PKG_VER#-requirements.drv\nbuilding '/nix/store/#hash#-threatmodel-#PKG_VER#.tar.gz.drv'...\n\ntrying https://files.pythonhosted.org/packages/source/t/threatmodel/threatmodel-#PKG_VER#.tar.gz\n % Total % Received % Xferd Average Speed Time Time Time Current\n Dload Upload Total Spent Left Speed\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0\ncurl: (22) The requested URL returned error: 404 \nerror: cannot download threatmodel-#PKG_VER#.tar.gz from any mirror\nerror: builder for '/nix/store/#hash#-threatmodel-#PKG_VER#.tar.gz.drv' failed with exit code 1;\n last 7 log lines:\n >\n > trying https://files.pythonhosted.org/packages/source/t/threatmodel/threatmodel-#PKG_VER#.tar.gz\n > % Total % Received % Xferd Average Speed Time Time Time Current\n > Dload Upload Total Spent Left Speed\n > 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0\n > curl: (22) The requested URL returned error: 404\n > error: cannot download threatmodel-#PKG_VER#.tar.gz from any mirror\n For full logs, run 'nix log /nix/store/#hash#-threatmodel-#PKG_VER#.tar.gz.drv'.\nerror: 1 dependencies of derivation '/nix/store/#hash#-threatmodel-#PKG_VER#-requirements.drv' failed to build\n",
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    },
+    "0.0.17": "0.0.11"
   },
   "tianshixing": {
     "2022.8.16.0": {

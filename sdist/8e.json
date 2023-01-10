@@ -11008,7 +11008,8 @@
     "7.0.2": "6.1.0",
     "7.1.0": "6.1.0",
     "7.1.1": "6.1.0",
-    "8.0.0": "6.1.0"
+    "8.0.0": "6.1.0",
+    "9.0.0": "6.1.0"
   },
   "aes-ops-review-report": {
     "1.0.7": {
@@ -11575,6 +11576,16 @@
   },
   "alper1": {
     "0.1": {
+      "27": {},
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
+  },
+  "alphatools-jv": {
+    "0.0.1": {
       "27": {},
       "36": "27",
       "37": "27",
@@ -17826,7 +17837,6 @@
     "0.7.2": "0.4.2",
     "0.7.3": "0.4.2",
     "0.8.0": "0.4.2",
-    "0.8.0rc1": "0.4.2",
     "0.8.0rc10": "0.4.2",
     "0.8.0rc11": "0.4.2",
     "0.8.0rc12": "0.4.2",
@@ -20242,651 +20252,6 @@
       "39": "36",
       "310": "36"
     },
-    "1.9.0rc1": {
-      "36": {
-        "install_requires": [
-          "numpy>=1.13.1",
-          "setuptools"
-        ],
-        "extras_require": {
-          "cuda": [
-            "awkward-cuda-kernels==1.9.0rc1"
-          ],
-          "test": [
-            "pytest>=6",
-            "pytest-cov"
-          ],
-          "dev": [
-            "autograd",
-            "flake8",
-            "numba>=0.50.0",
-            "numexpr",
-            "pandas>=0.24.0",
-            "PyYAML"
-          ],
-          "dev:sys_platform != \"win32\"": [
-            "jax>=0.2.7",
-            "jaxlib!=0.1.68,>=0.1.57",
-            "pyarrow>=6.0.0"
-          ],
-          "all": [
-            "awkward-cuda-kernels==1.9.0rc1",
-            "pytest>=6",
-            "pytest-cov",
-            "autograd",
-            "flake8",
-            "numba>=0.50.0",
-            "numexpr",
-            "pandas>=0.24.0",
-            "PyYAML"
-          ],
-          "all:sys_platform != \"win32\"": [
-            "jax>=0.2.7",
-            "jaxlib!=0.1.68,>=0.1.57",
-            "pyarrow>=6.0.0"
-          ]
-        },
-        "python_requires": [
-          ">=3.6"
-        ]
-      },
-      "37": "36",
-      "38": "36",
-      "39": "36",
-      "310": "36"
-    },
-    "1.9.0rc2": {
-      "36": {
-        "install_requires": [
-          "numpy>=1.13.1",
-          "setuptools"
-        ],
-        "extras_require": {
-          "cuda": [
-            "awkward-cuda-kernels==1.9.0rc2"
-          ],
-          "test": [
-            "pytest>=6",
-            "pytest-cov"
-          ],
-          "dev": [
-            "autograd",
-            "flake8",
-            "numba>=0.50.0",
-            "numexpr",
-            "pandas>=0.24.0",
-            "PyYAML"
-          ],
-          "dev:sys_platform != \"win32\"": [
-            "jax>=0.2.7",
-            "jaxlib!=0.1.68,>=0.1.57",
-            "pyarrow>=6.0.0"
-          ],
-          "all": [
-            "awkward-cuda-kernels==1.9.0rc2",
-            "pytest>=6",
-            "pytest-cov",
-            "autograd",
-            "flake8",
-            "numba>=0.50.0",
-            "numexpr",
-            "pandas>=0.24.0",
-            "PyYAML"
-          ],
-          "all:sys_platform != \"win32\"": [
-            "jax>=0.2.7",
-            "jaxlib!=0.1.68,>=0.1.57",
-            "pyarrow>=6.0.0"
-          ]
-        },
-        "python_requires": [
-          ">=3.6"
-        ]
-      },
-      "37": "36",
-      "38": "36",
-      "39": "36",
-      "310": "36"
-    },
-    "1.9.0rc3": {
-      "36": {
-        "install_requires": [
-          "numpy>=1.13.1",
-          "setuptools"
-        ],
-        "extras_require": {
-          "cuda": [
-            "awkward-cuda-kernels==1.9.0rc3"
-          ],
-          "test": [
-            "pytest>=6",
-            "pytest-cov"
-          ],
-          "dev": [
-            "autograd",
-            "flake8",
-            "numba>=0.50.0",
-            "numexpr",
-            "pandas>=0.24.0",
-            "PyYAML"
-          ],
-          "dev:python_version > \"3.6\" and sys_platform != \"win32\"": [
-            "fsspec",
-            "pyarrow>=7.0.0"
-          ],
-          "dev:sys_platform != \"win32\"": [
-            "jax>=0.2.7",
-            "jaxlib!=0.1.68,>=0.1.57"
-          ],
-          "all": [
-            "awkward-cuda-kernels==1.9.0rc3",
-            "pytest>=6",
-            "pytest-cov",
-            "autograd",
-            "flake8",
-            "numba>=0.50.0",
-            "numexpr",
-            "pandas>=0.24.0",
-            "PyYAML"
-          ],
-          "all:python_version > \"3.6\" and sys_platform != \"win32\"": [
-            "fsspec",
-            "pyarrow>=7.0.0"
-          ],
-          "all:sys_platform != \"win32\"": [
-            "jax>=0.2.7",
-            "jaxlib!=0.1.68,>=0.1.57"
-          ]
-        },
-        "python_requires": [
-          ">=3.6"
-        ]
-      },
-      "37": "36",
-      "38": "36",
-      "39": "36",
-      "310": "36"
-    },
-    "1.9.0rc4": {
-      "36": {
-        "install_requires": [
-          "numpy>=1.13.1",
-          "setuptools"
-        ],
-        "extras_require": {
-          "cuda": [
-            "awkward-cuda-kernels==1.9.0rc4"
-          ],
-          "test": [
-            "pytest>=6",
-            "pytest-cov"
-          ],
-          "dev": [
-            "autograd",
-            "flake8",
-            "numba>=0.50.0",
-            "numexpr",
-            "pandas>=0.24.0",
-            "PyYAML"
-          ],
-          "dev:python_version > \"3.6\" and sys_platform != \"win32\"": [
-            "fsspec",
-            "pyarrow>=7.0.0"
-          ],
-          "dev:sys_platform != \"win32\"": [
-            "jax>=0.2.7",
-            "jaxlib!=0.1.68,>=0.1.57"
-          ],
-          "all": [
-            "awkward-cuda-kernels==1.9.0rc4",
-            "pytest>=6",
-            "pytest-cov",
-            "autograd",
-            "flake8",
-            "numba>=0.50.0",
-            "numexpr",
-            "pandas>=0.24.0",
-            "PyYAML"
-          ],
-          "all:python_version > \"3.6\" and sys_platform != \"win32\"": [
-            "fsspec",
-            "pyarrow>=7.0.0"
-          ],
-          "all:sys_platform != \"win32\"": [
-            "jax>=0.2.7",
-            "jaxlib!=0.1.68,>=0.1.57"
-          ]
-        },
-        "python_requires": [
-          ">=3.6"
-        ]
-      },
-      "37": "36",
-      "38": "36",
-      "39": "36",
-      "310": "36"
-    },
-    "1.9.0rc5": {
-      "36": {
-        "install_requires": [
-          "numpy>=1.13.1",
-          "setuptools"
-        ],
-        "extras_require": {
-          "cuda": [
-            "awkward-cuda-kernels==1.9.0rc5"
-          ],
-          "test": [
-            "pytest>=6",
-            "pytest-cov"
-          ],
-          "dev": [
-            "autograd",
-            "flake8",
-            "numba>=0.50.0",
-            "numexpr",
-            "pandas>=0.24.0",
-            "PyYAML"
-          ],
-          "dev:python_version > \"3.6\" and sys_platform != \"win32\"": [
-            "fsspec",
-            "pyarrow>=7.0.0"
-          ],
-          "dev:sys_platform != \"win32\" and python_version > \"3.6\"": [
-            "jax>=0.2.7",
-            "jaxlib!=0.1.68,>=0.1.57"
-          ],
-          "all": [
-            "awkward-cuda-kernels==1.9.0rc5",
-            "pytest>=6",
-            "pytest-cov",
-            "autograd",
-            "flake8",
-            "numba>=0.50.0",
-            "numexpr",
-            "pandas>=0.24.0",
-            "PyYAML"
-          ],
-          "all:python_version > \"3.6\" and sys_platform != \"win32\"": [
-            "fsspec",
-            "pyarrow>=7.0.0"
-          ],
-          "all:sys_platform != \"win32\" and python_version > \"3.6\"": [
-            "jax>=0.2.7",
-            "jaxlib!=0.1.68,>=0.1.57"
-          ]
-        },
-        "python_requires": [
-          ">=3.6"
-        ]
-      },
-      "37": "36",
-      "38": "36",
-      "39": "36",
-      "310": "36"
-    },
-    "1.9.0rc6": {
-      "36": {
-        "install_requires": [
-          "numpy>=1.13.1",
-          "setuptools"
-        ],
-        "extras_require": {
-          "cuda": [
-            "awkward-cuda-kernels==1.9.0rc6"
-          ],
-          "test": [
-            "pytest>=6",
-            "pytest-cov"
-          ],
-          "dev": [
-            "autograd",
-            "flake8",
-            "numba>=0.50.0",
-            "numexpr",
-            "pandas>=0.24.0",
-            "PyYAML"
-          ],
-          "dev:python_version > \"3.6\" and sys_platform != \"win32\"": [
-            "fsspec",
-            "pyarrow>=7.0.0"
-          ],
-          "dev:sys_platform != \"win32\" and python_version > \"3.6\"": [
-            "jax>=0.2.7",
-            "jaxlib!=0.1.68,>=0.1.57"
-          ],
-          "all": [
-            "awkward-cuda-kernels==1.9.0rc6",
-            "pytest>=6",
-            "pytest-cov",
-            "autograd",
-            "flake8",
-            "numba>=0.50.0",
-            "numexpr",
-            "pandas>=0.24.0",
-            "PyYAML"
-          ],
-          "all:python_version > \"3.6\" and sys_platform != \"win32\"": [
-            "fsspec",
-            "pyarrow>=7.0.0"
-          ],
-          "all:sys_platform != \"win32\" and python_version > \"3.6\"": [
-            "jax>=0.2.7",
-            "jaxlib!=0.1.68,>=0.1.57"
-          ]
-        },
-        "python_requires": [
-          ">=3.6"
-        ]
-      },
-      "37": "36",
-      "38": "36",
-      "39": "36",
-      "310": "36"
-    },
-    "1.9.0rc7": {
-      "36": {
-        "install_requires": [
-          "numpy>=1.13.1",
-          "setuptools"
-        ],
-        "extras_require": {
-          "cuda": [
-            "awkward-cuda-kernels==1.9.0rc7"
-          ],
-          "test": [
-            "pytest>=6",
-            "pytest-cov"
-          ],
-          "dev": [
-            "autograd",
-            "flake8",
-            "numba>=0.50.0",
-            "numexpr",
-            "pandas>=0.24.0",
-            "PyYAML"
-          ],
-          "dev:python_version > \"3.6\" and sys_platform != \"win32\"": [
-            "fsspec",
-            "pyarrow>=7.0.0"
-          ],
-          "dev:sys_platform != \"win32\" and python_version > \"3.6\"": [
-            "jax>=0.2.7",
-            "jaxlib!=0.1.68,>=0.1.57"
-          ],
-          "all": [
-            "awkward-cuda-kernels==1.9.0rc7",
-            "pytest>=6",
-            "pytest-cov",
-            "autograd",
-            "flake8",
-            "numba>=0.50.0",
-            "numexpr",
-            "pandas>=0.24.0",
-            "PyYAML"
-          ],
-          "all:python_version > \"3.6\" and sys_platform != \"win32\"": [
-            "fsspec",
-            "pyarrow>=7.0.0"
-          ],
-          "all:sys_platform != \"win32\" and python_version > \"3.6\"": [
-            "jax>=0.2.7",
-            "jaxlib!=0.1.68,>=0.1.57"
-          ]
-        },
-        "python_requires": [
-          ">=3.6"
-        ]
-      },
-      "37": "36",
-      "38": "36",
-      "39": "36",
-      "310": "36"
-    },
-    "1.9.0rc8": {
-      "36": {
-        "install_requires": [
-          "numpy>=1.13.1",
-          "setuptools"
-        ],
-        "extras_require": {
-          "cuda": [
-            "awkward-cuda-kernels==1.9.0rc8"
-          ],
-          "test": [
-            "pytest>=6",
-            "pytest-cov"
-          ],
-          "dev": [
-            "autograd",
-            "flake8",
-            "numba>=0.50.0",
-            "numexpr",
-            "pandas>=0.24.0",
-            "PyYAML"
-          ],
-          "dev:python_version > \"3.6\" and sys_platform != \"win32\"": [
-            "fsspec",
-            "pyarrow>=7.0.0"
-          ],
-          "dev:sys_platform != \"win32\" and python_version > \"3.6\"": [
-            "jax>=0.2.7",
-            "jaxlib!=0.1.68,>=0.1.57"
-          ],
-          "all": [
-            "awkward-cuda-kernels==1.9.0rc8",
-            "pytest>=6",
-            "pytest-cov",
-            "autograd",
-            "flake8",
-            "numba>=0.50.0",
-            "numexpr",
-            "pandas>=0.24.0",
-            "PyYAML"
-          ],
-          "all:python_version > \"3.6\" and sys_platform != \"win32\"": [
-            "fsspec",
-            "pyarrow>=7.0.0"
-          ],
-          "all:sys_platform != \"win32\" and python_version > \"3.6\"": [
-            "jax>=0.2.7",
-            "jaxlib!=0.1.68,>=0.1.57"
-          ]
-        },
-        "python_requires": [
-          ">=3.6"
-        ]
-      },
-      "37": "36",
-      "38": "36",
-      "39": "36",
-      "310": "36"
-    },
-    "1.9.0rc9": {
-      "36": {
-        "install_requires": [
-          "numpy>=1.13.1",
-          "setuptools"
-        ],
-        "extras_require": {
-          "cuda": [
-            "awkward-cuda-kernels==1.9.0rc9"
-          ],
-          "test": [
-            "pytest>=6",
-            "pytest-cov"
-          ],
-          "dev": [
-            "autograd",
-            "flake8",
-            "numba>=0.50.0",
-            "numexpr",
-            "pandas>=0.24.0",
-            "PyYAML"
-          ],
-          "dev:python_version > \"3.6\" and sys_platform != \"win32\"": [
-            "fsspec",
-            "pyarrow>=7.0.0"
-          ],
-          "dev:sys_platform != \"win32\" and python_version > \"3.6\"": [
-            "jax>=0.2.7",
-            "jaxlib!=0.1.68,>=0.1.57"
-          ],
-          "all": [
-            "awkward-cuda-kernels==1.9.0rc9",
-            "pytest>=6",
-            "pytest-cov",
-            "autograd",
-            "flake8",
-            "numba>=0.50.0",
-            "numexpr",
-            "pandas>=0.24.0",
-            "PyYAML"
-          ],
-          "all:python_version > \"3.6\" and sys_platform != \"win32\"": [
-            "fsspec",
-            "pyarrow>=7.0.0"
-          ],
-          "all:sys_platform != \"win32\" and python_version > \"3.6\"": [
-            "jax>=0.2.7",
-            "jaxlib!=0.1.68,>=0.1.57"
-          ]
-        },
-        "python_requires": [
-          ">=3.6"
-        ]
-      },
-      "37": "36",
-      "38": "36",
-      "39": "36",
-      "310": "36"
-    },
-    "1.9.0rc10": {
-      "36": {
-        "install_requires": [
-          "numpy>=1.13.1",
-          "setuptools"
-        ],
-        "extras_require": {
-          "cuda": [
-            "awkward-cuda-kernels==1.9.0rc10"
-          ],
-          "test": [
-            "pytest>=6",
-            "pytest-cov"
-          ],
-          "dev": [
-            "autograd",
-            "flake8",
-            "numba>=0.50.0",
-            "numexpr",
-            "pandas>=0.24.0",
-            "PyYAML"
-          ],
-          "dev:python_version > \"3.6\" and sys_platform != \"win32\"": [
-            "fsspec",
-            "pyarrow>=7.0.0"
-          ],
-          "dev:sys_platform != \"win32\" and python_version > \"3.6\"": [
-            "jax>=0.2.7",
-            "jaxlib!=0.1.68,>=0.1.57"
-          ],
-          "all": [
-            "awkward-cuda-kernels==1.9.0rc10",
-            "pytest>=6",
-            "pytest-cov",
-            "autograd",
-            "flake8",
-            "numba>=0.50.0",
-            "numexpr",
-            "pandas>=0.24.0",
-            "PyYAML"
-          ],
-          "all:python_version > \"3.6\" and sys_platform != \"win32\"": [
-            "fsspec",
-            "pyarrow>=7.0.0"
-          ],
-          "all:sys_platform != \"win32\" and python_version > \"3.6\"": [
-            "jax>=0.2.7",
-            "jaxlib!=0.1.68,>=0.1.57"
-          ]
-        },
-        "python_requires": [
-          ">=3.6"
-        ]
-      },
-      "37": "36",
-      "38": "36",
-      "39": "36",
-      "310": "36"
-    },
-    "1.9.0rc12": {
-      "36": {
-        "install_requires": [
-          "numpy>=1.13.1",
-          "setuptools"
-        ],
-        "extras_require": {
-          "cuda": [
-            "awkward-cuda-kernels==1.9.0rc12"
-          ],
-          "test": [
-            "pytest>=6",
-            "pytest-cov"
-          ],
-          "dev": [
-            "autograd",
-            "flake8",
-            "pandas>=0.24.0",
-            "PyYAML"
-          ],
-          "dev:python_version > \"3.6\" and sys_platform != \"win32\"": [
-            "fsspec"
-          ],
-          "dev:sys_platform != \"win32\" and python_version > \"3.6\" and python_version < \"3.11\"": [
-            "jax>=0.2.7",
-            "jaxlib!=0.1.68,>=0.1.57"
-          ],
-          "dev:python_version < \"3.11\"": [
-            "numba>=0.50.0",
-            "numexpr"
-          ],
-          "dev:python_version > \"3.6\" and sys_platform != \"win32\" and python_version < \"3.11\"": [
-            "pyarrow>=7.0.0"
-          ],
-          "all": [
-            "awkward-cuda-kernels==1.9.0rc12",
-            "pytest>=6",
-            "pytest-cov",
-            "autograd",
-            "flake8",
-            "pandas>=0.24.0",
-            "PyYAML"
-          ],
-          "all:python_version > \"3.6\" and sys_platform != \"win32\"": [
-            "fsspec"
-          ],
-          "all:sys_platform != \"win32\" and python_version > \"3.6\" and python_version < \"3.11\"": [
-            "jax>=0.2.7",
-            "jaxlib!=0.1.68,>=0.1.57"
-          ],
-          "all:python_version < \"3.11\"": [
-            "numba>=0.50.0",
-            "numexpr"
-          ],
-          "all:python_version > \"3.6\" and sys_platform != \"win32\" and python_version < \"3.11\"": [
-            "pyarrow>=7.0.0"
-          ]
-        },
-        "python_requires": [
-          ">=3.6"
-        ]
-      },
-      "37": "36",
-      "38": "36",
-      "39": "36",
-      "310": "36"
-    },
     "1.9.0": {
       "36": {
         "install_requires": [
@@ -20947,331 +20312,6 @@
         },
         "python_requires": [
           ">=3.6"
-        ]
-      },
-      "37": "36",
-      "38": "36",
-      "39": "36",
-      "310": "36"
-    },
-    "1.9.0rc14": {
-      "36": {
-        "install_requires": [
-          "numpy>=1.13.1",
-          "setuptools"
-        ],
-        "extras_require": {
-          "cuda": [
-            "awkward-cuda-kernels==1.9.0rc14"
-          ],
-          "test": [
-            "pytest>=6",
-            "pytest-cov"
-          ],
-          "dev": [
-            "autograd",
-            "flake8",
-            "pandas>=0.24.0",
-            "PyYAML"
-          ],
-          "dev:python_version > \"3.6\" and sys_platform != \"win32\"": [
-            "fsspec"
-          ],
-          "dev:sys_platform != \"win32\" and python_version > \"3.6\" and python_version < \"3.11\"": [
-            "jax>=0.2.7",
-            "jaxlib!=0.1.68,>=0.1.57"
-          ],
-          "dev:python_version < \"3.11\"": [
-            "numba>=0.50.0",
-            "numexpr"
-          ],
-          "dev:python_version > \"3.6\" and sys_platform != \"win32\" and python_version < \"3.11\"": [
-            "pyarrow>=7.0.0"
-          ],
-          "all": [
-            "awkward-cuda-kernels==1.9.0rc14",
-            "pytest>=6",
-            "pytest-cov",
-            "autograd",
-            "flake8",
-            "pandas>=0.24.0",
-            "PyYAML"
-          ],
-          "all:python_version > \"3.6\" and sys_platform != \"win32\"": [
-            "fsspec"
-          ],
-          "all:sys_platform != \"win32\" and python_version > \"3.6\" and python_version < \"3.11\"": [
-            "jax>=0.2.7",
-            "jaxlib!=0.1.68,>=0.1.57"
-          ],
-          "all:python_version < \"3.11\"": [
-            "numba>=0.50.0",
-            "numexpr"
-          ],
-          "all:python_version > \"3.6\" and sys_platform != \"win32\" and python_version < \"3.11\"": [
-            "pyarrow>=7.0.0"
-          ]
-        },
-        "python_requires": [
-          ">=3.6"
-        ]
-      },
-      "37": "36",
-      "38": "36",
-      "39": "36",
-      "310": "36"
-    },
-    "1.10.0rc1": {
-      "36": {
-        "install_requires": [
-          "numpy>=1.13.1",
-          "setuptools"
-        ],
-        "extras_require": {
-          "cuda": [
-            "awkward-cuda-kernels==1.10.0rc1"
-          ],
-          "test": [
-            "pytest>=6",
-            "pytest-cov"
-          ],
-          "dev": [
-            "autograd",
-            "flake8",
-            "pandas>=0.24.0",
-            "PyYAML"
-          ],
-          "dev:sys_platform != \"win32\"": [
-            "fsspec"
-          ],
-          "dev:sys_platform != \"win32\" and python_version < \"3.11\"": [
-            "jax>=0.2.7",
-            "jaxlib!=0.1.68,>=0.1.57",
-            "pyarrow>=7.0.0"
-          ],
-          "dev:python_version < \"3.11\"": [
-            "numba>=0.50.0",
-            "numexpr"
-          ],
-          "all": [
-            "awkward-cuda-kernels==1.10.0rc1",
-            "pytest>=6",
-            "pytest-cov",
-            "autograd",
-            "flake8",
-            "pandas>=0.24.0",
-            "PyYAML"
-          ],
-          "all:sys_platform != \"win32\"": [
-            "fsspec"
-          ],
-          "all:sys_platform != \"win32\" and python_version < \"3.11\"": [
-            "jax>=0.2.7",
-            "jaxlib!=0.1.68,>=0.1.57",
-            "pyarrow>=7.0.0"
-          ],
-          "all:python_version < \"3.11\"": [
-            "numba>=0.50.0",
-            "numexpr"
-          ]
-        },
-        "python_requires": [
-          ">=3.7"
-        ]
-      },
-      "37": "36",
-      "38": "36",
-      "39": "36",
-      "310": "36"
-    },
-    "1.10.0rc2": {
-      "36": {
-        "install_requires": [
-          "numpy>=1.13.1",
-          "setuptools"
-        ],
-        "extras_require": {
-          "cuda": [
-            "awkward-cuda-kernels==1.10.0rc2"
-          ],
-          "test": [
-            "pytest>=6",
-            "pytest-cov"
-          ],
-          "dev": [
-            "autograd",
-            "flake8",
-            "pandas>=0.24.0",
-            "PyYAML"
-          ],
-          "dev:sys_platform != \"win32\"": [
-            "fsspec"
-          ],
-          "dev:sys_platform != \"win32\" and python_version < \"3.11\"": [
-            "jax>=0.2.7",
-            "jaxlib!=0.1.68,>=0.1.57",
-            "pyarrow>=7.0.0"
-          ],
-          "dev:python_version < \"3.11\"": [
-            "numba>=0.50.0",
-            "numexpr"
-          ],
-          "all": [
-            "awkward-cuda-kernels==1.10.0rc2",
-            "pytest>=6",
-            "pytest-cov",
-            "autograd",
-            "flake8",
-            "pandas>=0.24.0",
-            "PyYAML"
-          ],
-          "all:sys_platform != \"win32\"": [
-            "fsspec"
-          ],
-          "all:sys_platform != \"win32\" and python_version < \"3.11\"": [
-            "jax>=0.2.7",
-            "jaxlib!=0.1.68,>=0.1.57",
-            "pyarrow>=7.0.0"
-          ],
-          "all:python_version < \"3.11\"": [
-            "numba>=0.50.0",
-            "numexpr"
-          ]
-        },
-        "python_requires": [
-          ">=3.7"
-        ]
-      },
-      "37": "36",
-      "38": "36",
-      "39": "36",
-      "310": "36"
-    },
-    "1.10.0rc3": {
-      "36": {
-        "install_requires": [
-          "numpy>=1.13.1",
-          "packaging"
-        ],
-        "extras_require": {
-          "cuda": [
-            "awkward-cuda-kernels==1.10.0rc3"
-          ],
-          "test": [
-            "pytest>=6",
-            "pytest-cov"
-          ],
-          "dev": [
-            "autograd",
-            "flake8",
-            "pandas>=0.24.0",
-            "PyYAML"
-          ],
-          "dev:sys_platform != \"win32\"": [
-            "fsspec"
-          ],
-          "dev:sys_platform != \"win32\" and python_version < \"3.11\"": [
-            "jax>=0.2.7",
-            "jaxlib!=0.1.68,>=0.1.57",
-            "pyarrow>=7.0.0"
-          ],
-          "dev:python_version < \"3.11\"": [
-            "numba>=0.50.0",
-            "numexpr"
-          ],
-          "all": [
-            "awkward-cuda-kernels==1.10.0rc3",
-            "pytest>=6",
-            "pytest-cov",
-            "autograd",
-            "flake8",
-            "pandas>=0.24.0",
-            "PyYAML"
-          ],
-          "all:sys_platform != \"win32\"": [
-            "fsspec"
-          ],
-          "all:sys_platform != \"win32\" and python_version < \"3.11\"": [
-            "jax>=0.2.7",
-            "jaxlib!=0.1.68,>=0.1.57",
-            "pyarrow>=7.0.0"
-          ],
-          "all:python_version < \"3.11\"": [
-            "numba>=0.50.0",
-            "numexpr"
-          ],
-          ":python_version < \"3.9\"": [
-            "importlib_resources"
-          ]
-        },
-        "python_requires": [
-          ">=3.7"
-        ]
-      },
-      "37": "36",
-      "38": "36",
-      "39": "36",
-      "310": "36"
-    },
-    "1.10.0rc4": {
-      "36": {
-        "install_requires": [
-          "numpy>=1.13.1",
-          "packaging"
-        ],
-        "extras_require": {
-          "cuda": [
-            "awkward-cuda-kernels==1.10.0rc4"
-          ],
-          "test": [
-            "pytest>=6",
-            "pytest-cov"
-          ],
-          "dev": [
-            "autograd",
-            "flake8",
-            "pandas>=0.24.0",
-            "PyYAML"
-          ],
-          "dev:sys_platform != \"win32\"": [
-            "fsspec"
-          ],
-          "dev:sys_platform != \"win32\" and python_version < \"3.11\"": [
-            "jax>=0.2.7",
-            "jaxlib!=0.1.68,>=0.1.57",
-            "pyarrow>=7.0.0"
-          ],
-          "dev:python_version < \"3.11\"": [
-            "numba>=0.50.0",
-            "numexpr"
-          ],
-          "all": [
-            "awkward-cuda-kernels==1.10.0rc4",
-            "pytest>=6",
-            "pytest-cov",
-            "autograd",
-            "flake8",
-            "pandas>=0.24.0",
-            "PyYAML"
-          ],
-          "all:sys_platform != \"win32\"": [
-            "fsspec"
-          ],
-          "all:sys_platform != \"win32\" and python_version < \"3.11\"": [
-            "jax>=0.2.7",
-            "jaxlib!=0.1.68,>=0.1.57",
-            "pyarrow>=7.0.0"
-          ],
-          "all:python_version < \"3.11\"": [
-            "numba>=0.50.0",
-            "numexpr"
-          ],
-          ":python_version < \"3.9\"": [
-            "importlib_resources"
-          ]
-        },
-        "python_requires": [
-          ">=3.7"
         ]
       },
       "37": "36",
@@ -21345,72 +20385,6 @@
       "39": "36",
       "310": "36"
     },
-    "1.10.1rc1": {
-      "36": {
-        "install_requires": [
-          "numpy>=1.13.1",
-          "packaging"
-        ],
-        "extras_require": {
-          "cuda": [
-            "awkward-cuda-kernels==1.10.1rc1"
-          ],
-          "test": [
-            "pytest>=6",
-            "pytest-cov"
-          ],
-          "dev": [
-            "autograd",
-            "flake8",
-            "pandas>=0.24.0",
-            "PyYAML"
-          ],
-          "dev:sys_platform != \"win32\"": [
-            "fsspec"
-          ],
-          "dev:sys_platform != \"win32\" and python_version < \"3.11\"": [
-            "jax>=0.2.7",
-            "jaxlib!=0.1.68,>=0.1.57",
-            "pyarrow>=7.0.0"
-          ],
-          "dev:python_version < \"3.11\"": [
-            "numba>=0.50.0",
-            "numexpr"
-          ],
-          "all": [
-            "awkward-cuda-kernels==1.10.1rc1",
-            "pytest>=6",
-            "pytest-cov",
-            "autograd",
-            "flake8",
-            "pandas>=0.24.0",
-            "PyYAML"
-          ],
-          "all:sys_platform != \"win32\"": [
-            "fsspec"
-          ],
-          "all:sys_platform != \"win32\" and python_version < \"3.11\"": [
-            "jax>=0.2.7",
-            "jaxlib!=0.1.68,>=0.1.57",
-            "pyarrow>=7.0.0"
-          ],
-          "all:python_version < \"3.11\"": [
-            "numba>=0.50.0",
-            "numexpr"
-          ],
-          ":python_version < \"3.9\"": [
-            "importlib_resources"
-          ]
-        },
-        "python_requires": [
-          ">=3.7"
-        ]
-      },
-      "37": "36",
-      "38": "36",
-      "39": "36",
-      "310": "36"
-    },
     "1.10.1": {
       "36": {
         "install_requires": [
@@ -21451,208 +20425,6 @@
             "flake8",
             "pandas>=0.24.0",
             "PyYAML"
-          ],
-          "all:sys_platform != \"win32\"": [
-            "fsspec"
-          ],
-          "all:sys_platform != \"win32\" and python_version < \"3.11\"": [
-            "jax>=0.2.7",
-            "jaxlib!=0.1.68,>=0.1.57",
-            "pyarrow>=7.0.0"
-          ],
-          "all:python_version < \"3.11\"": [
-            "numba>=0.50.0",
-            "numexpr"
-          ],
-          ":python_version < \"3.9\"": [
-            "importlib_resources"
-          ]
-        },
-        "python_requires": [
-          ">=3.7"
-        ]
-      },
-      "37": "36",
-      "38": "36",
-      "39": "36",
-      "310": "36"
-    },
-    "2.0.0rc1": {
-      "36": {
-        "install_requires": [
-          "numpy>=1.13.1",
-          "packaging"
-        ],
-        "extras_require": {
-          "cuda": [
-            "awkward-cuda-kernels==2.0.0rc1"
-          ],
-          "test": [
-            "pytest>=6",
-            "pytest-cov"
-          ],
-          "dev": [
-            "autograd",
-            "flake8",
-            "pandas>=0.24.0",
-            "PyYAML"
-          ],
-          "dev:sys_platform != \"win32\"": [
-            "fsspec"
-          ],
-          "dev:sys_platform != \"win32\" and python_version < \"3.11\"": [
-            "jax>=0.2.7",
-            "jaxlib!=0.1.68,>=0.1.57",
-            "pyarrow>=7.0.0"
-          ],
-          "dev:python_version < \"3.11\"": [
-            "numba>=0.50.0",
-            "numexpr"
-          ],
-          "all": [
-            "awkward-cuda-kernels==2.0.0rc1",
-            "pytest>=6",
-            "pytest-cov",
-            "autograd",
-            "flake8",
-            "pandas>=0.24.0",
-            "PyYAML"
-          ],
-          "all:sys_platform != \"win32\"": [
-            "fsspec"
-          ],
-          "all:sys_platform != \"win32\" and python_version < \"3.11\"": [
-            "jax>=0.2.7",
-            "jaxlib!=0.1.68,>=0.1.57",
-            "pyarrow>=7.0.0"
-          ],
-          "all:python_version < \"3.11\"": [
-            "numba>=0.50.0",
-            "numexpr"
-          ],
-          ":python_version < \"3.9\"": [
-            "importlib_resources"
-          ]
-        },
-        "python_requires": [
-          ">=3.7"
-        ]
-      },
-      "37": "36",
-      "38": "36",
-      "39": "36",
-      "310": "36"
-    },
-    "2.0.0rc2": {
-      "36": {
-        "install_requires": [
-          "numpy>=1.13.1",
-          "packaging"
-        ],
-        "extras_require": {
-          "cuda": [
-            "awkward-cuda-kernels==2.0.0rc2"
-          ],
-          "test": [
-            "pytest>=6",
-            "pytest-cov"
-          ],
-          "dev": [
-            "autograd",
-            "flake8",
-            "pandas>=0.24.0",
-            "PyYAML",
-            "typing_extensions>=4.3.0"
-          ],
-          "dev:sys_platform != \"win32\"": [
-            "fsspec"
-          ],
-          "dev:sys_platform != \"win32\" and python_version < \"3.11\"": [
-            "jax>=0.2.7",
-            "jaxlib!=0.1.68,>=0.1.57",
-            "pyarrow>=7.0.0"
-          ],
-          "dev:python_version < \"3.11\"": [
-            "numba>=0.50.0",
-            "numexpr"
-          ],
-          "all": [
-            "awkward-cuda-kernels==2.0.0rc2",
-            "pytest>=6",
-            "pytest-cov",
-            "autograd",
-            "flake8",
-            "pandas>=0.24.0",
-            "PyYAML",
-            "typing_extensions>=4.3.0"
-          ],
-          "all:sys_platform != \"win32\"": [
-            "fsspec"
-          ],
-          "all:sys_platform != \"win32\" and python_version < \"3.11\"": [
-            "jax>=0.2.7",
-            "jaxlib!=0.1.68,>=0.1.57",
-            "pyarrow>=7.0.0"
-          ],
-          "all:python_version < \"3.11\"": [
-            "numba>=0.50.0",
-            "numexpr"
-          ],
-          ":python_version < \"3.9\"": [
-            "importlib_resources"
-          ]
-        },
-        "python_requires": [
-          ">=3.7"
-        ]
-      },
-      "37": "36",
-      "38": "36",
-      "39": "36",
-      "310": "36"
-    },
-    "2.0.0rc3": {
-      "36": {
-        "install_requires": [
-          "numpy>=1.13.1",
-          "packaging"
-        ],
-        "extras_require": {
-          "cuda": [
-            "awkward-cuda-kernels==2.0.0rc3"
-          ],
-          "test": [
-            "pytest>=6",
-            "pytest-cov"
-          ],
-          "dev": [
-            "autograd",
-            "flake8",
-            "pandas>=0.24.0",
-            "PyYAML",
-            "typing_extensions>=4.3.0"
-          ],
-          "dev:sys_platform != \"win32\"": [
-            "fsspec"
-          ],
-          "dev:sys_platform != \"win32\" and python_version < \"3.11\"": [
-            "jax>=0.2.7",
-            "jaxlib!=0.1.68,>=0.1.57",
-            "pyarrow>=7.0.0"
-          ],
-          "dev:python_version < \"3.11\"": [
-            "numba>=0.50.0",
-            "numexpr"
-          ],
-          "all": [
-            "awkward-cuda-kernels==2.0.0rc3",
-            "pytest>=6",
-            "pytest-cov",
-            "autograd",
-            "flake8",
-            "pandas>=0.24.0",
-            "PyYAML",
-            "typing_extensions>=4.3.0"
           ],
           "all:sys_platform != \"win32\"": [
             "fsspec"
@@ -28516,6 +27288,25 @@
     },
     "0.3.0rc3": "0.3.0rc2"
   },
+  "blatex": {
+    "0.0.4": {
+      "27": {
+        "install_requires": [
+          "termcolor",
+          "click",
+          "pathlib"
+        ],
+        "python_requires": [
+          ">=3.7"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
+  },
   "blob-app": {
     "0.1": {
       "27": {
@@ -33731,6 +32522,23 @@
       "38": "27",
       "39": "27",
       "310": "27"
+    },
+    "2.9.2": {
+      "27": {
+        "install_requires": [
+          "click>=8.1.3",
+          "core-changelog-md>=1.5.6",
+          "python-gitlab>=3.5.0"
+        ],
+        "python_requires": [
+          ">=3.8"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
     }
   },
   "cliargtools": {
@@ -34586,7 +33394,26 @@
       "39": "27",
       "310": "27"
     },
-    "0.0.19": "0.0.18"
+    "0.0.19": "0.0.18",
+    "0.1.0": {
+      "27": {
+        "install_requires": [
+          "construct==2.10.68",
+          "construct-typing==0.5.4",
+          "wxPython>=4.1.1",
+          "arrow>=1.0.0",
+          "wrapt>=1.14.0"
+        ],
+        "python_requires": [
+          ">=3.8"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
   },
   "contextplus": {
     "1.0": {
@@ -35282,192 +34109,16 @@
     "0.1.2": "0.1.0"
   },
   "corpus-base": {
-    "0.0.1": {
+    "0.1.1": {
       "27": {
         "install_requires": [
-          "citation-utils<0.0.10,>=0.0.9",
-          "httpx<0.24.0,>=0.23.0",
-          "loguru<0.7.0,>=0.6.0",
+          "citation-utils<0.0.18,>=0.0.17",
+          "corpus-pax<0.2.0,>=0.1.3",
           "markdownify<0.12.0,>=0.11.6",
-          "python-dotenv<0.22.0,>=0.21.0",
-          "python-slugify<7.0.0,>=6.1.2",
-          "sqlite-utils<4.0,>=3.29",
           "unidecode<2.0.0,>=1.3.6"
         ],
         "python_requires": [
-          ">=3.10,<4.0"
-        ]
-      },
-      "36": "27",
-      "37": "27",
-      "38": "27",
-      "39": "27",
-      "310": "27"
-    },
-    "0.0.2": {
-      "27": {
-        "install_requires": [
-          "citation-utils<0.0.10,>=0.0.9",
-          "httpx<0.24.0,>=0.23.0",
-          "jinja2<4.0.0,>=3.1.2",
-          "loguru<0.7.0,>=0.6.0",
-          "markdownify<0.12.0,>=0.11.6",
-          "python-dotenv<0.22.0,>=0.21.0",
-          "python-slugify<7.0.0,>=6.1.2",
-          "sqlite-utils<4.0,>=3.29",
-          "unidecode<2.0.0,>=1.3.6"
-        ],
-        "python_requires": [
-          ">=3.10,<4.0"
-        ]
-      },
-      "36": "27",
-      "37": "27",
-      "38": "27",
-      "39": "27",
-      "310": "27"
-    },
-    "0.0.3": {
-      "27": {
-        "install_requires": [
-          "citation-utils<0.0.10,>=0.0.9",
-          "httpx<0.24.0,>=0.23.0",
-          "jinja2<4.0.0,>=3.1.2",
-          "loguru<0.7.0,>=0.6.0",
-          "markdownify<0.12.0,>=0.11.6",
-          "python-dotenv<0.22.0,>=0.21.0",
-          "python-frontmatter<2.0.0,>=1.0.0",
-          "python-slugify<7.0.0,>=6.1.2",
-          "sqlite-utils<4.0,>=3.29",
-          "unidecode<2.0.0,>=1.3.6"
-        ],
-        "python_requires": [
-          ">=3.10,<4.0"
-        ]
-      },
-      "36": "27",
-      "37": "27",
-      "38": "27",
-      "39": "27",
-      "310": "27"
-    },
-    "0.0.4": {
-      "27": {
-        "install_requires": [
-          "citation-utils<0.0.11,>=0.0.10",
-          "httpx<0.24.0,>=0.23.0",
-          "jinja2<4.0.0,>=3.1.2",
-          "loguru<0.7.0,>=0.6.0",
-          "markdownify<0.12.0,>=0.11.6",
-          "python-dotenv<0.22.0,>=0.21.0",
-          "python-frontmatter<2.0.0,>=1.0.0",
-          "python-slugify<7.0.0,>=6.1.2",
-          "sqlite-utils<4.0,>=3.29",
-          "unidecode<2.0.0,>=1.3.6"
-        ],
-        "python_requires": [
-          ">=3.10,<4.0"
-        ]
-      },
-      "36": "27",
-      "37": "27",
-      "38": "27",
-      "39": "27",
-      "310": "27"
-    },
-    "0.0.5": {
-      "27": {
-        "install_requires": [
-          "citation-utils<0.0.13,>=0.0.12",
-          "corpus-persons<0.0.2,>=0.0.1",
-          "loguru<0.7.0,>=0.6.0",
-          "markdownify<0.12.0,>=0.11.6",
-          "python-frontmatter<2.0.0,>=1.0.0",
-          "unidecode<2.0.0,>=1.3.6"
-        ],
-        "python_requires": [
-          ">=3.10,<4.0"
-        ]
-      },
-      "36": "27",
-      "37": "27",
-      "38": "27",
-      "39": "27",
-      "310": "27"
-    },
-    "0.0.6": "0.0.5",
-    "0.0.7": {
-      "27": {
-        "install_requires": [
-          "citation-utils<0.0.14,>=0.0.13",
-          "corpus-pax<0.0.3,>=0.0.2",
-          "loguru<0.7.0,>=0.6.0",
-          "markdownify<0.12.0,>=0.11.6",
-          "python-frontmatter<2.0.0,>=1.0.0",
-          "unidecode<2.0.0,>=1.3.6"
-        ],
-        "python_requires": [
-          ">=3.10,<4.0"
-        ]
-      },
-      "36": "27",
-      "37": "27",
-      "38": "27",
-      "39": "27",
-      "310": "27"
-    },
-    "0.0.8": {
-      "27": {
-        "install_requires": [
-          "citation-utils<0.0.14,>=0.0.13",
-          "corpus-pax<0.0.5,>=0.0.4",
-          "loguru<0.7.0,>=0.6.0",
-          "markdownify<0.12.0,>=0.11.6",
-          "python-frontmatter<2.0.0,>=1.0.0",
-          "unidecode<2.0.0,>=1.3.6"
-        ],
-        "python_requires": [
-          ">=3.10,<4.0"
-        ]
-      },
-      "36": "27",
-      "37": "27",
-      "38": "27",
-      "39": "27",
-      "310": "27"
-    },
-    "0.0.9": {
-      "27": {
-        "install_requires": [
-          "citation-utils<0.0.14,>=0.0.13",
-          "corpus-pax<0.0.6,>=0.0.5",
-          "loguru<0.7.0,>=0.6.0",
-          "markdownify<0.12.0,>=0.11.6",
-          "python-frontmatter<2.0.0,>=1.0.0",
-          "unidecode<2.0.0,>=1.3.6"
-        ],
-        "python_requires": [
-          ">=3.10,<4.0"
-        ]
-      },
-      "36": "27",
-      "37": "27",
-      "38": "27",
-      "39": "27",
-      "310": "27"
-    },
-    "0.0.10": "0.0.9",
-    "0.0.11": {
-      "27": {
-        "install_requires": [
-          "citation-utils<0.0.16,>=0.0.15",
-          "corpus-pax<0.0.6,>=0.0.5",
-          "markdownify<0.12.0,>=0.11.6",
-          "python-frontmatter<2.0.0,>=1.0.0",
-          "unidecode<2.0.0,>=1.3.6"
-        ],
-        "python_requires": [
-          ">=3.10,<4.0"
+          "==3.11.0"
         ]
       },
       "36": "27",
@@ -48506,7 +47157,21 @@
     "1.2.3": "1.1.2",
     "1.3.0b0": "1.1.2",
     "1.3.0b1": "1.1.2",
-    "1.2.4": "1.1.2"
+    "1.2.4": "1.1.2",
+    "1.3.0b3": {
+      "36": {
+        "install_requires": [
+          "flytekit<2.0.0,>=1.3.0b2"
+        ],
+        "python_requires": [
+          ">=3.7"
+        ]
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
   },
   "forcedimension": {
     "0.1.3": {
@@ -56208,16 +54873,6 @@
     "0.2.0": "0.1.0",
     "0.3.0": "0.1.0"
   },
-  "iksemel": {
-    "3.0.1": {
-      "27": {},
-      "36": "27",
-      "37": "27",
-      "38": "27",
-      "39": "27",
-      "310": "27"
-    }
-  },
   "image-enc-dec": {
     "0.0.1": {
       "27": {
@@ -56757,7 +55412,8 @@
     "0.97.2": "0.1.3",
     "0.97.3": "0.1.3",
     "0.97.4": "0.1.3",
-    "0.97.5": "0.1.3"
+    "0.97.5": "0.1.3",
+    "0.97.6": "0.1.3"
   },
   "importtools": {
     "0.1": {
@@ -56891,7 +55547,8 @@
     "2.0.0": "1.0.0",
     "2.0.1": "1.0.0",
     "2.1.0": "1.0.0",
-    "2.2.0": "1.0.0"
+    "2.2.0": "1.0.0",
+    "2.3.0": "1.0.0"
   },
   "infpy": {
     "0.4.0": {
@@ -67114,7 +65771,8 @@
     },
     "0.1.3": "0.1.2",
     "0.1.4": "0.1.2",
-    "0.1.5": "0.1.2"
+    "0.1.5": "0.1.2",
+    "0.1.7": "0.1.2"
   },
   "kapla-cli-core": {
     "1.0.0": {
@@ -67466,7 +66124,26 @@
       "38": "27",
       "39": "27",
       "310": "27"
-    }
+    },
+    "1.1.2": {
+      "27": {
+        "install_requires": [
+          "aiohttp[speedups]",
+          "kiki-utils",
+          "validator",
+          "websockets"
+        ],
+        "python_requires": [
+          ">=3.6"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    },
+    "1.1.7": "1.1.2"
   },
   "kines-proto": {
     "1.0.0": {
@@ -84353,7 +83030,8 @@
     "1.9.8": "1.0.1",
     "1.9.9": "1.0.1",
     "2.0.0": "1.0.1",
-    "2.0.1": "1.0.1"
+    "2.0.1": "1.0.1",
+    "2.0.2": "1.0.1"
   },
   "qiniu-ufop": {
     "0.1.2": {
@@ -86817,9 +85495,27 @@
       "39": "36",
       "310": "36"
     },
-    "0.1.1": "0.1.0",
-    "0.1.2": "0.1.0",
-    "1.1.3": "0.1.0"
+    "1.2.2": {
+      "36": {
+        "install_requires": [
+          "numpy",
+          "pandas",
+          "gensim",
+          "scanpy",
+          "nltk",
+          "scikit-learn",
+          "scikit-survival",
+          "imbalanced-learn",
+          "xgbse",
+          "tqdm",
+          "matplotlib"
+        ]
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
   },
   "scflash": {
     "0.0.1": {
@@ -89568,7 +88264,8 @@
       "39": "27",
       "310": "27"
     },
-    "0.1.1": "0.1.0"
+    "0.1.1": "0.1.0",
+    "0.1.3": "0.1.0"
   },
   "spidercontrol-commoms": {
     "1.0.0": {
@@ -92593,7 +91290,8 @@
     "3.0.777": "3.0.536",
     "3.0.778": "3.0.536",
     "3.0.779": "3.0.536",
-    "3.0.780": "3.0.536"
+    "3.0.780": "3.0.536",
+    "3.0.798": "3.0.536"
   },
   "tendril-utils-types": {
     "0.1.1": {

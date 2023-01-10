@@ -808,7 +808,8 @@
     "0.8.1": "0.4.8",
     "0.8.2": "0.4.8",
     "0.9.0": "0.4.8",
-    "0.9.1": "0.4.8"
+    "0.9.1": "0.4.8",
+    "0.10.4": "0.4.8"
   },
   "argparse": {
     "0.1.0": {
@@ -1766,6 +1767,11 @@
     "0.4.5": "0.1.1",
     "0.5.0": "0.1.1"
   },
+  "chatgpt-lite": {
+    "0.0.2": {
+      "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
+    }
+  },
   "check-docker": {
     "1.0.0": {
       "27": "check_docker requires Python 3.3 or higher.\n"
@@ -2687,6 +2693,11 @@
       "310": "36"
     }
   },
+  "eateffort": {
+    "0.1.0": {
+      "27": "distutils.errors.DistutilsOptionError: find_namespace: directive is unsupported on Python < 3.3"
+    }
+  },
   "ebay-email-tracker": {
     "0.0.1": {
       "27": "these 2 derivations will be built:\n /nix/store/#hash#-eBay-email-tracker-#PKG_VER#.tar.gz.drv\n /nix/store/#hash#-ebay-email-tracker-#PKG_VER#-requirements.drv\nbuilding '/nix/store/#hash#-eBay-email-tracker-#PKG_VER#.tar.gz.drv'...\n\ntrying https://files.pythonhosted.org/packages/source/e/ebay-email-tracker/eBay\n % Total % Received % Xferd Average Speed Time Time Time Current\n Dload Upload Total Spent Left Speed\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0\ncurl: (22) The requested URL returned error: 404 \n\ntrying email\n % Total % Received % Xferd Average Speed Time Time Time Current\n Dload Upload Total Spent Left Speed\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: email\nWarning: Transient problem: timeout Will retry in 1 seconds. 3 retries left.\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: email\nWarning: Transient problem: timeout Will retry in 2 seconds. 2 retries left.\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: email\nWarning: Transient problem: timeout Will retry in 4 seconds. 1 retries left.\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: email\n\ntrying tracker-#PKG_VER#.tar.gz\n % Total % Received % Xferd Average Speed Time Time Time Current\n Dload Upload Total Spent Left Speed\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: tracker-#PKG_VER#.tar.gz\nWarning: Transient problem: timeout Will retry in 1 seconds. 3 retries left.\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: tracker-#PKG_VER#.tar.gz\nWarning: Transient problem: timeout Will retry in 2 seconds. 2 retries left.\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: tracker-#PKG_VER#.tar.gz\nWarning: Transient problem: timeout Will retry in 4 seconds. 1 retries left.\n 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: tracker-#PKG_VER#.tar.gz\nerror: cannot download eBay-email-tracker-#PKG_VER#.tar.gz from any mirror\nerror: builder for '/nix/store/#hash#-eBay-email-tracker-#PKG_VER#.tar.gz.drv' failed with exit code 1;\n last 10 log lines:\n > % Total % Received % Xferd Average Speed Time Time Time Current\n > Dload Upload Total Spent Left Speed\n > 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: tracker-#PKG_VER#.tar.gz\n > Warning: Transient problem: timeout Will retry in 1 seconds. 3 retries left.\n > 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: tracker-#PKG_VER#.tar.gz\n > Warning: Transient problem: timeout Will retry in 2 seconds. 2 retries left.\n > 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: tracker-#PKG_VER#.tar.gz\n > Warning: Transient problem: timeout Will retry in 4 seconds. 1 retries left.\n > 0 0 0 0 0 0 0 0 --:--:-- --:--:-- --:--:-- 0curl: (6) Could not resolve host: tracker-#PKG_VER#.tar.gz\n > error: cannot download eBay-email-tracker-#PKG_VER#.tar.gz from any mirror\n For full logs, run 'nix log /nix/store/#hash#-eBay-email-tracker-#PKG_VER#.tar.gz.drv'.\nerror: 1 dependencies of derivation '/nix/store/#hash#-ebay-email-tracker-#PKG_VER#-requirements.drv' failed to build\n",
@@ -3444,7 +3455,8 @@
     "0.1.0": {
       "27": "ImportError: No module named pathlib"
     },
-    "0.1.1": "0.1.0"
+    "0.1.1": "0.1.0",
+    "0.1.2": "0.1.0"
   },
   "fileoperate": {
     "1.0.0": {
@@ -4450,7 +4462,8 @@
       "39": "36",
       "310": "36"
     },
-    "0.0.3": "0.0.1"
+    "0.0.3": "0.0.1",
+    "0.0.7": "0.0.1"
   },
   "hydra-ml": {
     "0.2.0": {
@@ -4780,6 +4793,16 @@
   "juexingde-baiwan-fuweng": {
     "2022.10.6.0": {
       "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
+    }
+  },
+  "jupikchr": {
+    "0.1.0": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
     }
   },
   "jupyter-plotly-dash": {
@@ -9459,7 +9482,8 @@
     "0.5.1": "0.5.0",
     "0.6.0": "0.5.0",
     "0.7.0": "0.5.0",
-    "0.8.0": "0.5.0"
+    "0.8.0": "0.5.0",
+    "0.10.0": "0.5.0"
   },
   "unicore.webhooks": {
     "0.0.1": {

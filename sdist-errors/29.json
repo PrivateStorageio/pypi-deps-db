@@ -593,7 +593,9 @@
     "2.49.1a0": "2.45.0a0",
     "2.50.0a0": "2.45.0a0",
     "2.51.0a0": "2.45.0a0",
-    "2.51.1a0": "2.45.0a0"
+    "2.51.1a0": "2.45.0a0",
+    "2.56.1a0": "2.45.0a0",
+    "2.57.0a0": "2.45.0a0"
   },
   "awsipenum": {
     "0.1.5": {
@@ -601,7 +603,8 @@
     },
     "0.1.6": "0.1.5",
     "0.1.10": "0.1.5",
-    "0.1.9": "0.1.5"
+    "0.1.9": "0.1.5",
+    "0.1.11": "0.1.5"
   },
   "azrulhishampdf": {
     "1.0": {
@@ -838,6 +841,16 @@
     "1.1.1": "1.0.0",
     "1.1.2": "1.0.0",
     "1.1.3": "1.0.0"
+  },
+  "bluing": {
+    "0.9.0": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
   },
   "boilermakerbuddy": {
     "0.0.1": {
@@ -1193,7 +1206,8 @@
     "0.0.36": "0.0.0",
     "0.0.37": "0.0.0",
     "0.0.38": "0.0.0",
-    "0.0.39": "0.0.0"
+    "0.0.39": "0.0.0",
+    "0.1.8": "0.0.0"
   },
   "clubhouse-lib": {
     "1.0.0": {
@@ -1533,6 +1547,11 @@
       "310": "36"
     }
   },
+  "dbt-selectdb": {
+    "1.3.1": {
+      "27": "ImportError: cannot import name find_namespace_packages"
+    }
+  },
   "debayer-ohweier": {
     "0.0.1": {
       "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
@@ -1847,6 +1866,20 @@
     "1.6.0": {
       "27": "SyntaxError: invalid syntax"
     }
+  },
+  "edamame": {
+    "0.0.1": "0.23",
+    "0.0.5": "0.23",
+    "0.23": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    },
+    "0.24": "0.23",
+    "0.35": "0.23"
   },
   "edc-locator": {
     "0.2.10": "0.2.5",
@@ -4522,7 +4555,9 @@
       "27": "SyntaxError: invalid syntax"
     },
     "0.3.1": "0.3.0",
-    "0.3.4": "0.3.0"
+    "0.3.4": "0.3.0",
+    "0.4.3": "0.3.0",
+    "0.4.4": "0.3.0"
   },
   "modxlib": {
     "0.1.0": {
@@ -5084,6 +5119,16 @@
     "1.0.1": "1.0.0",
     "1.0.2": "1.0.0"
   },
+  "oakx-spacy": {
+    "0.1.0": {
+      "27": "error in oakx-spacy setup command: 'extras_require' must be a dictionary whose values are strings or lists of strings containing valid project/version requirement specifiers.\n",
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
+  },
   "ocpgdb": {
     "1.0.3": {
       "27": "sh: pg_config: not found\npg_config failed - you may need to install the postgres client library\npackage (libpq-dev or similar)\n",
@@ -5581,7 +5626,10 @@
     "2.2.0": "1.0.0",
     "2.2.2": "1.0.0",
     "2.2.4": "1.0.0",
-    "2.2.8": "1.0.0"
+    "2.2.8": "1.0.0",
+    "3.2.6": {
+      "27": "SyntaxError: invalid syntax"
+    }
   },
   "piweatherrock-webconfig": {
     "1.4.0": {
@@ -5675,7 +5723,8 @@
       "310": "37"
     },
     "2.0.0": "1.8.5",
-    "2.0.1": "1.8.5"
+    "2.0.1": "1.8.5",
+    "2.0.2": "1.8.5"
   },
   "pnu-strfile": {
     "1.0.0": {
@@ -6626,7 +6675,9 @@
       "37": "27"
     },
     "2022.10.1": "2022.10.0",
-    "2022.11.0": "2022.10.0"
+    "2022.11.0": "2022.10.0",
+    "2022.11.1": "2022.10.0",
+    "2022.12.0": "2022.10.0"
   },
   "python-jsend": {
     "0.1.7": "0.2",
@@ -7426,6 +7477,11 @@
     "0.0.8": "0.0.3",
     "0.0.9": "0.0.3"
   },
+  "streamlit-pandas": {
+    "0.0.6": {
+      "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
+    }
+  },
   "structurefingerprint": {
     "1.21": "2.0",
     "1.23": "2.0",
@@ -8042,6 +8098,16 @@
     "0.4.0": "0.3.1",
     "0.4.1": "0.3.1"
   },
+  "unitment": {
+    "0.0.4": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
   "upyun-django": {
     "0.0.2": {
       "27": "ImportError: No module named ez_setup",
@@ -8234,6 +8300,16 @@
       "38": "37",
       "39": "37",
       "310": "37"
+    }
+  },
+  "whisper.ai": {
+    "1.0": {
+      "27": "IOError: [Errno 2] No such file or directory: 'requirements.txt'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'requirements.txt'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
     }
   },
   "wilddog": {

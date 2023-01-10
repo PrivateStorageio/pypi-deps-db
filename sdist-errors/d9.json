@@ -4533,7 +4533,8 @@
     "0.1.5": "0.1.0",
     "0.1.6": "0.1.0",
     "0.1.7": "0.1.0",
-    "0.1.8": "0.1.0"
+    "0.1.8": "0.1.0",
+    "0.1.9": "0.1.0"
   },
   "muskrat": {
     "1.0.0": {
@@ -4608,6 +4609,11 @@
   "nejma": {
     "0.1.0": {
       "27": "TypeError: 'encoding' is an invalid keyword argument for this function"
+    }
+  },
+  "neon-phal-plugin-reset": {
+    "0.0.1a6": {
+      "27": "SyntaxError: invalid syntax"
     }
   },
   "nerdvisa": {
@@ -4764,6 +4770,16 @@
       "310": "36"
     }
   },
+  "onestation": {
+    "0.1.0": {
+      "27": "IOError: [Errno 2] No such file or directory: 'setup.py'",
+      "36": "FileNotFoundError: [Errno 2] No such file or directory: 'setup.py'",
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
+  },
   "onnx-graphsurgeon": {
     "0.0.1.dev4": {
       "27": "SyntaxError: invalid syntax",
@@ -4813,7 +4829,11 @@
       "27": "ImportError: No module named click",
       "36": "ModuleNotFoundError: No module named 'click'"
     },
-    "0.4.0": "0.3.1"
+    "0.4.0": "0.3.1",
+    "0.6.0": {
+      "27": "SyntaxError: invalid syntax",
+      "36": "ModuleNotFoundError: No module named 'click'"
+    }
   },
   "optimaldesign": {
     "0.0.1": {
@@ -5114,7 +5134,8 @@
     "0.1.1": "0.0.0",
     "0.2.0": "0.0.0",
     "0.3.0": "0.0.0",
-    "0.5.0": "0.0.0"
+    "0.5.0": "0.0.0",
+    "0.9.0": "0.0.0"
   },
   "pool-sharq": {
     "0.0.0": {
@@ -5333,7 +5354,9 @@
     "0.3.2.dev3": "0.2.1",
     "0.3.2.dev4": "0.2.1",
     "0.3.2.dev5": "0.2.1",
-    "0.3.2.dev6": "0.2.1"
+    "0.3.2.dev6": "0.2.1",
+    "0.3.3.dev10": "0.2.1",
+    "0.3.3.dev13": "0.2.1"
   },
   "pulumi-kafka": {
     "0.0.0": {
@@ -6485,6 +6508,11 @@
     "0.14.0": "0.0.1",
     "0.15.0": "0.0.1",
     "0.15.1": "0.0.1"
+  },
+  "robika": {
+    "1.0.2": {
+      "27": "SyntaxError: invalid syntax"
+    }
   },
   "roblox-free-robux-generator-for-kids-2022-v-4788": {
     "9.647": {

@@ -8976,6 +8976,30 @@
       "38": "36",
       "39": "36",
       "310": "36"
+    },
+    "1.186.1": {
+      "36": {
+        "install_requires": [
+          "aws-cdk.aws-autoscaling==1.186.1",
+          "aws-cdk.aws-cloudformation==1.186.1",
+          "aws-cdk.aws-ec2==1.186.1",
+          "aws-cdk.aws-iam==1.186.1",
+          "aws-cdk.aws-lambda==1.186.1",
+          "aws-cdk.aws-ssm==1.186.1",
+          "aws-cdk.core==1.186.1",
+          "constructs<4.0.0,>=3.3.69",
+          "jsii<2.0.0,>=1.72.0",
+          "publication>=0.0.3",
+          "typeguard~=2.13.3"
+        ],
+        "python_requires": [
+          "~=3.7"
+        ]
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
     }
   },
   "aws-cdk.aws-emrserverless": {
@@ -9398,6 +9422,40 @@
       "36": {
         "install_requires": [
           "aws-cdk.core==1.181.0",
+          "jsii<2.0.0,>=1.71.0",
+          "publication>=0.0.3",
+          "typeguard~=2.13.3"
+        ],
+        "python_requires": [
+          "~=3.7"
+        ]
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    },
+    "1.181.1": {
+      "36": {
+        "install_requires": [
+          "aws-cdk.core==1.181.1",
+          "jsii<2.0.0,>=1.71.0",
+          "publication>=0.0.3",
+          "typeguard~=2.13.3"
+        ],
+        "python_requires": [
+          "~=3.7"
+        ]
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    },
+    "1.182.0": {
+      "36": {
+        "install_requires": [
+          "aws-cdk.core==1.182.0",
           "jsii<2.0.0,>=1.71.0",
           "publication>=0.0.3",
           "typeguard~=2.13.3"
@@ -13680,6 +13738,58 @@
       "38": "36",
       "39": "36",
       "310": "36"
+    },
+    "1.174.0": {
+      "36": {
+        "install_requires": [
+          "aws-cdk.aws-iam==1.174.0",
+          "aws-cdk.aws-kinesis==1.174.0",
+          "aws-cdk.aws-kinesisanalytics==1.174.0",
+          "aws-cdk.aws-kinesisfirehose==1.174.0",
+          "aws-cdk.aws-logs==1.174.0",
+          "aws-cdk.aws-s3==1.174.0",
+          "aws-cdk.core==1.174.0",
+          "aws-solutions-constructs.aws-kinesis-firehose-s3==1.174.0",
+          "aws-solutions-constructs.core==1.174.0",
+          "constructs<4.0.0,>=3.2.0",
+          "jsii<2.0.0,>=1.71.0",
+          "publication>=0.0.3",
+          "typeguard~=2.13.3"
+        ],
+        "python_requires": [
+          "~=3.7"
+        ]
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    },
+    "1.177.0": {
+      "36": {
+        "install_requires": [
+          "aws-cdk.aws-iam==1.177.0",
+          "aws-cdk.aws-kinesis==1.177.0",
+          "aws-cdk.aws-kinesisanalytics==1.177.0",
+          "aws-cdk.aws-kinesisfirehose==1.177.0",
+          "aws-cdk.aws-logs==1.177.0",
+          "aws-cdk.aws-s3==1.177.0",
+          "aws-cdk.core==1.177.0",
+          "aws-solutions-constructs.aws-kinesis-firehose-s3==1.177.0",
+          "aws-solutions-constructs.core==1.177.0",
+          "constructs<4.0.0,>=3.2.0",
+          "jsii<2.0.0,>=1.71.0",
+          "publication>=0.0.3",
+          "typeguard~=2.13.3"
+        ],
+        "python_requires": [
+          "~=3.7"
+        ]
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
     }
   },
   "aws-tag-a-day": {
@@ -15804,6 +15914,20 @@
         },
         "python_requires": [
           "~=3.6"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
+  },
+  "botocore-a-la-carte-route53": {
+    "1.29.43": {
+      "27": {
+        "python_requires": [
+          ">= 3.7"
         ]
       },
       "36": "27",
@@ -24372,7 +24496,8 @@
       "38": "27",
       "39": "27",
       "310": "27"
-    }
+    },
+    "0.2": "0.1"
   },
   "django-passwordless-login": {
     "0.0.2": {
@@ -25855,7 +25980,27 @@
     "0.10.1": "0.6.2",
     "0.11.0": "0.6.2",
     "0.11.1": "0.6.2",
-    "0.12.0": "0.6.2"
+    "0.12.0": "0.6.2",
+    "0.13.0": "0.6.2",
+    "0.14.0": {
+      "37": {
+        "install_requires": [
+          "jax",
+          "dm-haiku",
+          "flax",
+          "optax",
+          "sympy",
+          "numpy",
+          "tqdm"
+        ],
+        "python_requires": [
+          ">=3.7"
+        ]
+      },
+      "38": "37",
+      "39": "37",
+      "310": "37"
+    }
   },
   "easydiff": {
     "0.0.3": {
@@ -27458,7 +27603,8 @@
       "38": "36",
       "39": "36",
       "310": "36"
-    }
+    },
+    "0.0.8": "0.0.6"
   },
   "example-pkg-aditi": {
     "0.0.1": {
@@ -34584,7 +34730,121 @@
     "0.17.0": "0.16.0",
     "0.17.1": "0.16.0",
     "0.17.2": "0.16.0",
-    "0.17.3": "0.16.0"
+    "0.17.3": "0.16.0",
+    "0.18.0": {
+      "27": {
+        "install_requires": [
+          "bqplot",
+          "colour",
+          "earthengine-api>=0.1.304",
+          "ee_extra>=0.0.10",
+          "ffmpeg-python",
+          "folium>=0.11.0",
+          "gdown",
+          "geeadd>=0.5.1",
+          "geocoder",
+          "geojson",
+          "ipyevents",
+          "ipyfilechooser>=0.6.0",
+          "ipyleaflet>=0.17.0",
+          "ipytree",
+          "jupyterlab>=3",
+          "matplotlib",
+          "numpy",
+          "pandas",
+          "pillow",
+          "pycrs",
+          "pyshp>=2.1.3",
+          "python-box",
+          "sankee>=0.1.0",
+          "scooby",
+          "whiteboxgui>=0.6.0",
+          "xyzservices"
+        ],
+        "extras_require": {
+          "raster": [
+            "geedim",
+            "localtileserver",
+            "rio-cogeo",
+            "rioxarray",
+            "netcdf4",
+            "pyvista-xarray",
+            "xarray_leaflet"
+          ],
+          "all": [
+            "black",
+            "black[jupyter]",
+            "codespell",
+            "datapane",
+            "deadlink",
+            "geedim>=1.3.2",
+            "geopandas",
+            "here-map-widget-for-jupyter>=1.1.1",
+            "keplergl",
+            "ipygany",
+            "ipynb-py-convert",
+            "ipyvtklink",
+            "laspy",
+            "localtileserver",
+            "mapclassify>=2.4.0",
+            "mss",
+            "netcdf4",
+            "oeel",
+            "palettable",
+            "osmnx",
+            "owslib",
+            "panel",
+            "plotly",
+            "psycopg2",
+            "pydeck",
+            "pyntcloud[las]",
+            "pyvista-xarray",
+            "rio-cogeo",
+            "rioxarray",
+            "sqlalchemy",
+            "streamlit-folium",
+            "voila",
+            "xarray_leaflet"
+          ],
+          "backends": [
+            "keplergl",
+            "pydeck",
+            "plotly",
+            "here-map-widget-for-jupyter"
+          ],
+          "apps": [
+            "streamlit-folium",
+            "voila"
+          ],
+          "lidar": [
+            "ipygany",
+            "ipyvtklink",
+            "laspy[lazrs]",
+            "panel",
+            "pyntcloud[las]",
+            "pyvista",
+            "pyvista-xarray",
+            "rioxarray"
+          ],
+          "vector": [
+            "geopandas",
+            "osmnx"
+          ],
+          "sql": [
+            "psycopg2",
+            "sqlalchemy"
+          ]
+        },
+        "python_requires": [
+          ">=3.7"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
   },
   "geminicassandra": {
     "0.1.10": "0.1.2",
@@ -47760,6 +48020,32 @@
         "tests_require": [
           "xmltodict>=0.11.0",
           "pytest-invenio>=1.4.0"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
+  },
+  "ioe-email-stuff": {
+    "0.0.4": {
+      "27": {
+        "install_requires": [
+          "pywin32>=305"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    },
+    "0.0.6": {
+      "27": {
+        "install_requires": [
+          "pypiwin32"
         ]
       },
       "36": "27",
@@ -62073,7 +62359,8 @@
       "39": "27",
       "310": "27"
     },
-    "0.1.2": {
+    "0.1.2": "1.0",
+    "1.0": {
       "27": {
         "install_requires": [
           "numpy",
@@ -62165,7 +62452,22 @@
       "310": "27"
     },
     "1.1.0": "1.0.0",
-    "1.1.1": "1.0.0"
+    "1.1.1": "1.0.0",
+    "2.0.0a1": {
+      "27": {
+        "install_requires": [
+          "pyroll-core<3.0.0,>=2.0.0a"
+        ],
+        "python_requires": [
+          ">=3.9,<4.0"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
   },
   "pyscan": {
     "1.0.0": {
@@ -72420,7 +72722,8 @@
       "39": "27",
       "310": "27"
     },
-    "2.0.1": "2.0.0"
+    "2.0.1": "2.0.0",
+    "2.0.3": "2.0.0"
   },
   "sentency": {
     "0.1.1": {
@@ -76441,6 +76744,25 @@
     },
     "1.0.0b1": "1.0.0"
   },
+  "starfield": {
+    "0.1.2": {
+      "27": {
+        "install_requires": [
+          "attrs<23.0.0,>=22.2.0"
+        ],
+        "python_requires": [
+          ">=3.9,<4.0"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    },
+    "0.3.2": "0.1.2",
+    "0.3.3": "0.1.2"
+  },
   "startpypack": {
     "0.0.5": {
       "27": {
@@ -77476,7 +77798,8 @@
     },
     "1.0.0": "0.0.1",
     "1.0.1": "0.0.1",
-    "1.0.2": "0.0.1"
+    "1.0.2": "0.0.1",
+    "1.0.3": "0.0.1"
   },
   "telegrampy": {
     "0.1.0": {
@@ -78111,7 +78434,9 @@
     "3.0.775": "3.0.252",
     "3.0.777": "3.0.252",
     "3.0.778": "3.0.252",
-    "3.0.779": "3.0.252"
+    "3.0.779": "3.0.252",
+    "3.0.794": "3.0.252",
+    "3.0.795": "3.0.252"
   },
   "tenet": {
     "0.2": {
@@ -79305,8 +79630,7 @@
       "38": "27",
       "39": "27",
       "310": "27"
-    },
-    "2.0.1": "1.0.1"
+    }
   },
   "trender": {
     "1.0.2": {
@@ -80447,7 +80771,24 @@
       "39": "27",
       "310": "27"
     },
-    "1.1.1": "1.1.0"
+    "1.1.1": "1.1.0",
+    "1.1.34": {
+      "27": {
+        "install_requires": [
+          "requests<3.0,>=2.25.1",
+          "PySocks==1.7.1",
+          "beautifulsoup4==4.11.1"
+        ],
+        "python_requires": [
+          ">=3.8"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
   },
   "uploadsdemo": {
     "0.1": {

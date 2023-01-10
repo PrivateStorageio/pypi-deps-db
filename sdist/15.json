@@ -3010,6 +3010,26 @@
       "310": "27"
     }
   },
+  "awsdf": {
+    "0.1.8": {
+      "27": {
+        "install_requires": [
+          "awswrangler<3.0.0,>=2.14.0",
+          "loguru<0.7.0,>=0.6.0",
+          "tabulate<0.9.0,>=0.8.9",
+          "tqdm<5.0.0,>=4.64.0"
+        ],
+        "python_requires": [
+          ">=3.7.2,<3.11"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
+  },
   "axy-liverseg": {
     "0.0.4": {
       "36": {
@@ -4215,7 +4235,8 @@
       "39": "27",
       "310": "27"
     },
-    "0.1.1": "0.1.0"
+    "0.1.1": "0.1.0",
+    "1.0.0": "0.1.0"
   },
   "black-with-tabs": {
     "19.10b0": {
@@ -4668,6 +4689,17 @@
     "3.2": "1.2",
     "3.4": "1.2",
     "3.7": "1.2"
+  },
+  "bruhcolor": {
+    "0.0.31": {
+      "27": {},
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    },
+    "0.0.34": "0.0.31"
   },
   "bruni": {
     "0.0.1": {
@@ -10991,6 +11023,45 @@
       "38": "27",
       "39": "27",
       "310": "27"
+    },
+    "1.4.12": {
+      "27": {
+        "install_requires": [
+          "beautifulsoup4>=4.11",
+          "dependency-injector>4.6",
+          "dynaconf>=3.0",
+          "importlib-metadata<5.0.0",
+          "jupyter>=1.0",
+          "marshmallow-dataclass>=6",
+          "marshmallow-enum>=1.5",
+          "opencv-python>=4.4",
+          "pillow>=7.0",
+          "pydantic>=1.9",
+          "rich>=12.5"
+        ],
+        "extras_require": {
+          ":python_version >= \"3.9\"": [
+            "numpy>=1.20"
+          ],
+          ":python_full_version >= \"3.6.7\" and python_version < \"3.7\"": [
+            "numpy<2.0,>=1.15"
+          ],
+          ":python_version >= \"3.7\" and python_version < \"3.8\"": [
+            "numpy<2.0,>=1.19"
+          ],
+          ":python_version >= \"3.8\" and python_version < \"3.9\"": [
+            "numpy<2.0,>=1.20"
+          ]
+        },
+        "python_requires": [
+          ">=3.6.7,<4.0.0"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
     }
   },
   "dataprep": {
@@ -11733,24 +11804,22 @@
       "310": "36"
     },
     "2.2": "2.1",
-    "2.3": {
+    "2.9": {
       "36": {
         "install_requires": [
           "pytest",
           "requests",
           "sshtunnel",
           "pymysql",
-          "jsonpath"
+          "jsonpath",
+          "openpyxl"
         ]
       },
       "37": "36",
       "38": "36",
       "39": "36",
       "310": "36"
-    },
-    "2.4": "2.3",
-    "2.5": "2.3",
-    "2.6": "2.3"
+    }
   },
   "decisiontable": {
     "0.0.2": {
@@ -18917,6 +18986,39 @@
       "38": "37",
       "39": "37",
       "310": "37"
+    },
+    "0.1.0": {
+      "37": {
+        "install_requires": [
+          "ewokscore>=0.1.1",
+          "dask[distributed]>=2021.3.0",
+          "dask-jobqueue>=0.7.3"
+        ],
+        "extras_require": {
+          "dashboard": [
+            "dask[diagnostics]>=2021.3.0"
+          ],
+          "test": [
+            "pytest>=7"
+          ],
+          "dev": [
+            "pytest>=7",
+            "black>=22",
+            "flake8>=4"
+          ],
+          "doc": [
+            "pytest>=7",
+            "sphinx>=4.5",
+            "sphinx-autodoc-typehints>=1.16"
+          ]
+        },
+        "python_requires": [
+          ">=3.6"
+        ]
+      },
+      "38": "37",
+      "39": "37",
+      "310": "37"
     }
   },
   "examdays": {
@@ -25934,6 +26036,192 @@
         ],
         "python_requires": [
           ">=3.7.1,<3.9"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    },
+    "2.4.0.1b12": {
+      "27": {
+        "install_requires": [
+          "Jinja2==2.10.1",
+          "MarkupSafe==1.1.1",
+          "PyJWT==2.5.0",
+          "click<8.0.0,>=7.1.2",
+          "dcicutils<7.0.0,>=6.1.0",
+          "elasticsearch-dsl<8.0.0,>=7.0.0",
+          "elasticsearch<8.0.0,>=7.13.4",
+          "foursight-core==3.0.0.1b26",
+          "geocoder==1.38.1",
+          "gitpython<4.0.0,>=3.1.2",
+          "google-api-python-client<2.0.0,>=1.7.4",
+          "gspread>=3.6.0",
+          "oauth2client>=4.1.3",
+          "pandas>=1.1.4",
+          "pytest==5.1.2",
+          "pytz<2021.0,>=2020.1",
+          "tibanna_ff>=0.22.5"
+        ],
+        "python_requires": [
+          ">=3.7.1,<3.9"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    },
+    "2.4.0.1b16": {
+      "27": {
+        "install_requires": [
+          "Jinja2==2.10.1",
+          "MarkupSafe==1.1.1",
+          "PyJWT==2.5.0",
+          "click<8.0.0,>=7.1.2",
+          "dcicutils<7.0.0,>=6.1.0",
+          "elasticsearch-dsl<8.0.0,>=7.0.0",
+          "elasticsearch<8.0.0,>=7.13.4",
+          "foursight-core==3.0.0.1b31",
+          "geocoder==1.38.1",
+          "gitpython<4.0.0,>=3.1.2",
+          "google-api-python-client<2.0.0,>=1.7.4",
+          "gspread>=3.6.0",
+          "oauth2client>=4.1.3",
+          "pandas>=1.1.4",
+          "pytest==5.1.2",
+          "pytz<2021.0,>=2020.1",
+          "tibanna_ff>=0.22.5"
+        ],
+        "python_requires": [
+          ">=3.7.1,<3.9"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    },
+    "3.1.0.1b6": {
+      "27": {
+        "install_requires": [
+          "Jinja2==2.10.1",
+          "MarkupSafe==1.1.1",
+          "PyJWT==2.5.0",
+          "click<8.0.0,>=7.1.2",
+          "dcicutils<7.0.0,>=6.1.0",
+          "elasticsearch-dsl<8.0.0,>=7.0.0",
+          "elasticsearch<8.0.0,>=7.13.4",
+          "foursight-core==3.1.2.1b3",
+          "geocoder==1.38.1",
+          "gitpython<4.0.0,>=3.1.2",
+          "google-api-python-client<2.0.0,>=1.7.4",
+          "gspread>=3.6.0",
+          "oauth2client>=4.1.3",
+          "pandas>=1.1.4",
+          "pytest==5.1.2",
+          "pytz<2021.0,>=2020.1",
+          "tibanna_ff>=0.22.5"
+        ],
+        "python_requires": [
+          ">=3.7.1,<3.10"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    },
+    "3.2.0.1b12": {
+      "27": {
+        "install_requires": [
+          "Jinja2==2.10.1",
+          "MarkupSafe==1.1.1",
+          "PyJWT==2.5.0",
+          "click<8.0.0,>=7.1.2",
+          "dcicutils<7.0.0,>=6.1.0",
+          "elasticsearch-dsl<8.0.0,>=7.0.0",
+          "elasticsearch<8.0.0,>=7.13.4",
+          "foursight-core==3.1.3.1b12",
+          "geocoder==1.38.1",
+          "gitpython<4.0.0,>=3.1.2",
+          "google-api-python-client<2.0.0,>=1.7.4",
+          "gspread>=3.6.0",
+          "oauth2client>=4.1.3",
+          "pandas>=1.1.4",
+          "pytest==5.1.2",
+          "pytz<2021.0,>=2020.1",
+          "tibanna_ff>=0.22.5"
+        ],
+        "python_requires": [
+          ">=3.7.1,<3.10"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    },
+    "3.2.0.1b153": {
+      "27": {
+        "install_requires": [
+          "Jinja2==2.10.1",
+          "MarkupSafe==1.1.1",
+          "PyJWT==2.5.0",
+          "click<8.0.0,>=7.1.2",
+          "dcicutils<7.0.0,>=6.1.0",
+          "elasticsearch-dsl<8.0.0,>=7.0.0",
+          "elasticsearch<8.0.0,>=7.13.4",
+          "foursight-core==3.1.3.1b17",
+          "geocoder==1.38.1",
+          "gitpython<4.0.0,>=3.1.2",
+          "google-api-python-client<2.0.0,>=1.7.4",
+          "gspread>=3.6.0",
+          "oauth2client>=4.1.3",
+          "pandas>=1.1.4",
+          "pytest==5.1.2",
+          "pytz<2021.0,>=2020.1",
+          "tibanna_ff>=0.22.5"
+        ],
+        "python_requires": [
+          ">=3.7.1,<3.10"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    },
+    "3.2.0.1b156": {
+      "27": {
+        "install_requires": [
+          "Jinja2==2.10.1",
+          "MarkupSafe==1.1.1",
+          "PyJWT==2.5.0",
+          "click<8.0.0,>=7.1.2",
+          "dcicutils<7.0.0,>=6.1.0",
+          "elasticsearch-dsl<8.0.0,>=7.0.0",
+          "elasticsearch<8.0.0,>=7.13.4",
+          "foursight-core==3.1.3.1b20",
+          "geocoder==1.38.1",
+          "gitpython<4.0.0,>=3.1.2",
+          "google-api-python-client<2.0.0,>=1.7.4",
+          "gspread>=3.6.0",
+          "oauth2client>=4.1.3",
+          "pandas>=1.1.4",
+          "pytest==5.1.2",
+          "pytz<2021.0,>=2020.1",
+          "tibanna_ff>=0.22.5"
+        ],
+        "python_requires": [
+          ">=3.7.1,<3.10"
         ]
       },
       "36": "27",
@@ -46087,6 +46375,44 @@
       "38": "27",
       "39": "27",
       "310": "27"
+    },
+    "1.5.57": {
+      "27": {
+        "install_requires": [
+          "ladybug-grasshopper==1.50.0",
+          "honeybee-grasshopper-core==1.31.11",
+          "honeybee-grasshopper-radiance==1.28.5",
+          "honeybee-grasshopper-energy==1.47.7",
+          "dragonfly-grasshopper==1.38.7"
+        ],
+        "setup_requires": [
+          "setuptools_scm"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    },
+    "1.5.66": {
+      "27": {
+        "install_requires": [
+          "ladybug-grasshopper==1.50.5",
+          "honeybee-grasshopper-core==1.31.12",
+          "honeybee-grasshopper-radiance==1.28.5",
+          "honeybee-grasshopper-energy==1.47.7",
+          "dragonfly-grasshopper==1.38.11"
+        ],
+        "setup_requires": [
+          "setuptools_scm"
+        ]
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
     }
   },
   "lcrmeter": {
@@ -48085,6 +48411,27 @@
       "38": "27",
       "39": "27",
       "310": "27"
+    }
+  },
+  "matchgroup": {
+    "0.0.1": {
+      "36": {
+        "install_requires": [
+          "pandas==1.2.4",
+          "numpy==1.21.6",
+          "seaborn==0.11.1",
+          "scikit-learn==0.23.2",
+          "matplotlib==3.3.4",
+          "scipy==1.8.1",
+          "lightgbm==3.2.1",
+          "statsmodels==0.13.2",
+          "numba==0.55.1"
+        ]
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
     }
   },
   "matemux": {
@@ -51037,7 +51384,21 @@
     "0.1.5": "0.1.2",
     "0.1.6": "0.1.2",
     "0.1.7": "0.1.2",
-    "0.1.8": "0.1.2"
+    "0.1.8": "0.1.2",
+    "0.1.9": {
+      "36": {
+        "install_requires": [
+          "rdkit"
+        ],
+        "python_requires": [
+          ">3.6"
+        ]
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
   },
   "molnctrl": {
     "0.4.10": "0.4.5",
@@ -56706,7 +57067,55 @@
     "3.3.8.dev5": "3.3.6",
     "3.3.9": "3.3.6",
     "3.3.10.dev5": "3.3.6",
-    "3.3.10": "3.3.6"
+    "3.3.10": "3.3.6",
+    "3.3.11": {
+      "27": {
+        "install_requires": [
+          "fluvii<0.3.0,>=0.2.13",
+          "dictdiffer",
+          "prometheus_client",
+          "psutil",
+          "python-box",
+          "python-dateutil",
+          "python-dotenv",
+          "python_eloqua_wrapper",
+          "pytz",
+          "pyyaml",
+          "requests",
+          "simple_salesforce",
+          "virtualenv",
+          "virtualenv-api"
+        ],
+        "extras_require": {
+          "dev": [
+            "fluvii<0.3.0,>=0.2.13",
+            "dictdiffer",
+            "prometheus_client",
+            "psutil",
+            "python-box",
+            "python-dateutil",
+            "python-dotenv",
+            "python_eloqua_wrapper",
+            "pytz",
+            "pyyaml",
+            "requests",
+            "simple_salesforce",
+            "virtualenv",
+            "virtualenv-api",
+            "pip-tools",
+            "pytest",
+            "pytest-cov",
+            "time-machine",
+            "twine"
+          ]
+        }
+      },
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
   },
   "nudt-discrete-maoxiaoguang": {
     "2022.11.12.0": {
@@ -57079,7 +57488,8 @@
     },
     "0.5.2": "0.5.1",
     "0.5.3": "0.5.1",
-    "0.5.4": "0.5.1"
+    "0.5.4": "0.5.1",
+    "0.5.8": "0.5.1"
   },
   "ogsdownloader": {
     "0.1.0": {
@@ -64892,6 +65302,16 @@
     },
     "1.1.0": "1.0.0"
   },
+  "pygadm": {
+    "0.0.0": {
+      "27": {},
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
+  },
   "pygameuilib": {
     "0.0.2": {
       "27": {},
@@ -66091,7 +66511,8 @@
       "38": "36",
       "39": "36",
       "310": "36"
-    }
+    },
+    "1.1.1": "1.1.0"
   },
   "pymovieinfo": {
     "0.1": {
@@ -70238,7 +70659,8 @@
       "310": "27"
     },
     "8.1.5": "8.1.4",
-    "8.1.6": "8.1.4"
+    "8.1.6": "8.1.4",
+    "8.2.0": "8.1.4"
   },
   "qqpat": {
     "1.0": {
@@ -71244,7 +71666,43 @@
     },
     "0.0.67": "0.0.66",
     "0.0.68": "0.0.66",
-    "0.0.69": "0.0.66"
+    "0.0.69": "0.0.66",
+    "0.0.72": {
+      "36": {
+        "install_requires": [
+          "aws-cdk-lib<3.0.0,>=2.53.0",
+          "constructs<11.0.0,>=10.0.5",
+          "jsii<2.0.0,>=1.72.0",
+          "publication>=0.0.3",
+          "typeguard~=2.13.3"
+        ],
+        "python_requires": [
+          "~=3.7"
+        ]
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    },
+    "0.0.79": {
+      "36": {
+        "install_requires": [
+          "aws-cdk-lib<3.0.0,>=2.54.0",
+          "constructs<11.0.0,>=10.0.5",
+          "jsii<2.0.0,>=1.72.0",
+          "publication>=0.0.3",
+          "typeguard~=2.13.3"
+        ],
+        "python_requires": [
+          "~=3.7"
+        ]
+      },
+      "37": "36",
+      "38": "36",
+      "39": "36",
+      "310": "36"
+    }
   },
   "repomate-junit4": {
     "0.1.0": {
@@ -73139,7 +73597,89 @@
       "310": "38"
     },
     "0.0.25": "0.0.24",
-    "0.0.26": "0.0.24"
+    "0.0.26": "0.0.24",
+    "0.0.27": {
+      "27": {
+        "install_requires": [
+          "cached-property",
+          "future",
+          "gdown",
+          "lxml",
+          "networkx>=2.2.0",
+          "numpy>=1.16.0",
+          "ordered_set",
+          "pillow",
+          "pycollada!=0.7",
+          "pysdfgen>=0.1.5",
+          "python-fcl",
+          "pyyaml",
+          "quadprog",
+          "scikit-learn",
+          "six",
+          "sphinx>=1.8.2",
+          "sphinx_rtd_theme",
+          "trimesh>=3.9.0",
+          "pyglet==1.4.10",
+          "cvxopt==1.2.7"
+        ],
+        "extras_require": {
+          "all": [
+            "pybullet>=2.1.9"
+          ],
+          ":python_version < \"3.2\"": [
+            "repoze.lru"
+          ],
+          ":python_version < \"3.0\"": [
+            "scipy<=1.2.3"
+          ],
+          ":python_version >= \"3.0\"": [
+            "scipy"
+          ]
+        }
+      },
+      "36": "27",
+      "37": "27",
+      "38": {
+        "install_requires": [
+          "cached-property",
+          "cvxopt",
+          "future",
+          "gdown",
+          "lxml",
+          "networkx>=2.2.0",
+          "numpy>=1.16.0",
+          "ordered_set",
+          "pillow",
+          "pycollada!=0.7",
+          "pyglet",
+          "pysdfgen>=0.1.5",
+          "python-fcl",
+          "pyyaml",
+          "quadprog",
+          "scikit-learn",
+          "six",
+          "sphinx>=1.8.2",
+          "sphinx_rtd_theme",
+          "trimesh>=3.9.0"
+        ],
+        "extras_require": {
+          "all": [
+            "pybullet>=2.1.9"
+          ],
+          ":python_version < \"3.2\"": [
+            "repoze.lru"
+          ],
+          ":python_version >= \"3.0\"": [
+            "scipy"
+          ],
+          ":python_version < \"3.0\"": [
+            "scipy<=1.2.3"
+          ]
+        }
+      },
+      "39": "38",
+      "310": "38"
+    }
   },
   "scopesim-templates": {
     "0.1.dev0": "0.2.1",
@@ -78369,7 +78909,10 @@
     "3.0.777": "3.0.251",
     "3.0.778": "3.0.251",
     "3.0.779": "3.0.251",
-    "3.0.780": "3.0.251"
+    "3.0.780": "3.0.251",
+    "3.0.795": "3.0.251",
+    "3.0.804": "3.0.251",
+    "3.0.808": "3.0.251"
   },
   "teneto": {
     "0.2.0": {
@@ -83981,6 +84524,16 @@
     "0.3.3": "0.1.1",
     "0.3.3.1": "0.1.1",
     "0.3.3.2": "0.1.1"
+  },
+  "ycv": {
+    "0.0.dev0": {
+      "27": {},
+      "36": "27",
+      "37": "27",
+      "38": "27",
+      "39": "27",
+      "310": "27"
+    }
   },
   "yixiaoshi-manhua-chanlun-shizhanfa": {
     "2022.10.15.0": {
