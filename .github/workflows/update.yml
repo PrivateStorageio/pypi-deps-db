@@ -5,7 +5,7 @@ on:
   push:
     branches: [ "ci*" ]
   schedule:
-    - cron:  "13 7,19 * * *"
+    - cron:  "47 13 * * *"
   workflow_dispatch:
 
 jobs:
